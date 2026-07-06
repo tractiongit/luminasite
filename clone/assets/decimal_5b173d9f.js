@@ -1,0 +1,2742 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="Author" content="MMclaughlin">
+  <title>decimal.js API</title>
+  <style>
+html{font-size:100%}
+body{background:#fff;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:13px;
+  line-height:1.65em;min-height:100%;margin:0}
+body,i{color:#000}
+.nav{background:#fff;position:fixed;top:0;bottom:0;left:0;width:210px;overflow-y:auto;
+  padding:15px 0 30px 15px}
+div.container{width:600px;margin:50px 0 50px 240px}
+p{margin:0 0 1em;width:600px}
+pre,ul{margin:1em 0}
+h1,h2,h3,h4,h5{margin:0;padding:1.5em 0 0}
+h1,h2{padding:.75em 0}
+h1{font:400 3em Consolas, monaco, monospace;color:#000;margin-bottom:1em}
+h2{font-size:2.25em;color:#f00}
+h3{font-size:1.75em;color:#69d2e7}
+h4{font-size:1.75em;color:#f00;padding-bottom:.75em}
+h5{font-size:1.2em;margin-bottom:.4em}
+h6{font-size:1.1em;margin-bottom:0.8em;padding:0.5em 0}
+dd dt{font-size:1.2em}
+dt{padding-top:.5em}
+dd{padding-top:.35em}
+b{font-weight:700}
+a,a:visited{color:#f00;text-decoration:none}
+a:active,a:hover{outline:0;text-decoration:underline}
+.nav a,.nav b,.nav a:visited{display:block;color:#f00;font-weight:700;margin-top:15px}
+.nav b{color:#69d2e7;margin-top:20px;cursor:default;width:auto}
+ul{list-style-type:none;padding:0 0 0 20px}
+.nav ul{line-height:14px;padding-left:0;margin:5px 0 0}
+.nav ul a,.nav ul a:visited,span{display:inline;color:#000;font-family:Verdana,Geneva,sans-serif;
+  font-size:11px;font-weight:400;margin:0}
+.inset{margin-left:20px;font-size:.9em}
+.nav li{width:auto;margin:0 0 3px}
+.alias{font-style:italic;margin-left:20px}
+table{border-collapse:collapse;border-spacing:0;border:2px solid #a7dbd8;margin:1.75em 0;padding:0}
+td,th{text-align:left;margin:0;padding:2px 5px;border:1px dotted #a7dbd8}
+th{border-top:2px solid #a7dbd8;border-bottom:2px solid #a7dbd8;color:#f00}
+code,pre{font-family:Consolas, monaco, monospace;font-weight:400}
+pre{background:#f5f5f5;white-space:pre-wrap;word-wrap:break-word;border-left:5px solid #a7dbd8;
+  padding:1px 0 1px 15px;margin:1.2em 0}
+code,.nav-title{color:#f00}
+.end{margin-bottom:25px}
+.centre{text-align:center}
+#modes,#configProps{color:#f00}
+.spacer{line-height:0px}
+#faq{margin:3em 0 0}
+li span{float:right;margin-right:10px;color:#c0c0c0}
+#js{font:inherit;color:#f00}
+  </style>
+</head>
+<body>
+
+  <div class="nav">
+
+    <a class='nav-title' href="#">API</a>
+
+    <b>CONSTRUCTOR</b>
+    <ul><li><a href="#decimal"><strong>Decimal</strong></a></li></ul>
+
+    <a href="#methods">Methods</a>
+    <ul>
+      <li><a href="#Dabs"       >abs</a></li>
+      <li><a href="#Dacos"      >acos</a></li>
+      <li><a href="#Dacosh"     >acosh</a></li>
+      <li><a href="#Dadd"       >add</a></li>
+      <li><a href="#Dasin"      >asin</a></li>
+      <li><a href="#Dasinh"     >asinh</a></li>
+      <li><a href="#Datan"      >atan</a></li>
+      <li><a href="#Datanh"     >atanh</a></li>
+      <li><a href="#Datan2"     >atan2</a></li>
+      <li><a href="#Dcbrt"      >cbrt</a></li>
+      <li><a href="#Dceil"      >ceil</a></li>
+      <li><a href="#Dclamp"     >clamp</a></li>
+      <li><a href="#Dclone"     >clone</a></li>
+      <li><a href="#Dcos"       >cos</a></li>
+      <li><a href="#Dcosh"      >cosh</a></li>
+      <li><a href="#Ddiv"       >div</a></li>
+      <li><a href="#Dexp"       >exp</a></li>
+      <li><a href="#Dfloor"     >floor</a></li>
+      <li><a href="#Dhypot"     >hypot</a></li>
+      <li><a href="#DisDecimal" >isDecimal</a></li>
+      <li><a href="#Dln"        >ln</a></li>
+      <li><a href="#Dlog"       >log</a></li>
+      <li><a href="#Dlog2"      >log2</a></li>
+      <li><a href="#Dlog10"     >log10</a></li>
+      <li><a href="#Dmax"       >max</a></li>
+      <li><a href="#Dmin"       >min</a></li>
+      <li><a href="#Dmod"       >mod</a></li>
+      <li><a href="#Dmul"       >mul</a></li>
+      <li><a href="#DnoConflict">noConflict</a></li>
+      <li><a href="#Dpow"       >pow</a></li>
+      <li><a href="#Drandom"    >random</a></li>
+      <li><a href="#Dround"     >round</a></li>
+      <li><a href="#Dset"       >set</a></li>
+      <li><a href="#Dsign"      >sign</a></li>
+      <li><a href="#Dsin"       >sin</a></li>
+      <li><a href="#Dsinh"      >sinh</a></li>
+      <li><a href="#Dsqrt"      >sqrt</a></li>
+      <li><a href="#Dsub"       >sub</a></li>
+      <li><a href="#Dsum"       >sum</a></li>
+      <li><a href="#Dtan"       >tan</a></li>
+      <li><a href="#Dtanh"      >tanh</a></li>
+      <li><a href="#Dtrunc"     >trunc</a></li>
+    </ul>
+
+    <a href="#constructor-properties">Properties</a>
+    <ul>
+      <li><a href="#precision">precision</a></li>
+      <li><a href="#rounding" >rounding</a></li>
+      <li><a href="#minE"     >minE</a></li>
+      <li><a href="#maxE"     >maxE</a></li>
+      <li><a href="#toExpNeg" >toExpNeg</a></li>
+      <li><a href="#toExpPos" >toExpPos</a></li>
+      <li><a href="#modulo"   >modulo</a></li>
+      <li><a href="#crypto"   >crypto</a></li>
+      <li class='spacer'>&nbsp;</li>
+      <li><a href="#modes">ROUND_UP</a></li>
+      <li><a href="#modes">ROUND_DOWN</a></li>
+      <li><a href="#modes">ROUND_CEIL</a></li>
+      <li><a href="#modes">ROUND_FLOOR</a></li>
+      <li><a href="#modes">ROUND_HALF_UP</a></li>
+      <li><a href="#modes">ROUND_HALF_DOWN</a></li>
+      <li><a href="#modes">ROUND_HALF_EVEN</a></li>
+      <li><a href="#modes">ROUND_HALF_CEIL</a></li>
+      <li><a href="#modes">ROUND_HALF_FLOOR</a></li>
+      <li><a href="#modes">EUCLID</a></li>
+    </ul>
+
+    <b> INSTANCE </b>
+
+    <a href="#prototype-methods">Methods</a>
+    <ul>
+      <li><a href="#abs"          >absoluteValue           </a><span>abs</span>     </li>
+      <li><a href="#ceil"         >ceil                    </a>                     </li>
+      <li><a href="#cmp"          >comparedTo              </a><span>cmp</span>     </li>
+      <li><a href="#clamp"        >clampedTo               </a><span>clamp</span>   </li>
+      <li><a href="#cos"          >cosine                  </a><span>cos</span>     </li>
+      <li><a href="#cbrt"         >cubeRoot                </a><span>cbrt</span>    </li>
+      <li><a href="#dp"           >decimalPlaces           </a><span>dp</span>      </li>
+      <li><a href="#div"          >dividedBy               </a><span>div</span>     </li>
+      <li><a href="#divToInt"     >dividedToIntegerBy      </a><span>divToInt</span></li>
+      <li><a href="#eq"           >equals                  </a><span>eq</span>      </li>
+      <li><a href="#floor"        >floor                   </a>                     </li>
+      <li><a href="#gt"           >greaterThan             </a><span>gt</span>      </li>
+      <li><a href="#gte"          >greaterThanOrEqualTo    </a><span>gte</span>     </li>
+      <li><a href="#cosh"         >hyperbolicCosine        </a><span>cosh</span>    </li>
+      <li><a href="#sinh"         >hyperbolicSine          </a><span>sinh</span>    </li>
+      <li><a href="#tanh"         >hyperbolicTangent       </a><span>tanh</span>    </li>
+      <li><a href="#acos"         >inverseCosine           </a><span>acos</span>    </li>
+      <li><a href="#acosh"        >inverseHyperbolicCosine </a><span>acosh</span>   </li>
+      <li><a href="#asinh"        >inverseHyperbolicSine   </a><span>asinh</span>   </li>
+      <li><a href="#atanh"        >inverseHyperbolicTangent</a><span>atanh</span>   </li>
+      <li><a href="#asin"         >inverseSine             </a><span>asin</span>    </li>
+      <li><a href="#atan"         >inverseTangent          </a><span>atan</span>    </li>
+      <li><a href="#isFinite"     >isFinite                </a>                     </li>
+      <li><a href="#isInt"        >isInteger               </a><span>isInt</span>   </li>
+      <li><a href="#isNaN"        >isNaN                   </a>                     </li>
+      <li><a href="#isNeg"        >isNegative              </a><span>isNeg</span>   </li>
+      <li><a href="#isPos"        >isPositive              </a><span>isPos</span>   </li>
+      <li><a href="#isZero"       >isZero                  </a>                     </li>
+      <li><a href="#lt"           >lessThan                </a><span>lt</span>      </li>
+      <li><a href="#lte"          >lessThanOrEqualTo       </a><span>lte</span>     </li>
+      <li><a href="#log"          >logarithm               </a><span>log</span>     </li>
+      <li><a href="#sub"          >minus                   </a><span>sub</span>     </li>
+      <li><a href="#mod"          >modulo                  </a><span>mod</span>     </li>
+      <li><a href="#exp"          >naturalExponential      </a><span>exp</span>     </li>
+      <li><a href="#ln"           >naturalLogarithm        </a><span>ln</span>      </li>
+      <li><a href="#neg"          >negated                 </a><span>neg</span>     </li>
+      <li><a href="#add"          >plus                    </a><span>add</span>     </li>
+      <li><a href="#sd"           >precision               </a><span>sd</span>      </li>
+      <li><a href="#round"        >round                   </a>                     </li>
+      <li><a href="#sin"          >sine                    </a><span>sin</span>     </li>
+      <li><a href="#sqrt"         >squareRoot              </a><span>sqrt</span>    </li>
+      <li><a href="#tan"          >tangent                 </a><span>tan</span>     </li>
+      <li><a href="#mul"          >times                   </a><span>mul</span>     </li>
+      <li><a href="#toBinary"     >toBinary                </a>                     </li>
+      <li><a href="#toDP"         >toDecimalPlaces         </a><span>toDP</span>    </li>
+      <li><a href="#toExponential">toExponential           </a>                     </li>
+      <li><a href="#toFixed"      >toFixed                 </a>                     </li>
+      <li><a href="#toFraction"   >toFraction              </a>                     </li>
+      <li><a href="#toHex"        >toHexadecimal           </a><span>toHex</span>   </li>
+      <li><a href="#toJSON"       >toJSON                  </a>                     </li>
+      <li><a href="#toNearest"    >toNearest               </a>                     </li>
+      <li><a href="#toNumber"     >toNumber                </a>                     </li>
+      <li><a href="#toOctal"      >toOctal                 </a>                     </li>
+      <li><a href="#pow"          >toPower                 </a><span>pow</span>     </li>
+      <li><a href="#toPrecision"  >toPrecision             </a>                     </li>
+      <li><a href="#toSD"         >toSignificantDigits     </a><span>toSD</span>    </li>
+      <li><a href="#toString"     >toString                </a>                     </li>
+      <li><a href="#trunc"        >truncated               </a><span>trunc</span>   </li>
+      <li><a href="#valueOf"      >valueOf                 </a>                     </li>
+    </ul>
+
+    <a href="#instance-properties">Properties</a>
+    <ul>
+      <li><a href="#digits"   >d</a><span>digits</span></li>
+      <li><a href="#exponent" >e</a><span>exponent</span></li>
+      <li><a href="#sign"     >s</a><span>sign</span></li>
+    </ul>
+
+    <a href="#zero-nan-infinity">Zero, NaN &amp; Infinity</a>
+    <a href="#Errors">Errors</a>
+    <a href="#Pi">Pi</a>
+    <a class='end' href="#faq">FAQ</a>
+
+  </div>
+
+  <div class="container">
+
+    <h1>decimal<span id='js'>.js</span></h1>
+
+    <p>An arbitrary-precision Decimal type for JavaScript.</p>
+    <p><a href='decimal_4a17d55b.js'>Hosted on GitHub</a>.</p>
+    <p>
+      <i>
+        The library is incorporated into this page, so it should be available in the console now.
+      </i>
+    </p>
+
+    <h2>API</h2>
+
+    <p>
+      See the <a href='decimal_4a17d55b.js'>README</a> on GitHub for a quick-start
+      introduction.
+    </p>
+    <p>
+      In all examples below, <code>var</code> and semicolons are not shown, and if a commented-out
+      value is in quotes it means <code>toString</code> has been called on the preceding expression.
+    </p><br />
+    <p>
+      When the library is loaded, it defines a single function object,
+      <a href='#decimal'><code>Decimal</code></a>, the constructor of Decimal instances.
+    </p>
+    <p>
+      <i>
+        If necessary, multiple Decimal constructors can be created, each with their own independent
+        configuration, e.g. precision and range, which applies to all Decimal instances created from
+        it.
+      </i>
+    </p>
+    <p>
+      <i>
+        A new Decimal constructor is created by calling the <code><a href='#Dclone'>clone</a></code>
+        method of an already existing Decimal constructor.
+      </i>
+    </p>
+
+
+
+    <h3 class='end'>CONSTRUCTOR</h3>
+
+    <h5 id="decimal">
+      Decimal<code class='inset'>Decimal(value) <i>&rArr; Decimal</i></code>
+    </h5>
+    <dl>
+      <dt><code>value</code>: <i>number|string|Decimal</i></dt>
+      <dd>
+        A legitimate <code>value</code> is an integer or float, including <code>&plusmn;0</code>, or
+        is <code>&plusmn;Infinity</code>, or <code>NaN</code>.
+      </dd>
+      <dd>
+        The number of digits of <code>value</code> is not limited, except by JavaScript's maximum
+        array size and, in practice, the processing time required.
+      </dd>
+      <dd>
+        The allowable range of <code>value</code> is defined in terms of a maximum exponent, see
+        <a href='#maxE'>maxE</a>, and a minimum exponent, see <a href='#minE'>minE</a>.
+      </dd>
+      <dd>
+        As well as in decimal, a string <code>value</code> may be expressed in binary, hexadecimal
+        or octal, if the appropriate prefix is included: <code>0x</code> or <code>0X</code> for
+        hexadecimal, <code>0b</code> or <code>0B</code> for binary, and <code>0o</code> or
+        <code>0O</code> for octal.
+      </dd>
+      <dd>
+        Both decimal and non-decimal string values may use exponential (floating-point), as well as
+        normal (fixed-point) notation.
+      </dd>
+      <dd>
+        In exponential notation, <code>e</code> or <code>E</code> defines a power-of-ten exponent
+        for decimal values, and <code>p</code> or <code>P</code> defines a power-of-two exponent for
+        non-decimal values, i.e. binary, hexadecimal or octal.
+      </dd>
+    </dl>
+    <p>Returns a new Decimal object instance.</p>
+    <p>Throws on an invalid <code>value</code>.</p>
+    <pre>
+x = new Decimal(9)                       // '9'
+y = new Decimal(x)                       // '9'
+
+new Decimal('5032485723458348569331745.33434346346912144534543')
+new Decimal('4.321e+4')                  // '43210'
+new Decimal('-735.0918e-430')            // '-7.350918e-428'
+new Decimal('5.6700000')                 // '5.67'
+new Decimal(Infinity)                    // 'Infinity'
+new Decimal(NaN)                         // 'NaN'
+new Decimal('.5')                        // '0.5'
+new Decimal('-0b10110100.1')             // '-180.5'
+new Decimal('0xff.8')                    // '255.5'
+
+new Decimal(0.046875)                    // '0.046875'
+new Decimal('0.046875000000')            // '0.046875'
+new Decimal('0.046_875_000_000')         // '0.046875'
+
+new Decimal(4.6875e-2)                   // '0.046875'
+new Decimal('468.75e-4')                 // '0.046875'
+
+new Decimal('0b0.000011')                // '0.046875'
+new Decimal('0o0.03')                    // '0.046875'
+new Decimal('0x0.0c')                    // '0.046875'
+
+new Decimal('0b1.1p-5')                  // '0.046875'
+new Decimal('0o1.4p-5')                  // '0.046875'
+new Decimal('0x1.8p-5')                  // '0.046875'</pre>
+
+
+
+    <h4 id="methods">Methods</h4>
+    <p>The methods of a Decimal constructor.</p>
+
+
+
+    <h5 id="Dabs">abs<code class='inset'>.abs(x) <i>&rArr; Decimal</i></code></h5>
+    <p><code>x</code>: <i>number|string|Decimal</i></p>
+    <p>See <code><a href='#abs'>absoluteValue</a></code>.</p>
+    <pre>a = Decimal.abs(x)
+b = new Decimal(x).abs()
+a.equals(b)                    // true</pre>
+
+
+
+    <h5 id="Dacos">acos<code class='inset'>.acos(x) <i>&rArr; Decimal</i></code></h5>
+    <p><code>x</code>: <i>number|string|Decimal</i></p>
+    <p>See <code><a href='#acos'>inverseCosine</a></code>.</p>
+    <pre>a = Decimal.acos(x)
+b = new Decimal(x).acos()
+a.equals(b)                    // true</pre>
+
+
+
+    <h5 id="Dacosh">acosh<code class='inset'>.acosh(x) <i>&rArr; Decimal</i></code></h5>
+    <p><code>x</code>: <i>number|string|Decimal</i></p>
+    <p>See <code><a href='#acos'>inverseHyperbolicCosine</a></code>.</p>
+    <pre>a = Decimal.acosh(x)
+b = new Decimal(x).acosh()
+a.equals(b)                    // true</pre>
+
+
+
+    <h5 id="Dadd">add<code class='inset'>.add(x, y) <i>&rArr; Decimal</i></code></h5>
+    <p>
+      <code>x</code>: <i>number|string|Decimal</i><br />
+      <code>y</code>: <i>number|string|Decimal</i>
+    </p>
+    <p>See <code><a href='#add'>plus</a></code>.</p>
+    <pre>a = Decimal.add(x, y)
+b = new Decimal(x).plus(y)
+a.equals(b)                    // true</pre>
+
+
+
+    <h5 id="Dasin">asin<code class='inset'>.asin(x) <i>&rArr; Decimal</i></code></h5>
+    <p><code>x</code>: <i>number|string|Decimal</i></p>
+    <p>See <code><a href='#asin'>inverseSine</a></code>.</p>
+    <pre>a = Decimal.asin(x)
+b = new Decimal(x).asin()
+a.equals(b)                    // true</pre>
+
+
+
+    <h5 id="Dasinh">asinh<code class='inset'>.asinh(x) <i>&rArr; Decimal</i></code></h5>
+    <p><code>x</code>: <i>number|string|Decimal</i></p>
+    <p>See <code><a href='#asin'>inverseHyperbolicSine</a></code>.</p>
+    <pre>a = Decimal.asinh(x)
+b = new Decimal(x).asinh()
+a.equals(b)                    // true</pre>
+
+
+
+    <h5 id="Datan">atan<code class='inset'>.atan(x) <i>&rArr; Decimal</i></code></h5>
+    <p><code>x</code>: <i>number|string|Decimal</i></p>
+    <p>See <code><a href='#atan'>inverseTangent</a></code>.</p>
+    <pre>a = Decimal.atan(x)
+b = new Decimal(x).atan()
+a.equals(b)                    // true</pre>
+
+
+
+    <h5 id="Datanh">atanh<code class='inset'>.atanh(x) <i>&rArr; Decimal</i></code></h5>
+    <p><code>x</code>: <i>number|string|Decimal</i></p>
+    <p>See <code><a href='#atan'>inverseHyperbolicTangent</a></code>.</p>
+    <pre>a = Decimal.atanh(x)
+b = new Decimal(x).atanh()
+a.equals(b)                    // true</pre>
+
+
+
+    <h5 id="Datan2">atan2<code class='inset'>.atan2(y, x) <i>&rArr; Decimal</i></code></h5>
+    <p>
+      <code>y</code>: <i>number|string|Decimal</i><br />
+      <code>x</code>: <i>number|string|Decimal</i>
+    </p>
+    <p>
+      Returns a new Decimal whose value is the inverse tangent in radians of the quotient of
+      <code>y</code> and <code>x</code>, rounded to <a href='#precision'><code>precision</code></a>
+      significant digits using rounding mode <a href='#rounding'><code>rounding</code></a>.
+    </p>
+    <p>
+      The signs of <code>y</code> and <code>x</code> are used to determine the quadrant of the
+      result.
+    </p>
+    <p>
+      Domain: [<code>-Infinity, Infinity</code>]<br />
+      Range: [<code>-pi, pi</code>]
+    </p>
+    <p>
+      See <a href='#Pi'><code>Pi</code></a> and
+      <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/atan2'><code>Math.atan2()</code>.</a>
+    </p>
+    <pre>r = Decimal.atan2(y, x)</pre>
+
+
+
+    <h5 id="Dcbrt">cbrt<code class='inset'>.cbrt(x) <i>&rArr; Decimal</i></code></h5>
+    <p><code>x</code>: <i>number|string|Decimal</i></p>
+    <p>See <code><a href='#cbrt'>cubeRoot</a></code>.</p>
+    <pre>a = Decimal.cbrt(x)
+b = new Decimal(x).cbrt()
+a.equals(b)                    // true</pre>
+
+
+
+    <h5 id="Dceil">ceil<code class='inset'>.ceil(x) <i>&rArr; Decimal</i></code></h5>
+    <p><code>x</code>: <i>number|string|Decimal</i></p>
+    <p>See <code><a href='#ceil'>ceil</a></code>.</p>
+    <pre>a = Decimal.ceil(x)
+b = new Decimal(x).ceil()
+a.equals(b)                    // true</pre>
+
+
+
+    <h5 id="Dclamp">clamp<code class='inset'>.clamp(min, max) <i>&rArr; Decimal</i></code></h5>
+    <p>
+      <code>min</code>: <i>number|string|Decimal</i><br />
+      <code>max</code>: <i>number|string|Decimal</i>
+    </p>
+    <p>See <code><a href='#clamp'>clampedTo</a></code>.</p>
+    <pre>Decimal.clamp(10.1, 0, 10)     // '10'</pre>
+
+
+
+    <h5 id="Dclone">
+      clone
+      <code class='inset'>.clone([object]) <i>&rArr; Decimal constructor</i></code>
+    </h5>
+    <p><code>object</code>: <i>object</i></p>
+    <p>
+      Returns a new independent Decimal constructor with configuration settings as described by
+      <code>object</code> (see <a href='#Dset'><code>set</code></a>), or with the same
+      settings as <code>this</code> Decimal constructor if <code>object</code> is omitted.
+    </p>
+    <pre>Decimal.set({ precision: 5 })
+Decimal9 = Decimal.clone({ precision: 9 })
+
+a = new Decimal(1)
+b = new Decimal9(1)
+
+a.div(3)                           // 0.33333
+b.div(3)                           // 0.333333333
+
+// Decimal9 = Decimal.clone({ precision: 9 }) is equivalent to:
+Decimal9 = Decimal.clone()
+Decimal9.set({ precision: 9 })</pre>
+    <p>
+      If <code>object</code> has a <code>'defaults'</code> property with value <code>true</code>
+      then the new constructor will use the default configuration.
+    </p>
+    <pre>
+D1 = Decimal.clone({ defaults: true })
+
+// Use the defaults except for precision
+D2 = Decimal.clone({ defaults: true, precision: 50 })</pre>
+    <p>
+      It is not inefficient in terms of memory usage to use multiple Decimal constructors as
+      functions are shared between them.
+    </p>
+
+
+    <h5 id="Dcos">cos<code class='inset'>.cos(x) <i>&rArr; Decimal</i></code></h5>
+    <p><code>x</code>: <i>number|string|Decimal</i></p>
+    <p>See <code><a href='#cos'>cosine</a></code>.</p>
+    <pre>a = Decimal.cos(x)
+b = new Decimal(x).cos()
+a.equals(b)                    // true</pre>
+
+
+
+    <h5 id="Dcosh">cosh<code class='inset'>.cosh(x) <i>&rArr; Decimal</i></code></h5>
+    <p><code>x</code>: <i>number|string|Decimal</i></p>
+    <p>See <code><a href='#cos'>hyperbolicCosine</a></code>.</p>
+    <pre>a = Decimal.cosh(x)
+b = new Decimal(x).cosh()
+a.equals(b)                    // true</pre>
+
+
+
+    <h5 id="Ddiv">div<code class='inset'>.div(x, y) <i>&rArr; Decimal</i></code></h5>
+    <p>
+      <code>x</code>: <i>number|string|Decimal</i><br />
+      <code>y</code>: <i>number|string|Decimal</i>
+    </p>
+    <p>See <code><a href='#div'>dividedBy</a></code>.</p>
+    <pre>a = Decimal.div(x, y)
+b = new Decimal(x).div(y)
+a.equals(b)                    // true</pre>
+
+
+
+    <h5 id="Dexp">exp<code class='inset'>.exp(x) <i>&rArr; Decimal</i></code></h5>
+    <p><code>x</code>: <i>number|string|Decimal</i></p>
+    <p>See <code><a href='#exp'>naturalExponential</a></code>.</p>
+    <pre>a = Decimal.exp(x)
+b = new Decimal(x).exp()
+a.equals(b)                    // true</pre>
+
+
+
+    <h5 id="Dfloor">floor<code class='inset'>.floor(x) <i>&rArr; Decimal</i></code></h5>
+    <p><code>x</code>: <i>number|string|Decimal</i></p>
+    <p>See <code><a href='#floor'>floor</a></code>.</p>
+    <pre>a = Decimal.floor(x)
+b = new Decimal(x).floor()
+a.equals(b)                    // true</pre>
+
+
+
+    <h5 id="Dhypot">
+      hypot<code class='inset'>.hypot([x [, y, ...]]) <i>&rArr; Decimal</i></code>
+    </h5>
+    <p>
+      <code>x</code>: <i>number|string|Decimal</i><br />
+      <code>y</code>: <i>number|string|Decimal</i>
+    </p>
+    <p>
+      Returns a new Decimal whose value is the square root of the sum of the squares of the
+      arguments, rounded to <a href='#precision'><code>precision</code></a> significant digits using
+      rounding mode <a href='#rounding'><code>rounding</code></a>.
+    </p>
+    <pre>r = Decimal.hypot(x, y)</pre>
+
+
+
+    <h5 id="Dln">ln<code class='inset'>.ln(x) <i>&rArr; Decimal</i></code></h5>
+    <p><code>x</code>: <i>number|string|Decimal</i></p>
+    <p>See <code><a href='#ln'>naturalLogarithm</a></code>.</p>
+    <pre>a = Decimal.ln(x)
+b = new Decimal(x).ln()
+a.equals(b)                    // true</pre>
+
+
+
+    <h5 id="DisDecimal">
+      isDecimal<code class='inset'>.isDecimal(object) <i>&rArr; boolean</i></code>
+    </h5>
+    <p><code>object</code>: <i>any</i></p>
+    <p>
+      Returns <code>true</code> if <code>object</code> is a Decimal instance (where Decimal is any
+      Decimal constructor), or <code>false</code> if it is not.
+    </p>
+    <pre>a = new Decimal(1)
+b = {}
+a instanceof Decimal           // true
+Decimal.isDecimal(a)           // true
+Decimal.isDecimal(b)           // false</pre>
+
+
+
+    <h5 id="Dlog">log<code class='inset'>.log(x [, base]) <i>&rArr; Decimal</i></code></h5>
+    <p>
+      <code>x</code>: <i>number|string|Decimal</i><br />
+      <code>base</code>: <i>number|string|Decimal</i>
+    </p>
+    <p>See <code><a href='#log'>logarithm</a></code>.</p>
+    <p>
+      The default base is <code>10</code>, which is not the same as JavaScript's
+      <code>Math.log()</code>, which returns the natural logarithm (base <code>e</code>).
+    </p>
+    <pre>a = Decimal.log(x, y)
+b = new Decimal(x).log(y)
+a.equals(b)                    // true</pre>
+
+
+
+    <h5 id="Dlog2">log2<code class='inset'>.log2(x) <i>&rArr; Decimal</i></code></h5>
+    <p><code>x</code>: <i>number|string|Decimal</i></p>
+    <p>
+      Returns a new Decimal whose value is the base <code>2</code> logarithm of <code>x</code>,
+      rounded to <a href='#precision'><code>precision</code></a> significant digits using rounding
+      mode <a href='#rounding'><code>rounding</code></a>.
+    </p>
+    <pre>r = Decimal.log2(x)</pre>
+
+
+
+    <h5 id="Dlog10">log10<code class='inset'>.log10(x) <i>&rArr; Decimal</i></code></h5>
+    <p><code>x</code>: <i>number|string|Decimal</i></p>
+    <p>
+      Returns a new Decimal whose value is the base <code>10</code> logarithm of <code>x</code>,
+      rounded to <a href='#precision'><code>precision</code></a> significant digits using rounding
+      mode <a href='#rounding'><code>rounding</code></a>.
+    </p>
+    <pre>r = Decimal.log10(x)</pre>
+
+
+
+    <h5 id="Dmax">
+      max<code class='inset'>.max(x [, y, ...]) <i>&rArr; Decimal</i></code>
+    </h5>
+    <p>
+      <code>x</code>: <i>number|string|Decimal</i><br />
+      <code>y</code>: <i>number|string|Decimal</i>
+    </p>
+    <p>Returns a new Decimal whose value is the maximum of the <code>arguments</code>.</p>
+    <pre>r = Decimal.max(x, y, z)</pre>
+
+
+
+    <h5 id="Dmin">
+      min<code class='inset'>.min(x [, y, ...]) <i>&rArr; Decimal</i></code>
+    </h5>
+    <p>
+      <code>x</code>: <i>number|string|Decimal</i><br />
+      <code>y</code>: <i>number|string|Decimal</i>
+    </p>
+    <p>Returns a new Decimal whose value is the minimum of the <code>arguments</code>.</p>
+    <pre>r = Decimal.min(x, y, z)</pre>
+
+
+
+    <h5 id="Dmod">mod<code class='inset'>.mod(x, y) <i>&rArr; Decimal</i></code></h5>
+    <p>
+      <code>x</code>: <i>number|string|Decimal</i><br />
+      <code>y</code>: <i>number|string|Decimal</i>
+    </p>
+    <p>See <code><a href='#mod'>modulo</a></code>.</p>
+    <pre>a = Decimal.mod(x, y)
+b = new Decimal(x).mod(y)
+a.equals(b)                    // true</pre>
+
+
+
+    <h5 id="Dmul">mul<code class='inset'>.mul(x, y) <i>&rArr; Decimal</i></code></h5>
+    <p>
+      <code>x</code>: <i>number|string|Decimal</i><br />
+      <code>y</code>: <i>number|string|Decimal</i>
+    </p>
+    <p>See <code><a href='#mul'>times</a></code>.</p>
+    <pre>a = Decimal.mul(x, y)
+b = new Decimal(x).mul(y)
+a.equals(b)                    // true</pre>
+
+
+
+    <h5 id="DnoConflict">
+      noConflict<code class='inset'>.noConflict() <i>&rArr; Decimal constructor</i></code>
+    </h5>
+    <p><i>Browsers only.</i></p>
+    <p>
+      Reverts the <code>Decimal</code> variable to the value it had before this library was loaded
+      and returns a reference to the original Decimal constructor so it can be assigned to a
+      variable with a different name.
+    </p>
+    <pre>
+&lt;script&gt; Decimal = 1 &lt;/script&gt;
+&lt;script src='/path/to/decimal.js'&gt;&lt;/script&gt;
+&lt;script&gt;
+  a = new Decimal(2)      // '2'
+  D = Decimal.noConflict()
+  Decimal                 // 1
+  b = new D(3)            // '3'
+&lt;/script&gt;</pre>
+
+
+
+    <h5 id="Dpow">pow<code class='inset'>.pow(base, exponent) <i>&rArr; Decimal</i></code></h5>
+    <p>
+      <code>base</code>: <i>number|string|Decimal</i><br />
+      <code>exponent</code>: <i>number|string|Decimal</i>
+    </p>
+    <p>See <code><a href="#pow">toPower</a></code>.</p>
+    <pre>a = Decimal.pow(x, y)
+b = new Decimal(x).pow(y)
+a.equals(b)                    // true</pre>
+
+
+
+    <h5 id="Drandom">
+      random<code class='inset'>.random([dp]) <i>&rArr; Decimal</i></code>
+    </h5>
+    <p><code>dp</code>: <i>number</i>: integer, <code>0</code> to <code>1e+9</code> inclusive</p>
+    <p>
+      Returns a new Decimal with a pseudo-random value equal to or greater than <code>0</code> and
+      less than <code>1</code>.
+    </p>
+    <p>
+      The return value will have <code>dp</code> decimal places (or less if trailing zeros are
+      produced). If <code>dp</code> is omitted then the number of decimal places will
+      default to the current <a href='#precision'><code>precision</code></a> setting.
+    </p>
+    <p>
+      If the value of <code>this</code> Decimal constructor's
+      <a href='#crypto'><code>crypto</code></a> property is <code>true</code>, and the
+      <code>crypto</code> object is available globally in the host environment, the random digits of
+      the return value are generated by either <code>crypto.getRandomValues</code> (Web Cryptography
+      API in modern browsers) or <code>crypto.randomBytes</code> (Node.js), otherwise, if the the
+      value of the property is <code>false</code> the return value is generated by
+      <code>Math.random</code> (fastest).
+    </p>
+    <p>To make the <code>crypto</code> object available globally in Node.js use</p>
+    <pre>global.crypto = require('crypto')</pre>
+    <p>
+      If the value of <code>this</code> Decimal constructor's
+      <a href='#crypto'><code>crypto</code></a> property is set <code>true</code> and the
+      <code>crypto</code> object and associated method are not available, an exception will be
+      thrown.
+    </p>
+    <p>
+      If one of the <code>crypto</code> methods is used, the value of the returned Decimal should be
+      cryptographically-secure and statistically indistinguishable from a random value.
+    </p>
+    <pre>Decimal.set({ precision: 10 })
+Decimal.random()                    // '0.4117936847'
+Decimal.random(20)                  // '0.78193327636914089009'</pre>
+
+
+    <h5 id="Dround">round<code class='inset'>.round(x) <i>&rArr; Decimal</i></code></h5>
+    <p><code>x</code>: <i>number|string|Decimal</i></p>
+    <p>See <code><a href='#round'>round</a></code>.</p>
+    <pre>a = Decimal.round(x)
+b = new Decimal(x).round()
+a.equals(b)                    // true</pre>
+
+
+
+    <h5 id="Dset">set<code class='inset'>.set(object) <i>&rArr; Decimal constructor</i></code></h5>
+    <p><code>object</code>: <i>object</i></p>
+    <p>
+      Configures the 'global' settings for <code>this</code> particular Decimal constructor, i.e.
+      the settings which apply to operations performed on the Decimal instances created by it.
+    </p>
+    <p>Returns <code>this</code> Decimal constructor.</p>
+    <p>
+      The configuration object, <code>object</code>, can contain some or all of the properties
+      described in detail at <a href="#constructor-properties">Properties</a> and shown in the
+      example below.
+    </p>
+    <p>
+      The values of the configuration object properties are checked for validity and then stored as
+      equivalently-named properties of <code>this</code> Decimal constructor.
+    </p>
+    <p>
+      If <code>object</code> has a <code>'defaults'</code> property with value <code>true</code>
+      then any unspecified properties will be reset to their default values.
+    </p>
+    <p>Throws on an invalid <code>object</code> or configuration property value.</p>
+    <pre>
+// Defaults
+Decimal.set({
+    precision: 20,
+    rounding: 4,
+    toExpNeg: -7,
+    toExpPos: 21,
+    maxE: 9e15,
+    minE: -9e15,
+    modulo: 1,
+    crypto: false
+})
+
+// Reset all properties to their default values
+Decimal.set({ defaults: true })
+
+// Set precision to 50 and all other properties to their default values
+Decimal.set({ precision: 50, defaults: true })</pre>
+    <p>
+      The properties of a Decimal constructor can also be set by direct assignment, but that will
+      by-pass the validity checking that this method performs - this is not a problem if the user
+      knows that the assignment is valid.
+    </p>
+    <pre>Decimal.precision = 40</pre>
+
+
+
+    <h5 id="Dsign">sign<code class='inset'>.sign(x) <i>&rArr; number</i></code></h5>
+    <p><code>x</code>: <i>number|string|Decimal</i></p>
+    <table>
+      <tr><th>Returns</th><th>&nbsp;</th></tr>
+      <tr>
+        <td class='centre'><code>1</code></td>
+        <td>if the value of <code>x</code> is non-zero and its sign is positive</td>
+      </tr>
+      <tr>
+        <td class='centre'><code>-1</code></td>
+        <td>if the value of <code>x</code> is non-zero and its sign is negative</td>
+      </tr>
+      <tr>
+        <td class='centre'><code>0</code></td>
+        <td>if the value of <code>x</code> is positive zero</td>
+      </tr>
+      <tr>
+        <td class='centre'><code>-0</code></td>
+        <td>if the value of <code>x</code> is negative zero</td>
+      </tr>
+      <tr>
+        <td class='centre'><code>NaN</code></td>
+        <td>if the value of <code>x</code> is <code>NaN</code></td>
+      </tr>
+    </table>
+    <pre>r = Decimal.sign(x)</pre>
+
+
+
+    <h5 id="Dsin">sin<code class='inset'>.sin(x) <i>&rArr; Decimal</i></code></h5>
+    <p><code>x</code>: <i>number|string|Decimal</i></p>
+    <p>See <code><a href='#sin'>sine</a></code>.</p>
+    <pre>a = Decimal.sin(x)
+b = new Decimal(x).sin()
+a.equals(b)                    // true</pre>
+
+
+
+    <h5 id="Dsinh">sinh<code class='inset'>.sinh(x) <i>&rArr; Decimal</i></code></h5>
+    <p><code>x</code>: <i>number|string|Decimal</i></p>
+    <p>See <code><a href='#sin'>hyperbolicSine</a></code>.</p>
+    <pre>a = Decimal.sinh(x)
+b = new Decimal(x).sinh()
+a.equals(b)                    // true</pre>
+
+
+
+    <h5 id="Dsqrt">sqrt<code class='inset'>.sqrt(x) <i>&rArr; Decimal</i></code></h5>
+    <p><code>x</code>: <i>number|string|Decimal</i></p>
+    <p>See <a href='#sqrt'>squareRoot</a>.</p>
+    <pre>a = Decimal.sqrt(x)
+b = new Decimal(x).sqrt()
+a.equals(b)                    // true</pre>
+
+
+
+    <h5 id="Dsub">sub<code class='inset'>.sub(x, y) <i>&rArr; Decimal</i></code></h5>
+    <p>
+      <code>x</code>: <i>number|string|Decimal</i><br />
+      <code>y</code>: <i>number|string|Decimal</i>
+    </p>
+    <p>See <code><a href='#sub'>minus</a></code>.</p>
+    <pre>a = Decimal.sub(x, y)
+b = new Decimal(x).sub(y)
+a.equals(b)                    // true</pre>
+
+
+
+    <h5 id="Dsum">sum<code class='inset'>.sum(x [, y, ...]) <i>&rArr; Decimal</i></code></h5>
+    <p>
+      <code>x</code>: <i>number|string|Decimal</i><br />
+      <code>y</code>: <i>number|string|Decimal</i>
+    </p>
+    <p>
+      Returns a new Decimal whose value is the sum of the <code>arguments</code>,
+      rounded to <a href='#precision'><code>precision</code></a> significant digits using
+      rounding mode <a href='#rounding'><code>rounding</code></a>.<br />
+      Only the result is rounded, not the intermediate summations.
+    </p>
+    <pre>
+x = 5
+y = '16'
+z = new Decimal(-11)
+Decimal.sum(x, y, z)           // '10'</pre>
+
+
+
+    <h5 id="Dtan">tan<code class='inset'>.tan(x) <i>&rArr; Decimal</i></code></h5>
+    <p><code>x</code>: <i>number|string|Decimal</i></p>
+    <p>See <code><a href='#tan'>tangent</a></code>.</p>
+    <pre>a = Decimal.tan(x)
+b = new Decimal(x).tan()
+a.equals(b)                    // true</pre>
+
+
+
+    <h5 id="Dtanh">tanh<code class='inset'>.tanh(x) <i>&rArr; Decimal</i></code></h5>
+    <p><code>x</code>: <i>number|string|Decimal</i></p>
+    <p>See <code><a href='#tan'>hyperbolicTangent</a></code>.</p>
+    <pre>a = Decimal.tanh(x)
+b = new Decimal(x).tanh()
+a.equals(b)                    // true</pre>
+
+
+
+    <h5 id="Dtrunc">trunc<code class='inset'>.trunc(x) <i>&rArr; Decimal</i></code></h5>
+    <p><code>x</code>: <i>number|string|Decimal</i></p>
+    <p>See <code><a href='#trunc'>truncated</a></code>.</p>
+    <pre>a = Decimal.trunc(x)
+b = new Decimal(x).trunc()
+a.equals(b)                    // true</pre>
+
+
+
+
+    <h4 id="constructor-properties">Properties</h4>
+    <p>The properties of a Decimal constructor.</p>
+
+
+
+    <h6 id='configProps'>Configuration properties</h6>
+    <p>
+      The values of the configuration properties <a href='#precision'><code>precision</code></a>,
+      <a href='#rounding'><code>rounding</code></a>, <a href='#minE'><code>minE</code></a>,
+      <a href='#maxE'><code>maxE</code></a>, <a href='#toExpNeg'><code>toExpNeg</code></a>,
+      <a href='#toExpPos'><code>toExpPos</code></a>, <a href='#modulo'><code>modulo</code></a>, and
+      <a href='#crypto'><code>crypto</code></a> are set using the
+      <a href='#Dset'><code>set</code></a> method.
+    </p>
+    <p>
+      As simple object properties they can be set directly without using
+      <a href='#Dset'><code>set</code></a>, and it is fine to do so, but the values assigned
+      will not then be checked for validity. For example:
+    </p>
+    <pre>Decimal.set({ precision: 0 })
+// '[DecimalError] Invalid argument: precision: 0'
+
+Decimal.precision = 0
+// No error is thrown and the results of calculations are unreliable</pre>
+
+
+
+    <h5 id="precision">precision</h5>
+    <p>
+      <i>number</i>: integer, <code>1</code> to <code>1e+9</code> inclusive<br />
+      Default value: <code>20</code>
+    </p>
+    <p>The <i>maximum</i> number of significant digits of the result of an operation.</p>
+    <p>
+      All functions which return a Decimal will round the return value to <code>precision</code>
+      significant digits except <a href='#decimal'><code>Decimal</code></a>,
+      <a href='#abs'><code>absoluteValue</code></a>,
+      <a href='#ceil'><code>ceil</code></a>, <a href='#floor'><code>floor</code></a>,
+      <a href='#neg'><code>negated</code></a>, <a href='#round'><code>round</code></a>,
+      <a href='#toDP'><code>toDecimalPlaces</code></a>,
+      <a href='#toNearest'><code>toNearest</code></a> and
+      <a href='#trunc'><code>truncated</code></a>.
+    </p>
+    <p>
+      See <code><a href='#Pi'>Pi</a></code> for the precision limit of the trigonometric methods.
+    </p>
+    <pre>Decimal.set({ precision: 5 })
+Decimal.precision                  // 5</pre>
+
+
+
+    <h5 id="rounding">rounding</h5>
+    <p>
+      <i>number</i>: integer, <code>0</code> to <code>8</code> inclusive<br />
+      Default value: <code>4</code> <a href="#modes">(<code>ROUND_HALF_UP</code>)</a>
+    </p>
+    <p>
+      The default rounding mode used when rounding the result of an operation to
+      <code><a href='#precision'>precision</a></code> significant digits, and when rounding the
+      return value of the <a href='#round'><code>round</code></a>,
+      <a href='#toBinary'><code>toBinary</code></a>,
+      <a href='#toDP'><code>toDecimalPlaces</code></a>,
+      <a href='#toExponential'><code>toExponential</code></a>,
+      <a href='#toFixed'><code>toFixed</code></a>,
+      <a href='#toHexadecimal'><code>toHexadecimal</code></a>,
+      <a href='#toNearest'><code>toNearest</code></a>,
+      <a href='#toOctal'><code>toOctal</code></a>,
+      <a href='#toPrecision'><code>toPrecision</code></a> and
+      <a href='#toSD'><code>toSignificantDigits</code></a> methods.
+    </p>
+    <p>
+      The <a href='#modes'>rounding modes</a> are available as enumerated properties of the
+      constructor.
+    </p>
+    <pre>Decimal.set({ rounding: Decimal.ROUND_UP })
+Decimal.set({ rounding: 0 })       // equivalent
+Decimal.rounding                   // 0</pre>
+
+
+
+    <h5 id="minE">minE</h5>
+    <p>
+      <i>number</i>: integer, <code>-9e15</code> to <code>0</code> inclusive<br />
+      Default value: <code>-9e15</code>
+    </p>
+    <p>
+      The negative exponent limit, i.e. the exponent value below which underflow to zero occurs.
+    </p>
+    <p>
+      If the <code>Decimal</code> to be returned by a calculation would have an exponent lower than
+      <code>minE</code> then the value of that <code>Decimal</code> becomes zero.
+    <p>
+      JavaScript numbers underflow to zero for exponents below <code>-324</code>.
+    </p>
+    <pre>Decimal.set({ minE: -500 })
+Decimal.minE                       // -500
+new Decimal('1e-500')              // '1e-500'
+new Decimal('9.9e-501')            // '0'
+
+Decimal.set({ minE: -3 })
+new Decimal(0.001)                 // '0.01'       e is -3
+new Decimal(0.0001)                // '0'          e is -4</pre>
+    <p>
+      The smallest possible magnitude of a non-zero Decimal is <code>1e-9000000000000000</code>
+    </p>
+
+
+
+    <h5 id="maxE">maxE</h5>
+    <p>
+      <i>number</i>: integer, <code>0</code> to <code>9e15</code> inclusive<br />
+      Default value: <code>9e15</code>
+    </p>
+    <p>
+      The positive exponent limit, i.e. the exponent value above which overflow to
+      <code>Infinity</code> occurs.
+    </p>
+    <p>
+      If the <code>Decimal</code> to be returned by a calculation would have an exponent higher than
+      <code>maxE</code> then the value of that <code>Decimal</code> becomes <code>Infinity</code>.
+    <p>
+      JavaScript numbers overflow to <code>Infinity</code> for exponents above <code>308</code>.
+    </p>
+    <pre>Decimal.set({ maxE: 500 })
+Decimal.maxE                       // 500
+new Decimal('9.999e500')           // '9.999e+500'
+new Decimal('1e501')               // 'Infinity'
+
+Decimal.set({ maxE: 4 })
+new Decimal(99999)                 // '99999'      e is 4
+new Decimal(100000)                // 'Infinity'</pre>
+    <p>
+      The largest possible magnitude of a finite Decimal is <code>9.999...e+9000000000000000</code>
+    </p>
+
+
+
+    <h5 id="toExpNeg">toExpNeg</h5>
+    <p>
+      <i>number</i>: integer, <code>-9e15</code> to <code>0</code> inclusive<br />
+      Default value: <code>-7</code>
+    </p>
+    <p>
+      The negative exponent value at and below which <a href='#toString'><code>toString</code></a>
+      returns exponential notation.
+    </p>
+    <pre>Decimal.set({ toExpNeg: -7 })
+Decimal.toExpNeg                   // -7
+new Decimal(0.00000123)            // '0.00000123'       e is -6
+new Decimal(0.000000123)           // '1.23e-7'
+
+// Always return exponential notation:
+Decimal.set({ toExpNeg: 0 })</pre>
+    <p>
+      JavaScript numbers use exponential notation for negative exponents of <code>-7</code> and
+      below.
+    </p>
+    <p>
+      Regardless of the value of <code>toExpNeg</code>, the
+      <a href='#toFixed'><code>toFixed</code></a> method will always return a value in normal
+      notation and the <a href='#toExponential'><code>toExponential</code></a> method will always
+      return a value in exponential form.
+    </p>
+
+
+
+    <h5 id="toExpPos">toExpPos</h5>
+    <p>
+      <i>number</i>: integer, <code>0</code> to <code>9e15</code> inclusive<br />
+      Default value: <code>20</code>
+    </p>
+    <p>
+      The positive exponent value at and above which <a href='#toString'><code>toString</code></a>
+      returns exponential notation.
+    </p>
+    <pre>Decimal.set({ toExpPos: 2 })
+Decimal.toExpPos                   // 2
+new Decimal(12.3)                  // '12.3'        e is 1
+new Decimal(123)                   // '1.23e+2'
+
+// Always return exponential notation:
+Decimal.set({ toExpPos: 0 })</pre>
+    <p>
+      JavaScript numbers use exponential notation for positive exponents of <code>20</code> and
+      above.
+    </p>
+    <p>
+      Regardless of the value of <code>toExpPos</code>, the
+      <a href='#toFixed'><code>toFixed</code></a> method will always return a value in normal
+      notation and the <a href='#toExponential'><code>toExponential</code></a> method will always
+      return a value in exponential form.
+    </p>
+
+
+
+    <h5 id="modulo">modulo</h5>
+    <p>
+      <i>number</i>: integer, <code>0</code> to <code>9</code> inclusive<br />
+      Default value: <code>1</code> (<code>ROUND_DOWN</code>)
+    </p>
+    <p>The modulo mode used when calculating the modulus: <code>a mod n</code>.</p>
+    <p>
+      The quotient, <code>q = a / n</code>, is calculated according to the
+      <a href='#rounding'><code>rounding</code></a> mode that corresponds to the chosen
+      <code>modulo</code> mode.
+    </p>
+    <p>The remainder, <code>r</code>, is calculated as: <code>r = a - n * q</code>.</p>
+    <p>
+      The modes that are most commonly used for the modulus/remainder operation are shown in the
+      following table. Although the other <a href='#rounding'><code>rounding</code></a> modes can
+      be used, they may not give useful results.
+    </p>
+    <table>
+      <tr><th>Property</th><th>Value</th><th>Description</th></tr>
+      <tr>
+        <td>ROUND_UP</td><td class='centre'>0</td>
+        <td>The remainder is positive if the dividend is negative, else is negative</td>
+      </tr>
+      <tr>
+        <td>ROUND_DOWN</td><td class='centre'>1</td>
+        <td>
+          The remainder has the same sign as the dividend.<br />
+          This uses truncating division and matches the behaviour of JavaScript's remainder
+          operator <code>%</code>.
+        </td>
+      </tr>
+      <tr>
+        <td>ROUND_FLOOR</td><td class='centre'>3</td>
+        <td>
+          The remainder has the same sign as the divisor.<br />
+          (This matches Python's <code>%</code> operator)
+        </td>
+      </tr>
+      <tr>
+        <td>ROUND_HALF_EVEN</td><td class='centre'>6</td>
+        <td>The <i>IEEE 754</i> remainder function</td>
+      </tr>
+       <tr>
+         <td>EUCLID</td><td class='centre'>9</td>
+         <td>
+           The remainder is always positive.<br />
+           Euclidian division: <code>q = sign(x) * floor(a / abs(x))</code>.
+         </td>
+       </tr>
+    </table>
+    <p>
+      The rounding/modulo modes are available as enumerated properties of the Decimal constructor.
+    </p>
+    <pre>Decimal.set({ modulo: Decimal.EUCLID })
+Decimal.set({ modulo: 9 })         // equivalent
+Decimal.modulo                     // 9</pre>
+
+
+
+    <h5 id="crypto">crypto</h5>
+    <p>
+      <i>boolean</i>: <code>true/false</code><br /> Default value: <code>false</code>
+    </p>
+    <p>
+      The value that determines whether cryptographically-secure pseudo-random number generation is
+      used.
+    </p>
+    <p>See <a href='#Drandom'><code>random</code></a>.</p>
+    <pre>
+// Node.js
+global.crypto = require('crypto')
+
+Decimal.crypto                     // false
+Decimal.set({ crypto: true })
+Decimal.crypto                     // true</pre>
+
+
+
+    <h6 id="modes">Rounding modes</h6>
+    <p>
+      The library's enumerated rounding modes are stored as properties of the Decimal constructor.
+      <br />They are not referenced internally by the library itself.
+    </p>
+    <p>Rounding modes 0 to 6 (inclusive) are the same as those of Java's BigDecimal class.</p>
+    <table>
+      <tr><th>Property</th><th>Value</th><th>Description</th></tr>
+      <tr><td><b>ROUND_UP</b></td><td class='centre'>0</td><td>Rounds away from zero</td></tr>
+      <tr><td><b>ROUND_DOWN</b></td><td class='centre'>1</td><td>Rounds towards zero</td></tr>
+      <tr><td><b>ROUND_CEIL</b></td><td class='centre'>2</td><td>Rounds towards Infinity</td></tr>
+      <tr><td><b>ROUND_FLOOR</b></td><td class='centre'>3</td><td>Rounds towards -Infinity</td></tr>
+      <tr>
+        <td><b>ROUND_HALF_UP</b></td><td class='centre'>4</td>
+        <td>Rounds towards nearest neighbour.<br />If equidistant, rounds away from zero</td>
+      </tr>
+      <tr>
+        <td><b>ROUND_HALF_DOWN</b></td><td class='centre'>5</td>
+        <td>Rounds towards nearest neighbour.<br />If equidistant, rounds towards zero</td>
+      </tr>
+      <tr>
+        <td><b>ROUND_HALF_EVEN</b></td><td class='centre'>6</td>
+        <td>
+          Rounds towards nearest neighbour.<br />If equidistant, rounds towards even neighbour
+        </td>
+      </tr>
+      <tr>
+        <td><b>ROUND_HALF_CEIL</b></td><td class='centre'>7</td>
+        <td>Rounds towards nearest neighbour.<br />If equidistant, rounds towards Infinity</td>
+      </tr>
+      <tr>
+        <td><b>ROUND_HALF_FLOOR</b></td><td class='centre'>8</td>
+        <td>Rounds towards nearest neighbour.<br />If equidistant, rounds towards -Infinity</td>
+      </tr>
+       <tr>
+         <td><b>EUCLID</b></td><td class='centre'>9</td>
+         <td>Not a rounding mode, see <a href='#modulo'>modulo</a></td>
+       </tr>
+    </table>
+    <pre>Decimal.set({ rounding: Decimal.ROUND_CEIL })
+Decimal.set({ rounding: 2 })       // equivalent
+Decimal.rounding                   // 2</pre>
+
+
+
+
+    <h3>INSTANCE</h3>
+
+    <h4 id="prototype-methods">Methods</h4>
+    <p>The methods inherited by a Decimal instance from its constructor's prototype object.</p>
+    <p>A Decimal instance is immutable in the sense that it is not changed by its methods.</p>
+    <p>Methods that return a Decimal can be chained:</p>
+    <pre>x = new Decimal(2).times('999.999999999999999').dividedBy(4).ceil()</pre>
+    <p>Methods do not round their arguments before execution.</p>
+    <p>
+      The treatment of <code>&plusmn;0</code>, <code>&plusmn;Infinity</code> and <code>NaN</code>
+      is consistent with how JavaScript treats these values.
+    </p>
+    <p>
+      Many method names have a shorter alias. (Internally, the library always uses the shorter
+      method names.)
+    </p>
+
+
+
+    <h5 id="abs">absoluteValue<code class='inset'>.abs() <i>&rArr; Decimal</i></code></h5>
+    <p>
+      Returns a new Decimal whose value is the absolute value, i.e. the magnitude, of the value of
+      this Decimal.
+    </p>
+    <p>
+      The return value is not affected by the value of the
+      <a href='#precision'><code>precision</code></a> setting.
+    </p>
+    <pre>
+x = new Decimal(-0.8)
+y = x.absoluteValue()         // '0.8'
+z = y.abs()                   // '0.8'</pre>
+
+
+
+    <h5 id="ceil">ceil<code class='inset'>.ceil() <i>&rArr; Decimal</i></code></h5>
+    <p>
+      Returns a new Decimal whose value is the value of this Decimal rounded to a whole number in
+      the direction of positive <code>Infinity</code>.
+    </p>
+    <p>
+      The return value is not affected by the value of the
+      <a href='#precision'><code>precision</code></a> setting.
+    </p>
+    <pre>
+x = new Decimal(1.3)
+x.ceil()                      // '2'
+y = new Decimal(-1.8)
+y.ceil()                      // '-1'</pre>
+
+
+
+    <h5 id="clamp">clampedTo<code class='inset'>.clamp(min, max) <i>&rArr; Decimal</i></code></h5>
+    <p>
+      <code>min</code>: <i>number|string|Decimal</i><br />
+      <code>max</code>: <i>number|string|Decimal</i>
+    </p>
+    <p>
+      Returns a new Decimal whose value is the value of this Decimal clamped to the range
+      delineated by <code>min</code> and <code>max</code>.
+    </p>
+    <p>
+      The return value is not affected by the value of the
+      <a href='#precision'><code>precision</code></a> setting.
+    </p>
+    <pre>
+x = new Decimal(5)
+min = new Decimal(100)
+max = new Decimal(Infinity)
+x.clampedTo(min, max)         // '100'
+x.clamp(-10, -0.1)            // '-0.1'</pre>
+
+
+
+    <h5 id="cmp">comparedTo<code class='inset'>.cmp(x) <i>&rArr; number</i></code></h5>
+    <p><code>x</code>: <i>number|string|Decimal</i></p>
+    <table>
+      <tr><th>Returns</th><th>&nbsp;</th></tr>
+      <tr>
+        <td class='centre'><code>1</code></td>
+        <td>if the value of this Decimal is greater than the value of <code>x</code></td>
+      </tr>
+      <tr>
+        <td class='centre'><code>-1</code></td>
+        <td>if the value of this Decimal is less than the value of <code>x</code></td>
+      </tr>
+      <tr>
+        <td class='centre'><code>0</code></td>
+        <td>if this Decimal and <code>x</code> have the same value</td>
+      </tr>
+      <tr>
+        <td class='centre'><code>NaN</code></td>
+        <td>if the value of either this Decimal or <code>x</code> is <code>NaN</code> </td>
+      </tr>
+    </table>
+    <pre>
+x = new Decimal(Infinity)
+y = new Decimal(5)
+x.comparedTo(y)                // 1
+x.comparedTo(x.minus(1))       // 0
+y.cmp(NaN)                     // NaN</pre>
+
+
+
+    <h5 id="cos">cosine<code class='inset'>.cos() <i>&rArr; Decimal</i></code></h5>
+    <p>
+      Returns a new Decimal whose value is the cosine of the value in radians of this Decimal,
+      rounded to <a href='#precision'><code>precision</code></a> significant digits using rounding
+      mode <a href='#rounding'><code>rounding</code></a>.
+    </p>
+    <p>
+      Domain: [<code>-Infinity, Infinity</code>]<br />
+      Range: [<code>-1, 1</code>]
+    </p>
+    <p>See <a href='#Pi'><code>Pi</code></a> for the precision limit of this method.</p>
+    <pre>
+x = new Decimal(0.25)
+x.cosine()                      // '0.96891242171064478414'
+y = new Decimal(-0.25)
+y.cos()                         // '0.96891242171064478414'</pre>
+
+
+
+    <h5 id="cbrt">cubeRoot<code class='inset'>.cbrt() <i>&rArr; Decimal</i></code></h5>
+    <p>
+      Returns a new Decimal whose value is the cube root of this Decimal, rounded to
+      <a href='#precision'><code>precision</code></a> significant digits using rounding mode
+      <a href='#rounding'><code>rounding</code></a>.
+    </p>
+    <p>
+      The return value will be correctly rounded, i.e. rounded as if the result was first calculated
+      to an infinite number of correct digits before rounding.
+    </p>
+    <pre>
+x = new Decimal(125)
+x.cubeRoot()                    // '5'
+y = new Decimal(3)
+y.cbrt()                        // '1.4422495703074083823'</pre>
+
+
+
+    <h5 id="dp">decimalPlaces<code class='inset'>.dp() <i>&rArr; number</i></code></h5>
+    <p>
+      Returns the number of decimal places, i.e. the number of digits after the decimal point, of
+      the value of this Decimal.
+    </p>
+    <pre>
+x = new Decimal(1.234)
+x.decimalPlaces()              // '3'
+y = new Decimal(987.654321)
+y.dp()                         // '6'</pre>
+
+
+
+    <h5 id="div">dividedBy<code class='inset'>.div(x) <i>&rArr; Decimal</i></code></h5>
+    <p><code>x</code>: <i>number|string|Decimal</i></p>
+    <p>
+      Returns a new Decimal whose value is the value of this Decimal divided by <code>x</code>,
+      rounded to <a href='#precision'><code>precision</code></a> significant digits using rounding
+      mode <a href='#rounding'><code>rounding</code></a>.
+    </p>
+    <pre>
+x = new Decimal(355)
+y = new Decimal(113)
+x.dividedBy(y)             // '3.14159292035398230088'
+x.div(5)                   // '71'</pre>
+
+
+
+    <h5 id="divToInt">
+      dividedToIntegerBy<code class='inset'>.divToInt(x) <i>&rArr; Decimal</i></code>
+    </h5>
+    <p><code>x</code>: <i>number|string|Decimal</i></p>
+    <p>
+      Return a new Decimal whose value is the integer part of dividing this Decimal by
+      <code>x</code>, rounded to <code><a href='#precision'>precision</a></code> significant digits
+      using rounding mode <a href='#rounding'><code>rounding</code></a>.
+    </p>
+    <pre>
+x = new Decimal(5)
+y = new Decimal(3)
+x.dividedToIntegerBy(y)     // '1'
+x.divToInt(0.7)             // '7'</pre>
+
+
+
+    <h5 id="eq">equals<code class='inset'>.eq(x) <i>&rArr; boolean</i></code></h5>
+    <p><code>x</code>: <i>number|string|Decimal</i></p>
+    <p>
+      Returns <code>true</code> if the value of this Decimal equals the value of <code>x</code>,
+      otherwise returns <code>false</code>.<br /> As with JavaScript, <code>NaN</code> does not
+      equal <code>NaN</code>.
+    </p>
+    <p>Note: This method uses the <code>cmp</code> method internally.</p>
+    <pre>
+0 === 1e-324                     // true
+x = new Decimal(0)
+x.equals('1e-324')               // false
+new Decimal(-0).eq(x)            // true  ( -0 === 0 )
+
+y = new Decimal(NaN)
+y.equals(NaN)                    // false</pre>
+
+
+
+    <h5 id="floor">floor<code class='inset'>.floor() <i>&rArr; Decimal</i></code></h5>
+    <p>
+      Returns a new Decimal whose value is the value of this Decimal rounded to a whole number in
+      the direction of negative <code>Infinity</code>.
+    </p>
+    <p>
+      The return value is not affected by the value of the
+      <a href='#precision'><code>precision</code></a> setting.
+    </p>
+    <pre>
+x = new Decimal(1.8)
+x.floor()                   // '1'
+y = new Decimal(-1.3)
+y.floor()                   // '-2'</pre>
+
+
+
+    <h5 id="gt">greaterThan<code class='inset'>.gt(x) <i>&rArr; boolean</i></code></h5>
+    <p><code>x</code>: <i>number|string|Decimal</i></p>
+    <p>
+      Returns <code>true</code> if the value of this Decimal is greater than the value of
+      <code>x</code>, otherwise returns <code>false</code>.
+    </p>
+    <p>Note: This method uses the <code>cmp</code> method internally.</p>
+    <pre>
+0.1 &gt; (0.3 - 0.2)                            // true
+x = new Decimal(0.1)
+x.greaterThan(Decimal(0.3).minus(0.2))       // false
+new Decimal(0).gt(x)                         // false</pre>
+
+
+
+    <h5 id="gte">
+      greaterThanOrEqualTo<code class='inset'>.gte(x) <i>&rArr; boolean</i></code>
+    </h5>
+    <p><code>x</code>: <i>number|string|Decimal</i></p>
+    <p>
+      Returns <code>true</code> if the value of this Decimal is greater than or equal to the value
+      of <code>x</code>, otherwise returns <code>false</code>.
+    </p>
+    <p>Note: This method uses the <code>cmp</code> method internally.</p>
+    <pre>
+(0.3 - 0.2) &gt;= 0.1                       // false
+x = new Decimal(0.3).minus(0.2)
+x.greaterThanOrEqualTo(0.1)              // true
+new Decimal(1).gte(x)                    // true</pre>
+
+
+
+    <h5 id="cosh">hyperbolicCosine<code class='inset'>.cosh() <i>&rArr; Decimal</i></code></h5>
+    <p>
+      Returns a new Decimal whose value is the hyperbolic cosine of the value in radians of this
+      Decimal, rounded to <a href='#precision'><code>precision</code></a> significant digits using
+      rounding mode <a href='#rounding'><code>rounding</code></a>.
+    </p>
+    <p>
+      Domain: [<code>-Infinity, Infinity</code>]<br />
+      Range: [<code>1, Infinity</code>]
+    </p>
+    <p>See <a href='#Pi'><code>Pi</code></a> for the precision limit of this method.</p>
+    <pre>
+x = new Decimal(1)
+x.hyperbolicCosine()                     // '1.5430806348152437785'
+y = new Decimal(0.5)
+y.cosh()                                 // '1.1276259652063807852'</pre>
+
+
+
+    <h5 id="sinh">hyperbolicSine<code class='inset'>.sinh() <i>&rArr; Decimal</i></code></h5>
+    <p>
+      Returns a new Decimal whose value is the hyperbolic sine of the value in radians of this
+      Decimal, rounded to <a href='#precision'><code>precision</code></a> significant digits using
+      rounding mode <a href='#rounding'><code>rounding</code></a>.
+    </p>
+    <p>
+      Domain: [<code>-Infinity, Infinity</code>]<br />
+      Range: [<code>-Infinity, Infinity</code>]
+    </p>
+    <p>See <a href='#Pi'><code>Pi</code></a> for the precision limit of this method.</p>
+    <pre>
+x = new Decimal(1)
+x.hyperbolicSine()                       // '1.1752011936438014569'
+y = new Decimal(0.5)
+y.sinh()                                 // '0.52109530549374736162'</pre>
+
+
+
+    <h5 id="tanh">hyperbolicTangent<code class='inset'>.tanh() <i>&rArr; Decimal</i></code></h5>
+    <p>
+      Returns a new Decimal whose value is the hyperbolic tangent of the value in radians of this
+      Decimal, rounded to <a href='#precision'><code>precision</code></a> significant digits using
+      rounding mode <a href='#rounding'><code>rounding</code></a>.
+    </p>
+    <p>
+      Domain: [<code>-Infinity, Infinity</code>]<br />
+      Range: [<code>-1, 1</code>]
+    </p>
+    <p>See <a href='#Pi'><code>Pi</code></a> for the precision limit of this method.</p>
+    <pre>
+x = new Decimal(1)
+x.hyperbolicTangent()                    // '0.76159415595576488812'
+y = new Decimal(0.5)
+y.tanh()                                 // '0.4621171572600097585'</pre>
+
+
+
+    <h5 id="acos">inverseCosine<code class='inset'>.acos() <i>&rArr; Decimal</i></code></h5>
+    <p>
+      Returns a new Decimal whose value is the inverse cosine in radians of the value of this
+      Decimal, rounded to <a href='#precision'><code>precision</code></a> significant digits using
+      rounding mode <a href='#rounding'><code>rounding</code></a>.
+    </p>
+    <p>
+      Domain: [<code>-1, 1</code>]<br />
+      Range: [<code>0, pi</code>]
+    </p>
+    <p>See <a href='#Pi'><code>Pi</code></a> for the precision limit of this method.</p>
+    <pre>
+x = new Decimal(0)
+x.inverseCosine()                        // '1.5707963267948966192'
+y = new Decimal(0.5)
+y.acos()                                 // '1.0471975511965977462'</pre>
+
+
+
+    <h5 id="acosh">
+      inverseHyperbolicCosine<code class='inset'>.acosh() <i>&rArr; Decimal</i></code>
+    </h5>
+    <p>
+      Returns a new Decimal whose value is the inverse hyperbolic cosine in radians of the value of
+      this Decimal, rounded to <a href='#precision'><code>precision</code></a> significant
+      digits using rounding mode <a href='#rounding'><code>rounding</code></a>.
+    </p>
+    <p>
+      Domain: [<code>1, Infinity</code>]<br />
+      Range: [<code>0, Infinity</code>]
+    </p>
+    <p>See <a href='#Pi'><code>Pi</code></a> for the precision limit of this method.</p>
+    <pre>
+x = new Decimal(5)
+x.inverseHyperbolicCosine()              // '2.2924316695611776878'
+y = new Decimal(50)
+y.acosh()                                // '4.6050701709847571595'</pre>
+
+
+
+    <h5 id="asinh">
+      inverseHyperbolicSine<code class='inset'>.asinh() <i>&rArr; Decimal</i></code>
+    </h5>
+    <p>
+      Returns a new Decimal whose value is the inverse hyperbolic sine in radians of the value of
+      this Decimal, rounded to <a href='#precision'><code>precision</code></a> significant digits
+      using rounding mode <a href='#rounding'><code>rounding</code></a>.
+    </p>
+    <p>
+      Domain: [<code>-Infinity, Infinity</code>]<br />
+      Range: [<code>-Infinity, Infinity</code>]
+    </p>
+    <p>See <a href='#Pi'><code>Pi</code></a> for the precision limit of this method.</p>
+    <pre>
+x = new Decimal(5)
+x.inverseHyperbolicSine()                // '2.3124383412727526203'
+y = new Decimal(50)
+y.asinh()                                // '4.6052701709914238266'</pre>
+
+
+
+    <h5 id="atanh">
+      inverseHyperbolicTangent<code class='inset'>.atanh() <i>&rArr; Decimal</i></code>
+    </h5>
+    <p>
+      Returns a new Decimal whose value is the inverse hyperbolic tangent in radians of the value of
+      this Decimal, rounded to <a href='#precision'><code>precision</code></a> significant
+      digits using rounding mode <a href='#rounding'><code>rounding</code></a>.
+    </p>
+    <p>
+      Domain: [<code>-1, 1</code>]<br />
+      Range: [<code>-Infinity, Infinity</code>]
+    </p>
+    <p>See <a href='#Pi'><code>Pi</code></a> for the precision limit of this method.</p>
+    <pre>
+x = new Decimal(0.5)
+x.inverseHyperbolicTangent()             // '0.5493061443340548457'
+y = new Decimal(0.75)
+y.atanh()                                // '0.97295507452765665255'</pre>
+
+
+
+    <h5 id="asin">inverseSine<code class='inset'>.asin() <i>&rArr; Decimal</i></code></h5>
+    <p>
+      Returns a new Decimal whose value is the inverse sine in radians of the value of this Decimal,
+      rounded to <a href='#precision'><code>precision</code></a> significant digits using rounding
+      mode <a href='#rounding'><code>rounding</code></a>.
+    </p>
+    <p>
+      Domain: [<code>-1, 1</code>]<br />
+      Range: [<code>-pi/2, pi/2</code>]
+    </p>
+    <p>See <a href='#Pi'><code>Pi</code></a> for the precision limit of this method.</p>
+    <pre>
+x = new Decimal(0.5)
+x.inverseSine()                          // '0.52359877559829887308'
+y = new Decimal(0.75)
+y.asin()                                 // '0.84806207898148100805'</pre>
+
+
+
+    <h5 id="atan">inverseTangent<code class='inset'>.atan() <i>&rArr; Decimal</i></code></h5>
+    <p>
+      Returns a new Decimal whose value is the inverse tangent in radians of the value of this
+      Decimal, rounded to <a href='#precision'><code>precision</code></a> significant digits using
+      rounding mode <a href='#rounding'><code>rounding</code></a>.
+    </p>
+    <p>
+      Domain: [<code>-Infinity, Infinity</code>]<br />
+      Range: [<code>-pi/2, pi/2</code>]
+    </p>
+    <p>See <a href='#Pi'><code>Pi</code></a> for the precision limit of this method.</p>
+    <pre>
+x = new Decimal(0.5)
+x.inverseTangent()                       // '0.46364760900080611621'
+y = new Decimal(0.75)
+y.atan()                                 // '0.6435011087932843868'</pre>
+
+
+
+    <h5 id="isFinite">isFinite<code class='inset'>.isFinite() <i>&rArr; boolean</i></code></h5>
+    <p>
+      Returns <code>true</code> if the value of this Decimal is a finite number, otherwise returns
+      <code>false</code>.<br />
+      The only possible non-finite values of a Decimal are <code>NaN</code>, <code>Infinity</code>
+      and <code>-Infinity</code>.
+    </p>
+    <pre>
+x = new Decimal(1)
+x.isFinite()                             // true
+y = new Decimal(Infinity)
+y.isFinite()                             // false</pre>
+
+
+
+    <h5 id="isInt">isInteger<code class='inset'>.isInt() <i>&rArr; boolean</i></code></h5>
+    <p>
+      Returns <code>true</code> if the value of this Decimal is a whole number, otherwise returns
+      <code>false</code>.
+    </p>
+    <pre>
+x = new Decimal(1)
+x.isInteger()                            // true
+y = new Decimal(123.456)
+y.isInt()                                // false</pre>
+
+
+
+    <h5 id="isNaN">isNaN<code class='inset'>.isNaN() <i>&rArr; boolean</i></code></h5>
+    <p>
+      Returns <code>true</code> if the value of this Decimal is <code>NaN</code>, otherwise returns
+      <code>false</code>.
+    </p>
+    <pre>
+x = new Decimal(NaN)
+x.isNaN()                                // true
+y = new Decimal('Infinity')
+y.isNaN()                                // false</pre>
+
+
+
+    <h5 id="isNeg">isNegative<code class='inset'>.isNeg() <i>&rArr; boolean</i></code></h5>
+    <p>
+      Returns <code>true</code> if the value of this Decimal is negative, otherwise returns
+      <code>false</code>.
+    </p>
+    <pre>
+x = new Decimal(-0)
+x.isNegative()                           // true
+y = new Decimal(2)
+y.isNeg                                  // false</pre>
+    <p>Note that zero is signed.</p>
+    <pre>
+new Decimal(0).valueOf()                 // '0'
+new Decimal(0).isNegative()              // false
+new Decimal(0).negated().valueOf()       // '-0'
+new Decimal(0).negated().isNegative()    // true
+new Decimal(-0).isNegative()             // true
+    </pre>
+
+
+
+     <h5 id="isPos">isPositive<code class='inset'>.isPos() <i>&rArr; boolean</i></code></h5>
+    <p>
+      Returns <code>true</code> if the value of this Decimal is positive, otherwise returns
+      <code>false</code>.
+    </p>
+    <pre>
+x = new Decimal(0)
+x.isPositive()                           // true
+y = new Decimal(-2)
+y.isPos                                  // false</pre>
+
+
+
+    <h5 id="isZero">isZero<code class='inset'>.isZero() <i>&rArr; boolean</i></code></h5>
+    <p>
+      Returns <code>true</code> if the value of this Decimal is zero or minus zero, otherwise
+      returns <code>false</code>.
+    </p>
+    <pre>
+x = new Decimal(-0)
+x.isZero() && x.isNeg()                  // true
+y = new Decimal(Infinity)
+y.isZero()                               // false</pre>
+
+
+
+    <h5 id="lt">lessThan<code class='inset'>.lt(x) <i>&rArr; boolean</i></code></h5>
+    <p><code>x</code>: <i>number|string|Decimal</i></p>
+    <p>
+      Returns <code>true</code> if the value of this Decimal is less than the value of
+      <code>x</code>, otherwise returns <code>false</code>.
+    </p>
+    <p>Note: This method uses the <code>cmp</code> method internally.</p>
+    <pre>
+(0.3 - 0.2) &lt; 0.1                        // true
+x = new Decimal(0.3).minus(0.2)
+x.lessThan(0.1)                          // false
+new Decimal(0).lt(x)                     // true</pre>
+
+
+
+    <h5 id="lte">lessThanOrEqualTo<code class='inset'>.lte(x) <i>&rArr; boolean</i></code></h5>
+    <p><code>x</code>: <i>number|string|Decimal</i></p>
+    <p>
+      Returns <code>true</code> if the value of this Decimal is less than or equal to the value of
+      <code>x</code>, otherwise returns <code>false</code>.
+    </p>
+    <p>Note: This method uses the <code>cmp</code> method internally.</p>
+    <pre>
+0.1 &lt;= (0.3 - 0.2)                              // false
+x = new Decimal(0.1)
+x.lessThanOrEqualTo(Decimal(0.3).minus(0.2))    // true
+new Decimal(-1).lte(x)                          // true</pre>
+
+
+
+    <h5 id="log">logarithm<code class='inset'>.log(x) <i>&rArr; Decimal</i></code></h5>
+    <p><code>x</code>: <i>number|string|Decimal</i></p>
+    <p>
+      Returns a new Decimal whose value is the base <code>x</code> logarithm of the value of this
+      Decimal, rounded to <a href='#precision'><code>precision</code></a> significant digits using
+      rounding mode <a href='#rounding'><code>rounding</code></a>.
+    </p>
+    <p>
+      If <code>x</code> is omitted, the base 10 logarithm of the value of this Decimal will be
+      returned.
+    </p>
+    <pre>
+x = new Decimal(1000)
+x.logarithm()                            // '3'
+y = new Decimal(256)
+y.log(2)                                 // '8'</pre>
+    <p>
+      The return value will <i>almost always</i> be correctly rounded, i.e. rounded as if the result
+      was first calculated to an infinite number of correct digits before rounding. If a result is
+      incorrectly rounded the maximum error will be <code>1</code> <i>ulp</i> (unit in the last
+      place).
+    </p>
+    <p>Logarithms to base <code>2</code> or <code>10</code> will always be correctly rounded.</p>
+    <p>
+      See <a href='#pow'><code>toPower</code></a> for the circumstances in which this method may
+      return an incorrectly rounded result, and see <a href='#ln'><code>naturalLogarithm</code></a>
+      for the precision limit.
+    </p>
+    <p>The performance of this method degrades exponentially with increasing digits.</p>
+
+
+
+    <h5 id="sub">minus<code class='inset'>.minus(x) <i>&rArr; Decimal</i></code></h5>
+    <p><code>x</code>: <i>number|string|Decimal</i></p>
+    <p>
+      Returns a new Decimal whose value is the value of this Decimal minus <code>x</code>, rounded
+      to <a href='#precision'><code>precision</code></a> significant digits using rounding mode
+      <a href='#rounding'><code>rounding</code></a>.
+    </p>
+    <pre>
+0.3 - 0.1                                // 0.19999999999999998
+x = new Decimal(0.3)
+x.minus(0.1)                             // '0.2'</pre>
+
+
+
+    <h5 id="mod">modulo<code class='inset'>.mod(x) <i>&rArr; Decimal</i></code></h5>
+    <p><code>x</code>: <i>number|string|Decimal</i></p>
+    <p>
+      Returns a new Decimal whose value is the value of this Decimal modulo <code>x</code>,
+      rounded to <a href='#precision'><code>precision</code></a> significant digits using rounding
+      mode <a href='#rounding'><code>rounding</code></a>.
+    </p>
+    <p>
+      The value returned, and in particular its sign, is dependent on the value of the
+      <a href='#modulo'><code>modulo</code></a> property of this Decimal's constructor. If it is
+      <code>1</code> (default value), the result will have the same sign as this Decimal, and it
+      will match that of Javascript's <code>%</code> operator (within the limits of double
+      precision) and BigDecimal's <code>remainder</code> method.
+    </p>
+    <p>
+      See <a href='#modulo'><code>modulo</code></a> for a description of the other modulo modes.
+    </p>
+    <pre>
+1 % 0.9                                  // 0.09999999999999998
+x = new Decimal(1)
+x.modulo(0.9)                            // '0.1'
+
+y = new Decimal(8)
+z = new Decimal(-3)
+Decimal.modulo = 1
+y.mod(z)                                 // '2'
+Decimal.modulo = 3
+y.mod(z)                                 // '-1'</pre>
+
+
+
+    <h5 id="exp">naturalExponential<code class='inset'>.exp() <i>&rArr; Decimal</i></code></h5>
+    <p>
+      Returns a new Decimal whose value is the base <code>e</code> (Euler's number, the base of the
+      natural logarithm) exponential of the value of this Decimal, rounded to
+      <a href='#precision'><code>precision</code></a> significant digits using rounding mode
+      <a href='#rounding'><code>rounding</code></a>.
+    </p>
+    <p>
+      The <code><a href='#ln'>naturalLogarithm</a></code> function is the inverse of this function.
+    </p>
+    <pre>
+x = new Decimal(1)
+x.naturalExponential()                   // '2.7182818284590452354'
+y = new Decimal(2)
+y.exp()                                  // '7.3890560989306502272'</pre>
+     <p>
+      The return value will be correctly rounded, i.e. rounded as if the result was first calculated
+      to an infinite number of correct digits before rounding. (The mathematical result of the
+      exponential function is non-terminating, unless its argument is <code>0</code>).
+    </p>
+    <p>The performance of this method degrades exponentially with increasing digits.</p>
+
+
+
+    <h5 id="ln">naturalLogarithm<code class='inset'>.ln() <i>&rArr; Decimal</i></code></h5>
+    <p>
+      Returns a new Decimal whose value is the natural logarithm of the value of this Decimal,
+      rounded to <a href='#precision'><code>precision</code></a> significant digits using rounding
+      mode <a href='#rounding'><code>rounding</code></a>.
+    </p>
+    <p>
+      The natural logarithm is the inverse of the <code><a href='#exp'>naturalExponential</a></code>
+      function.
+    </p>
+    <pre>
+x = new Decimal(10)
+x.naturalLogarithm()                     // '2.3026'
+y = new Decimal('1.23e+30')
+y.ln()                                   // '69.28'</pre>
+    <p>
+      The return value will be correctly rounded, i.e. rounded as if the result was first calculated
+      to an infinite number of correct digits before rounding. (The mathematical result of the
+      natural logarithm function is non-terminating, unless its argument is <code>1</code>).
+    </p>
+    <p>
+      Internally, this method is dependent on a constant whose value is the natural logarithm of
+      <code>10</code>. This <code>LN10</code> variable in the source code currently has a precision
+      of <code>1025</code> digits, meaning that this method can accurately calculate up to
+      <code>1000</code> digits.
+    </p>
+    <p>
+      If more than <code>1000</code> digits is required then the precision of <code>LN10</code>
+      will need to be increased to <code>25</code> digits more than is required - though, as the
+      time-taken by this method increases exponentially with increasing digits, it is unlikely to be
+      viable to calculate over <code>1000</code> digits anyway.
+    </p>
+
+
+
+    <h5 id="neg">negated<code class='inset'>.neg() <i>&rArr; Decimal</i></code></h5>
+    <p>
+      Returns a new Decimal whose value is the value of this Decimal negated, i.e. multiplied by
+      <code>-1</code>.
+    </p>
+    <p>
+      The return value is not affected by the value of the
+      <a href='#precision'><code>precision</code></a> setting.
+    </p>
+    <pre>
+x = new Decimal(1.8)
+x.negated()                              // '-1.8'
+y = new Decimal(-1.3)
+y.neg()                                  // '1.3'</pre>
+
+
+
+    <h5 id="add">plus<code class='inset'>.plus(x) <i>&rArr; Decimal</i></code></h5>
+    <p><code>x</code>: <i>number|string|Decimal</i></p>
+    <p>
+      Returns a new Decimal whose value is the value of this Decimal plus <code>x</code>, rounded to
+      <a href='#precision'><code>precision</code></a> significant digits using rounding mode
+      <a href='#rounding'><code>rounding</code></a>.
+    </p>
+    <pre>
+0.1 + 0.2                                // 0.30000000000000004
+x = new Decimal(0.1)
+y = x.plus(0.2)                          // '0.3'
+new Decimal(0.7).plus(x).plus(y)         // '1.1'</pre>
+
+
+
+    <h5 id="sd">precision<code class='inset'>.sd([include_zeros]) <i>&rArr; number</i></code></h5>
+    <p>Returns the number of significant digits of the value of this Decimal.</p>
+    <p>
+      If <code>include_zeros</code> is <code>true</code> or <code>1</code> then any trailing zeros
+      of the integer part of a number are counted as significant digits, otherwise they are not.
+    </p>
+    <pre>
+x = new Decimal(1.234)
+x.precision()                            // '4'
+y = new Decimal(987000)
+y.sd()                                   // '3'
+y.sd(true)                               // '6'</pre>
+
+
+
+    <h5 id="round">round<code class='inset'>.round() <i>&rArr; Decimal</i></code></h5>
+    <p>
+      Returns a new Decimal whose value is the value of this Decimal rounded to a whole number using
+      rounding mode <a href='#rounding'><code>rounding</code></a>.
+    </p>
+    <p>
+      To emulate <code>Math.round</code>, set <a href='#rounding'><code>rounding</code></a> to
+      <code>7</code>, i.e. <a href='#modes'><code>ROUND_HALF_CEIL</code></a>.
+    </p>
+    <pre>
+Decimal.set({ rounding: 4 })
+x = 1234.5
+x.round()                                // '1235'
+
+Decimal.rounding = Decimal.ROUND_DOWN
+x.round()                                // '1234'
+x                                        // '1234.5'</pre>
+
+
+
+    <h5 id="sin">sine<code class='inset'>.sin() <i>&rArr; Decimal</i></code></h5>
+    <p>
+      Returns a new Decimal whose value is the sine of the value in radians of this Decimal,
+      rounded to <a href='#precision'><code>precision</code></a> significant digits using rounding
+      mode <a href='#rounding'><code>rounding</code></a>.
+    </p>
+    <p>
+      Domain: [<code>-Infinity, Infinity</code>]<br />
+      Range: [<code>-1, 1</code>]
+    </p>
+    <p>See <a href='#Pi'><code>Pi</code></a> for the precision limit of this method.</p>
+    <pre>
+x = new Decimal(0.5)
+x.sine()                                 // '0.47942553860420300027'
+y = new Decimal(0.75)
+y.sin()                                  // '0.68163876002333416673'</pre>
+
+
+
+    <h5 id="sqrt">squareRoot<code class='inset'>.sqrt() <i>&rArr; Decimal</i></code></h5>
+    <p>
+      Returns a new Decimal whose value is the square root of this Decimal, rounded to
+      <a href='#precision'><code>precision</code></a> significant digits using rounding mode
+      <a href='#rounding'><code>rounding</code></a>.
+    </p>
+    <p>
+      The return value will be correctly rounded, i.e. rounded as if the result was first calculated
+      to an infinite number of correct digits before rounding.
+    </p>
+    <p>
+      This method is much faster than using the <a href='#pow'><code>toPower</code></a> method with
+      an exponent of <code>0.5</code>.
+    </p>
+    <pre>
+x = new Decimal(16)
+x.squareRoot()                           // '4'
+y = new Decimal(3)
+y.sqrt()                                 // '1.73205080756887729353'
+y.sqrt().eq( y.pow(0.5) )                // true</pre>
+
+
+
+    <h5 id="tan">tangent<code class='inset'>.tan() <i>&rArr; Decimal</i></code></h5>
+    <p>
+      Returns a new Decimal whose value is the tangent of the value in radians of this Decimal,
+      rounded to <a href='#precision'><code>precision</code></a> significant digits using rounding
+      mode <a href='#rounding'><code>rounding</code></a>.
+    </p>
+    <p>
+      Domain: [<code>-Infinity, Infinity</code>]<br />
+      Range: [<code>-Infinity, Infinity</code>]
+    </p>
+    <p>See <a href='#Pi'><code>Pi</code></a> for the precision limit of this method.</p>
+    <pre>
+x = new Decimal(0.5)
+x.tangent()                              // '0.54630248984379051326'
+y = new Decimal(0.75)
+y.tan()                                  // '0.93159645994407246117'</pre>
+
+
+
+    <h5 id="mul">times<code class='inset'>.times(x) <i>&rArr; Decimal</i></code></h5>
+    <p><code>x</code>: <i>number|string|Decimal</i></p>
+    <p>
+      Returns a new Decimal whose value is the value of this Decimal times <code>x</code>,
+      rounded to <a href='#precision'><code>precision</code></a> significant digits using rounding
+      mode <a href='#rounding'><code>rounding</code></a>.
+    </p>
+    <pre>
+0.6 * 3                                  // 1.7999999999999998
+x = new Decimal(0.6)
+y = x.times(3)                           // '1.8'
+new Decimal('7e+500').times(y)           // '1.26e+501'</pre>
+
+
+
+    <h5 id="toBinary">
+      toBinary<code class='inset'>.toBinary([sd [, rm]]) <i>&rArr; string</i></code>
+    </h5>
+    <p>
+      <code>sd</code>: <i>number</i>: integer, <code>0</code> to <code>1e+9</code> inclusive<br />
+      <code>rm</code>: <i>number</i>: integer, <code>0</code> to <code>8</code> inclusive
+    </p>
+    <p>
+      Returns a string representing the value of this Decimal in binary, rounded to <code>sd</code>
+      significant digits using rounding mode <code>rm</code>.
+    </p>
+    <p>
+      If <code>sd</code> is defined, the return value will use binary exponential notation.
+    </p>
+    <p>
+      If <code>sd</code> is omitted, the return value will be rounded to
+      <a href='#precision'><code>precision</code></a> significant digits.
+    </p>
+    <p>
+      If <code>rm</code> is omitted, rounding mode <a href='#rounding'><code>rounding</code></a>
+      will be used.
+    </p>
+    <p>Throws on an invalid <code>sd</code> or <code>rm</code> value.</p>
+    <pre>
+x = new Decimal(256)
+x.toBinary()                             // '0b100000000'
+x.toBinary(1)                            // '0b1p+8'</pre>
+
+
+
+    <h5 id="toDP">
+      toDecimalPlaces<code class='inset'>.toDP([dp [, rm]]) <i>&rArr; Decimal</i></code>
+    </h5>
+    <p>
+      <code>dp</code>: <i>number</i>: integer, <code>0</code> to <code>1e+9</code> inclusive<br />
+      <code>rm</code>: <i>number</i>: integer, <code>0</code> to <code>8</code> inclusive.
+    </p>
+    <p>
+      Returns a new Decimal whose value is the value of this Decimal rounded to <code>dp</code>
+      decimal places using rounding mode <code>rm</code>.
+    </p>
+    <p>
+      If <code>dp</code> is omitted, the return value will have the same value as this Decimal.
+    </p>
+    <p>
+      If <code>rm</code> is omitted, rounding mode <a href='#rounding'><code>rounding</code></a>
+      is used.
+    </p>
+    <p>Throws on an invalid <code>dp</code> or <code>rm</code> value.</p>
+    <pre>
+x = new Decimal(12.34567)
+x.toDecimalPlaces(0)                      // '12'
+x.toDecimalPlaces(1, Decimal.ROUND_UP)    // '12.4'
+
+y = new Decimal(9876.54321)
+y.toDP(3)                           // '9876.543'
+y.toDP(1, 0)                        // '9876.6'
+y.toDP(1, Decimal.ROUND_DOWN)       // '9876.5'</pre>
+
+
+
+    <h5 id="toExponential">
+      toExponential<code class='inset'>.toExponential([dp [, rm]]) <i>&rArr; string</i></code>
+    </h5>
+    <p>
+      <code>dp</code>: <i>number</i>: integer, <code>0</code> to <code>1e+9</code> inclusive<br />
+      <code>rm</code>: <i>number</i>: integer, <code>0</code> to <code>8</code> inclusive
+    </p>
+    <p>
+      Returns a string representing the value of this Decimal in exponential notation rounded
+      using rounding mode <code>rm</code> to <code>dp</code> decimal places, i.e with one digit
+      before the decimal point and <code>dp</code> digits after it.
+    </p>
+    <p>
+      If the value of this Decimal in exponential notation has fewer than <code>dp</code> fraction
+      digits, the return value will be appended with zeros accordingly.
+    </p>
+    <p>
+      If <code>dp</code> is omitted, the number of digits after the decimal point defaults to the
+      minimum number of digits necessary to represent the value exactly.
+    </p>
+    <p>
+      If <code>rm</code> is omitted, rounding mode <a href='#rounding'><code>rounding</code></a> is
+      used.
+    </p>
+    <p>Throws on an invalid <code>dp</code> or <code>rm</code> value.</p>
+    <pre>
+x = 45.6
+y = new Decimal(x)
+x.toExponential()                        // '4.56e+1'
+y.toExponential()                        // '4.56e+1'
+x.toExponential(0)                       // '5e+1'
+y.toExponential(0)                       // '5e+1'
+x.toExponential(1)                       // '4.6e+1'
+y.toExponential(1)                       // '4.6e+1'
+y.toExponential(1, Decimal.ROUND_DOWN)   // '4.5e+1'
+x.toExponential(3)                       // '4.560e+1'
+y.toExponential(3)                       // '4.560e+1'</pre>
+
+
+
+    <h5 id="toFixed">
+      toFixed<code class='inset'>.toFixed([dp [, rm]]) <i>&rArr; string</i></code>
+    </h5>
+    <p>
+      <code>dp</code>: <i>number</i>: integer, <code>0</code> to <code>1e+9</code> inclusive<br />
+      <code>rm</code>: <i>number</i>: integer, <code>0</code> to <code>8</code> inclusive
+    </p>
+    <p>
+      Returns a string representing the value of this Decimal in normal (fixed-point) notation
+      rounded to <code>dp</code> decimal places using rounding mode <code>rm</code>.
+    </p>
+    <p>
+      If the value of this Decimal in normal notation has fewer than <code>dp</code> fraction
+      digits, the return value will be appended with zeros accordingly.
+    </p>
+    <p>
+      Unlike <code>Number.prototype.toFixed</code>, which returns exponential notation if a number
+      is greater or equal to <code>10<sup>21</sup></code>, this method will always return normal
+      notation.
+    </p>
+    <p>
+      If <code>dp</code> is omitted, the return value will be unrounded and in normal notation. This
+      is unlike <code>Number.prototype.toFixed</code>, which returns the value to zero decimal
+      places, but is useful when because of the current
+      <a href="#toExpNeg"><code>toExpNeg</code></a> or
+      <a href="#toExpPos"><code>toExpNeg</code></a> values,
+      <code><a href='#toString'>toString</a></code> returns exponential notation.
+    </p>
+    <p>
+      If <code>rm</code> is omitted, rounding mode <a href='#rounding'><code>rounding</code></a> is
+      used.
+    </p>
+    <p>Throws on an invalid <code>dp</code> or <code>rm</code> value.</p>
+    <pre>
+x = 3.456
+y = new Decimal(x)
+x.toFixed()                       // '3'
+y.toFixed()                       // '3.456'
+y.toFixed(0)                      // '3'
+x.toFixed(2)                      // '3.46'
+y.toFixed(2)                      // '3.46'
+y.toFixed(2, Decimal.ROUND_DOWN)  // '3.45'
+x.toFixed(5)                      // '3.45600'
+y.toFixed(5)                      // '3.45600'</pre>
+
+
+
+    <h5 id="toFraction">
+      toFraction
+      <code class='inset'>.toFraction([max_denominator]) <i>&rArr; [Decimal, Decimal]</i></code>
+    </h5>
+    <p>
+      <code>max_denominator</code>: <i>number|string|Decimal</i>: <code>1</code> &gt;= integer &lt;
+      <code>Infinity</code>
+    </p>
+    <p>
+      Returns an array of two Decimals representing the value of this Decimal as a simple fraction
+      with an integer numerator and an integer denominator. The denominator will be a positive
+      non-zero value less than or equal to <code>max_denominator</code>.
+    </p>
+    <p>
+      If a maximum denominator is omitted, the denominator will be the lowest value necessary to
+      represent the number exactly.
+    </p>
+    <p>Throws on an invalid <code>max_denominator</code> value.</p>
+    <pre>
+x = new Decimal(1.75)
+x.toFraction()                       // '7, 4'
+
+pi = new Decimal('3.14159265358')
+pi.toFraction()                      // '157079632679,50000000000'
+pi.toFraction(100000)                // '312689, 99532'
+pi.toFraction(10000)                 // '355, 113'
+pi.toFraction(100)                   // '311, 99'
+pi.toFraction(10)                    // '22, 7'
+pi.toFraction(1)                     // '3, 1'</pre>
+
+
+
+    <h5 id="toHex">
+      toHexadecimal<code class='inset'>.toHex([sd [, rm]]) <i>&rArr; string</i></code>
+    </h5>
+    <p>
+      <code>sd</code>: <i>number</i>: integer, <code>0</code> to <code>1e+9</code> inclusive<br />
+      <code>rm</code>: <i>number</i>: integer, <code>0</code> to <code>8</code> inclusive
+    </p>
+    <p>
+      Returns a string representing the value of this Decimal in hexadecimal, rounded to
+      <code>sd</code> significant digits using rounding mode <code>rm</code>.
+    </p>
+    <p>
+      If <code>sd</code> is defined, the return value will use binary exponential notation.
+    </p>
+    <p>
+      If <code>sd</code> is omitted, the return value will be rounded to
+      <a href='#precision'><code>precision</code></a> significant digits.
+    </p>
+    <p>
+      If <code>rm</code> is omitted, rounding mode <a href='#rounding'><code>rounding</code></a>
+      will be used.
+    </p>
+    <p>Throws on an invalid <code>sd</code> or <code>rm</code> value.</p>
+    <pre>
+x = new Decimal(256)
+x.toHexadecimal()                        // '0x100'
+x.toHex(1)                               // '0x1p+8'</pre>
+
+
+
+    <h5 id="toJSON">toJSON<code class='inset'>.toJSON() <i>&rArr; string</i></code></h5>
+    <p>As <a href='#valueOf'><code>valueOf</code></a>.</p>
+
+
+
+    <h5 id="toNearest">
+      toNearest<code class='inset'>.toNearest(x [, rm]) <i>&rArr; Decimal</i></code>
+    </h5>
+    <p>
+      <code>x</code>: <i>number|string|Decimal</i><br />
+      <code>rm</code>: <i>number</i>: integer, <code>0</code> to <code>8</code> inclusive
+    </p>
+    <p>
+      Returns a new Decimal whose value is the nearest multiple of <code>x</code> in the direction
+      of rounding mode <code>rm</code>, or <a href='#rounding'><code>rounding</code></a> if
+      <code>rm</code> is omitted, to the value of this Decimal.
+    </p>
+    <p>
+      The return value will always have the same sign as this Decimal, unless either this Decimal
+      or <code>x</code> is <code>NaN</code>, in which case the return value will be also be
+      <code>NaN</code>.
+    </p>
+    <p>
+      The return value is not affected by the value of the
+      <a href='#precision'><code>precision</code></a> setting.
+    </p>
+    <pre>
+x = new Decimal(1.39)
+x.toNearest(0.25)                        // '1.5'
+
+y = new Decimal(9.499)
+y.toNearest(0.5, Decimal.ROUND_UP)       // '9.5'
+y.toNearest(0.5, Decimal.ROUND_DOWN)     // '9'</pre>
+
+
+
+    <h5 id="toNumber">toNumber<code class='inset'>.toNumber() <i>&rArr; number</i></code></h5>
+    <p>Returns the value of this Decimal converted to a primitive number.</p>
+    <p>
+      Type coercion with, for example, JavaScript's unary plus operator will also work, except that
+      a Decimal with the value minus zero will convert to positive zero.
+    </p>
+    <pre>
+x = new Decimal(456.789)
+x.toNumber()                   // 456.789
++x                             // 456.789
+
+y = new Decimal('45987349857634085409857349856430985')
+y.toNumber()                   // 4.598734985763409e+34
+
+z = new Decimal(-0)
+1 / +z                         // Infinity
+1 / z.toNumber()               // -Infinity</pre>
+
+
+
+     <h5 id="toOctal">
+      toOctal<code class='inset'>.toOctal([sd [, rm]]) <i>&rArr; string</i></code>
+    </h5>
+    <p>
+      <code>sd</code>: <i>number</i>: integer, <code>0</code> to <code>1e+9</code> inclusive<br />
+      <code>rm</code>: <i>number</i>: integer, <code>0</code> to <code>8</code> inclusive
+    </p>
+    <p>
+      Returns a string representing the value of this Decimal in octal, rounded to <code>sd</code>
+      significant digits using rounding mode <code>rm</code>.
+    </p>
+    <p>
+      If <code>sd</code> is defined, the return value will use binary exponential notation.
+    </p>
+    <p>
+      If <code>sd</code> is omitted, the return value will be rounded to
+      <a href='#precision'><code>precision</code></a> significant digits.
+    </p>
+    <p>
+      If <code>rm</code> is omitted, rounding mode <a href='#rounding'><code>rounding</code></a>
+      will be used.
+    </p>
+    <p>Throws on an invalid <code>sd</code> or <code>rm</code> value.</p>
+    <pre>
+x = new Decimal(256)
+x.toOctal()                              // '0o400'
+x.toOctal(1)                             // '0o1p+8'</pre>
+
+
+
+    <h5 id="pow">toPower<code class='inset'>.pow(x) <i>&rArr; Decimal</i></code></h5>
+    <p><code>x</code>: <i>number|string|Decimal</i>: integer or non-integer</p>
+    <p>
+      Returns a new Decimal whose value is the value of this Decimal raised to the power
+      <code>x</code>, rounded to <a href='#precision'><code>precision</code></a> significant digits
+      using rounding mode <a href='#rounding'><code>rounding</code></a>.
+    </p>
+    <p>
+      The performance of this method degrades exponentially with increasing digits. For
+      non-integer exponents in particular, the performance of this method may not be adequate.
+    </p>
+    <pre>
+Math.pow(0.7, 2)               // 0.48999999999999994
+x = new Decimal(0.7)
+x.toPower(2)                   // '0.49'
+new Decimal(3).pow(-2)         // '0.11111111111111111111'
+
+new Decimal(1217652.23).pow('98765.489305603941')
+// '4.8227010515242461181e+601039'</pre>
+    <p><i>Is the pow function guaranteed to be correctly rounded?</i></p>
+    <p>
+      The return value will <i>almost always</i> be correctly rounded, i.e. rounded as if the result
+      was first calculated to an infinite number of correct digits before rounding. If a result is
+      incorrectly rounded the maximum error will be <code>1</code> <i>ulp</i> (unit in the last
+      place).
+    </p>
+    <p>For non-integer and larger exponents this method uses the formula</p>
+    <blockquote><code>x<sup>y</sup> = exp(y*ln(x))</code></blockquote>
+    <p>
+      As the mathematical return values of the <a href='#exp'><code>exp</code></a> and
+      <a href='#ln'><code>ln</code></a> functions are both non-terminating (excluding arguments of
+      <code>0</code> or <code>1</code>), the values of the Decimals returned by the functions as
+      implemented by this library will necessarily be rounded approximations, which means that there
+      can be no guarantee of correct rounding when they are combined in the above formula.
+    </p>
+    <p>
+      The return value may, depending on the rounding mode, be incorrectly rounded only if the first
+      <code>15</code> rounding digits are <code>15</code> zeros (and there are non-zero digits
+      following at some point), or <code>15</code> nines, or a <code>5</code> or <code>4</code>
+      followed by <code>14</code> nines.
+    </p>
+    <p>
+      Therefore, assuming the first <code>15</code> rounding digits are each equally likely to be
+      any digit, <code>0-9</code>, the probability of an incorrectly rounded result is less than
+      <code>1</code> in <code>250,000,000,000,000</code>.
+    </p>
+    <p>
+      An example of incorrect rounding:
+    </p>
+    <pre>
+Decimal.set({ precision: 20, rounding: 1 })
+new Decimal(28).pow('6.166675020000903537297764507632802193308677149')
+// 839756321.64088511</pre>
+    <p>As the exact mathematical result begins</p>
+    <pre>839756321.6408851099999999999999999999999999998969466049426031167...</pre>
+    <p>
+      and the rounding mode is set to <code><a href='#modes'>ROUND_DOWN</a></code>, the correct
+      return value should be
+    </p>
+    <pre>839756321.64088510999</pre>
+
+
+
+    <h5 id="toPrecision">
+      toPrecision<code class='inset'>.toPrecision([sd [, rm]]) <i>&rArr; string</i></code>
+    </h5>
+    <p>
+      <code>sd</code>: <i>number</i>: integer, <code>1</code> to <code>1e+9</code> inclusive<br />
+      <code>rm</code>: <i>number</i>: integer, <code>0</code> to <code>8</code> inclusive
+    </p>
+    <p>
+      Returns a string representing the value of this Decimal rounded to <code>sd</code> significant
+      digits using rounding mode <code>rm</code>.
+    </p>
+    <p>
+      If <code>sd</code> is less than the number of digits necessary to represent the integer part
+      of the value in normal (fixed-point) notation, then exponential notation is used.
+    </p>
+    <p>
+      If <code>sd</code> is omitted, the return value is the same as
+      <code><a href='#toString'>toString</a></code>.
+    </p>
+    <p>
+      If <code>rm</code> is omitted, rounding mode <a href='#rounding'><code>rounding</code></a> is
+      used.
+    </p>
+    <p>Throws on an invalid <code>sd</code> or <code>rm</code> value.</p>
+    <pre>
+x = 45.6
+y = new Decimal(x)
+x.toPrecision()                          // '45.6'
+y.toPrecision()                          // '45.6'
+x.toPrecision(1)                         // '5e+1'
+y.toPrecision(1)                         // '5e+1'
+y.toPrecision(2, Decimal.ROUND_UP)       // '46'
+y.toPrecision(2, Decimal.ROUND_DOWN)     // '45'
+x.toPrecision(5)                         // '45.600'
+y.toPrecision(5)                         // '45.600'</pre>
+
+
+
+    <h5 id="toSD">
+      toSignificantDigits<code class='inset'>.toSD([sd [, rm]]) <i>&rArr; Decimal</i></code>
+    </h5>
+    <p>
+      <code>sd</code>: <i>number</i>: integer, <code>1</code> to <code>1e+9</code> inclusive.<br />
+      <code>rm</code>: <i>number</i>: integer, <code>0</code> to <code>8</code> inclusive.
+    </p>
+    <p>
+      Returns a new Decimal whose value is the value of this Decimal rounded to <code>sd</code>
+      significant digits using rounding mode <code>rm</code>.
+    </p>
+    <p>
+      If <code>sd</code> is omitted, the return value will be rounded to
+      <a href='#precision'><code>precision</code></a> significant digits.
+    </p>
+    <p>
+      If <code>rm</code> is omitted, rounding mode <a href='#rounding'><code>rounding</code></a>
+      will be used.
+    </p>
+    <p>Throws on an invalid <code>sd</code> or <code>rm</code> value.</p>
+    <pre>
+Decimal.set({ precision: 5, rounding: 4 })
+x = new Decimal(9876.54321)
+
+x.toSignificantDigits()                          // '9876.5'
+x.toSignificantDigits(6)                         // '9876.54'
+x.toSignificantDigits(6, Decimal.ROUND_UP)       // '9876.55'
+x.toSD(2)                                        // '9900'
+x.toSD(2, 1)                                     // '9800'
+x                                                // '9876.54321'</pre>
+
+
+
+    <h5 id="toString">toString<code class='inset'>.toString() <i>&rArr; string</i></code></h5>
+    <p>Returns a string representing the value of this Decimal.</p>
+    <p>
+      If this Decimal has a positive exponent that is equal to or greater than
+      <a href="#toExpPos"><code>toExpPos</code></a>, or a negative exponent equal to or less than
+      <a href="#toExpPos"><code>toExpNeg</code></a>, then exponential notation will be returned.
+    </p>
+    <pre>
+x = new Decimal(750000)
+x.toString()                             // '750000'
+Decimal.set({ toExpPos: 5 })
+x.toString()                             // '7.5e+5'
+
+Decimal.set({ precision: 4 })
+y = new Decimal('1.23456789')
+y.toString()                             // '1.23456789'</pre>
+
+
+
+    <h5 id="trunc">truncated<code class='inset'>.trunc() <i>&rArr; Decimal</i></code></h5>
+    <p>
+      Returns a new Decimal whose value is the value of this Decimal truncated to a whole number.
+    </p>
+    <p>
+      The return value is not affected by the value of the
+      <a href='#precision'><code>precision</code></a> setting.
+    </p>
+    <pre>
+x = new Decimal(123.456)
+x.truncated()                            // '123'
+y = new Decimal(-12.3)
+y.trunc()                                // '-12'</pre>
+
+
+
+    <h5 id="valueOf">valueOf<code class='inset'>.valueOf() <i>&rArr; string</i></code></h5>
+    <p>As <a href='#toString'><code>toString</code></a>, but zero is signed.</p>
+    <pre>
+x = new Decimal(-0)
+x.valueOf()                              // '-0'</pre>
+
+
+
+
+
+
+    <h4 id="instance-properties">Properties</h4>
+    <p>
+      The value of a Decimal is stored in a normalised base <code>10000000</code> floating point
+      format.
+    </p>
+    <p>
+      A Decimal instance is an object with three properties:
+    </p>
+    <table>
+      <tr>
+        <th>Property</th>
+        <th>Description</th>
+        <th>Type</th>
+        <th>Value</th>
+      </tr>
+      <tr>
+        <td class='centre' id='digits'><b>d</b></td>
+        <td>digits</td>
+        <td><i>number</i><code style='color:#000'>[]</code></td>
+        <td> Array of integers, each <code>0</code> - <code>1e7</code>, or <code>null</code></td>
+      </tr>
+      <tr>
+        <td class='centre' id='exponent'><b>e</b></td>
+        <td>exponent</td>
+        <td><i>number</i></td>
+        <td>Integer, <code>-9e15</code> to <code>9e15</code> inclusive, or <code>NaN</code></td>
+      </tr>
+      <tr>
+        <td class='centre' id='sign'><b>s</b></td>
+        <td>sign</td>
+        <td><i>number</i></td>
+        <td><code>-1</code>, <code>1</code>, or <code>NaN</code></td>
+      </tr>
+    </table>
+    <p>All the properties are best considered to be read-only.</p>
+    <p>
+      As with JavaScript numbers, the original exponent and fractional trailing zeros of a value
+      are not preserved.
+    </p>
+    <pre>
+x = new Decimal(0.123)                   // '0.123'
+x.toExponential()                        // '1.23e-1'
+x.d                                      // [ 1230000 ]
+x.e                                      // -1
+x.s                                      // 1
+
+y = new Number(-123.4567000e+2)          // '-12345.67'
+y.toExponential()                        // '-1.234567e+4'
+z = new Decimal('-123.4567000e+2')       // '-12345.67'
+z.toExponential()                        // '-1.234567e+4'
+z.d                                      // [ 12345, 6700000 ]
+z.e                                      // 4
+z.s                                      // -1</pre>
+
+
+
+    <h4 id="zero-nan-infinity">Zero, NaN and Infinity</h4>
+    <p>
+      The table below shows how <code>&plusmn;0</code>, <code>NaN</code> and
+      <code>&plusmn;Infinity</code> are stored.
+    </p>
+       <table>
+      <tr>
+        <th> </th>
+        <th>&plusmn;0</th>
+        <th>NaN</th>
+        <th>&plusmn;Infinity</th>
+      </tr>
+      <tr>
+        <td><b>&nbsp;d&nbsp;</b></td>
+        <td><code>[0]</code></td>
+        <td><code>null</code></td>
+        <td><code>null</code></td>
+      </tr>
+      <tr>
+        <td><b>&nbsp;e&nbsp;</b></td>
+        <td><code>0</code></td>
+        <td><code>NaN</code></td>
+        <td><code>NaN</code></td>
+      </tr>
+      <tr>
+        <td><b>&nbsp;s&nbsp;</b></td>
+        <td><code>&plusmn;1</code></td>
+        <td><code>NaN</code></td>
+        <td><code>&plusmn;1</code></td>
+      </tr>
+    </table>
+    <pre>
+x = new Number(-0)                       // 0
+1 / x == -Infinity                       // true
+
+y = new Decimal(-0)
+y.d                                      // '0' ( [0].toString() )
+y.e                                      //  0
+y.s                                      // -1
+y.toString()                             // '0'
+y.valueOf()                              // '-0'</pre>
+
+
+
+    <h4 id='Errors'>Errors</h4>
+    <p>
+      The errors that are thrown are generic <code>Error</code> objects whose <code>message</code>
+      property begins with <code>"[DecimalError]"</code>.
+    </p>
+    <p>To determine if an exception is a Decimal Error:</p>
+    <pre>
+try {
+    // ...
+} catch (e) {
+    if ( e instanceof Error && /DecimalError/.test(e.message) ) {
+        // ...
+    }
+}</pre>
+
+
+
+    <h4 id='Pi'>Pi</h4>
+    <p>
+      The maximum precision of the trigonometric methods is dependent on the internal value of the
+      constant pi, which is defined as the string <code>PI</code> near the top of the source file.
+    </p>
+    <p>
+      It has a precision of <code>1025</code> digits, meaning that the trigonometric methods
+      can calculate up to just over <code>1000</code> digits, but the actual figure depends on the
+      precision of the argument passed to them. To calculate the actual figure use:
+    </p>
+    <p><b>maximum_result_precision = 1000 - argument_precision</b></p>
+      For example, the following both work fine:
+    <pre>
+Decimal.set({precision: 991}).tan(123456789)
+Decimal.set({precision: 9}).tan(991_digit_number)</pre>
+    <p>
+      as, for each, the result precision plus the argument precision, i.e. <code>991 + 9</code> and
+      <code>9 + 991</code>, is less than or equal to <code>1000</code>.
+    </p>
+    <p>
+      If greater precision is required then the value of <code>PI</code> will need to be extended to
+      about <code>25</code> digits more than the precision required. The time taken by the methods
+      will then be the limiting factor.
+    </p>
+    <p>
+      The value can also be shortened to reduce the size of the source file if such high precision
+      is not required.
+    </p>
+    <p>To get the value of pi:</p>
+    <pre>
+pi = Decimal.acos(-1)</pre>
+
+
+
+    <h2 id='faq'>FAQ</h2>
+    <h6>Why are trailing fractional zeros removed from Decimals?</h6>
+    <p>
+      Some arbitrary-precision libraries retain trailing fractional zeros as they can indicate the
+      precision of a value. This can be useful but the results of arithmetic operations can be
+      misleading.
+    </p>
+    <pre>
+x = new BigDecimal("1.0")
+y = new BigDecimal("1.1000")
+z = x.add(y)                      // 2.1000
+
+x = new BigDecimal("1.20")
+y = new BigDecimal("3.45000")
+z = x.multiply(y)                 // 4.1400000</pre>
+    <p>
+      To specify the precision of a value is to specify that the value lies
+      within a certain range.
+    </p>
+    <p>
+      In the first example, <code>x</code> has a value of <code>1.0</code>. The trailing zero shows
+      the precision of the value, implying that it is in the range <code>0.95</code> to
+      <code>1.05</code>. Similarly, the precision indicated by the trailing zeros of <code>y</code>
+      indicates that the value is in the range <code>1.09995</code> to <code>1.10005</code>.
+    </p>
+    <p>
+      If we  add the two lowest values in the ranges we have, <code>0.95 + 1.09995 = 2.04995</code>,
+      and if we add the two highest values we have, <code>1.05 + 1.10005 = 2.15005</code>, so the
+      range of the result of the addition implied by the precision of its operands is
+      <code>2.04995</code> to <code>2.15005</code>.
+    </p>
+    <p>
+      The result given by BigDecimal of <code>2.1000</code> however, indicates that the value is in
+      the range <code>2.09995</code> to <code>2.10005</code> and therefore the precision implied by
+      its trailing zeros may be misleading.
+    </p>
+    <p>
+      In the second example, the true range is <code>4.122744</code> to <code>4.157256</code> yet
+      the BigDecimal answer of <code>4.1400000</code> indicates a range of <code>4.13999995</code>
+      to  <code>4.14000005</code>. Again, the precision implied by the trailing zeros may be
+      misleading.
+    </p>
+    <p>
+      This library, like binary floating point and most calculators, does not retain trailing
+      fractional zeros. Instead, the <code>toExponential</code>, <code>toFixed</code> and
+      <code>toPrecision</code> methods enable trailing zeros to be added if and when required.<br />
+    </p>
+  </div>
+
+  <script>
+/* decimal.js v10.5.0 decimal_4a17d55b.js/LICENCE */
+!function(n){"use strict";var e,i,t,r,s=9e15,o=1e9,u="0123456789abcdef",c="2.3025850929940456840179914546843642076011014886287729760333279009675726096773524802359972050895982983419677840422862486334095254650828067566662873690987816894829072083255546808437998948262331985283935053089653777326288461633662222876982198867465436674744042432743651550489343149393914796194044002221051017141748003688084012647080685567743216228355220114804663715659121373450747856947683463616792101806445070648000277502684916746550586856935673420670581136429224554405758925724208241314695689016758940256776311356919292033376587141660230105703089634572075440370847469940168269282808481184289314848524948644871927809676271275775397027668605952496716674183485704422507197965004714951050492214776567636938662976979522110718264549734772662425709429322582798502585509785265383207606726317164309505995087807523710333101197857547331541421808427543863591778117054309827482385045648019095610299291824318237525357709750539565187697510374970888692180205189339507238539205144634197265287286965110862571492198849978748873771345686209167058",f="3.1415926535897932384626433832795028841971693993751058209749445923078164062862089986280348253421170679821480865132823066470938446095505822317253594081284811174502841027019385211055596446229489549303819644288109756659334461284756482337867831652712019091456485669234603486104543266482133936072602491412737245870066063155881748815209209628292540917153643678925903600113305305488204665213841469519415116094330572703657595919530921861173819326117931051185480744623799627495673518857527248912279381830119491298336733624406566430860213949463952247371907021798609437027705392171762931767523846748184676694051320005681271452635608277857713427577896091736371787214684409012249534301465495853710507922796892589235420199561121290219608640344181598136297747713099605187072113499999983729780499510597317328160963185950244594553469083026425223082533446850352619311881710100031378387528865875332083814206171776691473035982534904287554687311595628638823537875937519577818577805321712268066130019278766111959092164201989380952572010654858632789",a={precision:20,rounding:4,modulo:1,toExpNeg:-7,toExpPos:21,minE:-s,maxE:s,crypto:!1},l=!0,d="[DecimalError] ",h=d+"Invalid argument: ",p=d+"Precision limit exceeded",g=d+"crypto unavailable",m="[object Decimal]",w=Math.floor,v=Math.pow,N=/^0b([01]+(\.[01]*)?|\.[01]+)(p[+-]?\d+)?$/i,b=/^0x([0-9a-f]+(\.[0-9a-f]*)?|\.[0-9a-f]+)(p[+-]?\d+)?$/i,E=/^0o([0-7]+(\.[0-7]*)?|\.[0-7]+)(p[+-]?\d+)?$/i,x=/^(\d+(\.\d*)?|\.\d+)(e[+-]?\d+)?$/i,y=1e7,M=c.length-1,q=f.length-1,O={toStringTag:m};function D(n){var e,i,t,r=n.length-1,s="",o=n[0];if(r>0){for(s+=o,e=1;e<r;e++)(i=7-(t=n[e]+"").length)&&(s+=k(i)),s+=t;(i=7-(t=(o=n[e])+"").length)&&(s+=k(i))}else if(0===o)return"0";for(;o%10==0;)o/=10;return s+o}function F(n,e,i){if(n!==~~n||n<e||n>i)throw Error(h+n)}function S(n,e,i,t){var r,s,o,u;for(s=n[0];s>=10;s/=10)--e;return--e<0?(e+=7,r=0):(r=Math.ceil((e+1)/7),e%=7),s=v(10,7-e),u=n[r]%s|0,null==t?e<3?(0==e?u=u/100|0:1==e&&(u=u/10|0),o=i<4&&99999==u||i>3&&49999==u||5e4==u||0==u):o=(i<4&&u+1==s||i>3&&u+1==s/2)&&(n[r+1]/s/100|0)==v(10,e-2)-1||(u==s/2||0==u)&&!(n[r+1]/s/100|0):e<4?(0==e?u=u/1e3|0:1==e?u=u/100|0:2==e&&(u=u/10|0),o=(t||i<4)&&9999==u||!t&&i>3&&4999==u):o=((t||i<4)&&u+1==s||!t&&i>3&&u+1==s/2)&&(n[r+1]/s/1e3|0)==v(10,e-3)-1,o}function A(n,e,i){for(var t,r,s=[0],o=0,c=n.length;o<c;){for(r=s.length;r--;)s[r]*=e;for(s[0]+=u.indexOf(n.charAt(o++)),t=0;t<s.length;t++)s[t]>i-1&&(void 0===s[t+1]&&(s[t+1]=0),s[t+1]+=s[t]/i|0,s[t]%=i)}return s.reverse()}O.absoluteValue=O.abs=function(){var n=new this.constructor(this);return n.s<0&&(n.s=1),P(n)},O.ceil=function(){return P(new this.constructor(this),this.e+1,2)},O.clampedTo=O.clamp=function(n,e){var i=this,t=i.constructor;if(n=new t(n),e=new t(e),!n.s||!e.s)return new t(NaN);if(n.gt(e))throw Error(h+e);return i.cmp(n)<0?n:i.cmp(e)>0?e:new t(i)},O.comparedTo=O.cmp=function(n){var e,i,t,r,s=this,o=s.d,u=(n=new s.constructor(n)).d,c=s.s,f=n.s;if(!o||!u)return c&&f?c!==f?c:o===u?0:!o^c<0?1:-1:NaN;if(!o[0]||!u[0])return o[0]?c:u[0]?-f:0;if(c!==f)return c;if(s.e!==n.e)return s.e>n.e^c<0?1:-1;for(e=0,i=(t=o.length)<(r=u.length)?t:r;e<i;++e)if(o[e]!==u[e])return o[e]>u[e]^c<0?1:-1;return t===r?0:t>r^c<0?1:-1},O.cosine=O.cos=function(){var n,e,i=this,t=i.constructor;return i.d?i.d[0]?(n=t.precision,e=t.rounding,t.precision=n+Math.max(i.e,i.sd())+7,t.rounding=1,i=function(n,e){var i,t,r;if(e.isZero())return e;t=e.d.length,t<32?r=(1/z(4,i=Math.ceil(t/3))).toString():(i=16,r="2.3283064365386962890625e-10");n.precision+=i,e=J(n,1,e.times(r),new n(1));for(var s=i;s--;){var o=e.times(e);e=o.times(o).minus(o).times(8).plus(1)}return n.precision-=i,e}(t,G(t,i)),t.precision=n,t.rounding=e,P(2==r||3==r?i.neg():i,n,e,!0)):new t(1):new t(NaN)},O.cubeRoot=O.cbrt=function(){var n,e,i,t,r,s,o,u,c,f,a=this,d=a.constructor;if(!a.isFinite()||a.isZero())return new d(a);for(l=!1,(s=a.s*v(a.s*a,1/3))&&Math.abs(s)!=1/0?t=new d(s.toString()):(i=D(a.d),(s=((n=a.e)-i.length+1)%3)&&(i+=1==s||-2==s?"0":"00"),s=v(i,1/3),n=w((n+1)/3)-(n%3==(n<0?-1:2)),(t=new d(i=s==1/0?"5e"+n:(i=s.toExponential()).slice(0,i.indexOf("e")+1)+n)).s=a.s),o=(n=d.precision)+3;;)if(f=(c=(u=t).times(u).times(u)).plus(a),t=Z(f.plus(a).times(u),f.plus(c),o+2,1),D(u.d).slice(0,o)===(i=D(t.d)).slice(0,o)){if("9999"!=(i=i.slice(o-3,o+1))&&(r||"4999"!=i)){+i&&(+i.slice(1)||"5"!=i.charAt(0))||(P(t,n+1,1),e=!t.times(t).times(t).eq(a));break}if(!r&&(P(u,n+1,0),u.times(u).times(u).eq(a))){t=u;break}o+=4,r=1}return l=!0,P(t,n,d.rounding,e)},O.decimalPlaces=O.dp=function(){var n,e=this.d,i=NaN;if(e){if(i=7*((n=e.length-1)-w(this.e/7)),n=e[n])for(;n%10==0;n/=10)i--;i<0&&(i=0)}return i},O.dividedBy=O.div=function(n){return Z(this,new this.constructor(n))},O.dividedToIntegerBy=O.divToInt=function(n){var e=this.constructor;return P(Z(this,new e(n),0,1,1),e.precision,e.rounding)},O.equals=O.eq=function(n){return 0===this.cmp(n)},O.floor=function(){return P(new this.constructor(this),this.e+1,3)},O.greaterThan=O.gt=function(n){return this.cmp(n)>0},O.greaterThanOrEqualTo=O.gte=function(n){var e=this.cmp(n);return 1==e||0===e},O.hyperbolicCosine=O.cosh=function(){var n,e,i,t,r,s=this,o=s.constructor,u=new o(1);if(!s.isFinite())return new o(s.s?1/0:NaN);if(s.isZero())return u;i=o.precision,t=o.rounding,o.precision=i+Math.max(s.e,s.sd())+4,o.rounding=1,(r=s.d.length)<32?e=(1/z(4,n=Math.ceil(r/3))).toString():(n=16,e="2.3283064365386962890625e-10"),s=J(o,1,s.times(e),new o(1),!0);for(var c,f=n,a=new o(8);f--;)c=s.times(s),s=u.minus(c.times(a.minus(c.times(a))));return P(s,o.precision=i,o.rounding=t,!0)},O.hyperbolicSine=O.sinh=function(){var n,e,i,t,r=this,s=r.constructor;if(!r.isFinite()||r.isZero())return new s(r);if(e=s.precision,i=s.rounding,s.precision=e+Math.max(r.e,r.sd())+4,s.rounding=1,(t=r.d.length)<3)r=J(s,2,r,r,!0);else{n=(n=1.4*Math.sqrt(t))>16?16:0|n,r=J(s,2,r=r.times(1/z(5,n)),r,!0);for(var o,u=new s(5),c=new s(16),f=new s(20);n--;)o=r.times(r),r=r.times(u.plus(o.times(c.times(o).plus(f))))}return s.precision=e,s.rounding=i,P(r,e,i,!0)},O.hyperbolicTangent=O.tanh=function(){var n,e,i=this,t=i.constructor;return i.isFinite()?i.isZero()?new t(i):(n=t.precision,e=t.rounding,t.precision=n+7,t.rounding=1,Z(i.sinh(),i.cosh(),t.precision=n,t.rounding=e)):new t(i.s)},O.inverseCosine=O.acos=function(){var n=this,e=n.constructor,i=n.abs().cmp(1),t=e.precision,r=e.rounding;return-1!==i?0===i?n.isNeg()?L(e,t,r):new e(0):new e(NaN):n.isZero()?L(e,t+4,r).times(.5):(e.precision=t+6,e.rounding=1,n=new e(1).minus(n).div(n.plus(1)).sqrt().atan(),e.precision=t,e.rounding=r,n.times(2))},O.inverseHyperbolicCosine=O.acosh=function(){var n,e,i=this,t=i.constructor;return i.lte(1)?new t(i.eq(1)?0:NaN):i.isFinite()?(n=t.precision,e=t.rounding,t.precision=n+Math.max(Math.abs(i.e),i.sd())+4,t.rounding=1,l=!1,i=i.times(i).minus(1).sqrt().plus(i),l=!0,t.precision=n,t.rounding=e,i.ln()):new t(i)},O.inverseHyperbolicSine=O.asinh=function(){var n,e,i=this,t=i.constructor;return!i.isFinite()||i.isZero()?new t(i):(n=t.precision,e=t.rounding,t.precision=n+2*Math.max(Math.abs(i.e),i.sd())+6,t.rounding=1,l=!1,i=i.times(i).plus(1).sqrt().plus(i),l=!0,t.precision=n,t.rounding=e,i.ln())},O.inverseHyperbolicTangent=O.atanh=function(){var n,e,i,t,r=this,s=r.constructor;return r.isFinite()?r.e>=0?new s(r.abs().eq(1)?r.s/0:r.isZero()?r:NaN):(n=s.precision,e=s.rounding,t=r.sd(),Math.max(t,n)<2*-r.e-1?P(new s(r),n,e,!0):(s.precision=i=t-r.e,r=Z(r.plus(1),new s(1).minus(r),i+n,1),s.precision=n+4,s.rounding=1,r=r.ln(),s.precision=n,s.rounding=e,r.times(.5))):new s(NaN)},O.inverseSine=O.asin=function(){var n,e,i,t,r=this,s=r.constructor;return r.isZero()?new s(r):(e=r.abs().cmp(1),i=s.precision,t=s.rounding,-1!==e?0===e?((n=L(s,i+4,t).times(.5)).s=r.s,n):new s(NaN):(s.precision=i+6,s.rounding=1,r=r.div(new s(1).minus(r.times(r)).sqrt().plus(1)).atan(),s.precision=i,s.rounding=t,r.times(2)))},O.inverseTangent=O.atan=function(){var n,e,i,t,r,s,o,u,c,f=this,a=f.constructor,d=a.precision,h=a.rounding;if(f.isFinite()){if(f.isZero())return new a(f);if(f.abs().eq(1)&&d+4<=q)return(o=L(a,d+4,h).times(.25)).s=f.s,o}else{if(!f.s)return new a(NaN);if(d+4<=q)return(o=L(a,d+4,h).times(.5)).s=f.s,o}for(a.precision=u=d+10,a.rounding=1,n=i=Math.min(28,u/7+2|0);n;--n)f=f.div(f.times(f).plus(1).sqrt().plus(1));for(l=!1,e=Math.ceil(u/7),t=1,c=f.times(f),o=new a(f),r=f;-1!==n;)if(r=r.times(c),s=o.minus(r.div(t+=2)),r=r.times(c),void 0!==(o=s.plus(r.div(t+=2))).d[e])for(n=e;o.d[n]===s.d[n]&&n--;);return i&&(o=o.times(2<<i-1)),l=!0,P(o,a.precision=d,a.rounding=h,!0)},O.isFinite=function(){return!!this.d},O.isInteger=O.isInt=function(){return!!this.d&&w(this.e/7)>this.d.length-2},O.isNaN=function(){return!this.s},O.isNegative=O.isNeg=function(){return this.s<0},O.isPositive=O.isPos=function(){return this.s>0},O.isZero=function(){return!!this.d&&0===this.d[0]},O.lessThan=O.lt=function(n){return this.cmp(n)<0},O.lessThanOrEqualTo=O.lte=function(n){return this.cmp(n)<1},O.logarithm=O.log=function(n){var e,i,t,r,s,o,u,c,f=this,a=f.constructor,d=a.precision,h=a.rounding;if(null==n)n=new a(10),e=!0;else{if(i=(n=new a(n)).d,n.s<0||!i||!i[0]||n.eq(1))return new a(NaN);e=n.eq(10)}if(i=f.d,f.s<0||!i||!i[0]||f.eq(1))return new a(i&&!i[0]?-1/0:1!=f.s?NaN:i?0:1/0);if(e)if(i.length>1)s=!0;else{for(r=i[0];r%10==0;)r/=10;s=1!==r}if(l=!1,o=V(f,u=d+5),t=e?_(a,u+10):V(n,u),S((c=Z(o,t,u,1)).d,r=d,h))do{if(o=V(f,u+=10),t=e?_(a,u+10):V(n,u),c=Z(o,t,u,1),!s){+D(c.d).slice(r+1,r+15)+1==1e14&&(c=P(c,d+1,0));break}}while(S(c.d,r+=10,h));return l=!0,P(c,d,h)},O.minus=O.sub=function(n){var e,i,t,r,s,o,u,c,f,a,d,h,p=this,g=p.constructor;if(n=new g(n),!p.d||!n.d)return p.s&&n.s?p.d?n.s=-n.s:n=new g(n.d||p.s!==n.s?p:NaN):n=new g(NaN),n;if(p.s!=n.s)return n.s=-n.s,p.plus(n);if(f=p.d,h=n.d,u=g.precision,c=g.rounding,!f[0]||!h[0]){if(h[0])n.s=-n.s;else{if(!f[0])return new g(3===c?-0:0);n=new g(p)}return l?P(n,u,c):n}if(i=w(n.e/7),a=w(p.e/7),f=f.slice(),s=a-i){for((d=s<0)?(e=f,s=-s,o=h.length):(e=h,i=a,o=f.length),s>(t=Math.max(Math.ceil(u/7),o)+2)&&(s=t,e.length=1),e.reverse(),t=s;t--;)e.push(0);e.reverse()}else{for((d=(t=f.length)<(o=h.length))&&(o=t),t=0;t<o;t++)if(f[t]!=h[t]){d=f[t]<h[t];break}s=0}for(d&&(e=f,f=h,h=e,n.s=-n.s),o=f.length,t=h.length-o;t>0;--t)f[o++]=0;for(t=h.length;t>s;){if(f[--t]<h[t]){for(r=t;r&&0===f[--r];)f[r]=y-1;--f[r],f[t]+=y}f[t]-=h[t]}for(;0===f[--o];)f.pop();for(;0===f[0];f.shift())--i;return f[0]?(n.d=f,n.e=T(f,i),l?P(n,u,c):n):new g(3===c?-0:0)},O.modulo=O.mod=function(n){var e,i=this,t=i.constructor;return n=new t(n),!i.d||!n.s||n.d&&!n.d[0]?new t(NaN):!n.d||i.d&&!i.d[0]?P(new t(i),t.precision,t.rounding):(l=!1,9==t.modulo?(e=Z(i,n.abs(),0,3,1)).s*=n.s:e=Z(i,n,0,t.modulo,1),e=e.times(n),l=!0,i.minus(e))},O.naturalExponential=O.exp=function(){return B(this)},O.naturalLogarithm=O.ln=function(){return V(this)},O.negated=O.neg=function(){var n=new this.constructor(this);return n.s=-n.s,P(n)},O.plus=O.add=function(n){var e,i,t,r,s,o,u,c,f,a,d=this,h=d.constructor;if(n=new h(n),!d.d||!n.d)return d.s&&n.s?d.d||(n=new h(n.d||d.s===n.s?d:NaN)):n=new h(NaN),n;if(d.s!=n.s)return n.s=-n.s,d.minus(n);if(f=d.d,a=n.d,u=h.precision,c=h.rounding,!f[0]||!a[0])return a[0]||(n=new h(d)),l?P(n,u,c):n;if(s=w(d.e/7),t=w(n.e/7),f=f.slice(),r=s-t){for(r<0?(i=f,r=-r,o=a.length):(i=a,t=s,o=f.length),r>(o=(s=Math.ceil(u/7))>o?s+1:o+1)&&(r=o,i.length=1),i.reverse();r--;)i.push(0);i.reverse()}for((o=f.length)-(r=a.length)<0&&(r=o,i=a,a=f,f=i),e=0;r;)e=(f[--r]=f[r]+a[r]+e)/y|0,f[r]%=y;for(e&&(f.unshift(e),++t),o=f.length;0==f[--o];)f.pop();return n.d=f,n.e=T(f,t),l?P(n,u,c):n},O.precision=O.sd=function(n){var e,i=this;if(void 0!==n&&n!==!!n&&1!==n&&0!==n)throw Error(h+n);return i.d?(e=U(i.d),n&&i.e+1>e&&(e=i.e+1)):e=NaN,e},O.round=function(){var n=this,e=n.constructor;return P(new e(n),n.e+1,e.rounding)},O.sine=O.sin=function(){var n,e,i=this,t=i.constructor;return i.isFinite()?i.isZero()?new t(i):(n=t.precision,e=t.rounding,t.precision=n+Math.max(i.e,i.sd())+7,t.rounding=1,i=function(n,e){var i,t=e.d.length;if(t<3)return e.isZero()?e:J(n,2,e,e);i=(i=1.4*Math.sqrt(t))>16?16:0|i,e=e.times(1/z(5,i)),e=J(n,2,e,e);for(var r,s=new n(5),o=new n(16),u=new n(20);i--;)r=e.times(e),e=e.times(s.plus(r.times(o.times(r).minus(u))));return e}(t,G(t,i)),t.precision=n,t.rounding=e,P(r>2?i.neg():i,n,e,!0)):new t(NaN)},O.squareRoot=O.sqrt=function(){var n,e,i,t,r,s,o=this,u=o.d,c=o.e,f=o.s,a=o.constructor;if(1!==f||!u||!u[0])return new a(!f||f<0&&(!u||u[0])?NaN:u?o:1/0);for(l=!1,0==(f=Math.sqrt(+o))||f==1/0?(((e=D(u)).length+c)%2==0&&(e+="0"),f=Math.sqrt(e),c=w((c+1)/2)-(c<0||c%2),t=new a(e=f==1/0?"5e"+c:(e=f.toExponential()).slice(0,e.indexOf("e")+1)+c)):t=new a(f.toString()),i=(c=a.precision)+3;;)if(t=(s=t).plus(Z(o,s,i+2,1)).times(.5),D(s.d).slice(0,i)===(e=D(t.d)).slice(0,i)){if("9999"!=(e=e.slice(i-3,i+1))&&(r||"4999"!=e)){+e&&(+e.slice(1)||"5"!=e.charAt(0))||(P(t,c+1,1),n=!t.times(t).eq(o));break}if(!r&&(P(s,c+1,0),s.times(s).eq(o))){t=s;break}i+=4,r=1}return l=!0,P(t,c,a.rounding,n)},O.tangent=O.tan=function(){var n,e,i=this,t=i.constructor;return i.isFinite()?i.isZero()?new t(i):(n=t.precision,e=t.rounding,t.precision=n+10,t.rounding=1,(i=i.sin()).s=1,i=Z(i,new t(1).minus(i.times(i)).sqrt(),n+10,0),t.precision=n,t.rounding=e,P(2==r||4==r?i.neg():i,n,e,!0)):new t(NaN)},O.times=O.mul=function(n){var e,i,t,r,s,o,u,c,f,a=this,d=a.constructor,h=a.d,p=(n=new d(n)).d;if(n.s*=a.s,!(h&&h[0]&&p&&p[0]))return new d(!n.s||h&&!h[0]&&!p||p&&!p[0]&&!h?NaN:h&&p?0*n.s:n.s/0);for(i=w(a.e/7)+w(n.e/7),(c=h.length)<(f=p.length)&&(s=h,h=p,p=s,o=c,c=f,f=o),s=[],t=o=c+f;t--;)s.push(0);for(t=f;--t>=0;){for(e=0,r=c+t;r>t;)u=s[r]+p[t]*h[r-t-1]+e,s[r--]=u%y|0,e=u/y|0;s[r]=(s[r]+e)%y|0}for(;!s[--o];)s.pop();return e?++i:s.shift(),n.d=s,n.e=T(s,i),l?P(n,d.precision,d.rounding):n},O.toBinary=function(n,e){return K(this,2,n,e)},O.toDecimalPlaces=O.toDP=function(n,e){var i=this,t=i.constructor;return i=new t(i),void 0===n?i:(F(n,0,o),void 0===e?e=t.rounding:F(e,0,8),P(i,n+i.e+1,e))},O.toExponential=function(n,e){var i,t=this,r=t.constructor;return void 0===n?i=R(t,!0):(F(n,0,o),void 0===e?e=r.rounding:F(e,0,8),i=R(t=P(new r(t),n+1,e),!0,n+1)),t.isNeg()&&!t.isZero()?"-"+i:i},O.toFixed=function(n,e){var i,t,r=this,s=r.constructor;return void 0===n?i=R(r):(F(n,0,o),void 0===e?e=s.rounding:F(e,0,8),i=R(t=P(new s(r),n+r.e+1,e),!1,n+t.e+1)),r.isNeg()&&!r.isZero()?"-"+i:i},O.toFraction=function(n){var e,i,t,r,s,o,u,c,f,a,d,p,g=this,m=g.d,w=g.constructor;if(!m)return new w(g);if(f=i=new w(1),t=c=new w(0),o=(s=(e=new w(t)).e=U(m)-g.e-1)%7,e.d[0]=v(10,o<0?7+o:o),null==n)n=s>0?e:f;else{if(!(u=new w(n)).isInt()||u.lt(f))throw Error(h+u);n=u.gt(e)?s>0?e:f:u}for(l=!1,u=new w(D(m)),a=w.precision,w.precision=s=7*m.length*2;d=Z(u,e,0,1,1),1!=(r=i.plus(d.times(t))).cmp(n);)i=t,t=r,r=f,f=c.plus(d.times(r)),c=r,r=e,e=u.minus(d.times(r)),u=r;return r=Z(n.minus(i),t,0,1,1),c=c.plus(r.times(f)),i=i.plus(r.times(t)),c.s=f.s=g.s,p=Z(f,t,s,1).minus(g).abs().cmp(Z(c,i,s,1).minus(g).abs())<1?[f,t]:[c,i],w.precision=a,l=!0,p},O.toHexadecimal=O.toHex=function(n,e){return K(this,16,n,e)},O.toNearest=function(n,e){var i=this,t=i.constructor;if(i=new t(i),null==n){if(!i.d)return i;n=new t(1),e=t.rounding}else{if(n=new t(n),void 0===e?e=t.rounding:F(e,0,8),!i.d)return n.s?i:n;if(!n.d)return n.s&&(n.s=i.s),n}return n.d[0]?(l=!1,i=Z(i,n,0,e,1).times(n),l=!0,P(i)):(n.s=i.s,i=n),i},O.toNumber=function(){return+this},O.toOctal=function(n,e){return K(this,8,n,e)},O.toPower=O.pow=function(n){var e,i,t,r,s,o,u=this,c=u.constructor,f=+(n=new c(n));if(!(u.d&&n.d&&u.d[0]&&n.d[0]))return new c(v(+u,f));if((u=new c(u)).eq(1))return u;if(t=c.precision,s=c.rounding,n.eq(1))return P(u,t,s);if((e=w(n.e/7))>=n.d.length-1&&(i=f<0?-f:f)<=9007199254740991)return r=C(c,u,i,t),n.s<0?new c(1).div(r):P(r,t,s);if((o=u.s)<0){if(e<n.d.length-1)return new c(NaN);if(1&n.d[e]||(o=1),0==u.e&&1==u.d[0]&&1==u.d.length)return u.s=o,u}return(e=0!=(i=v(+u,f))&&isFinite(i)?new c(i+"").e:w(f*(Math.log("0."+D(u.d))/Math.LN10+u.e+1)))>c.maxE+1||e<c.minE-1?new c(e>0?o/0:0):(l=!1,c.rounding=u.s=1,i=Math.min(12,(e+"").length),(r=B(n.times(V(u,t+i)),t)).d&&S((r=P(r,t+5,1)).d,t,s)&&(e=t+10,+D((r=P(B(n.times(V(u,e+i)),e),e+5,1)).d).slice(t+1,t+15)+1==1e14&&(r=P(r,t+1,0))),r.s=o,l=!0,c.rounding=s,P(r,t,s))},O.toPrecision=function(n,e){var i,t=this,r=t.constructor;return void 0===n?i=R(t,t.e<=r.toExpNeg||t.e>=r.toExpPos):(F(n,1,o),void 0===e?e=r.rounding:F(e,0,8),i=R(t=P(new r(t),n,e),n<=t.e||t.e<=r.toExpNeg,n)),t.isNeg()&&!t.isZero()?"-"+i:i},O.toSignificantDigits=O.toSD=function(n,e){var i=this.constructor;return void 0===n?(n=i.precision,e=i.rounding):(F(n,1,o),void 0===e?e=i.rounding:F(e,0,8)),P(new i(this),n,e)},O.toString=function(){var n=this,e=n.constructor,i=R(n,n.e<=e.toExpNeg||n.e>=e.toExpPos);return n.isNeg()&&!n.isZero()?"-"+i:i},O.truncated=O.trunc=function(){return P(new this.constructor(this),this.e+1,1)},O.valueOf=O.toJSON=function(){var n=this,e=n.constructor,i=R(n,n.e<=e.toExpNeg||n.e>=e.toExpPos);return n.isNeg()?"-"+i:i};var Z=function(){function n(n,e,i){var t,r=0,s=n.length;for(n=n.slice();s--;)t=n[s]*e+r,n[s]=t%i|0,r=t/i|0;return r&&n.unshift(r),n}function e(n,e,i,t){var r,s;if(i!=t)s=i>t?1:-1;else for(r=s=0;r<i;r++)if(n[r]!=e[r]){s=n[r]>e[r]?1:-1;break}return s}function t(n,e,i,t){for(var r=0;i--;)n[i]-=r,r=n[i]<e[i]?1:0,n[i]=r*t+n[i]-e[i];for(;!n[0]&&n.length>1;)n.shift()}return function(r,s,o,u,c,f){var a,l,d,h,p,g,m,v,N,b,E,x,M,q,O,D,F,S,A,Z,R=r.constructor,T=r.s==s.s?1:-1,_=r.d,L=s.d;if(!(_&&_[0]&&L&&L[0]))return new R(r.s&&s.s&&(_?!L||_[0]!=L[0]:L)?_&&0==_[0]||!L?0*T:T/0:NaN);for(f?(p=1,l=r.e-s.e):(f=y,p=7,l=w(r.e/p)-w(s.e/p)),A=L.length,F=_.length,b=(N=new R(T)).d=[],d=0;L[d]==(_[d]||0);d++);if(L[d]>(_[d]||0)&&l--,null==o?(q=o=R.precision,u=R.rounding):q=c?o+(r.e-s.e)+1:o,q<0)b.push(1),g=!0;else{if(q=q/p+2|0,d=0,1==A){for(h=0,L=L[0],q++;(d<F||h)&&q--;d++)O=h*f+(_[d]||0),b[d]=O/L|0,h=O%L|0;g=h||d<F}else{for((h=f/(L[0]+1)|0)>1&&(L=n(L,h,f),_=n(_,h,f),A=L.length,F=_.length),D=A,x=(E=_.slice(0,A)).length;x<A;)E[x++]=0;(Z=L.slice()).unshift(0),S=L[0],L[1]>=f/2&&++S;do{h=0,(a=e(L,E,A,x))<0?(M=E[0],A!=x&&(M=M*f+(E[1]||0)),(h=M/S|0)>1?(h>=f&&(h=f-1),1==(a=e(m=n(L,h,f),E,v=m.length,x=E.length))&&(h--,t(m,A<v?Z:L,v,f))):(0==h&&(a=h=1),m=L.slice()),(v=m.length)<x&&m.unshift(0),t(E,m,x,f),-1==a&&(a=e(L,E,A,x=E.length))<1&&(h++,t(E,A<x?Z:L,x,f)),x=E.length):0===a&&(h++,E=[0]),b[d++]=h,a&&E[0]?E[x++]=_[D]||0:(E=[_[D]],x=1)}while((D++<F||void 0!==E[0])&&q--);g=void 0!==E[0]}b[0]||b.shift()}if(1==p)N.e=l,i=g;else{for(d=1,h=b[0];h>=10;h/=10)d++;N.e=d+l*p-1,P(N,c?o+N.e+1:o,u,g)}return N}}();function P(n,e,i,t){var r,s,o,u,c,f,a,d,h,p=n.constructor;n:if(null!=e){if(!(d=n.d))return n;for(r=1,u=d[0];u>=10;u/=10)r++;if((s=e-r)<0)s+=7,o=e,c=(a=d[h=0])/v(10,r-o-1)%10|0;else if((h=Math.ceil((s+1)/7))>=(u=d.length)){if(!t)break n;for(;u++<=h;)d.push(0);a=c=0,r=1,o=(s%=7)-7+1}else{for(a=u=d[h],r=1;u>=10;u/=10)r++;c=(o=(s%=7)-7+r)<0?0:a/v(10,r-o-1)%10|0}if(t=t||e<0||void 0!==d[h+1]||(o<0?a:a%v(10,r-o-1)),f=i<4?(c||t)&&(0==i||i==(n.s<0?3:2)):c>5||5==c&&(4==i||t||6==i&&(s>0?o>0?a/v(10,r-o):0:d[h-1])%10&1||i==(n.s<0?8:7)),e<1||!d[0])return d.length=0,f?(e-=n.e+1,d[0]=v(10,(7-e%7)%7),n.e=-e||0):d[0]=n.e=0,n;if(0==s?(d.length=h,u=1,h--):(d.length=h+1,u=v(10,7-s),d[h]=o>0?(a/v(10,r-o)%v(10,o)|0)*u:0),f)for(;;){if(0==h){for(s=1,o=d[0];o>=10;o/=10)s++;for(o=d[0]+=u,u=1;o>=10;o/=10)u++;s!=u&&(n.e++,d[0]==y&&(d[0]=1));break}if(d[h]+=u,d[h]!=y)break;d[h--]=0,u=1}for(s=d.length;0===d[--s];)d.pop()}return l&&(n.e>p.maxE?(n.d=null,n.e=NaN):n.e<p.minE&&(n.e=0,n.d=[0])),n}function R(n,e,i){if(!n.isFinite())return $(n);var t,r=n.e,s=D(n.d),o=s.length;return e?(i&&(t=i-o)>0?s=s.charAt(0)+"."+s.slice(1)+k(t):o>1&&(s=s.charAt(0)+"."+s.slice(1)),s=s+(n.e<0?"e":"e+")+n.e):r<0?(s="0."+k(-r-1)+s,i&&(t=i-o)>0&&(s+=k(t))):r>=o?(s+=k(r+1-o),i&&(t=i-r-1)>0&&(s=s+"."+k(t))):((t=r+1)<o&&(s=s.slice(0,t)+"."+s.slice(t)),i&&(t=i-o)>0&&(r+1===o&&(s+="."),s+=k(t))),s}function T(n,e){var i=n[0];for(e*=7;i>=10;i/=10)e++;return e}function _(n,e,i){if(e>M)throw l=!0,i&&(n.precision=i),Error(p);return P(new n(c),e,1,!0)}function L(n,e,i){if(e>q)throw Error(p);return P(new n(f),e,i,!0)}function U(n){var e=n.length-1,i=7*e+1;if(e=n[e]){for(;e%10==0;e/=10)i--;for(e=n[0];e>=10;e/=10)i++}return i}function k(n){for(var e="";n--;)e+="0";return e}function C(n,e,i,t){var r,s=new n(1),o=Math.ceil(t/7+4);for(l=!1;;){if(i%2&&Q((s=s.times(e)).d,o)&&(r=!0),0===(i=w(i/2))){i=s.d.length-1,r&&0===s.d[i]&&++s.d[i];break}Q((e=e.times(e)).d,o)}return l=!0,s}function I(n){return 1&n.d[n.d.length-1]}function H(n,e,i){for(var t,r,s=new n(e[0]),o=0;++o<e.length;){if(!(r=new n(e[o])).s){s=r;break}((t=s.cmp(r))===i||0===t&&s.s===i)&&(s=r)}return s}function B(n,e){var i,t,r,s,o,u,c,f=0,a=0,d=0,h=n.constructor,p=h.rounding,g=h.precision;if(!n.d||!n.d[0]||n.e>17)return new h(n.d?n.d[0]?n.s<0?0:1/0:1:n.s?n.s<0?0:n:NaN);for(null==e?(l=!1,c=g):c=e,u=new h(.03125);n.e>-2;)n=n.times(u),d+=5;for(c+=t=Math.log(v(2,d))/Math.LN10*2+5|0,i=s=o=new h(1),h.precision=c;;){if(s=P(s.times(n),c,1),i=i.times(++a),D((u=o.plus(Z(s,i,c,1))).d).slice(0,c)===D(o.d).slice(0,c)){for(r=d;r--;)o=P(o.times(o),c,1);if(null!=e)return h.precision=g,o;if(!(f<3&&S(o.d,c-t,p,f)))return P(o,h.precision=g,p,l=!0);h.precision=c+=10,i=s=u=new h(1),a=0,f++}o=u}}function V(n,e){var i,t,r,s,o,u,c,f,a,d,h,p=1,g=n,m=g.d,w=g.constructor,v=w.rounding,N=w.precision;if(g.s<0||!m||!m[0]||!g.e&&1==m[0]&&1==m.length)return new w(m&&!m[0]?-1/0:1!=g.s?NaN:m?0:g);if(null==e?(l=!1,a=N):a=e,w.precision=a+=10,t=(i=D(m)).charAt(0),!(Math.abs(s=g.e)<15e14))return f=_(w,a+2,N).times(s+""),g=V(new w(t+"."+i.slice(1)),a-10).plus(f),w.precision=N,null==e?P(g,N,v,l=!0):g;for(;t<7&&1!=t||1==t&&i.charAt(1)>3;)t=(i=D((g=g.times(n)).d)).charAt(0),p++;for(s=g.e,t>1?(g=new w("0."+i),s++):g=new w(t+"."+i.slice(1)),d=g,c=o=g=Z(g.minus(1),g.plus(1),a,1),h=P(g.times(g),a,1),r=3;;){if(o=P(o.times(h),a,1),D((f=c.plus(Z(o,new w(r),a,1))).d).slice(0,a)===D(c.d).slice(0,a)){if(c=c.times(2),0!==s&&(c=c.plus(_(w,a+2,N).times(s+""))),c=Z(c,new w(p),a,1),null!=e)return w.precision=N,c;if(!S(c.d,a-10,v,u))return P(c,w.precision=N,v,l=!0);w.precision=a+=10,f=o=g=Z(d.minus(1),d.plus(1),a,1),h=P(g.times(g),a,1),r=u=1}c=f,r+=2}}function $(n){return String(n.s*n.s/0)}function j(n,e){var i,t,r;for((i=e.indexOf("."))>-1&&(e=e.replace(".","")),(t=e.search(/e/i))>0?(i<0&&(i=t),i+=+e.slice(t+1),e=e.substring(0,t)):i<0&&(i=e.length),t=0;48===e.charCodeAt(t);t++);for(r=e.length;48===e.charCodeAt(r-1);--r);if(e=e.slice(t,r)){if(r-=t,n.e=i=i-t-1,n.d=[],t=(i+1)%7,i<0&&(t+=7),t<r){for(t&&n.d.push(+e.slice(0,t)),r-=7;t<r;)n.d.push(+e.slice(t,t+=7));t=7-(e=e.slice(t)).length}else t-=r;for(;t--;)e+="0";n.d.push(+e),l&&(n.e>n.constructor.maxE?(n.d=null,n.e=NaN):n.e<n.constructor.minE&&(n.e=0,n.d=[0]))}else n.e=0,n.d=[0];return n}function W(n,i){var t,r,s,o,u,c,f,a,d;if(i.indexOf("_")>-1){if(i=i.replace(/(\d)_(?=\d)/g,"$1"),x.test(i))return j(n,i)}else if("Infinity"===i||"NaN"===i)return+i||(n.s=NaN),n.e=NaN,n.d=null,n;if(b.test(i))t=16,i=i.toLowerCase();else if(N.test(i))t=2;else{if(!E.test(i))throw Error(h+i);t=8}for((o=i.search(/p/i))>0?(f=+i.slice(o+1),i=i.substring(2,o)):i=i.slice(2),u=(o=i.indexOf("."))>=0,r=n.constructor,u&&(o=(c=(i=i.replace(".","")).length)-o,s=C(r,new r(t),o,2*o)),o=d=(a=A(i,t,y)).length-1;0===a[o];--o)a.pop();return o<0?new r(0*n.s):(n.e=T(a,d),n.d=a,l=!1,u&&(n=Z(n,s,4*c)),f&&(n=n.times(Math.abs(f)<54?v(2,f):e.pow(2,f))),l=!0,n)}function J(n,e,i,t,r){var s,o,u,c,f=n.precision,a=Math.ceil(f/7);for(l=!1,c=i.times(i),u=new n(t);;){if(o=Z(u.times(c),new n(e++*e++),f,1),u=r?t.plus(o):t.minus(o),t=Z(o.times(c),new n(e++*e++),f,1),void 0!==(o=u.plus(t)).d[a]){for(s=a;o.d[s]===u.d[s]&&s--;);if(-1==s)break}s=u,u=t,t=o,o=s}return l=!0,o.d.length=a+1,o}function z(n,e){for(var i=n;--e;)i*=n;return i}function G(n,e){var i,t=e.s<0,s=L(n,n.precision,1),o=s.times(.5);if((e=e.abs()).lte(o))return r=t?4:1,e;if((i=e.divToInt(s)).isZero())r=t?3:2;else{if((e=e.minus(i.times(s))).lte(o))return r=I(i)?t?2:3:t?4:1,e;r=I(i)?t?1:4:t?3:2}return e.minus(s).abs()}function K(n,e,t,r){var s,c,f,a,l,d,h,p,g,m=n.constructor,w=void 0!==t;if(w?(F(t,1,o),void 0===r?r=m.rounding:F(r,0,8)):(t=m.precision,r=m.rounding),n.isFinite()){for(w?(s=2,16==e?t=4*t-3:8==e&&(t=3*t-2)):s=e,(f=(h=R(n)).indexOf("."))>=0&&(h=h.replace(".",""),(g=new m(1)).e=h.length-f,g.d=A(R(g),10,s),g.e=g.d.length),c=l=(p=A(h,10,s)).length;0==p[--l];)p.pop();if(p[0]){if(f<0?c--:((n=new m(n)).d=p,n.e=c,p=(n=Z(n,g,t,r,0,s)).d,c=n.e,d=i),f=p[t],a=s/2,d=d||void 0!==p[t+1],d=r<4?(void 0!==f||d)&&(0===r||r===(n.s<0?3:2)):f>a||f===a&&(4===r||d||6===r&&1&p[t-1]||r===(n.s<0?8:7)),p.length=t,d)for(;++p[--t]>s-1;)p[t]=0,t||(++c,p.unshift(1));for(l=p.length;!p[l-1];--l);for(f=0,h="";f<l;f++)h+=u.charAt(p[f]);if(w){if(l>1)if(16==e||8==e){for(f=16==e?4:3,--l;l%f;l++)h+="0";for(l=(p=A(h,s,e)).length;!p[l-1];--l);for(f=1,h="1.";f<l;f++)h+=u.charAt(p[f])}else h=h.charAt(0)+"."+h.slice(1);h=h+(c<0?"p":"p+")+c}else if(c<0){for(;++c;)h="0"+h;h="0."+h}else if(++c>l)for(c-=l;c--;)h+="0";else c<l&&(h=h.slice(0,c)+"."+h.slice(c))}else h=w?"0p+0":"0";h=(16==e?"0x":2==e?"0b":8==e?"0o":"")+h}else h=$(n);return n.s<0?"-"+h:h}function Q(n,e){if(n.length>e)return n.length=e,!0}function X(n){return new this(n).abs()}function Y(n){return new this(n).acos()}function nn(n){return new this(n).acosh()}function en(n,e){return new this(n).plus(e)}function tn(n){return new this(n).asin()}function rn(n){return new this(n).asinh()}function sn(n){return new this(n).atan()}function on(n){return new this(n).atanh()}function un(n,e){n=new this(n),e=new this(e);var i,t=this.precision,r=this.rounding,s=t+4;return n.s&&e.s?n.d||e.d?!e.d||n.isZero()?(i=e.s<0?L(this,t,r):new this(0)).s=n.s:!n.d||e.isZero()?(i=L(this,s,1).times(.5)).s=n.s:e.s<0?(this.precision=s,this.rounding=1,i=this.atan(Z(n,e,s,1)),e=L(this,s,1),this.precision=t,this.rounding=r,i=n.s<0?i.minus(e):i.plus(e)):i=this.atan(Z(n,e,s,1)):(i=L(this,s,1).times(e.s>0?.25:.75)).s=n.s:i=new this(NaN),i}function cn(n){return new this(n).cbrt()}function fn(n){return P(n=new this(n),n.e+1,2)}function an(n,e,i){return new this(n).clamp(e,i)}function ln(n){if(!n||"object"!=typeof n)throw Error(d+"Object expected");var e,i,t,r=!0===n.defaults,u=["precision",1,o,"rounding",0,8,"toExpNeg",-s,0,"toExpPos",0,s,"maxE",0,s,"minE",-s,0,"modulo",0,9];for(e=0;e<u.length;e+=3)if(i=u[e],r&&(this[i]=a[i]),void 0!==(t=n[i])){if(!(w(t)===t&&t>=u[e+1]&&t<=u[e+2]))throw Error(h+i+": "+t);this[i]=t}if(i="crypto",r&&(this[i]=a[i]),void 0!==(t=n[i])){if(!0!==t&&!1!==t&&0!==t&&1!==t)throw Error(h+i+": "+t);if(t){if("undefined"==typeof crypto||!crypto||!crypto.getRandomValues&&!crypto.randomBytes)throw Error(g);this[i]=!0}else this[i]=!1}return this}function dn(n){return new this(n).cos()}function hn(n){return new this(n).cosh()}function pn(n,e){return new this(n).div(e)}function gn(n){return new this(n).exp()}function mn(n){return P(n=new this(n),n.e+1,3)}function wn(){var n,e,i=new this(0);for(l=!1,n=0;n<arguments.length;)if((e=new this(arguments[n++])).d)i.d&&(i=i.plus(e.times(e)));else{if(e.s)return l=!0,new this(1/0);i=e}return l=!0,i.sqrt()}function vn(n){return n instanceof e||n&&n.toStringTag===m||!1}function Nn(n){return new this(n).ln()}function bn(n,e){return new this(n).log(e)}function En(n){return new this(n).log(2)}function xn(n){return new this(n).log(10)}function yn(){return H(this,arguments,-1)}function Mn(){return H(this,arguments,1)}function qn(n,e){return new this(n).mod(e)}function On(n,e){return new this(n).mul(e)}function Dn(n,e){return new this(n).pow(e)}function Fn(n){var e,i,t,r,s=0,u=new this(1),c=[];if(void 0===n?n=this.precision:F(n,1,o),t=Math.ceil(n/7),this.crypto)if(crypto.getRandomValues)for(e=crypto.getRandomValues(new Uint32Array(t));s<t;)(r=e[s])>=429e7?e[s]=crypto.getRandomValues(new Uint32Array(1))[0]:c[s++]=r%1e7;else{if(!crypto.randomBytes)throw Error(g);for(e=crypto.randomBytes(t*=4);s<t;)(r=e[s]+(e[s+1]<<8)+(e[s+2]<<16)+((127&e[s+3])<<24))>=214e7?crypto.randomBytes(4).copy(e,s):(c.push(r%1e7),s+=4);s=t/4}else for(;s<t;)c[s++]=1e7*Math.random()|0;for(n%=7,(t=c[--s])&&n&&(r=v(10,7-n),c[s]=(t/r|0)*r);0===c[s];s--)c.pop();if(s<0)i=0,c=[0];else{for(i=-1;0===c[0];i-=7)c.shift();for(t=1,r=c[0];r>=10;r/=10)t++;t<7&&(i-=7-t)}return u.e=i,u.d=c,u}function Sn(n){return P(n=new this(n),n.e+1,this.rounding)}function An(n){return(n=new this(n)).d?n.d[0]?n.s:0*n.s:n.s||NaN}function Zn(n){return new this(n).sin()}function Pn(n){return new this(n).sinh()}function Rn(n){return new this(n).sqrt()}function Tn(n,e){return new this(n).sub(e)}function _n(){var n=0,e=arguments,i=new this(e[n]);for(l=!1;i.s&&++n<e.length;)i=i.plus(e[n]);return l=!0,P(i,this.precision,this.rounding)}function Ln(n){return new this(n).tan()}function Un(n){return new this(n).tanh()}function kn(n){return P(n=new this(n),n.e+1,1)}e=function n(e){var i,t,r;function s(n){var e,i,t,r=this;if(!(r instanceof s))return new s(n);if(r.constructor=s,vn(n))return r.s=n.s,void(l?!n.d||n.e>s.maxE?(r.e=NaN,r.d=null):n.e<s.minE?(r.e=0,r.d=[0]):(r.e=n.e,r.d=n.d.slice()):(r.e=n.e,r.d=n.d?n.d.slice():n.d));if("number"===(t=typeof n)){if(0===n)return r.s=1/n<0?-1:1,r.e=0,void(r.d=[0]);if(n<0?(n=-n,r.s=-1):r.s=1,n===~~n&&n<1e7){for(e=0,i=n;i>=10;i/=10)e++;return void(l?e>s.maxE?(r.e=NaN,r.d=null):e<s.minE?(r.e=0,r.d=[0]):(r.e=e,r.d=[n]):(r.e=e,r.d=[n]))}return 0*n!=0?(n||(r.s=NaN),r.e=NaN,void(r.d=null)):j(r,n.toString())}if("string"===t)return 45===(i=n.charCodeAt(0))?(n=n.slice(1),r.s=-1):(43===i&&(n=n.slice(1)),r.s=1),x.test(n)?j(r,n):W(r,n);if("bigint"===t)return n<0?(n=-n,r.s=-1):r.s=1,j(r,n.toString());throw Error(h+n)}if(s.prototype=O,s.ROUND_UP=0,s.ROUND_DOWN=1,s.ROUND_CEIL=2,s.ROUND_FLOOR=3,s.ROUND_HALF_UP=4,s.ROUND_HALF_DOWN=5,s.ROUND_HALF_EVEN=6,s.ROUND_HALF_CEIL=7,s.ROUND_HALF_FLOOR=8,s.EUCLID=9,s.config=s.set=ln,s.clone=n,s.isDecimal=vn,s.abs=X,s.acos=Y,s.acosh=nn,s.add=en,s.asin=tn,s.asinh=rn,s.atan=sn,s.atanh=on,s.atan2=un,s.cbrt=cn,s.ceil=fn,s.clamp=an,s.cos=dn,s.cosh=hn,s.div=pn,s.exp=gn,s.floor=mn,s.hypot=wn,s.ln=Nn,s.log=bn,s.log10=xn,s.log2=En,s.max=yn,s.min=Mn,s.mod=qn,s.mul=On,s.pow=Dn,s.random=Fn,s.round=Sn,s.sign=An,s.sin=Zn,s.sinh=Pn,s.sqrt=Rn,s.sub=Tn,s.sum=_n,s.tan=Ln,s.tanh=Un,s.trunc=kn,void 0===e&&(e={}),e&&!0!==e.defaults)for(r=["precision","rounding","toExpNeg","toExpPos","maxE","minE","modulo","crypto"],i=0;i<r.length;)e.hasOwnProperty(t=r[i++])||(e[t]=this[t]);return s.config(e),s}(a),e.prototype.constructor=e,e.default=e.Decimal=e,c=new e(c),f=new e(f),"function"==typeof define&&define.amd?define((function(){return e})):"undefined"!=typeof module&&module.exports?("function"==typeof Symbol&&"symbol"==typeof Symbol.iterator&&(O[Symbol.for("nodejs.util.inspect.custom")]=O.toString,O[Symbol.toStringTag]="Decimal"),module.exports=e):(n||(n="undefined"!=typeof self&&self&&self.self==self?self:window),t=n.Decimal,e.noConflict=function(){return n.Decimal=t,e},n.Decimal=e)}(this);
+  </script>
+</body>
+</html>

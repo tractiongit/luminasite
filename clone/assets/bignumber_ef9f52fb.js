@@ -1,0 +1,2140 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html
+  lang="en"
+  
+  data-color-mode="auto" data-light-theme="light" data-dark-theme="dark"
+  data-a11y-animated-images="system" data-a11y-link-underlines="true"
+  
+  >
+
+
+
+
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://github.githubassets.com">
+  <link rel="dns-prefetch" href="https://avatars.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+  <link rel="preconnect" href="https://github.githubassets.com" crossorigin>
+  <link rel="preconnect" href="https://avatars.githubusercontent.com">
+
+  
+
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="light-4fded0090af0ad58_28212574.css" /><link crossorigin="anonymous" media="all" rel="stylesheet" href="light_high_contrast-cf8e26bc17e62ebc_8830831f.css" /><link crossorigin="anonymous" media="all" rel="stylesheet" href="dark-06381ff23d863842_3fb5116f.css" /><link crossorigin="anonymous" media="all" rel="stylesheet" href="dark_high_contrast-9023e6605402defb_5c73eacb.css" /><link data-color-theme="light" crossorigin="anonymous" media="all" rel="stylesheet" data-href="light-4fded0090af0ad58_28212574.css" /><link data-color-theme="light_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="light_high_contrast-cf8e26bc17e62ebc_8830831f.css" /><link data-color-theme="light_colorblind" crossorigin="anonymous" media="all" rel="stylesheet" data-href="light_colorblind-3a437477a570cc40_4df48ad7.css" /><link data-color-theme="light_colorblind_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="light_colorblind_high_contrast-39b6c209d_1ccfd5e8.css" /><link data-color-theme="light_tritanopia" crossorigin="anonymous" media="all" rel="stylesheet" data-href="light_tritanopia-3822234d6c03b00b_ac0b43d4.css" /><link data-color-theme="light_tritanopia_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="light_tritanopia_high_contrast-33857254a_45008820.css" /><link data-color-theme="dark" crossorigin="anonymous" media="all" rel="stylesheet" data-href="dark-06381ff23d863842_3fb5116f.css" /><link data-color-theme="dark_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="dark_high_contrast-9023e6605402defb_5c73eacb.css" /><link data-color-theme="dark_colorblind" crossorigin="anonymous" media="all" rel="stylesheet" data-href="dark_colorblind-37023bf69d8e0e34_6c063912.css" /><link data-color-theme="dark_colorblind_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="dark_colorblind_high_contrast-486bd43e01_2cd874cb.css" /><link data-color-theme="dark_tritanopia" crossorigin="anonymous" media="all" rel="stylesheet" data-href="dark_tritanopia-838ba2a5070c5b09_ce1a934b.css" /><link data-color-theme="dark_tritanopia_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="dark_tritanopia_high_contrast-2aa7245dc5_999a8bbc.css" /><link data-color-theme="dark_dimmed" crossorigin="anonymous" media="all" rel="stylesheet" data-href="dark_dimmed-29ef2eb185e7de1c_8d8a1cf6.css" /><link data-color-theme="dark_dimmed_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="dark_dimmed_high_contrast-8eed6b212f10f1_0acc1dd7.css" />
+
+  <style type="text/css">
+    :root {
+      --tab-size-preference: 4;
+    }
+
+    pre, code {
+      tab-size: var(--tab-size-preference);
+    }
+  </style>
+
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="primer-primitives-b39ad27f3538ace3_de1e5f65.css" />
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="primer-70be7debc79a8eff_a71e6f0d.css" />
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="global-eff6b778655b1531_fa36d40c.css" />
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="github-eab9c5888b163e42_cc14defc.css" />
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="repository-5c3491d57145b94f_2930ded3.css" />
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="code-ac30cd42c7dec7cf_11ff0615.css" />
+
+  
+
+  <script type="application/json" id="client-env">{"locale":"en","featureFlags":["actions_custom_images_storage_billing_ui_visibility","actions_enable_background_steps","actions_image_version_event","actions_workflow_language_service_allow_concurrency_queue","agent_author_search_expansion","agent_author_search_expansion_ui_pulls","agent_conflict_resolution","alternate_user_config_repo","artifact_ui_v2","billing_billable_licenses_cost_center_bucket_fix","billing_cost_center_user_level_budgets","billing_discount_threshold_notification","billing_user_level_budgets","billing_user_level_budgets_manage","code_scanning_dfa_degraded_experience_notice","code_view_raf_sticky_lines","codespaces_prebuild_region_target_update","codeview_sidebar_combined_payload","coding_agent_model_selection","coding_agent_model_selection_all_skus","comment_viewer_copy_raw_markdown","contentful_primer_code_blocks","copilot_agent_snippy","copilot_api_agentic_issue_marshal_yaml","copilot_ask_mode_dropdown","copilot_automation_suggest_tools_enabled","copilot_automations_pagination","copilot_automations_suggested_automations","copilot_chat_attach_multiple_images","copilot_chat_auto_mode_picker_paid","copilot_chat_category_rate_limit_messages","copilot_chat_clear_model_selection_for_default_change","copilot_chat_contextual_suggestions_updated","copilot_chat_docked_panel","copilot_chat_enable_tool_call_logs","copilot_chat_input_commands","copilot_chat_interspersed_tool_calls","copilot_chat_max_upsell","copilot_chat_model_picker_info_popover","copilot_chat_models_browser_cache","copilot_chat_opening_thread_switch","copilot_chat_prettify_pasted_code","copilot_chat_reduce_quota_checks","copilot_chat_vision_dotcom_chat_ga_gate","copilot_chat_vision_in_claude","copilot_chat_vision_preview_gate","copilot_cli_install_cta_max_plan","copilot_cloud_agent_always_categorize_models_in_model_picker","copilot_custom_copilots","copilot_custom_copilots_feature_preview","copilot_diff_explain_conversation_intent","copilot_diff_reference_context","copilot_duplicate_thread","copilot_extensions_removal_on_marketplace","copilot_file_block_ref_matching","copilot_fix_blank_side_panel","copilot_fix_failed_workflows","copilot_fix_failed_workflows_all_skus","copilot_ftp_hyperspace_upgrade_prompt","copilot_hide_hovercard","copilot_immersive_code_block_transition_wrap","copilot_immersive_embedded_deferred_payload","copilot_immersive_embedded_draggable","copilot_immersive_embedded_header_button","copilot_immersive_embedded_implicit_references","copilot_immersive_embedded_skip_copilot_api_token_for_dotcom_context","copilot_immersive_file_block_transition_open","copilot_immersive_file_preview_keep_mounted","copilot_immersive_hide_column_right_without_thread","copilot_immersive_job_result_preview","copilot_immersive_suggestion_pills","copilot_immersive_task_hyperlinking","copilot_immersive_task_within_chat_thread","copilot_mc_cli_resume_any_users_task","copilot_mc_nudges","copilot_mission_control_agent_filtering","copilot_mission_control_always_send_integration_id","copilot_mission_control_environment_list_icons","copilot_mission_control_initial_data_spinner","copilot_mission_control_needs_attention","copilot_mission_control_sandbox_remote_bypass","copilot_mission_control_session_filters","copilot_mission_control_task_alive_updates","copilot_mission_control_task_sharing","copilot_org_policy_page_focus_mode","copilot_plans_signups_enabled","copilot_pr_chat_enhancements","copilot_prominent_upgrade_button","copilot_quota_banner_pr_files_changed","copilot_redirect_header_button_to_agents","copilot_resource_panel","copilot_share_active_subthread","copilot_spaces_ga","copilot_spaces_individual_policies_ga","copilot_spark_empty_state","copilot_spark_handle_nil_friendly_name","copilot_swe_agent_authorization_status_ui","copilot_swe_agent_hide_model_picker_if_only_auto","copilot_swe_agent_pr_comment_model_picker","copilot_swe_agent_pull_request_merged_trigger","copilot_swe_agent_pull_request_opened_trigger","copilot_swe_agent_pull_request_synchronize_trigger","copilot_swe_agent_use_subagents","copilot_task_api_github_rest_style","copilot_token_based_billing","copilot_unconfigured_is_inherited","copilot_user_can_upgrade_plan_field","copilot_workbench_ubb","custom_properties_core_reusable_property_value_field","dashboard_indexeddb_caching","dashboard_lists_max_age_filter","dashboard_universe_2025_feedback_dialog","flex_cta_groups_mvp","flex_suite_overview","ga_enterprise_teams_ui","global_nav_react","global_nav_responsive_create_menu","hyperspace_2025_logged_out_batch_1","hyperspace_2025_logged_out_batch_2","hyperspace_2025_logged_out_batch_3","in_product_messaging_datadog_monitoring","ipm_budget_deep_linking","ipm_global_transactional_message_agents","ipm_global_transactional_message_copilot","ipm_global_transactional_message_issues","ipm_global_transactional_message_prs","ipm_global_transactional_message_repos","ipm_global_transactional_message_spaces","issue_cca_modal_open","issue_cca_multi_assign_modal","issue_cca_visualization","issue_fields_global_search","issue_fields_index_pills","issue_inline_avatars","issue_pinned_views","issue_pinned_views_index_page","issue_pinned_views_preheat_sidebar_links","issue_pinned_views_projects_react","issue_relative_time_micro","issues_expanded_file_types","issues_lazy_load_comment_box_suggestions","issues_react_chrome_container_query_fix","issues_search_type_gql","landing_pages_ninetailed","landing_pages_web_vitals_tracking","lifecycle_label_name_updates","low_quality_classifier","marketing_pages_search_explore_provider","memex_default_issue_create_repository","memex_live_update_hovercard","memex_mwl_filter_field_delimiter","memex_remove_deprecated_type_issue","merge_status_header_feedback","oauth_authorize_clickjacking_protection","octocaptcha_origin_optimization","primer_react_css_anchor_positioning","property_definition_empty_state_suggestions","prs_css_anchor_positioning","react_blob_isolate_code_lines","react_data_router_tanstack_allowed","react_editor_actions_sidebar","react_editor_devcontainer_sidebar","react_sandbox_future_tanstack","repos_contributors_limited_default_range","rules_insights_filter_bar_created","sample_network_conn_type","secret_scanning_pattern_alerts_link","security_center_artifact_filters_popover","semantic_similarity_duplicate_issue_detection","session_logs_ungroup_reasoning_text","site_banner_desktop_copilot_app","site_github_app_ga_page","site_global_nav_spark_models_removed","spark_prompt_secret_scanning","spark_server_connection_status","suppress_automated_browser_vitals","swp_forms_disable_octocaptcha","turbo_progress_bar_transform","viewscreen_sandbox","warn_inaccessible_attachments","webp_support","workbench_store_readonly"],"copilotApiOverrideUrl":"https://api.githubcopilot.com","cmcApiUrl":"https://api.github.com/cmc_internal/api"}</script>
+<script crossorigin="anonymous" type="module" src="high-contrast-cookie-a5e0a53475dda603_ed50149e.js"></script>
+<script crossorigin="anonymous" type="module" src="wp-runtime-781138599f935e43_ed3379f3.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="fetch-utilities-203b3fe451178bee_9db2ac5e.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="78205-490cbc32cb03f2c4_92084946.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="85924-fb319ed7734a3255_23583cc1.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="34646-fd025d89aebf481f_2858eda8.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="environment-206299963839690a_80d0feb6.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="runtime-helpers-1ab84bfcdfd252a7_f8e58b8b.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="296-dd7acbc3c57bc2df_c4744dc8.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="57131-96925ee146d82566_035123a2.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="816-267fa8a626344744_b39e64ec.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="78121-700198d991c19201_e170a920.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="81683-3566d15213106a0d_f7fa3526.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="64458-988347c24883c3dc_c5e74831.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="46740-245323eebf4a2bd5_379dfd0e.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="3650-2d2c2aa6afec76de_b352a1a3.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="17127-d486438dd582dbb8_9af3246a.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="github-elements-908aaaa22fbfa2a1_5054c68e.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="element-registry-6d4b89e230dbb7e9_c533eec0.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="react-core-096c3abcfb253b21_1cd312be.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="react-lib-57bed375ade723a7_d274cc1f.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="63143-7622d55d24560a56_1d50b621.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="79039-3efc4ce0c2830d00_d6ad35a4.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="88475-734f67255a069671_e0aa1164.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="2887-6bb5fc2f7d7910bf_33f7b9d5.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="62220-0c9944955b4e2cbb_c6e2f300.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="26533-c0816c13ac9e6327_6739b1e5.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="7088-4eaf1fbdb5e0697b_3483e81a.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="9506-5679f156315d844a_bd888295.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="53320-0a81d3275826594e_ff681dda.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="46287-50b124258ef9c356_15399886.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="23548-06460d6ad6134b8e_2713ae4d.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="89627-d6568840e3302a2b_f012b94e.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="55682-4f9c532916993730_531b83c5.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="49029-7ca2ead5f497f031_60ff1ffa.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="99328-0f824473476788e3_690254b6.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="behaviors-5d83773da9c1079f_30a48d56.js" defer="defer"></script>
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="react-core.c5565f91317d019c.module_95189b07.css" />
+<script crossorigin="anonymous" type="module" src="61272-f2158b5d00e77e7b_3371df2a.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="notifications-global-af6906205a03177b_2f025a26.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="57639-c11f2fce6b8a5462_f04f3b3f.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="81276-145830a72e9e51c9_c0e55f38.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="19930-c2749e0e22d03aed_3cc926b2.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="codespaces-91d92fa1ee037235_c99457c3.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="98304-e396ebf96aff23e2_84477998.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="22511-5019be5cf2f2ee7f_0ccb1952.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="99291-403f46a5e087d3f2_82f0f760.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="repositories-503541abbb66307e_ce9c0adb.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="49810-e52c2ee97a6effdf_8b154f67.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="code-menu-4f4e2278287583c6_8afdab36.js" defer="defer"></script>
+  
+  <script crossorigin="anonymous" type="module" src="primer-react-3b91719938c41514_5e365751.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="octicons-react-6d4b073f11eb4456_ff31e478.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="97458-4c244b6be0b3304c_dbe20e25.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="68751-ed2de1f8d1b6cf6e_6b38617f.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="68033-6297462e005d658b_914f6d66.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="437-a847efc3619ac5cc_9724fbb0.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="41328-eda62e0f5a40da8e_34c1fb13.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="7463-01c37b66747b726b_33b55b68.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="27600-16d492cfe3f2daa8_de82dfa4.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="40294-d69d54532a6a5942_332116db.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="58246-1a0c28ba9704d247_9f58dde7.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="55539-e21c0816973ee092_e1be6c11.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="94562-4b986a75a6b575f5_a9137325.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="68735-090bea2cedf32faa_e08b6314.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="83912-3a41dfbe485768d9_5202679b.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="68469-f17edd3dd842cef2_4583b7f6.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="32459-94e9fd388440d6fa_c10a762b.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="40828-506ed5d504a99bf1_0819dcd9.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="63000-26b4566c2dff846a_f023d8f0.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="30914-aec9d3f9ffacec2e_efd95bca.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="33684-b5fb50e53d222306_29f90ce4.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="2204-7d7c8c4b2a0b14ff_1e043197.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="18222-96d101a36355a138_43fb770d.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="66231-9edae82bedef9e8c_7353140b.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="79407-bdbb17fc41721ff5_9fcf3d9a.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="50288-1de65962d8b34196_8445af4b.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="88609-c49714a92e028d10_bb9dc6dd.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="14872-dc4efce78d3cc012_b53633b3.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="68212-3c67a22cebdeb0a9_ec8d5464.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="75577-62e44f54da4cb0ab_2f03d3b8.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="76987-bb1ea54dc579a31d_3813c63c.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="53275-57ffc9666337073c_f8a48663.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="9094-a0f41f8097561274_27c51b42.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="47358-6b113435873ad9e1_ae5c4b05.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="27883-15abfd0edcc22512_0d7d5baa.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="86539-24c91379106b72a4_4aa4fc43.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="50110-6738dab2949218b7_be344700.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="98451-f6090a80d7d6db5e_222677cb.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="33897-281850c35cbfa532_84d931f0.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="62392-1da446bf7bf057f2_3028fbef.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="59222-8ebfff860151b26a_1f5d8054.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="32020-6b8c54eb70f88334_a5646e9f.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="code-view-30a14ab51108db7a_b052a0ec.js" defer="defer"></script>
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="primer-react-css.89ed847d1a8f127f.module_0f2a2310.css" />
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="14872.00ecb03785f60cdd.module_ae5bc74a.css" />
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="27883.c4c4e224fcb49b91.module_ee6d009f.css" />
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="code-view.e8abda29ecdf6160.module_b950b736.css" />
+
+  <script crossorigin="anonymous" type="module" src="64039-84939152949d39a6_024ebee3.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="84510-a8b24b41864f32d7_ae4c3be6.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="notifications-subscriptions-menu-cfc6bba_245e0add.js" defer="defer"></script>
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="primer-react-css.89ed847d1a8f127f.module_0f2a2310.css" />
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="notifications-subscriptions-menu.ecd5bfe_703e78f5.css" />
+
+
+  <title>GitHub - MikeMcl/bignumber.js: A JavaScript library for arbitrary-precision decimal and non-decimal arithmetic · GitHub</title>
+
+
+
+  <meta name="route-pattern" content="/:user_id/:repository" data-turbo-transient>
+  <meta name="route-controller" content="files" data-turbo-transient>
+  <meta name="route-action" content="disambiguate" data-turbo-transient>
+  <meta name="fetch-nonce" content="v2:6e156717-b4c1-4310-3edb-84f40d5db18c">
+
+    
+  <meta name="current-catalog-service-hash" content="f3abb0cc802f3d7b95fc8762b94bdcb13bf39634c40c357301c4aa1d67a256fb">
+
+
+  <meta name="request-id" content="D289:3FF791:6902B:75538:6A4502D8" data-pjax-transient="true"/><meta name="html-safe-nonce" content="34d797ca622f698e71e5a4b1bba58ecfe0b4a7490c51a55778bf4c771930a2b3" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJEMjg5OjNGRjc5MTo2OTAyQjo3NTUzODo2QTQ1MDJEOCIsInZpc2l0b3JfaWQiOiIxNDgyOTAwNzQ3MDcwMDE0MTY4IiwicmVnaW9uX2VkZ2UiOiJicmF6aWxzb3V0aCIsInJlZ2lvbl9yZW5kZXIiOiJicmF6aWxzb3V0aCJ9" data-pjax-transient="true"/><meta name="visitor-hmac" content="39d6d5ce151be3ac61b5cff3c01c27ba985984b4eac2ed237f347575b1c6ed40" data-pjax-transient="true"/>
+
+
+    <meta name="hovercard-subject-tag" content="repository:6602323" data-turbo-transient>
+
+
+  <meta name="github-keyboard-shortcuts" content="repository,copilot" data-turbo-transient="true" />
+  
+
+  <meta name="selected-link" value="repo_source" data-turbo-transient>
+  <link rel="assets" href="https://github.githubassets.com/">
+
+    <meta name="google-site-verification" content="Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I">
+
+<meta name="octolytics-url" content="https://collector.github.com/github/collect" />
+
+
+
+
+
+  <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-turbo-transient="true" />
+
+  
+
+
+
+
+    <meta name="user-login" content="">
+
+  
+
+    <meta name="viewport" content="width=device-width">
+
+    
+
+      <meta name="description" content="A JavaScript library for arbitrary-precision decimal and non-decimal arithmetic  - GitHub - MikeMcl/bignumber.js: A JavaScript library for arbitrary-precision decimal and non-decimal arithmetic">
+
+      <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+
+    <link rel="fluid-icon" href="fluidicon_ad667ada.png" title="GitHub">
+    <meta property="fb:app_id" content="1401488693436528">
+    <meta name="apple-itunes-app" content="app-id=1477376905, app-argument=bignumber_1f174efa.js" />
+
+      <meta name="twitter:image" content="bignumber_5726eea2.js" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="GitHub - MikeMcl/bignumber.js: A JavaScript library for arbitrary-precision decimal and non-decimal arithmetic" /><meta name="twitter:description" content="A JavaScript library for arbitrary-precision decimal and non-decimal arithmetic  - MikeMcl/bignumber.js" />
+  <meta property="og:image" content="bignumber_5726eea2.js" /><meta property="og:image:alt" content="A JavaScript library for arbitrary-precision decimal and non-decimal arithmetic  - MikeMcl/bignumber.js" /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="600" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="GitHub - MikeMcl/bignumber.js: A JavaScript library for arbitrary-precision decimal and non-decimal arithmetic" /><meta property="og:url" content="bignumber_1f174efa.js" /><meta property="og:description" content="A JavaScript library for arbitrary-precision decimal and non-decimal arithmetic  - MikeMcl/bignumber.js" />
+  
+
+
+
+
+      <meta name="hostname" content="github.com">
+
+
+
+        <meta name="expected-hostname" content="github.com">
+
+
+  <meta http-equiv="x-pjax-version" content="85d2b3cb0659b0a791f574e137052b1915c2bec3a25b1662754d8357a20c78ef" data-turbo-track="reload">
+  <meta http-equiv="x-pjax-csp-version" content="cb4cffb7c023f774818cf728eb860debf1fc8ecf88a20487b238da276df1eb7d" data-turbo-track="reload">
+  <meta http-equiv="x-pjax-css-version" content="e467789bdc58a2f1dbf2e3078cfdbec15e9b01957ea170c2bd4e33a7065cb040" data-turbo-track="reload">
+  <meta http-equiv="x-pjax-js-version" content="b35ebc59c0fb02c2210b71c251a0894afe181fe7b14c0c156ba1cedcaddc6fe4" data-turbo-track="reload">
+
+  <meta name="turbo-cache-control" content="no-preview" data-turbo-transient="">
+
+      <meta name="turbo-cache-control" content="no-cache" data-turbo-transient>
+
+    <meta data-hydrostats="publish">
+
+  <meta name="go-import" content="github.com/MikeMcl/bignumber.js git bignumber_1f174efa.js.git">
+
+  <meta name="octolytics-dimension-user_id" content="921201" /><meta name="octolytics-dimension-user_login" content="MikeMcl" /><meta name="octolytics-dimension-repository_id" content="6602323" /><meta name="octolytics-dimension-repository_nwo" content="MikeMcl/bignumber.js" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="6602323" /><meta name="octolytics-dimension-repository_network_root_nwo" content="MikeMcl/bignumber.js" />
+  
+
+
+
+    
+
+    <meta name="turbo-body-classes" content="logged-out env-production page-responsive">
+  <meta name="disable-turbo" content="false">
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+    <meta name="release" content="1510e9a3f52ded1efd4d22680c95bf12f69b7c10" data-turbo-track="reload">
+  <meta name="ui-target" content="full">
+
+  <link rel="mask-icon" href="pinned-octocat-093da3e6fa40_468aab38.svg" color="#000000">
+  <link rel="alternate icon" class="js-site-favicon" type="image/png" href="favicon_03486bea.png">
+  <link rel="icon" class="js-site-favicon" type="image/svg+xml" href="favicon_0973ea8c.svg" data-base-href="https://github.githubassets.com/favicons/favicon">
+
+<meta name="theme-color" content="#1e2327">
+<meta name="color-scheme" content="light dark" />
+
+
+  <link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production page-responsive" style="word-wrap: break-word;" >
+    <div data-turbo-body class="logged-out env-production page-responsive" style="word-wrap: break-word;" >
+      <div id="__primerPortalRoot__" style="z-index: 1000; position: absolute; width: 100%;" data-turbo-permanent></div>
+      
+
+    <div class="position-relative header-wrapper js-header-wrapper ">
+      <a href="#start-of-content" data-skip-target-assigned="false" class="px-2 tmp-py-4 color-bg-accent-emphasis color-fg-on-emphasis show-on-focus js-skip-to-content">Skip to content</a>
+
+      <span data-view-component="true" class="progress-pjax-loader Progress position-fixed width-full">
+    <span style="width: 0%;" data-view-component="true" class="Progress-item progress-pjax-loader-bar left-0 top-0 color-bg-accent-emphasis"></span>
+</span>      
+      <link crossorigin="anonymous" media="all" rel="stylesheet" href="primer-react-css.89ed847d1a8f127f.module_0f2a2310.css" />
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="keyboard-shortcuts-dialog.fceceb899f3dc6_ab0c3b07.css" />
+
+<react-partial
+  partial-name="keyboard-shortcuts-dialog"
+  data-ssr="false"
+  data-attempted-ssr="false"
+  data-react-profiling="false"
+>
+  
+  <script type="application/json" data-target="react-partial.embeddedData">{"props":{"docsUrl":"https://docs.github.com/get-started/accessibility/keyboard-shortcuts"}}</script>
+  <div data-target="react-partial.reactRoot"></div>
+</react-partial>
+
+
+
+
+
+      
+
+          
+
+              
+<script crossorigin="anonymous" type="module" src="70666-d9f2187307ac669b_23b09b14.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="89564-f2b4b3a866e42fd2_6757e69c.js" defer="defer"></script>
+<script crossorigin="anonymous" type="module" src="sessions-aef37199526c3a66_39c292a5.js" defer="defer"></script>
+
+<style>
+  /* Override primer focus outline color for marketing header dropdown links for better contrast */
+  [data-color-mode="light"] .HeaderMenu-dropdown-link:focus-visible,
+  [data-color-mode="light"] .HeaderMenu-trailing-link a:focus-visible {
+    outline-color: var(--color-accent-fg);
+  }
+</style>
+
+<header class="HeaderMktg header-logged-out js-details-container js-header Details f4 tmp-py-3" role="banner" data-is-top="true" data-color-mode=auto data-light-theme=light data-dark-theme=dark>
+  <h2 class="sr-only">Navigation Menu</h2>
+
+  <button type="button" class="HeaderMktg-backdrop d-lg-none border-0 position-fixed top-0 left-0 width-full height-full js-details-target" aria-label="Toggle navigation">
+    <span class="d-none">Toggle navigation</span>
+  </button>
+
+  <div class="d-flex flex-column flex-lg-row flex-items-center tmp-px-3 tmp-px-md-4 tmp-px-lg-5 height-full position-relative z-1">
+    <div class="d-flex flex-justify-between flex-items-center width-full width-lg-auto">
+      <div class="flex-1">
+        <button aria-label="Toggle navigation" aria-expanded="false" type="button" data-view-component="true" class="js-details-target js-nav-padding-recalculate js-header-menu-toggle Button--link Button--medium Button d-lg-none color-fg-inherit p-1 tmp-p-1">  <span class="Button-content">
+    <span class="Button-label"><div class="HeaderMenu-toggle-bar rounded my-1"></div>
+            <div class="HeaderMenu-toggle-bar rounded my-1"></div>
+            <div class="HeaderMenu-toggle-bar rounded my-1"></div></span>
+  </span>
+</button>
+      </div>
+
+      <a class="tmp-mr-lg-3 color-fg-inherit flex-order-2 js-prevent-focus-on-mobile-nav"
+        href="/"
+        aria-label="Homepage"
+        data-analytics-event="{&quot;category&quot;:&quot;Marketing nav&quot;,&quot;action&quot;:&quot;click to go to homepage&quot;,&quot;label&quot;:&quot;ref_page:Marketing;ref_cta:Logomark;ref_loc:Header&quot;}">
+        <svg height="32" aria-hidden="true" data-component="Octicon" viewBox="0 0 24 24" version="1.1" width="32" data-view-component="true" class="octicon octicon-mark-github">
+    <path d="M10.226 17.284c-2.965-.36-5.054-2.493-5.054-5.256 0-1.123.404-2.336 1.078-3.144-.292-.741-.247-2.314.09-2.965.898-.112 2.111.36 2.83 1.01.853-.269 1.752-.404 2.853-.404 1.1 0 1.999.135 2.807.382.696-.629 1.932-1.1 2.83-.988.315.606.36 2.179.067 2.942.72.854 1.101 2 1.101 3.167 0 2.763-2.089 4.852-5.098 5.234.763.494 1.28 1.572 1.28 2.807v2.336c0 .674.561 1.056 1.235.786 4.066-1.55 7.255-5.615 7.255-10.646C23.5 6.188 18.334 1 11.978 1 5.62 1 .5 6.188.5 12.545c0 4.986 3.167 9.12 7.435 10.669.606.225 1.19-.18 1.19-.786V20.63a2.9 2.9 0 0 1-1.078.224c-1.483 0-2.359-.808-2.987-2.313-.247-.607-.517-.966-1.034-1.033-.27-.023-.359-.135-.359-.27 0-.27.45-.471.898-.471.652 0 1.213.404 1.797 1.235.45.651.921.943 1.483.943.561 0 .92-.202 1.437-.719.382-.381.674-.718.944-.943"></path>
+</svg>
+      </a>
+
+      <div class="d-flex flex-1 flex-order-2 text-right d-lg-none gap-2 flex-justify-end">
+          <a
+            href="/login?return_to=https%3A%2F%2Fgithub.com%2FMikeMcl%2Fbignumber.js%2F%2F%2F"
+            class="HeaderMenu-link HeaderMenu-button d-inline-flex f5 no-underline border color-border-default rounded-2 px-2 py-1 color-fg-inherit js-prevent-focus-on-mobile-nav"
+            data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;bignumber_1f174efa.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="02a5c9f1e564e9d9ea60d43df78e611d5f88a219cdcf48bc2d15fb924200ed58"
+            data-analytics-event="{&quot;category&quot;:&quot;Marketing nav&quot;,&quot;action&quot;:&quot;click to Sign in&quot;,&quot;label&quot;:&quot;ref_page:Marketing;ref_cta:Sign in;ref_loc:Header&quot;}"
+          >
+            Sign in
+          </a>
+              <div class="AppHeader-appearanceSettings">
+    <react-partial-anchor>
+      <button data-target="react-partial-anchor.anchor" id="icon-button-ebeef494-f82d-4d62-abe3-bf60a1722d3f" aria-labelledby="tooltip-0c992ad2-ca21-45e0-9cb3-3d09b0f0849d" type="button" disabled="disabled" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium AppHeader-button HeaderMenu-link border cursor-wait">  <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-sliders Button-visual">
+    <path d="M15 2.75a.75.75 0 0 1-.75.75h-4a.75.75 0 0 1 0-1.5h4a.75.75 0 0 1 .75.75Zm-8.5.75v1.25a.75.75 0 0 0 1.5 0v-4a.75.75 0 0 0-1.5 0V2H1.75a.75.75 0 0 0 0 1.5H6.5Zm1.25 5.25a.75.75 0 0 0 0-1.5h-6a.75.75 0 0 0 0 1.5h6ZM15 8a.75.75 0 0 1-.75.75H11.5V10a.75.75 0 1 1-1.5 0V6a.75.75 0 0 1 1.5 0v1.25h2.75A.75.75 0 0 1 15 8Zm-9 5.25v-2a.75.75 0 0 0-1.5 0v1.25H1.75a.75.75 0 0 0 0 1.5H4.5v1.25a.75.75 0 0 0 1.5 0v-2Zm9 0a.75.75 0 0 1-.75.75h-6a.75.75 0 0 1 0-1.5h6a.75.75 0 0 1 .75.75Z"></path>
+</svg>
+</button><tool-tip id="tooltip-0c992ad2-ca21-45e0-9cb3-3d09b0f0849d" for="icon-button-ebeef494-f82d-4d62-abe3-bf60a1722d3f" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Appearance settings</tool-tip>
+
+      <template data-target="react-partial-anchor.template">
+        <link crossorigin="anonymous" media="all" rel="stylesheet" href="primer-react-css.89ed847d1a8f127f.module_0f2a2310.css" />
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="appearance-settings.f3b91559daeb1c9c.mod_bece5616.css" />
+
+<react-partial
+  partial-name="appearance-settings"
+  data-ssr="false"
+  data-attempted-ssr="false"
+  data-react-profiling="false"
+>
+  
+  <script type="application/json" data-target="react-partial.embeddedData">{"props":{}}</script>
+  <div data-target="react-partial.reactRoot"></div>
+</react-partial>
+
+
+      </template>
+    </react-partial-anchor>
+  </div>
+
+      </div>
+    </div>
+
+
+    <div class="HeaderMenu js-header-menu height-fit position-lg-relative d-lg-flex flex-column flex-auto top-0">
+      <div class="HeaderMenu-wrapper d-flex flex-column flex-self-start flex-lg-row flex-auto rounded rounded-lg-0">
+          <link crossorigin="anonymous" media="all" rel="stylesheet" href="primer-react-css.89ed847d1a8f127f.module_0f2a2310.css" />
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="marketing-navigation.73c75b5e8ccc10b3.mo_6d032745.css" />
+
+<react-partial
+  partial-name="marketing-navigation"
+  data-ssr="true"
+  data-attempted-ssr="true"
+  data-react-profiling="false"
+>
+  
+  <script type="application/json" data-target="react-partial.embeddedData">{"props":{"should_use_dotcom_links":true}}</script>
+  <div data-target="react-partial.reactRoot"><nav class="MarketingNavigation-module__nav__W0KYY" aria-label="Global"><ul class="MarketingNavigation-module__list__tFbMb"><li><div class="NavDropdown-module__container__l2YeI js-details-container js-header-menu-item"><button type="button" class="NavDropdown-module__button__PEHWX js-details-target" aria-expanded="false">Platform<svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-chevron-right NavDropdown-module__buttonIcon__Tkl8_" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg></button><div class="NavDropdown-module__dropdown__xm1jd"><ul class="NavDropdown-module__list__zuCgG"><li><div class="NavGroup-module__group__W8SqJ"><span class="NavGroup-module__title__Wzxz2" id="_R_5hb_">AI CODE CREATION</span><ul class="NavGroup-module__list__UCOFy" aria-labelledby="_R_5hb_"><li><a href="https://github.com/features/copilot" data-analytics-event="{&quot;action&quot;:&quot;github_copilot&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;platform&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;github_copilot_link_platform_navbar&quot;}" class="NavLink-module__link__EG3d4"><div class="NavLink-module__text__XvpLQ"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-copilot NavLink-module__icon__ltGNM" viewBox="0 0 24 24" width="24" height="24" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M23.922 16.992c-.861 1.495-5.859 5.023-11.922 5.023-6.063 0-11.061-3.528-11.922-5.023A.641.641 0 0 1 0 16.736v-2.869a.841.841 0 0 1 .053-.22c.372-.935 1.347-2.292 2.605-2.656.167-.429.414-1.055.644-1.517a10.195 10.195 0 0 1-.052-1.086c0-1.331.282-2.499 1.132-3.368.397-.406.89-.717 1.474-.952 1.399-1.136 3.392-2.093 6.122-2.093 2.731 0 4.767.957 6.166 2.093.584.235 1.077.546 1.474.952.85.869 1.132 2.037 1.132 3.368 0 .368-.014.733-.052 1.086.23.462.477 1.088.644 1.517 1.258.364 2.233 1.721 2.605 2.656a.832.832 0 0 1 .053.22v2.869a.641.641 0 0 1-.078.256ZM12.172 11h-.344a4.323 4.323 0 0 1-.355.508C10.703 12.455 9.555 13 7.965 13c-1.725 0-2.989-.359-3.782-1.259a2.005 2.005 0 0 1-.085-.104L4 11.741v6.585c1.435.779 4.514 2.179 8 2.179 3.486 0 6.565-1.4 8-2.179v-6.585l-.098-.104s-.033.045-.085.104c-.793.9-2.057 1.259-3.782 1.259-1.59 0-2.738-.545-3.508-1.492a4.323 4.323 0 0 1-.355-.508h-.016.016Zm.641-2.935c.136 1.057.403 1.913.878 2.497.442.544 1.134.938 2.344.938 1.573 0 2.292-.337 2.657-.751.384-.435.558-1.15.558-2.361 0-1.14-.243-1.847-.705-2.319-.477-.488-1.319-.862-2.824-1.025-1.487-.161-2.192.138-2.533.529-.269.307-.437.808-.438 1.578v.021c0 .265.021.562.063.893Zm-1.626 0c.042-.331.063-.628.063-.894v-.02c-.001-.77-.169-1.271-.438-1.578-.341-.391-1.046-.69-2.533-.529-1.505.163-2.347.537-2.824 1.025-.462.472-.705 1.179-.705 2.319 0 1.211.175 1.926.558 2.361.365.414 1.084.751 2.657.751 1.21 0 1.902-.394 2.344-.938.475-.584.742-1.44.878-2.497Z"></path><path d="M14.5 14.25a1 1 0 0 1 1 1v2a1 1 0 0 1-2 0v-2a1 1 0 0 1 1-1Zm-5 0a1 1 0 0 1 1 1v2a1 1 0 0 1-2 0v-2a1 1 0 0 1 1-1Z"></path></svg><span class="NavLink-module__title__Q7t0p">GitHub Copilot</span><span class="NavLink-module__subtitle__X4gkW">Write better code with AI</span></div></a></li><li><a href="https://github.com/features/ai/github-app" data-analytics-event="{&quot;action&quot;:&quot;github_copilot_app&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;platform&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;github_copilot_app_link_platform_navbar&quot;}" class="NavLink-module__link__EG3d4"><div class="NavLink-module__text__XvpLQ"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-mark-github NavLink-module__icon__ltGNM" viewBox="0 0 24 24" width="24" height="24" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M10.226 17.284c-2.965-.36-5.054-2.493-5.054-5.256 0-1.123.404-2.336 1.078-3.144-.292-.741-.247-2.314.09-2.965.898-.112 2.111.36 2.83 1.01.853-.269 1.752-.404 2.853-.404 1.1 0 1.999.135 2.807.382.696-.629 1.932-1.1 2.83-.988.315.606.36 2.179.067 2.942.72.854 1.101 2 1.101 3.167 0 2.763-2.089 4.852-5.098 5.234.763.494 1.28 1.572 1.28 2.807v2.336c0 .674.561 1.056 1.235.786 4.066-1.55 7.255-5.615 7.255-10.646C23.5 6.188 18.334 1 11.978 1 5.62 1 .5 6.188.5 12.545c0 4.986 3.167 9.12 7.435 10.669.606.225 1.19-.18 1.19-.786V20.63a2.9 2.9 0 0 1-1.078.224c-1.483 0-2.359-.808-2.987-2.313-.247-.607-.517-.966-1.034-1.033-.27-.023-.359-.135-.359-.27 0-.27.45-.471.898-.471.652 0 1.213.404 1.797 1.235.45.651.921.943 1.483.943.561 0 .92-.202 1.437-.719.382-.381.674-.718.944-.943"></path></svg><span class="NavLink-module__title__Q7t0p">GitHub Copilot app</span><span class="NavLink-module__subtitle__X4gkW">Direct agents from issue to merge</span></div></a></li><li><a href="https://github.com/mcp" data-analytics-event="{&quot;action&quot;:&quot;mcp_registry&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;platform&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;mcp_registry_link_platform_navbar&quot;}" class="NavLink-module__link__EG3d4"><div class="NavLink-module__text__XvpLQ"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-mcp NavLink-module__icon__ltGNM" viewBox="0 0 24 24" width="24" height="24" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M9.795 1.694a4.287 4.287 0 0 1 6.061 0 4.28 4.28 0 0 1 1.181 3.819 4.282 4.282 0 0 1 3.819 1.181 4.287 4.287 0 0 1 0 6.061l-6.793 6.793a.249.249 0 0 0 0 .353l2.617 2.618a.75.75 0 1 1-1.061 1.061l-2.617-2.618a1.75 1.75 0 0 1 0-2.475l6.793-6.793a2.785 2.785 0 1 0-3.939-3.939l-5.9 5.9a.734.734 0 0 1-.249.165.749.749 0 0 1-.812-1.225l5.9-5.901a2.785 2.785 0 1 0-3.939-3.939L2.931 10.68A.75.75 0 1 1 1.87 9.619l7.925-7.925Z"></path><path d="M12.42 4.069a.752.752 0 0 1 1.061 0 .752.752 0 0 1 0 1.061L7.33 11.28a2.788 2.788 0 0 0 0 3.94 2.788 2.788 0 0 0 3.94 0l6.15-6.151a.752.752 0 0 1 1.061 0 .752.752 0 0 1 0 1.061l-6.151 6.15a4.285 4.285 0 1 1-6.06-6.06l6.15-6.151Z"></path></svg><span class="NavLink-module__title__Q7t0p">MCP Registry<sup class="NavLink-module__label__bil7n">New</sup></span><span class="NavLink-module__subtitle__X4gkW">Integrate external tools</span></div></a></li></ul></div></li><li><div class="NavGroup-module__group__W8SqJ"><span class="NavGroup-module__title__Wzxz2" id="_R_9hb_">DEVELOPER WORKFLOWS</span><ul class="NavGroup-module__list__UCOFy" aria-labelledby="_R_9hb_"><li><a href="https://github.com/features/actions" data-analytics-event="{&quot;action&quot;:&quot;actions&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;platform&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;actions_link_platform_navbar&quot;}" class="NavLink-module__link__EG3d4"><div class="NavLink-module__text__XvpLQ"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-workflow NavLink-module__icon__ltGNM" viewBox="0 0 24 24" width="24" height="24" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M1 3a2 2 0 0 1 2-2h6.5a2 2 0 0 1 2 2v6.5a2 2 0 0 1-2 2H7v4.063C7 16.355 7.644 17 8.438 17H12.5v-2.5a2 2 0 0 1 2-2H21a2 2 0 0 1 2 2V21a2 2 0 0 1-2 2h-6.5a2 2 0 0 1-2-2v-2.5H8.437A2.939 2.939 0 0 1 5.5 15.562V11.5H3a2 2 0 0 1-2-2Zm2-.5a.5.5 0 0 0-.5.5v6.5a.5.5 0 0 0 .5.5h6.5a.5.5 0 0 0 .5-.5V3a.5.5 0 0 0-.5-.5ZM14.5 14a.5.5 0 0 0-.5.5V21a.5.5 0 0 0 .5.5H21a.5.5 0 0 0 .5-.5v-6.5a.5.5 0 0 0-.5-.5Z"></path></svg><span class="NavLink-module__title__Q7t0p">Actions</span><span class="NavLink-module__subtitle__X4gkW">Automate any workflow</span></div></a></li><li><a href="https://github.com/features/codespaces" data-analytics-event="{&quot;action&quot;:&quot;codespaces&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;platform&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;codespaces_link_platform_navbar&quot;}" class="NavLink-module__link__EG3d4"><div class="NavLink-module__text__XvpLQ"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-codespaces NavLink-module__icon__ltGNM" viewBox="0 0 24 24" width="24" height="24" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M3.5 3.75C3.5 2.784 4.284 2 5.25 2h13.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 18.75 13H5.25a1.75 1.75 0 0 1-1.75-1.75Zm-2 12c0-.966.784-1.75 1.75-1.75h17.5c.966 0 1.75.784 1.75 1.75v4a1.75 1.75 0 0 1-1.75 1.75H3.25a1.75 1.75 0 0 1-1.75-1.75ZM5.25 3.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h13.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Zm-2 12a.25.25 0 0 0-.25.25v4c0 .138.112.25.25.25h17.5a.25.25 0 0 0 .25-.25v-4a.25.25 0 0 0-.25-.25Z"></path><path d="M10 17.75a.75.75 0 0 1 .75-.75h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1-.75-.75Zm-4 0a.75.75 0 0 1 .75-.75h.5a.75.75 0 0 1 0 1.5h-.5a.75.75 0 0 1-.75-.75Z"></path></svg><span class="NavLink-module__title__Q7t0p">Codespaces</span><span class="NavLink-module__subtitle__X4gkW">Instant dev environments</span></div></a></li><li><a href="https://github.com/features/issues" data-analytics-event="{&quot;action&quot;:&quot;issues&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;platform&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;issues_link_platform_navbar&quot;}" class="NavLink-module__link__EG3d4"><div class="NavLink-module__text__XvpLQ"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-issue-opened NavLink-module__icon__ltGNM" viewBox="0 0 24 24" width="24" height="24" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Zm9.5 2a2 2 0 1 1-.001-3.999A2 2 0 0 1 12 14Z"></path></svg><span class="NavLink-module__title__Q7t0p">Issues</span><span class="NavLink-module__subtitle__X4gkW">Plan and track work</span></div></a></li><li><a href="https://github.com/features/code-review" data-analytics-event="{&quot;action&quot;:&quot;code_review&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;platform&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;code_review_link_platform_navbar&quot;}" class="NavLink-module__link__EG3d4"><div class="NavLink-module__text__XvpLQ"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-code NavLink-module__icon__ltGNM" viewBox="0 0 24 24" width="24" height="24" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M15.22 4.97a.75.75 0 0 1 1.06 0l6.5 6.5a.75.75 0 0 1 0 1.06l-6.5 6.5a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L21.19 12l-5.97-5.97a.75.75 0 0 1 0-1.06Zm-6.44 0a.75.75 0 0 1 0 1.06L2.81 12l5.97 5.97a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215l-6.5-6.5a.75.75 0 0 1 0-1.06l6.5-6.5a.75.75 0 0 1 1.06 0Z"></path></svg><span class="NavLink-module__title__Q7t0p">Code Review</span><span class="NavLink-module__subtitle__X4gkW">Manage code changes</span></div></a></li></ul></div></li><li><div class="NavGroup-module__group__W8SqJ"><span class="NavGroup-module__title__Wzxz2" id="_R_dhb_">APPLICATION SECURITY</span><ul class="NavGroup-module__list__UCOFy" aria-labelledby="_R_dhb_"><li><a href="https://github.com/security/advanced-security" data-analytics-event="{&quot;action&quot;:&quot;github_advanced_security&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;platform&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;github_advanced_security_link_platform_navbar&quot;}" class="NavLink-module__link__EG3d4"><div class="NavLink-module__text__XvpLQ"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-shield-check NavLink-module__icon__ltGNM" viewBox="0 0 24 24" width="24" height="24" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M16.53 9.78a.75.75 0 0 0-1.06-1.06L11 13.19l-1.97-1.97a.75.75 0 0 0-1.06 1.06l2.5 2.5a.75.75 0 0 0 1.06 0l5-5Z"></path><path d="m12.54.637 8.25 2.675A1.75 1.75 0 0 1 22 4.976V10c0 6.19-3.771 10.704-9.401 12.83a1.704 1.704 0 0 1-1.198 0C5.77 20.705 2 16.19 2 10V4.976c0-.758.489-1.43 1.21-1.664L11.46.637a1.748 1.748 0 0 1 1.08 0Zm-.617 1.426-8.25 2.676a.249.249 0 0 0-.173.237V10c0 5.46 3.28 9.483 8.43 11.426a.199.199 0 0 0 .14 0C17.22 19.483 20.5 15.461 20.5 10V4.976a.25.25 0 0 0-.173-.237l-8.25-2.676a.253.253 0 0 0-.154 0Z"></path></svg><span class="NavLink-module__title__Q7t0p">GitHub Advanced Security</span><span class="NavLink-module__subtitle__X4gkW">Find and fix vulnerabilities</span></div></a></li><li><a href="https://github.com/security/advanced-security/code-security" data-analytics-event="{&quot;action&quot;:&quot;code_security&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;platform&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;code_security_link_platform_navbar&quot;}" class="NavLink-module__link__EG3d4"><div class="NavLink-module__text__XvpLQ"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-code-square NavLink-module__icon__ltGNM" viewBox="0 0 24 24" width="24" height="24" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M10.3 8.24a.75.75 0 0 1-.04 1.06L7.352 12l2.908 2.7a.75.75 0 1 1-1.02 1.1l-3.5-3.25a.75.75 0 0 1 0-1.1l3.5-3.25a.75.75 0 0 1 1.06.04Zm3.44 1.06a.75.75 0 1 1 1.02-1.1l3.5 3.25a.75.75 0 0 1 0 1.1l-3.5 3.25a.75.75 0 1 1-1.02-1.1l2.908-2.7-2.908-2.7Z"></path><path d="M2 3.75C2 2.784 2.784 2 3.75 2h16.5c.966 0 1.75.784 1.75 1.75v16.5A1.75 1.75 0 0 1 20.25 22H3.75A1.75 1.75 0 0 1 2 20.25Zm1.75-.25a.25.25 0 0 0-.25.25v16.5c0 .138.112.25.25.25h16.5a.25.25 0 0 0 .25-.25V3.75a.25.25 0 0 0-.25-.25Z"></path></svg><span class="NavLink-module__title__Q7t0p">Code security</span><span class="NavLink-module__subtitle__X4gkW">Secure your code as you build</span></div></a></li><li><a href="https://github.com/security/advanced-security/secret-protection" data-analytics-event="{&quot;action&quot;:&quot;secret_protection&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;platform&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;secret_protection_link_platform_navbar&quot;}" class="NavLink-module__link__EG3d4"><div class="NavLink-module__text__XvpLQ"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-lock NavLink-module__icon__ltGNM" viewBox="0 0 24 24" width="24" height="24" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M6 9V7.25C6 3.845 8.503 1 12 1s6 2.845 6 6.25V9h.5a2.5 2.5 0 0 1 2.5 2.5v8a2.5 2.5 0 0 1-2.5 2.5h-13A2.5 2.5 0 0 1 3 19.5v-8A2.5 2.5 0 0 1 5.5 9Zm-1.5 2.5v8a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1v-8a1 1 0 0 0-1-1h-13a1 1 0 0 0-1 1Zm3-4.25V9h9V7.25c0-2.67-1.922-4.75-4.5-4.75-2.578 0-4.5 2.08-4.5 4.75Z"></path></svg><span class="NavLink-module__title__Q7t0p">Secret protection</span><span class="NavLink-module__subtitle__X4gkW">Stop leaks before they start</span></div></a></li></ul></div></li><li><div class="NavGroup-module__group__W8SqJ NavGroup-module__hasSeparator__FnMrN"><span class="NavGroup-module__title__Wzxz2" id="_R_hhb_">EXPLORE</span><ul class="NavGroup-module__list__UCOFy" aria-labelledby="_R_hhb_"><li><a href="https://github.com/why-github" data-analytics-event="{&quot;action&quot;:&quot;why_github&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;platform&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;why_github_link_platform_navbar&quot;}" class="NavLink-module__link__EG3d4"><span class="NavLink-module__title__Q7t0p">Why GitHub</span></a></li><li><a href="https://docs.github.com" data-analytics-event="{&quot;action&quot;:&quot;documentation&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;platform&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;documentation_link_platform_navbar&quot;}" class="NavLink-module__link__EG3d4" target="_blank" rel="noreferrer"><span class="NavLink-module__title__Q7t0p">Documentation</span><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-link-external NavLink-module__externalIcon__eWIry" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path></svg></a></li><li><a href="https://github.blog" data-analytics-event="{&quot;action&quot;:&quot;blog&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;platform&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;blog_link_platform_navbar&quot;}" class="NavLink-module__link__EG3d4" target="_blank" rel="noreferrer"><span class="NavLink-module__title__Q7t0p">Blog</span><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-link-external NavLink-module__externalIcon__eWIry" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path></svg></a></li><li><a href="https://github.blog/changelog" data-analytics-event="{&quot;action&quot;:&quot;changelog&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;platform&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;changelog_link_platform_navbar&quot;}" class="NavLink-module__link__EG3d4" target="_blank" rel="noreferrer"><span class="NavLink-module__title__Q7t0p">Changelog</span><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-link-external NavLink-module__externalIcon__eWIry" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path></svg></a></li><li><a href="https://github.com/marketplace" data-analytics-event="{&quot;action&quot;:&quot;marketplace&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;platform&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;marketplace_link_platform_navbar&quot;}" class="NavLink-module__link__EG3d4"><span class="NavLink-module__title__Q7t0p">Marketplace</span></a></li></ul></div></li></ul><div class="NavDropdown-module__trailingLinkContainer__VgJGL"><a href="https://github.com/features" data-analytics-event="{&quot;action&quot;:&quot;view_all_features&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;platform&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;view_all_features_link_platform_navbar&quot;}" class="NavLink-module__link__EG3d4"><span class="NavLink-module__title__Q7t0p">View all features</span><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-chevron-right NavLink-module__arrowIcon__amekg" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg></a></div></div></div></li><li><div class="NavDropdown-module__container__l2YeI js-details-container js-header-menu-item"><button type="button" class="NavDropdown-module__button__PEHWX js-details-target" aria-expanded="false">Solutions<svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-chevron-right NavDropdown-module__buttonIcon__Tkl8_" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg></button><div class="NavDropdown-module__dropdown__xm1jd"><ul class="NavDropdown-module__list__zuCgG"><li><div class="NavGroup-module__group__W8SqJ"><span class="NavGroup-module__title__Wzxz2" id="_R_5ib_">BY COMPANY SIZE</span><ul class="NavGroup-module__list__UCOFy" aria-labelledby="_R_5ib_"><li><a href="https://github.com/enterprise" data-analytics-event="{&quot;action&quot;:&quot;enterprises&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;enterprises_link_solutions_navbar&quot;}" class="NavLink-module__link__EG3d4"><span class="NavLink-module__title__Q7t0p">Enterprises</span></a></li><li><a href="https://github.com/team" data-analytics-event="{&quot;action&quot;:&quot;small_and_medium_teams&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;small_and_medium_teams_link_solutions_navbar&quot;}" class="NavLink-module__link__EG3d4"><span class="NavLink-module__title__Q7t0p">Small and medium teams</span></a></li><li><a href="https://github.com/enterprise/startups" data-analytics-event="{&quot;action&quot;:&quot;startups&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;startups_link_solutions_navbar&quot;}" class="NavLink-module__link__EG3d4"><span class="NavLink-module__title__Q7t0p">Startups</span></a></li><li><a href="https://github.com/solutions/industry/nonprofits" data-analytics-event="{&quot;action&quot;:&quot;nonprofits&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;nonprofits_link_solutions_navbar&quot;}" class="NavLink-module__link__EG3d4"><span class="NavLink-module__title__Q7t0p">Nonprofits</span></a></li></ul></div></li><li><div class="NavGroup-module__group__W8SqJ"><span class="NavGroup-module__title__Wzxz2" id="_R_9ib_">BY USE CASE</span><ul class="NavGroup-module__list__UCOFy" aria-labelledby="_R_9ib_"><li><a href="https://github.com/solutions/use-case/app-modernization" data-analytics-event="{&quot;action&quot;:&quot;app_modernization&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;app_modernization_link_solutions_navbar&quot;}" class="NavLink-module__link__EG3d4"><span class="NavLink-module__title__Q7t0p">App Modernization</span></a></li><li><a href="https://github.com/solutions/use-case/devsecops" data-analytics-event="{&quot;action&quot;:&quot;devsecops&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;devsecops_link_solutions_navbar&quot;}" class="NavLink-module__link__EG3d4"><span class="NavLink-module__title__Q7t0p">DevSecOps</span></a></li><li><a href="https://github.com/solutions/use-case/devops" data-analytics-event="{&quot;action&quot;:&quot;devops&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;devops_link_solutions_navbar&quot;}" class="NavLink-module__link__EG3d4"><span class="NavLink-module__title__Q7t0p">DevOps</span></a></li><li><a href="https://github.com/solutions/use-case/ci-cd" data-analytics-event="{&quot;action&quot;:&quot;ci/cd&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;ci/cd_link_solutions_navbar&quot;}" class="NavLink-module__link__EG3d4"><span class="NavLink-module__title__Q7t0p">CI/CD</span></a></li><li><a href="https://github.com/solutions/use-case" data-analytics-event="{&quot;action&quot;:&quot;view_all_use_cases&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;view_all_use_cases_link_solutions_navbar&quot;}" class="NavLink-module__link__EG3d4"><span class="NavLink-module__title__Q7t0p">View all use cases</span><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-chevron-right NavLink-module__arrowIcon__amekg" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg></a></li></ul></div></li><li><div class="NavGroup-module__group__W8SqJ"><span class="NavGroup-module__title__Wzxz2" id="_R_dib_">BY INDUSTRY</span><ul class="NavGroup-module__list__UCOFy" aria-labelledby="_R_dib_"><li><a href="https://github.com/solutions/industry/healthcare" data-analytics-event="{&quot;action&quot;:&quot;healthcare&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;healthcare_link_solutions_navbar&quot;}" class="NavLink-module__link__EG3d4"><span class="NavLink-module__title__Q7t0p">Healthcare</span></a></li><li><a href="https://github.com/solutions/industry/financial-services" data-analytics-event="{&quot;action&quot;:&quot;financial_services&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;financial_services_link_solutions_navbar&quot;}" class="NavLink-module__link__EG3d4"><span class="NavLink-module__title__Q7t0p">Financial services</span></a></li><li><a href="https://github.com/solutions/industry/manufacturing" data-analytics-event="{&quot;action&quot;:&quot;manufacturing&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;manufacturing_link_solutions_navbar&quot;}" class="NavLink-module__link__EG3d4"><span class="NavLink-module__title__Q7t0p">Manufacturing</span></a></li><li><a href="https://github.com/solutions/industry/government" data-analytics-event="{&quot;action&quot;:&quot;government&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;government_link_solutions_navbar&quot;}" class="NavLink-module__link__EG3d4"><span class="NavLink-module__title__Q7t0p">Government</span></a></li><li><a href="https://github.com/solutions/industry" data-analytics-event="{&quot;action&quot;:&quot;view_all_industries&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;view_all_industries_link_solutions_navbar&quot;}" class="NavLink-module__link__EG3d4"><span class="NavLink-module__title__Q7t0p">View all industries</span><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-chevron-right NavLink-module__arrowIcon__amekg" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg></a></li></ul></div></li></ul><div class="NavDropdown-module__trailingLinkContainer__VgJGL"><a href="https://github.com/solutions" data-analytics-event="{&quot;action&quot;:&quot;view_all_solutions&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;view_all_solutions_link_solutions_navbar&quot;}" class="NavLink-module__link__EG3d4"><span class="NavLink-module__title__Q7t0p">View all solutions</span><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-chevron-right NavLink-module__arrowIcon__amekg" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg></a></div></div></div></li><li><div class="NavDropdown-module__container__l2YeI js-details-container js-header-menu-item"><button type="button" class="NavDropdown-module__button__PEHWX js-details-target" aria-expanded="false">Resources<svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-chevron-right NavDropdown-module__buttonIcon__Tkl8_" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg></button><div class="NavDropdown-module__dropdown__xm1jd"><ul class="NavDropdown-module__list__zuCgG"><li><div class="NavGroup-module__group__W8SqJ"><span class="NavGroup-module__title__Wzxz2" id="_R_5jb_">EXPLORE BY TOPIC</span><ul class="NavGroup-module__list__UCOFy" aria-labelledby="_R_5jb_"><li><a href="https://github.com/resources/articles?topic=ai" data-analytics-event="{&quot;action&quot;:&quot;ai&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;ai_link_resources_navbar&quot;}" class="NavLink-module__link__EG3d4"><span class="NavLink-module__title__Q7t0p">AI</span></a></li><li><a href="https://github.com/resources/articles?topic=software-development" data-analytics-event="{&quot;action&quot;:&quot;software_development&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;software_development_link_resources_navbar&quot;}" class="NavLink-module__link__EG3d4"><span class="NavLink-module__title__Q7t0p">Software Development</span></a></li><li><a href="https://github.com/resources/articles?topic=devops" data-analytics-event="{&quot;action&quot;:&quot;devops&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;devops_link_resources_navbar&quot;}" class="NavLink-module__link__EG3d4"><span class="NavLink-module__title__Q7t0p">DevOps</span></a></li><li><a href="https://github.com/resources/articles?topic=security" data-analytics-event="{&quot;action&quot;:&quot;security&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;security_link_resources_navbar&quot;}" class="NavLink-module__link__EG3d4"><span class="NavLink-module__title__Q7t0p">Security</span></a></li><li><a href="https://github.com/resources/articles" data-analytics-event="{&quot;action&quot;:&quot;view_all_topics&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;view_all_topics_link_resources_navbar&quot;}" class="NavLink-module__link__EG3d4"><span class="NavLink-module__title__Q7t0p">View all topics</span><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-chevron-right NavLink-module__arrowIcon__amekg" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg></a></li></ul></div></li><li><div class="NavGroup-module__group__W8SqJ"><span class="NavGroup-module__title__Wzxz2" id="_R_9jb_">EXPLORE BY TYPE</span><ul class="NavGroup-module__list__UCOFy" aria-labelledby="_R_9jb_"><li><a href="https://github.com/customer-stories" data-analytics-event="{&quot;action&quot;:&quot;customer_stories&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;customer_stories_link_resources_navbar&quot;}" class="NavLink-module__link__EG3d4"><span class="NavLink-module__title__Q7t0p">Customer stories</span></a></li><li><a href="https://github.com/resources/events" data-analytics-event="{&quot;action&quot;:&quot;events__webinars&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;events__webinars_link_resources_navbar&quot;}" class="NavLink-module__link__EG3d4"><span class="NavLink-module__title__Q7t0p">Events &amp; webinars</span></a></li><li><a href="https://github.com/resources/whitepapers" data-analytics-event="{&quot;action&quot;:&quot;ebooks__reports&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;ebooks__reports_link_resources_navbar&quot;}" class="NavLink-module__link__EG3d4"><span class="NavLink-module__title__Q7t0p">Ebooks &amp; reports</span></a></li><li><a href="https://github.com/solutions/executive-insights" data-analytics-event="{&quot;action&quot;:&quot;business_insights&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;business_insights_link_resources_navbar&quot;}" class="NavLink-module__link__EG3d4"><span class="NavLink-module__title__Q7t0p">Business insights</span></a></li><li><a href="https://skills.github.com" data-analytics-event="{&quot;action&quot;:&quot;github_skills&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;github_skills_link_resources_navbar&quot;}" class="NavLink-module__link__EG3d4" target="_blank" rel="noreferrer"><span class="NavLink-module__title__Q7t0p">GitHub Skills</span><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-link-external NavLink-module__externalIcon__eWIry" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path></svg></a></li></ul></div></li><li><div class="NavGroup-module__group__W8SqJ"><span class="NavGroup-module__title__Wzxz2" id="_R_djb_">SUPPORT &amp; SERVICES</span><ul class="NavGroup-module__list__UCOFy" aria-labelledby="_R_djb_"><li><a href="https://docs.github.com" data-analytics-event="{&quot;action&quot;:&quot;documentation&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;documentation_link_resources_navbar&quot;}" class="NavLink-module__link__EG3d4" target="_blank" rel="noreferrer"><span class="NavLink-module__title__Q7t0p">Documentation</span><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-link-external NavLink-module__externalIcon__eWIry" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path></svg></a></li><li><a href="https://support.github.com" data-analytics-event="{&quot;action&quot;:&quot;customer_support&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;customer_support_link_resources_navbar&quot;}" class="NavLink-module__link__EG3d4" target="_blank" rel="noreferrer"><span class="NavLink-module__title__Q7t0p">Customer support</span><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-link-external NavLink-module__externalIcon__eWIry" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path></svg></a></li><li><a href="https://github.com/orgs/community/discussions" data-analytics-event="{&quot;action&quot;:&quot;community_forum&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;community_forum_link_resources_navbar&quot;}" class="NavLink-module__link__EG3d4"><span class="NavLink-module__title__Q7t0p">Community forum</span></a></li><li><a href="https://github.com/trust-center" data-analytics-event="{&quot;action&quot;:&quot;trust_center&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;trust_center_link_resources_navbar&quot;}" class="NavLink-module__link__EG3d4"><span class="NavLink-module__title__Q7t0p">Trust center</span></a></li><li><a href="https://github.com/partners" data-analytics-event="{&quot;action&quot;:&quot;partners&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;partners_link_resources_navbar&quot;}" class="NavLink-module__link__EG3d4"><span class="NavLink-module__title__Q7t0p">Partners</span></a></li></ul></div></li></ul><div class="NavDropdown-module__trailingLinkContainer__VgJGL"><a href="https://github.com/resources" data-analytics-event="{&quot;action&quot;:&quot;view_all_resources&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;view_all_resources_link_resources_navbar&quot;}" class="NavLink-module__link__EG3d4"><span class="NavLink-module__title__Q7t0p">View all resources</span><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-chevron-right NavLink-module__arrowIcon__amekg" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg></a></div></div></div></li><li><div class="NavDropdown-module__container__l2YeI js-details-container js-header-menu-item"><button type="button" class="NavDropdown-module__button__PEHWX js-details-target" aria-expanded="false">Open Source<svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-chevron-right NavDropdown-module__buttonIcon__Tkl8_" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg></button><div class="NavDropdown-module__dropdown__xm1jd"><ul class="NavDropdown-module__list__zuCgG"><li><div class="NavGroup-module__group__W8SqJ"><span class="NavGroup-module__title__Wzxz2" id="_R_5kb_">COMMUNITY</span><ul class="NavGroup-module__list__UCOFy" aria-labelledby="_R_5kb_"><li><a href="https://github.com/sponsors" data-analytics-event="{&quot;action&quot;:&quot;github_sponsors&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;open_source&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;github_sponsors_link_open_source_navbar&quot;}" class="NavLink-module__link__EG3d4"><div class="NavLink-module__text__XvpLQ"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-sponsor-tiers NavLink-module__icon__ltGNM" viewBox="0 0 24 24" width="24" height="24" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M16.004 1.25C18.311 1.25 20 3.128 20 5.75c0 2.292-1.23 4.464-3.295 6.485-.481.47-.98.909-1.482 1.31l.265 1.32 1.375 7.5a.75.75 0 0 1-.982.844l-3.512-1.207a.75.75 0 0 0-.488 0L8.37 23.209a.75.75 0 0 1-.982-.844l1.378-7.512.261-1.309c-.5-.4-1-.838-1.481-1.31C5.479 10.215 4.25 8.043 4.25 5.75c0-2.622 1.689-4.5 3.996-4.5 1.55 0 2.947.752 3.832 1.967l.047.067.047-.067a4.726 4.726 0 0 1 3.612-1.962l.22-.005ZM13.89 14.531c-.418.285-.828.542-1.218.77l-.18.103a.75.75 0 0 1-.734 0l-.071-.04-.46-.272c-.282-.173-.573-.36-.868-.562l-.121.605-1.145 6.239 2.3-.79a2.248 2.248 0 0 1 1.284-.054l.18.053 2.299.79-1.141-6.226-.125-.616ZM16.004 2.75c-1.464 0-2.731.983-3.159 2.459-.209.721-1.231.721-1.44 0-.428-1.476-1.695-2.459-3.16-2.459-1.44 0-2.495 1.173-2.495 3 0 1.811 1.039 3.647 2.844 5.412a19.624 19.624 0 0 0 3.734 2.84l-.019-.011-.184-.111.147-.088a19.81 19.81 0 0 0 3.015-2.278l.37-.352C17.46 9.397 18.5 7.561 18.5 5.75c0-1.827-1.055-3-2.496-3Z"></path></svg><span class="NavLink-module__title__Q7t0p">GitHub Sponsors</span><span class="NavLink-module__subtitle__X4gkW">Fund open source developers</span></div></a></li></ul></div></li><li><div class="NavGroup-module__group__W8SqJ"><span class="NavGroup-module__title__Wzxz2" id="_R_9kb_">PROGRAMS</span><ul class="NavGroup-module__list__UCOFy" aria-labelledby="_R_9kb_"><li><a href="https://securitylab.github.com" data-analytics-event="{&quot;action&quot;:&quot;security_lab&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;open_source&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;security_lab_link_open_source_navbar&quot;}" class="NavLink-module__link__EG3d4" target="_blank" rel="noreferrer"><span class="NavLink-module__title__Q7t0p">Security Lab</span><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-link-external NavLink-module__externalIcon__eWIry" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path></svg></a></li><li><a href="https://maintainers.github.com" data-analytics-event="{&quot;action&quot;:&quot;maintainer_community&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;open_source&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;maintainer_community_link_open_source_navbar&quot;}" class="NavLink-module__link__EG3d4" target="_blank" rel="noreferrer"><span class="NavLink-module__title__Q7t0p">Maintainer Community</span><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-link-external NavLink-module__externalIcon__eWIry" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path></svg></a></li><li><a href="https://github.com/accelerator" data-analytics-event="{&quot;action&quot;:&quot;accelerator&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;open_source&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;accelerator_link_open_source_navbar&quot;}" class="NavLink-module__link__EG3d4"><span class="NavLink-module__title__Q7t0p">Accelerator</span></a></li><li><a href="https://stars.github.com" data-analytics-event="{&quot;action&quot;:&quot;github_stars&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;open_source&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;github_stars_link_open_source_navbar&quot;}" class="NavLink-module__link__EG3d4" target="_blank" rel="noreferrer"><span class="NavLink-module__title__Q7t0p">GitHub Stars</span><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-link-external NavLink-module__externalIcon__eWIry" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path></svg></a></li><li><a href="https://archiveprogram.github.com" data-analytics-event="{&quot;action&quot;:&quot;archive_program&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;open_source&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;archive_program_link_open_source_navbar&quot;}" class="NavLink-module__link__EG3d4" target="_blank" rel="noreferrer"><span class="NavLink-module__title__Q7t0p">Archive Program</span><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-link-external NavLink-module__externalIcon__eWIry" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path></svg></a></li></ul></div></li><li><div class="NavGroup-module__group__W8SqJ"><span class="NavGroup-module__title__Wzxz2" id="_R_dkb_">REPOSITORIES</span><ul class="NavGroup-module__list__UCOFy" aria-labelledby="_R_dkb_"><li><a href="https://github.com/topics" data-analytics-event="{&quot;action&quot;:&quot;topics&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;open_source&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;topics_link_open_source_navbar&quot;}" class="NavLink-module__link__EG3d4"><span class="NavLink-module__title__Q7t0p">Topics</span></a></li><li><a href="https://github.com/trending" data-analytics-event="{&quot;action&quot;:&quot;trending&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;open_source&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;trending_link_open_source_navbar&quot;}" class="NavLink-module__link__EG3d4"><span class="NavLink-module__title__Q7t0p">Trending</span></a></li><li><a href="https://github.com/collections" data-analytics-event="{&quot;action&quot;:&quot;collections&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;open_source&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;collections_link_open_source_navbar&quot;}" class="NavLink-module__link__EG3d4"><span class="NavLink-module__title__Q7t0p">Collections</span></a></li></ul></div></li></ul></div></div></li><li><div class="NavDropdown-module__container__l2YeI js-details-container js-header-menu-item"><button type="button" class="NavDropdown-module__button__PEHWX js-details-target" aria-expanded="false">Enterprise<svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-chevron-right NavDropdown-module__buttonIcon__Tkl8_" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg></button><div class="NavDropdown-module__dropdown__xm1jd"><ul class="NavDropdown-module__list__zuCgG"><li><div class="NavGroup-module__group__W8SqJ"><span class="NavGroup-module__title__Wzxz2" id="_R_5lb_">ENTERPRISE SOLUTIONS</span><ul class="NavGroup-module__list__UCOFy" aria-labelledby="_R_5lb_"><li><a href="https://github.com/enterprise" data-analytics-event="{&quot;action&quot;:&quot;enterprise_platform&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;enterprise&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;enterprise_platform_link_enterprise_navbar&quot;}" class="NavLink-module__link__EG3d4"><div class="NavLink-module__text__XvpLQ"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-stack NavLink-module__icon__ltGNM" viewBox="0 0 24 24" width="24" height="24" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M11.063 1.456a1.749 1.749 0 0 1 1.874 0l8.383 5.316a1.751 1.751 0 0 1 0 2.956l-8.383 5.316a1.749 1.749 0 0 1-1.874 0L2.68 9.728a1.751 1.751 0 0 1 0-2.956Zm1.071 1.267a.25.25 0 0 0-.268 0L3.483 8.039a.25.25 0 0 0 0 .422l8.383 5.316a.25.25 0 0 0 .268 0l8.383-5.316a.25.25 0 0 0 0-.422Z"></path><path d="M1.867 12.324a.75.75 0 0 1 1.035-.232l8.964 5.685a.25.25 0 0 0 .268 0l8.964-5.685a.75.75 0 0 1 .804 1.267l-8.965 5.685a1.749 1.749 0 0 1-1.874 0l-8.965-5.685a.75.75 0 0 1-.231-1.035Z"></path><path d="M1.867 16.324a.75.75 0 0 1 1.035-.232l8.964 5.685a.25.25 0 0 0 .268 0l8.964-5.685a.75.75 0 0 1 .804 1.267l-8.965 5.685a1.749 1.749 0 0 1-1.874 0l-8.965-5.685a.75.75 0 0 1-.231-1.035Z"></path></svg><span class="NavLink-module__title__Q7t0p">Enterprise platform</span><span class="NavLink-module__subtitle__X4gkW">AI-powered developer platform</span></div></a></li></ul></div></li><li><div class="NavGroup-module__group__W8SqJ"><span class="NavGroup-module__title__Wzxz2" id="_R_9lb_">AVAILABLE ADD-ONS</span><ul class="NavGroup-module__list__UCOFy" aria-labelledby="_R_9lb_"><li><a href="https://github.com/security/advanced-security" data-analytics-event="{&quot;action&quot;:&quot;github_advanced_security&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;enterprise&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;github_advanced_security_link_enterprise_navbar&quot;}" class="NavLink-module__link__EG3d4"><div class="NavLink-module__text__XvpLQ"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-shield-check NavLink-module__icon__ltGNM" viewBox="0 0 24 24" width="24" height="24" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M16.53 9.78a.75.75 0 0 0-1.06-1.06L11 13.19l-1.97-1.97a.75.75 0 0 0-1.06 1.06l2.5 2.5a.75.75 0 0 0 1.06 0l5-5Z"></path><path d="m12.54.637 8.25 2.675A1.75 1.75 0 0 1 22 4.976V10c0 6.19-3.771 10.704-9.401 12.83a1.704 1.704 0 0 1-1.198 0C5.77 20.705 2 16.19 2 10V4.976c0-.758.489-1.43 1.21-1.664L11.46.637a1.748 1.748 0 0 1 1.08 0Zm-.617 1.426-8.25 2.676a.249.249 0 0 0-.173.237V10c0 5.46 3.28 9.483 8.43 11.426a.199.199 0 0 0 .14 0C17.22 19.483 20.5 15.461 20.5 10V4.976a.25.25 0 0 0-.173-.237l-8.25-2.676a.253.253 0 0 0-.154 0Z"></path></svg><span class="NavLink-module__title__Q7t0p">GitHub Advanced Security</span><span class="NavLink-module__subtitle__X4gkW">Enterprise-grade security features</span></div></a></li><li><a href="https://github.com/features/copilot/copilot-business" data-analytics-event="{&quot;action&quot;:&quot;copilot_for_business&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;enterprise&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;copilot_for_business_link_enterprise_navbar&quot;}" class="NavLink-module__link__EG3d4"><div class="NavLink-module__text__XvpLQ"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-copilot NavLink-module__icon__ltGNM" viewBox="0 0 24 24" width="24" height="24" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M23.922 16.992c-.861 1.495-5.859 5.023-11.922 5.023-6.063 0-11.061-3.528-11.922-5.023A.641.641 0 0 1 0 16.736v-2.869a.841.841 0 0 1 .053-.22c.372-.935 1.347-2.292 2.605-2.656.167-.429.414-1.055.644-1.517a10.195 10.195 0 0 1-.052-1.086c0-1.331.282-2.499 1.132-3.368.397-.406.89-.717 1.474-.952 1.399-1.136 3.392-2.093 6.122-2.093 2.731 0 4.767.957 6.166 2.093.584.235 1.077.546 1.474.952.85.869 1.132 2.037 1.132 3.368 0 .368-.014.733-.052 1.086.23.462.477 1.088.644 1.517 1.258.364 2.233 1.721 2.605 2.656a.832.832 0 0 1 .053.22v2.869a.641.641 0 0 1-.078.256ZM12.172 11h-.344a4.323 4.323 0 0 1-.355.508C10.703 12.455 9.555 13 7.965 13c-1.725 0-2.989-.359-3.782-1.259a2.005 2.005 0 0 1-.085-.104L4 11.741v6.585c1.435.779 4.514 2.179 8 2.179 3.486 0 6.565-1.4 8-2.179v-6.585l-.098-.104s-.033.045-.085.104c-.793.9-2.057 1.259-3.782 1.259-1.59 0-2.738-.545-3.508-1.492a4.323 4.323 0 0 1-.355-.508h-.016.016Zm.641-2.935c.136 1.057.403 1.913.878 2.497.442.544 1.134.938 2.344.938 1.573 0 2.292-.337 2.657-.751.384-.435.558-1.15.558-2.361 0-1.14-.243-1.847-.705-2.319-.477-.488-1.319-.862-2.824-1.025-1.487-.161-2.192.138-2.533.529-.269.307-.437.808-.438 1.578v.021c0 .265.021.562.063.893Zm-1.626 0c.042-.331.063-.628.063-.894v-.02c-.001-.77-.169-1.271-.438-1.578-.341-.391-1.046-.69-2.533-.529-1.505.163-2.347.537-2.824 1.025-.462.472-.705 1.179-.705 2.319 0 1.211.175 1.926.558 2.361.365.414 1.084.751 2.657.751 1.21 0 1.902-.394 2.344-.938.475-.584.742-1.44.878-2.497Z"></path><path d="M14.5 14.25a1 1 0 0 1 1 1v2a1 1 0 0 1-2 0v-2a1 1 0 0 1 1-1Zm-5 0a1 1 0 0 1 1 1v2a1 1 0 0 1-2 0v-2a1 1 0 0 1 1-1Z"></path></svg><span class="NavLink-module__title__Q7t0p">Copilot for Business</span><span class="NavLink-module__subtitle__X4gkW">Enterprise-grade AI features</span></div></a></li><li><a href="https://github.com/premium-support" data-analytics-event="{&quot;action&quot;:&quot;premium_support&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;enterprise&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;premium_support_link_enterprise_navbar&quot;}" class="NavLink-module__link__EG3d4"><div class="NavLink-module__text__XvpLQ"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-comment-discussion NavLink-module__icon__ltGNM" viewBox="0 0 24 24" width="24" height="24" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"></path><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"></path></svg><span class="NavLink-module__title__Q7t0p">Premium Support</span><span class="NavLink-module__subtitle__X4gkW">Enterprise-grade 24/7 support</span></div></a></li></ul></div></li></ul></div></div></li><li><a href="https://github.com/pricing" data-analytics-event="{&quot;action&quot;:&quot;pricing&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;pricing&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;pricing_link_pricing_navbar&quot;}" class="NavLink-module__link__EG3d4 MarketingNavigation-module__navLink__hUomM"><span class="NavLink-module__title__Q7t0p">Pricing</span></a></li></ul></nav></div>
+</react-partial>
+
+
+
+        <div class="d-flex flex-column flex-lg-row width-full flex-justify-end flex-lg-items-center text-center tmp-mt-3 tmp-mt-lg-0 text-lg-left tmp-ml-lg-3">
+                
+
+
+<qbsearch-input class="search-input" data-scope="repo:MikeMcl/bignumber.js" data-custom-scopes-path="/search/custom_scopes" data-delete-custom-scopes-csrf="GU3a3b8INdCbc4sKellv8BJRC0-GX6N4e7yHVWpwiFnr12A6gsObImwG57KlsaEWDS5WXPORupyvB8NN9sM5kQ" data-max-custom-scopes="10" data-header-redesign-enabled="false" data-initial-value="" data-blackbird-suggestions-path="/search/suggestions" data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations" data-current-repository="MikeMcl/bignumber.js" data-current-org="" data-current-owner="MikeMcl" data-logged-in="false" data-copilot-chat-enabled="false" data-nl-search-enabled="false" data-retain-scroll-position="true">
+  <div
+    class="search-input-container search-with-dialog position-relative d-flex flex-row flex-items-center tmp-mr-4 rounded"
+    data-action="click:qbsearch-input#searchInputContainerClicked"
+  >
+      <button
+        type="button"
+        class="header-search-button placeholder  input-button form-control d-flex flex-1 flex-self-stretch flex-items-center no-wrap width-full py-0 pl-2 pr-0 text-left border-0 box-shadow-none"
+        data-target="qbsearch-input.inputButton"
+        aria-label="Search or jump to…"
+        aria-haspopup="dialog"
+        placeholder="Search or jump to..."
+        data-hotkey=s,/
+        autocapitalize="off"
+        data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;searchbar&quot;,&quot;context&quot;:&quot;global&quot;,&quot;tag&quot;:&quot;input&quot;,&quot;label&quot;:&quot;searchbar_input_global_navbar&quot;}"
+        data-action="click:qbsearch-input#handleExpand"
+      >
+        <div class="mr-2 color-fg-muted">
+          <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-search">
+    <path d="M10.68 11.74a6 6 0 0 1-7.922-8.982 6 6 0 0 1 8.982 7.922l3.04 3.04a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215ZM11.5 7a4.499 4.499 0 1 0-8.997 0A4.499 4.499 0 0 0 11.5 7Z"></path>
+</svg>
+        </div>
+        <span class="flex-1" data-target="qbsearch-input.inputButtonText">Search or jump to...</span>
+          <div class="d-flex" data-target="qbsearch-input.hotkeyIndicator">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" aria-hidden="true" class="mr-1"><path fill="none" stroke="#979A9C" opacity=".4" d="M3.5.5h12c1.7 0 3 1.3 3 3v13c0 1.7-1.3 3-3 3h-12c-1.7 0-3-1.3-3-3v-13c0-1.7 1.3-3 3-3z"></path><path fill="#979A9C" d="M11.8 6L8 15.1h-.9L10.8 6h1z"></path></svg>
+          </div>
+      </button>
+
+    <input type="hidden" name="type" class="js-site-search-type-field">
+
+    
+<div class="Overlay--hidden " data-modal-dialog-overlay>
+  <modal-dialog data-action="close:qbsearch-input#handleClose cancel:qbsearch-input#handleClose" data-target="qbsearch-input.searchSuggestionsDialog" role="dialog" id="search-suggestions-dialog" aria-modal="true" aria-labelledby="search-suggestions-dialog-header" data-view-component="true" class="Overlay Overlay--width-large Overlay--height-auto">
+      <h1 id="search-suggestions-dialog-header" class="sr-only">Search code, repositories, users, issues, pull requests...</h1>
+    <div class="Overlay-body Overlay-body--paddingNone">
+      
+          <div data-view-component="true">        <div class="search-suggestions position-fixed width-full color-shadow-large border color-fg-default color-bg-default overflow-hidden d-flex flex-column query-builder-container"
+          style="border-radius: 12px;"
+          data-target="qbsearch-input.queryBuilderContainer"
+          hidden
+        >
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form id="query-builder-test-form" action="" accept-charset="UTF-8" method="get">
+  <query-builder data-target="qbsearch-input.queryBuilder" id="query-builder-query-builder-test" data-filter-key=":" data-view-component="true" class="QueryBuilder search-query-builder">
+    <div class="FormControl FormControl--fullWidth">
+      <label id="query-builder-test-label" for="query-builder-test" class="FormControl-label sr-only">
+        Search
+      </label>
+      <div
+        class="QueryBuilder-StyledInput width-fit "
+        data-target="query-builder.styledInput"
+      >
+          <span id="query-builder-test-leadingvisual-wrap" class="FormControl-input-leadingVisualWrap QueryBuilder-leadingVisualWrap">
+            <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-search FormControl-input-leadingVisual">
+    <path d="M10.68 11.74a6 6 0 0 1-7.922-8.982 6 6 0 0 1 8.982 7.922l3.04 3.04a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215ZM11.5 7a4.499 4.499 0 1 0-8.997 0A4.499 4.499 0 0 0 11.5 7Z"></path>
+</svg>
+          </span>
+        <div data-target="query-builder.styledInputContainer" class="QueryBuilder-StyledInputContainer">
+          <div
+            aria-hidden="true"
+            class="QueryBuilder-StyledInputContent"
+            data-target="query-builder.styledInputContent"
+          ></div>
+          <div class="QueryBuilder-InputWrapper">
+            <div aria-hidden="true" class="QueryBuilder-Sizer" data-target="query-builder.sizer"></div>
+            <input id="query-builder-test" name="query-builder-test" value="" autocomplete="off" type="text" role="combobox" spellcheck="false" aria-expanded="false" aria-describedby="validation-c7b24a7a-92a2-4364-abba-1a81ba53c909" data-target="query-builder.input" data-action="
+          input:query-builder#inputChange
+          blur:query-builder#inputBlur
+          keydown:query-builder#inputKeydown
+          focus:query-builder#inputFocus
+        " data-view-component="true" class="FormControl-input QueryBuilder-Input FormControl-medium" />
+          </div>
+        </div>
+          <span data-target="query-builder.clearButton" hidden>
+            <span class="sr-only" id="query-builder-test-clear">Clear</span>
+            <button role="button" id="query-builder-test-clear-button" aria-labelledby="query-builder-test-clear query-builder-test-label" data-action="
+                  click:query-builder#clear
+                  focus:query-builder#clearButtonFocus
+                  blur:query-builder#clearButtonBlur
+                " variant="small" type="button" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium mr-1 tmp-mr-1 px-2 tmp-px-2 py-0 tmp-py-0 d-flex flex-items-center rounded-1 color-fg-muted">  <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x-circle-fill Button-visual">
+    <path d="M2.343 13.657A8 8 0 1 1 13.658 2.343 8 8 0 0 1 2.343 13.657ZM6.03 4.97a.751.751 0 0 0-1.042.018.751.751 0 0 0-.018 1.042L6.94 8 4.97 9.97a.749.749 0 0 0 .326 1.275.749.749 0 0 0 .734-.215L8 9.06l1.97 1.97a.749.749 0 0 0 1.275-.326.749.749 0 0 0-.215-.734L9.06 8l1.97-1.97a.749.749 0 0 0-.326-1.275.749.749 0 0 0-.734.215L8 6.94Z"></path>
+</svg>
+</button>
+
+          </span>
+      </div>
+      <template id="search-icon">
+  <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-search">
+    <path d="M10.68 11.74a6 6 0 0 1-7.922-8.982 6 6 0 0 1 8.982 7.922l3.04 3.04a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215ZM11.5 7a4.499 4.499 0 1 0-8.997 0A4.499 4.499 0 0 0 11.5 7Z"></path>
+</svg>
+</template>
+
+<template id="code-icon">
+  <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code">
+    <path d="m11.28 3.22 4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L13.94 8l-3.72-3.72a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215Zm-6.56 0a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042L2.06 8l3.72 3.72a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L.47 8.53a.75.75 0 0 1 0-1.06Z"></path>
+</svg>
+</template>
+
+<template id="file-code-icon">
+  <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-file-code">
+    <path d="M4 1.75C4 .784 4.784 0 5.75 0h5.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v8.586A1.75 1.75 0 0 1 14.25 15h-9a.75.75 0 0 1 0-1.5h9a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 10 4.25V1.5H5.75a.25.25 0 0 0-.25.25v2.5a.75.75 0 0 1-1.5 0Zm1.72 4.97a.75.75 0 0 1 1.06 0l2 2a.75.75 0 0 1 0 1.06l-2 2a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734l1.47-1.47-1.47-1.47a.75.75 0 0 1 0-1.06ZM3.28 7.78 1.81 9.25l1.47 1.47a.751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018l-2-2a.75.75 0 0 1 0-1.06l2-2a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042Zm8.22-6.218V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path>
+</svg>
+</template>
+
+<template id="history-icon">
+  <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-history">
+    <path d="m.427 1.927 1.215 1.215a8.002 8.002 0 1 1-1.6 5.685.75.75 0 1 1 1.493-.154 6.5 6.5 0 1 0 1.18-4.458l1.358 1.358A.25.25 0 0 1 3.896 6H.25A.25.25 0 0 1 0 5.75V2.104a.25.25 0 0 1 .427-.177ZM7.75 4a.75.75 0 0 1 .75.75v2.992l2.028.812a.75.75 0 0 1-.557 1.392l-2.5-1A.751.751 0 0 1 7 8.25v-3.5A.75.75 0 0 1 7.75 4Z"></path>
+</svg>
+</template>
+
+<template id="repo-icon">
+  <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo">
+    <path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"></path>
+</svg>
+</template>
+
+<template id="bookmark-icon">
+  <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-bookmark">
+    <path d="M3 2.75C3 1.784 3.784 1 4.75 1h6.5c.966 0 1.75.784 1.75 1.75v11.5a.75.75 0 0 1-1.227.579L8 11.722l-3.773 3.107A.751.751 0 0 1 3 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v9.91l3.023-2.489a.75.75 0 0 1 .954 0l3.023 2.49V2.75a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+</template>
+
+<template id="plus-circle-icon">
+  <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus-circle">
+    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Zm7.25-3.25v2.5h2.5a.75.75 0 0 1 0 1.5h-2.5v2.5a.75.75 0 0 1-1.5 0v-2.5h-2.5a.75.75 0 0 1 0-1.5h2.5v-2.5a.75.75 0 0 1 1.5 0Z"></path>
+</svg>
+</template>
+
+<template id="circle-icon">
+  <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-dot-fill">
+    <path d="M8 4a4 4 0 1 1 0 8 4 4 0 0 1 0-8Z"></path>
+</svg>
+</template>
+
+<template id="trash-icon">
+  <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-trash">
+    <path d="M11 1.75V3h2.25a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1 0-1.5H5V1.75C5 .784 5.784 0 6.75 0h2.5C10.216 0 11 .784 11 1.75ZM4.496 6.675l.66 6.6a.25.25 0 0 0 .249.225h5.19a.25.25 0 0 0 .249-.225l.66-6.6a.75.75 0 0 1 1.492.149l-.66 6.6A1.748 1.748 0 0 1 10.595 15h-5.19a1.75 1.75 0 0 1-1.741-1.575l-.66-6.6a.75.75 0 1 1 1.492-.15ZM6.5 1.75V3h3V1.75a.25.25 0 0 0-.25-.25h-2.5a.25.25 0 0 0-.25.25Z"></path>
+</svg>
+</template>
+
+<template id="team-icon">
+  <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-people">
+    <path d="M2 5.5a3.5 3.5 0 1 1 5.898 2.549 5.508 5.508 0 0 1 3.034 4.084.75.75 0 1 1-1.482.235 4 4 0 0 0-7.9 0 .75.75 0 0 1-1.482-.236A5.507 5.507 0 0 1 3.102 8.05 3.493 3.493 0 0 1 2 5.5ZM11 4a3.001 3.001 0 0 1 2.22 5.018 5.01 5.01 0 0 1 2.56 3.012.749.749 0 0 1-.885.954.752.752 0 0 1-.549-.514 3.507 3.507 0 0 0-2.522-2.372.75.75 0 0 1-.574-.73v-.352a.75.75 0 0 1 .416-.672A1.5 1.5 0 0 0 11 5.5.75.75 0 0 1 11 4Zm-5.5-.5a2 2 0 1 0-.001 3.999A2 2 0 0 0 5.5 3.5Z"></path>
+</svg>
+</template>
+
+<template id="project-icon">
+  <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-project">
+    <path d="M1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25V1.75C0 .784.784 0 1.75 0ZM1.5 1.75v12.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25ZM11.75 3a.75.75 0 0 1 .75.75v7.5a.75.75 0 0 1-1.5 0v-7.5a.75.75 0 0 1 .75-.75Zm-8.25.75a.75.75 0 0 1 1.5 0v5.5a.75.75 0 0 1-1.5 0ZM8 3a.75.75 0 0 1 .75.75v3.5a.75.75 0 0 1-1.5 0v-3.5A.75.75 0 0 1 8 3Z"></path>
+</svg>
+</template>
+
+<template id="pencil-icon">
+  <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-pencil">
+    <path d="M11.013 1.427a1.75 1.75 0 0 1 2.474 0l1.086 1.086a1.75 1.75 0 0 1 0 2.474l-8.61 8.61c-.21.21-.47.364-.756.445l-3.251.93a.75.75 0 0 1-.927-.928l.929-3.25c.081-.286.235-.547.445-.758l8.61-8.61Zm.176 4.823L9.75 4.81l-6.286 6.287a.253.253 0 0 0-.064.108l-.558 1.953 1.953-.558a.253.253 0 0 0 .108-.064Zm1.238-3.763a.25.25 0 0 0-.354 0L10.811 3.75l1.439 1.44 1.263-1.263a.25.25 0 0 0 0-.354Z"></path>
+</svg>
+</template>
+
+<template id="copilot-icon">
+  <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copilot">
+    <path d="M7.998 15.035c-4.562 0-7.873-2.914-7.998-3.749V9.338c.085-.628.677-1.686 1.588-2.065.013-.07.024-.143.036-.218.029-.183.06-.384.126-.612-.201-.508-.254-1.084-.254-1.656 0-.87.128-1.769.693-2.484.579-.733 1.494-1.124 2.724-1.261 1.206-.134 2.262.034 2.944.765.05.053.096.108.139.165.044-.057.094-.112.143-.165.682-.731 1.738-.899 2.944-.765 1.23.137 2.145.528 2.724 1.261.566.715.693 1.614.693 2.484 0 .572-.053 1.148-.254 1.656.066.228.098.429.126.612.012.076.024.148.037.218.924.385 1.522 1.471 1.591 2.095v1.872c0 .766-3.351 3.795-8.002 3.795Zm0-1.485c2.28 0 4.584-1.11 5.002-1.433V7.862l-.023-.116c-.49.21-1.075.291-1.727.291-1.146 0-2.059-.327-2.71-.991A3.222 3.222 0 0 1 8 6.303a3.24 3.24 0 0 1-.544.743c-.65.664-1.563.991-2.71.991-.652 0-1.236-.081-1.727-.291l-.023.116v4.255c.419.323 2.722 1.433 5.002 1.433ZM6.762 2.83c-.193-.206-.637-.413-1.682-.297-1.019.113-1.479.404-1.713.7-.247.312-.369.789-.369 1.554 0 .793.129 1.171.308 1.371.162.181.519.379 1.442.379.853 0 1.339-.235 1.638-.54.315-.322.527-.827.617-1.553.117-.935-.037-1.395-.241-1.614Zm4.155-.297c-1.044-.116-1.488.091-1.681.297-.204.219-.359.679-.242 1.614.091.726.303 1.231.618 1.553.299.305.784.54 1.638.54.922 0 1.28-.198 1.442-.379.179-.2.308-.578.308-1.371 0-.765-.123-1.242-.37-1.554-.233-.296-.693-.587-1.713-.7Z"></path><path d="M6.25 9.037a.75.75 0 0 1 .75.75v1.501a.75.75 0 0 1-1.5 0V9.787a.75.75 0 0 1 .75-.75Zm4.25.75v1.501a.75.75 0 0 1-1.5 0V9.787a.75.75 0 0 1 1.5 0Z"></path>
+</svg>
+</template>
+
+<template id="copilot-error-icon">
+  <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copilot-error">
+    <path d="M16 11.24c0 .112-.072.274-.21.467L13 9.688V7.862l-.023-.116c-.49.21-1.075.291-1.727.291-.198 0-.388-.009-.571-.029L6.833 5.226a4.01 4.01 0 0 0 .17-.782c.117-.935-.037-1.395-.241-1.614-.193-.206-.637-.413-1.682-.297-.683.076-1.115.231-1.395.415l-1.257-.91c.579-.564 1.413-.877 2.485-.996 1.206-.134 2.262.034 2.944.765.05.053.096.108.139.165.044-.057.094-.112.143-.165.682-.731 1.738-.899 2.944-.765 1.23.137 2.145.528 2.724 1.261.566.715.693 1.614.693 2.484 0 .572-.053 1.148-.254 1.656.066.228.098.429.126.612.012.076.024.148.037.218.924.385 1.522 1.471 1.591 2.095Zm-5.083-8.707c-1.044-.116-1.488.091-1.681.297-.204.219-.359.679-.242 1.614.091.726.303 1.231.618 1.553.299.305.784.54 1.638.54.922 0 1.28-.198 1.442-.379.179-.2.308-.578.308-1.371 0-.765-.123-1.242-.37-1.554-.233-.296-.693-.587-1.713-.7Zm2.511 11.074c-1.393.776-3.272 1.428-5.43 1.428-4.562 0-7.873-2.914-7.998-3.749V9.338c.085-.628.677-1.686 1.588-2.065.013-.07.024-.143.036-.218.029-.183.06-.384.126-.612-.18-.455-.241-.963-.252-1.475L.31 4.107A.747.747 0 0 1 0 3.509V3.49a.748.748 0 0 1 .625-.73c.156-.026.306.047.435.139l14.667 10.578a.592.592 0 0 1 .227.264.752.752 0 0 1 .046.249v.022a.75.75 0 0 1-1.19.596Zm-1.367-.991L5.635 7.964a5.128 5.128 0 0 1-.889.073c-.652 0-1.236-.081-1.727-.291l-.023.116v4.255c.419.323 2.722 1.433 5.002 1.433 1.539 0 3.089-.505 4.063-.934Z"></path>
+</svg>
+</template>
+
+<template id="workflow-icon">
+  <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-workflow">
+    <path d="M0 1.75C0 .784.784 0 1.75 0h3.5C6.216 0 7 .784 7 1.75v3.5A1.75 1.75 0 0 1 5.25 7H4v4a1 1 0 0 0 1 1h4v-1.25C9 9.784 9.784 9 10.75 9h3.5c.966 0 1.75.784 1.75 1.75v3.5A1.75 1.75 0 0 1 14.25 16h-3.5A1.75 1.75 0 0 1 9 14.25v-.75H5A2.5 2.5 0 0 1 2.5 11V7h-.75A1.75 1.75 0 0 1 0 5.25Zm1.75-.25a.25.25 0 0 0-.25.25v3.5c0 .138.112.25.25.25h3.5a.25.25 0 0 0 .25-.25v-3.5a.25.25 0 0 0-.25-.25Zm9 9a.25.25 0 0 0-.25.25v3.5c0 .138.112.25.25.25h3.5a.25.25 0 0 0 .25-.25v-3.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+</template>
+
+<template id="book-icon">
+  <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-book">
+    <path d="M0 1.75A.75.75 0 0 1 .75 1h4.253c1.227 0 2.317.59 3 1.501A3.743 3.743 0 0 1 11.006 1h4.245a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75h-4.507a2.25 2.25 0 0 0-1.591.659l-.622.621a.75.75 0 0 1-1.06 0l-.622-.621A2.25 2.25 0 0 0 5.258 13H.75a.75.75 0 0 1-.75-.75Zm7.251 10.324.004-5.073-.002-2.253A2.25 2.25 0 0 0 5.003 2.5H1.5v9h3.757a3.75 3.75 0 0 1 1.994.574ZM8.755 4.75l-.004 7.322a3.752 3.752 0 0 1 1.992-.572H14.5v-9h-3.495a2.25 2.25 0 0 0-2.25 2.25Z"></path>
+</svg>
+</template>
+
+<template id="code-review-icon">
+  <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code-review">
+    <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 13H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 14.543V13H1.75A1.75 1.75 0 0 1 0 11.25v-8.5C0 1.784.784 1 1.75 1ZM1.5 2.75v8.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-8.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Zm5.28 1.72a.75.75 0 0 1 0 1.06L5.31 7l1.47 1.47a.751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018l-2-2a.75.75 0 0 1 0-1.06l2-2a.75.75 0 0 1 1.06 0Zm2.44 0a.75.75 0 0 1 1.06 0l2 2a.75.75 0 0 1 0 1.06l-2 2a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L10.69 7 9.22 5.53a.75.75 0 0 1 0-1.06Z"></path>
+</svg>
+</template>
+
+<template id="codespaces-icon">
+  <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-codespaces">
+    <path d="M0 11.25c0-.966.784-1.75 1.75-1.75h12.5c.966 0 1.75.784 1.75 1.75v3A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25Zm2-9.5C2 .784 2.784 0 3.75 0h8.5C13.216 0 14 .784 14 1.75v5a1.75 1.75 0 0 1-1.75 1.75h-8.5A1.75 1.75 0 0 1 2 6.75Zm1.75-.25a.25.25 0 0 0-.25.25v5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-5a.25.25 0 0 0-.25-.25Zm-2 9.5a.25.25 0 0 0-.25.25v3c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25v-3a.25.25 0 0 0-.25-.25Z"></path><path d="M7 12.75a.75.75 0 0 1 .75-.75h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1-.75-.75Zm-4 0a.75.75 0 0 1 .75-.75h.5a.75.75 0 0 1 0 1.5h-.5a.75.75 0 0 1-.75-.75Z"></path>
+</svg>
+</template>
+
+<template id="comment-icon">
+  <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-comment">
+    <path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+</template>
+
+<template id="comment-discussion-icon">
+  <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-comment-discussion">
+    <path d="M1.75 1h8.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 10.25 10H7.061l-2.574 2.573A1.458 1.458 0 0 1 2 11.543V10h-.25A1.75 1.75 0 0 1 0 8.25v-5.5C0 1.784.784 1 1.75 1ZM1.5 2.75v5.5c0 .138.112.25.25.25h1a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h3.5a.25.25 0 0 0 .25-.25v-5.5a.25.25 0 0 0-.25-.25h-8.5a.25.25 0 0 0-.25.25Zm13 2a.25.25 0 0 0-.25-.25h-.5a.75.75 0 0 1 0-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 14.25 12H14v1.543a1.458 1.458 0 0 1-2.487 1.03L9.22 12.28a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l2.22 2.22v-2.19a.75.75 0 0 1 .75-.75h1a.25.25 0 0 0 .25-.25Z"></path>
+</svg>
+</template>
+
+<template id="organization-icon">
+  <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-organization">
+    <path d="M1.75 16A1.75 1.75 0 0 1 0 14.25V1.75C0 .784.784 0 1.75 0h8.5C11.216 0 12 .784 12 1.75v12.5c0 .085-.006.168-.018.25h2.268a.25.25 0 0 0 .25-.25V8.285a.25.25 0 0 0-.111-.208l-1.055-.703a.749.749 0 1 1 .832-1.248l1.055.703c.487.325.779.871.779 1.456v5.965A1.75 1.75 0 0 1 14.25 16h-3.5a.766.766 0 0 1-.197-.026c-.099.017-.2.026-.303.026h-3a.75.75 0 0 1-.75-.75V14h-1v1.25a.75.75 0 0 1-.75.75Zm-.25-1.75c0 .138.112.25.25.25H4v-1.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 .75.75v1.25h2.25a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25h-8.5a.25.25 0 0 0-.25.25ZM3.75 6h.5a.75.75 0 0 1 0 1.5h-.5a.75.75 0 0 1 0-1.5ZM3 3.75A.75.75 0 0 1 3.75 3h.5a.75.75 0 0 1 0 1.5h-.5A.75.75 0 0 1 3 3.75Zm4 3A.75.75 0 0 1 7.75 6h.5a.75.75 0 0 1 0 1.5h-.5A.75.75 0 0 1 7 6.75ZM7.75 3h.5a.75.75 0 0 1 0 1.5h-.5a.75.75 0 0 1 0-1.5ZM3 9.75A.75.75 0 0 1 3.75 9h.5a.75.75 0 0 1 0 1.5h-.5A.75.75 0 0 1 3 9.75ZM7.75 9h.5a.75.75 0 0 1 0 1.5h-.5a.75.75 0 0 1 0-1.5Z"></path>
+</svg>
+</template>
+
+<template id="rocket-icon">
+  <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-rocket">
+    <path d="M14.064 0h.186C15.216 0 16 .784 16 1.75v.186a8.752 8.752 0 0 1-2.564 6.186l-.458.459c-.314.314-.641.616-.979.904v3.207c0 .608-.315 1.172-.833 1.49l-2.774 1.707a.749.749 0 0 1-1.11-.418l-.954-3.102a1.214 1.214 0 0 1-.145-.125L3.754 9.816a1.218 1.218 0 0 1-.124-.145L.528 8.717a.749.749 0 0 1-.418-1.11l1.71-2.774A1.748 1.748 0 0 1 3.31 4h3.204c.288-.338.59-.665.904-.979l.459-.458A8.749 8.749 0 0 1 14.064 0ZM8.938 3.623h-.002l-.458.458c-.76.76-1.437 1.598-2.02 2.5l-1.5 2.317 2.143 2.143 2.317-1.5c.902-.583 1.74-1.26 2.499-2.02l.459-.458a7.25 7.25 0 0 0 2.123-5.127V1.75a.25.25 0 0 0-.25-.25h-.186a7.249 7.249 0 0 0-5.125 2.123ZM3.56 14.56c-.732.732-2.334 1.045-3.005 1.148a.234.234 0 0 1-.201-.064.234.234 0 0 1-.064-.201c.103-.671.416-2.273 1.15-3.003a1.502 1.502 0 1 1 2.12 2.12Zm6.94-3.935c-.088.06-.177.118-.266.175l-2.35 1.521.548 1.783 1.949-1.2a.25.25 0 0 0 .119-.213ZM3.678 8.116 5.2 5.766c.058-.09.117-.178.176-.266H3.309a.25.25 0 0 0-.213.119l-1.2 1.95ZM12 5a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
+</svg>
+</template>
+
+<template id="shield-check-icon">
+  <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-shield-check">
+    <path d="m8.533.133 5.25 1.68A1.75 1.75 0 0 1 15 3.48V7c0 1.566-.32 3.182-1.303 4.682-.983 1.498-2.585 2.813-5.032 3.855a1.697 1.697 0 0 1-1.33 0c-2.447-1.042-4.049-2.357-5.032-3.855C1.32 10.182 1 8.566 1 7V3.48a1.75 1.75 0 0 1 1.217-1.667l5.25-1.68a1.748 1.748 0 0 1 1.066 0Zm-.61 1.429.001.001-5.25 1.68a.251.251 0 0 0-.174.237V7c0 1.36.275 2.666 1.057 3.859.784 1.194 2.121 2.342 4.366 3.298a.196.196 0 0 0 .154 0c2.245-.957 3.582-2.103 4.366-3.297C13.225 9.666 13.5 8.358 13.5 7V3.48a.25.25 0 0 0-.174-.238l-5.25-1.68a.25.25 0 0 0-.153 0ZM11.28 6.28l-3.5 3.5a.75.75 0 0 1-1.06 0l-1.5-1.5a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l.97.97 2.97-2.97a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042Z"></path>
+</svg>
+</template>
+
+<template id="heart-icon">
+  <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-heart">
+    <path d="m8 14.25.345.666a.75.75 0 0 1-.69 0l-.008-.004-.018-.01a7.152 7.152 0 0 1-.31-.17 22.055 22.055 0 0 1-3.434-2.414C2.045 10.731 0 8.35 0 5.5 0 2.836 2.086 1 4.25 1 5.797 1 7.153 1.802 8 3.02 8.847 1.802 10.203 1 11.75 1 13.914 1 16 2.836 16 5.5c0 2.85-2.045 5.231-3.885 6.818a22.066 22.066 0 0 1-3.744 2.584l-.018.01-.006.003h-.002ZM4.25 2.5c-1.336 0-2.75 1.164-2.75 3 0 2.15 1.58 4.144 3.365 5.682A20.58 20.58 0 0 0 8 13.393a20.58 20.58 0 0 0 3.135-2.211C12.92 9.644 14.5 7.65 14.5 5.5c0-1.836-1.414-3-2.75-3-1.373 0-2.609.986-3.029 2.456a.749.749 0 0 1-1.442 0C6.859 3.486 5.623 2.5 4.25 2.5Z"></path>
+</svg>
+</template>
+
+<template id="server-icon">
+  <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-server">
+    <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v4c0 .372-.116.717-.314 1 .198.283.314.628.314 1v4a1.75 1.75 0 0 1-1.75 1.75H1.75A1.75 1.75 0 0 1 0 12.75v-4c0-.358.109-.707.314-1a1.739 1.739 0 0 1-.314-1v-4C0 1.784.784 1 1.75 1ZM1.5 2.75v4c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25v-4a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Zm.25 5.75a.25.25 0 0 0-.25.25v4c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25v-4a.25.25 0 0 0-.25-.25ZM7 4.75A.75.75 0 0 1 7.75 4h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 7 4.75ZM7.75 10h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM3 4.75A.75.75 0 0 1 3.75 4h.5a.75.75 0 0 1 0 1.5h-.5A.75.75 0 0 1 3 4.75ZM3.75 10h.5a.75.75 0 0 1 0 1.5h-.5a.75.75 0 0 1 0-1.5Z"></path>
+</svg>
+</template>
+
+<template id="globe-icon">
+  <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-globe">
+    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM5.78 8.75a9.64 9.64 0 0 0 1.363 4.177c.255.426.542.832.857 1.215.245-.296.551-.705.857-1.215A9.64 9.64 0 0 0 10.22 8.75Zm4.44-1.5a9.64 9.64 0 0 0-1.363-4.177c-.307-.51-.612-.919-.857-1.215a9.927 9.927 0 0 0-.857 1.215A9.64 9.64 0 0 0 5.78 7.25Zm-5.944 1.5H1.543a6.507 6.507 0 0 0 4.666 5.5c-.123-.181-.24-.365-.352-.552-.715-1.192-1.437-2.874-1.581-4.948Zm-2.733-1.5h2.733c.144-2.074.866-3.756 1.58-4.948.12-.197.237-.381.353-.552a6.507 6.507 0 0 0-4.666 5.5Zm10.181 1.5c-.144 2.074-.866 3.756-1.58 4.948-.12.197-.237.381-.353.552a6.507 6.507 0 0 0 4.666-5.5Zm2.733-1.5a6.507 6.507 0 0 0-4.666-5.5c.123.181.24.365.353.552.714 1.192 1.436 2.874 1.58 4.948Z"></path>
+</svg>
+</template>
+
+<template id="issue-opened-icon">
+  <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-issue-opened">
+    <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"></path><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"></path>
+</svg>
+</template>
+
+<template id="device-mobile-icon">
+  <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-device-mobile">
+    <path d="M3.75 0h8.5C13.216 0 14 .784 14 1.75v12.5A1.75 1.75 0 0 1 12.25 16h-8.5A1.75 1.75 0 0 1 2 14.25V1.75C2 .784 2.784 0 3.75 0ZM3.5 1.75v12.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25h-8.5a.25.25 0 0 0-.25.25ZM8 13a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path>
+</svg>
+</template>
+
+<template id="package-icon">
+  <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-package">
+    <path d="m8.878.392 5.25 3.045c.54.314.872.89.872 1.514v6.098a1.75 1.75 0 0 1-.872 1.514l-5.25 3.045a1.75 1.75 0 0 1-1.756 0l-5.25-3.045A1.75 1.75 0 0 1 1 11.049V4.951c0-.624.332-1.201.872-1.514L7.122.392a1.75 1.75 0 0 1 1.756 0ZM7.875 1.69l-4.63 2.685L8 7.133l4.755-2.758-4.63-2.685a.248.248 0 0 0-.25 0ZM2.5 5.677v5.372c0 .09.047.171.125.216l4.625 2.683V8.432Zm6.25 8.271 4.625-2.683a.25.25 0 0 0 .125-.216V5.677L8.75 8.432Z"></path>
+</svg>
+</template>
+
+<template id="credit-card-icon">
+  <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-credit-card">
+    <path d="M10.75 9a.75.75 0 0 0 0 1.5h1.5a.75.75 0 0 0 0-1.5h-1.5Z"></path><path d="M0 3.75C0 2.784.784 2 1.75 2h12.5c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 14H1.75A1.75 1.75 0 0 1 0 12.25ZM14.5 6.5h-13v5.75c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25Zm0-2.75a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25V5h13Z"></path>
+</svg>
+</template>
+
+<template id="play-icon">
+  <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-play">
+    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Zm4.879-2.773 4.264 2.559a.25.25 0 0 1 0 .428l-4.264 2.559A.25.25 0 0 1 6 10.559V5.442a.25.25 0 0 1 .379-.215Z"></path>
+</svg>
+</template>
+
+<template id="gift-icon">
+  <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-gift">
+    <path d="M2 2.75A2.75 2.75 0 0 1 4.75 0c.983 0 1.873.42 2.57 1.232.268.318.497.668.68 1.042.183-.375.411-.725.68-1.044C9.376.42 10.266 0 11.25 0a2.75 2.75 0 0 1 2.45 4h.55c.966 0 1.75.784 1.75 1.75v2c0 .698-.409 1.301-1 1.582v4.918A1.75 1.75 0 0 1 13.25 16H2.75A1.75 1.75 0 0 1 1 14.25V9.332C.409 9.05 0 8.448 0 7.75v-2C0 4.784.784 4 1.75 4h.55c-.192-.375-.3-.8-.3-1.25ZM7.25 9.5H2.5v4.75c0 .138.112.25.25.25h4.5Zm1.5 0v5h4.5a.25.25 0 0 0 .25-.25V9.5Zm0-4V8h5.5a.25.25 0 0 0 .25-.25v-2a.25.25 0 0 0-.25-.25Zm-7 0a.25.25 0 0 0-.25.25v2c0 .138.112.25.25.25h5.5V5.5h-5.5Zm3-4a1.25 1.25 0 0 0 0 2.5h2.309c-.233-.818-.542-1.401-.878-1.793-.43-.502-.915-.707-1.431-.707ZM8.941 4h2.309a1.25 1.25 0 0 0 0-2.5c-.516 0-1 .205-1.43.707-.337.392-.646.975-.879 1.793Z"></path>
+</svg>
+</template>
+
+<template id="code-square-icon">
+  <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code-square">
+    <path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25Zm7.47 3.97a.75.75 0 0 1 1.06 0l2 2a.75.75 0 0 1 0 1.06l-2 2a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L10.69 8 9.22 6.53a.75.75 0 0 1 0-1.06ZM6.78 6.53 5.31 8l1.47 1.47a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215l-2-2a.75.75 0 0 1 0-1.06l2-2a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042Z"></path>
+</svg>
+</template>
+
+<template id="device-desktop-icon">
+  <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-device-desktop">
+    <path d="M14.25 1c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 14.25 12h-3.727c.099 1.041.52 1.872 1.292 2.757A.752.752 0 0 1 11.25 16h-6.5a.75.75 0 0 1-.565-1.243c.772-.885 1.192-1.716 1.292-2.757H1.75A1.75 1.75 0 0 1 0 10.25v-7.5C0 1.784.784 1 1.75 1ZM1.75 2.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25ZM9.018 12H6.982a5.72 5.72 0 0 1-.765 2.5h3.566a5.72 5.72 0 0 1-.765-2.5Z"></path>
+</svg>
+</template>
+
+        <div class="position-relative">
+                        <ul
+              role="listbox"
+              class="ActionListWrap QueryBuilder-ListWrap"
+              aria-label="Suggestions"
+              data-action="
+                combobox-commit:query-builder#comboboxCommit
+                mousedown:query-builder#resultsMousedown
+              "
+              data-target="query-builder.resultsList"
+              data-persist-list=false
+              id="query-builder-test-results"
+              tabindex="-1"
+            ></ul>
+
+        </div>
+      <div class="FormControl-inlineValidation" id="validation-c7b24a7a-92a2-4364-abba-1a81ba53c909" hidden="hidden">
+        <span class="FormControl-inlineValidation--visual">
+          <svg aria-hidden="true" data-component="Octicon" height="12" viewBox="0 0 12 12" version="1.1" width="12" data-view-component="true" class="octicon octicon-alert-fill">
+    <path d="M4.855.708c.5-.896 1.79-.896 2.29 0l4.675 8.351a1.312 1.312 0 0 1-1.146 1.954H1.33A1.313 1.313 0 0 1 .183 9.058ZM7 7V3H5v4Zm-1 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"></path>
+</svg>
+        </span>
+        <span></span>
+</div>    </div>
+    <div data-target="query-builder.screenReaderFeedback" aria-live="polite" aria-atomic="true" class="sr-only"></div>
+</query-builder></form>
+          <div class="d-flex flex-row color-fg-muted tmp-px-3 text-small color-bg-default search-feedback-prompt">
+            <a target="_blank" href="https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax" data-view-component="true" class="Link color-fg-accent text-normal ml-2 tmp-ml-2">Search syntax tips</a>            <div class="d-flex flex-1"></div>
+          </div>
+        </div>
+</div>
+
+    </div>
+</modal-dialog></div>
+  </div>
+  <div data-action="click:qbsearch-input#retract" class="dark-backdrop position-fixed" hidden data-target="qbsearch-input.darkBackdrop"></div>
+  <div class="color-fg-default">
+    
+<dialog-helper>
+  <dialog data-target="qbsearch-input.feedbackDialog" data-action="close:qbsearch-input#handleDialogClose cancel:qbsearch-input#handleDialogClose" id="feedback-dialog" aria-modal="true" aria-labelledby="feedback-dialog-title" aria-describedby="feedback-dialog-description" data-view-component="true" class="Overlay Overlay-whenNarrow Overlay--size-medium Overlay--motion-scaleFade Overlay--disableScroll">
+    <div data-view-component="true" class="Overlay-header">
+  <div class="Overlay-headerContentWrap">
+    <div class="Overlay-titleWrap">
+      <h1 class="Overlay-title " id="feedback-dialog-title">
+        Provide feedback
+      </h1>
+        
+    </div>
+    <div class="Overlay-actionWrap">
+      <button data-close-dialog-id="feedback-dialog" aria-label="Close" aria-label="Close" type="button" data-view-component="true" class="close-button Overlay-closeButton"><svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
+</svg></button>
+    </div>
+  </div>
+  
+</div>
+      <scrollable-region data-labelled-by="feedback-dialog-title">
+        <div data-view-component="true" class="Overlay-body">        <!-- '"` --><!-- </textarea></xmp> --></option></form><form id="code-search-feedback-form" data-turbo="false" action="/search/feedback" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="TX8+pi9M0IbuHLU3oliW0kiLcVKPVQlB3qpvQBhjomNzLjrlS2tMQAJRk6hErZN01AHpru9rAAMTv//awrBA7w==" />
+          <p>We read every piece of feedback, and take your input very seriously.</p>
+          <textarea name="feedback" class="form-control width-full mb-2" style="height: 120px" id="feedback"></textarea>
+          <input name="include_email" id="include_email" aria-label="Include my email address so I can be contacted" class="form-control mr-2" type="checkbox">
+          <label for="include_email" style="font-weight: normal">Include my email address so I can be contacted</label>
+</form></div>
+      </scrollable-region>
+      <div data-view-component="true" class="Overlay-footer Overlay-footer--alignEnd">          <button data-close-dialog-id="feedback-dialog" type="button" data-view-component="true" class="btn">    Cancel
+</button>
+          <button form="code-search-feedback-form" data-action="click:qbsearch-input#submitFeedback" type="submit" data-view-component="true" class="btn-primary btn">    Submit feedback
+</button>
+</div>
+</dialog></dialog-helper>
+
+    <custom-scopes data-target="qbsearch-input.customScopesManager">
+    
+<dialog-helper>
+  <dialog data-target="custom-scopes.customScopesModalDialog" data-action="close:qbsearch-input#handleDialogClose cancel:qbsearch-input#handleDialogClose" id="custom-scopes-dialog" aria-modal="true" aria-labelledby="custom-scopes-dialog-title" aria-describedby="custom-scopes-dialog-description" data-view-component="true" class="Overlay Overlay-whenNarrow Overlay--size-medium Overlay--motion-scaleFade Overlay--disableScroll">
+    <div data-view-component="true" class="Overlay-header Overlay-header--divided">
+  <div class="Overlay-headerContentWrap">
+    <div class="Overlay-titleWrap">
+      <h1 class="Overlay-title " id="custom-scopes-dialog-title">
+        Saved searches
+      </h1>
+        <h2 id="custom-scopes-dialog-description" class="Overlay-description">Use saved searches to filter your results more quickly</h2>
+    </div>
+    <div class="Overlay-actionWrap">
+      <button data-close-dialog-id="custom-scopes-dialog" aria-label="Close" aria-label="Close" type="button" data-view-component="true" class="close-button Overlay-closeButton"><svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
+</svg></button>
+    </div>
+  </div>
+  
+</div>
+      <scrollable-region data-labelled-by="custom-scopes-dialog-title">
+        <div data-view-component="true" class="Overlay-body">        <div data-target="custom-scopes.customScopesModalDialogFlash"></div>
+
+        <div hidden class="create-custom-scope-form" data-target="custom-scopes.createCustomScopeForm">
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form id="custom-scopes-dialog-form" data-turbo="false" action="/search/custom_scopes" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="ZY5u6M7VcbtXY76Qj4JwYg6/Ddn+YBwt9uTwRQYmwSYayOz56abDZxf1Edtci5b53d8iOX7FUbpgiZeVaI1Ctg==" />
+          <div data-target="custom-scopes.customScopesModalDialogFlash"></div>
+
+          <input type="hidden" id="custom_scope_id" name="custom_scope_id" data-target="custom-scopes.customScopesIdField">
+
+          <div class="form-group">
+            <label for="custom_scope_name">Name</label>
+            <auto-check src="/search/custom_scopes/check_name" required>
+              <input
+                type="text"
+                name="custom_scope_name"
+                id="custom_scope_name"
+                data-target="custom-scopes.customScopesNameField"
+                class="form-control"
+                autocomplete="off"
+                placeholder="github-ruby"
+                required
+                maxlength="50">
+              <input type="hidden" data-csrf="true" value="PAeYlp6IyNrt67ayRs+A4BeFKPzgW6EOCQ7fENO44/cXm4tTY7NmF6LZMVXYW50+3GDhwGjRVg7H9BNhhpWhtA==" />
+            </auto-check>
+          </div>
+
+          <div class="form-group">
+            <label for="custom_scope_query">Query</label>
+            <input
+              type="text"
+              name="custom_scope_query"
+              id="custom_scope_query"
+              data-target="custom-scopes.customScopesQueryField"
+              class="form-control"
+              autocomplete="off"
+              placeholder="(repo:mona/a OR repo:mona/b) AND lang:python"
+              required
+              maxlength="500">
+          </div>
+
+          <p class="text-small color-fg-muted">
+            To see all available qualifiers, see our <a class="Link--inTextBlock" href="https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax">documentation</a>.
+          </p>
+</form>        </div>
+
+        <div data-target="custom-scopes.manageCustomScopesForm">
+          <div data-target="custom-scopes.list"></div>
+        </div>
+
+</div>
+      </scrollable-region>
+      <div data-view-component="true" class="Overlay-footer Overlay-footer--alignEnd Overlay-footer--divided">          <button data-action="click:custom-scopes#customScopesCancel" type="button" data-view-component="true" class="btn">    Cancel
+</button>
+          <button form="custom-scopes-dialog-form" data-action="click:custom-scopes#customScopesSubmit" data-target="custom-scopes.customScopesSubmitButton" type="submit" data-view-component="true" class="btn-primary btn">    Create saved search
+</button>
+</div>
+</dialog></dialog-helper>
+    </custom-scopes>
+  </div>
+</qbsearch-input>
+
+
+            <div class="position-relative HeaderMenu-link-wrap d-lg-inline-block">
+              <a
+                href="/login?return_to=https%3A%2F%2Fgithub.com%2FMikeMcl%2Fbignumber.js%2F%2F%2F"
+                class="HeaderMenu-link HeaderMenu-link--sign-in HeaderMenu-button flex-shrink-0 no-underline d-none d-lg-inline-flex border border-lg-0 rounded px-2 py-1"
+                style="margin-left: 12px;"
+                data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;bignumber_1f174efa.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="02a5c9f1e564e9d9ea60d43df78e611d5f88a219cdcf48bc2d15fb924200ed58"
+                data-analytics-event="{&quot;category&quot;:&quot;Marketing nav&quot;,&quot;action&quot;:&quot;click to go to homepage&quot;,&quot;label&quot;:&quot;ref_page:Marketing;ref_cta:Sign in;ref_loc:Header&quot;}"
+              >
+                Sign in
+              </a>
+            </div>
+
+              <a href="/signup?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&amp;source=header-repo&amp;source_repo=MikeMcl%2Fbignumber.js"
+                class="HeaderMenu-link HeaderMenu-link--sign-up HeaderMenu-button flex-shrink-0 d-flex d-lg-inline-flex no-underline border color-border-default rounded px-2 py-1"
+                data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;bignumber_1f174efa.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="02a5c9f1e564e9d9ea60d43df78e611d5f88a219cdcf48bc2d15fb924200ed58"
+                data-analytics-event="{&quot;category&quot;:&quot;Sign up&quot;,&quot;action&quot;:&quot;click to sign up for account&quot;,&quot;label&quot;:&quot;ref_page:/&lt;user-name&gt;/&lt;repo-name&gt;;ref_cta:Sign up;ref_loc:header logged out&quot;}"
+              >
+                Sign up
+              </a>
+
+                <div class="AppHeader-appearanceSettings">
+    <react-partial-anchor>
+      <button data-target="react-partial-anchor.anchor" id="icon-button-f607bfc3-ad8b-408e-9af6-10391ef9a192" aria-labelledby="tooltip-7fe4a33e-7eac-466a-a3ac-cd01430cc062" type="button" disabled="disabled" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium AppHeader-button HeaderMenu-link border cursor-wait">  <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-sliders Button-visual">
+    <path d="M15 2.75a.75.75 0 0 1-.75.75h-4a.75.75 0 0 1 0-1.5h4a.75.75 0 0 1 .75.75Zm-8.5.75v1.25a.75.75 0 0 0 1.5 0v-4a.75.75 0 0 0-1.5 0V2H1.75a.75.75 0 0 0 0 1.5H6.5Zm1.25 5.25a.75.75 0 0 0 0-1.5h-6a.75.75 0 0 0 0 1.5h6ZM15 8a.75.75 0 0 1-.75.75H11.5V10a.75.75 0 1 1-1.5 0V6a.75.75 0 0 1 1.5 0v1.25h2.75A.75.75 0 0 1 15 8Zm-9 5.25v-2a.75.75 0 0 0-1.5 0v1.25H1.75a.75.75 0 0 0 0 1.5H4.5v1.25a.75.75 0 0 0 1.5 0v-2Zm9 0a.75.75 0 0 1-.75.75h-6a.75.75 0 0 1 0-1.5h6a.75.75 0 0 1 .75.75Z"></path>
+</svg>
+</button><tool-tip id="tooltip-7fe4a33e-7eac-466a-a3ac-cd01430cc062" for="icon-button-f607bfc3-ad8b-408e-9af6-10391ef9a192" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Appearance settings</tool-tip>
+
+      <template data-target="react-partial-anchor.template">
+        <link crossorigin="anonymous" media="all" rel="stylesheet" href="primer-react-css.89ed847d1a8f127f.module_0f2a2310.css" />
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="appearance-settings.f3b91559daeb1c9c.mod_bece5616.css" />
+
+<react-partial
+  partial-name="appearance-settings"
+  data-ssr="false"
+  data-attempted-ssr="false"
+  data-react-profiling="false"
+>
+  
+  <script type="application/json" data-target="react-partial.embeddedData">{"props":{}}</script>
+  <div data-target="react-partial.reactRoot"></div>
+</react-partial>
+
+
+      </template>
+    </react-partial-anchor>
+  </div>
+
+          <button type="button" class="sr-only js-header-menu-focus-trap d-block d-lg-none">Resetting focus</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div hidden="hidden" data-view-component="true" class="js-stale-session-flash stale-session-flash flash flash-warn flash-full">
+  
+        <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
+</svg>
+        <span class="js-stale-session-flash-signed-in" hidden>You signed in with another tab or window. <a class="Link--inTextBlock" href="">Reload</a> to refresh your session.</span>
+        <span class="js-stale-session-flash-signed-out" hidden>You signed out in another tab or window. <a class="Link--inTextBlock" href="">Reload</a> to refresh your session.</span>
+        <span class="js-stale-session-flash-switched" hidden>You switched accounts on another tab or window. <a class="Link--inTextBlock" href="">Reload</a> to refresh your session.</span>
+
+    <button id="icon-button-853a0d4b-b03e-415d-8cfb-513e64c26670" aria-labelledby="tooltip-13890134-8646-49e2-83f0-daa7ff6b8a01" type="button" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium flash-close js-flash-close">  <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x Button-visual">
+    <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
+</svg>
+</button><tool-tip id="tooltip-13890134-8646-49e2-83f0-daa7ff6b8a01" for="icon-button-853a0d4b-b03e-415d-8cfb-513e64c26670" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Dismiss alert</tool-tip>
+
+
+  
+</div>
+    </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+
+
+
+
+
+
+
+    <div id="js-flash-container" class="flash-container" data-turbo-replace>
+
+
+
+
+  <template class="js-flash-template">
+    
+<div class="flash flash-full   {{ className }}">
+  <div >
+    <button autofocus class="flash-close js-flash-close" type="button" aria-label="Dismiss this message">
+      <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
+</svg>
+    </button>
+    <div aria-atomic="true" role="alert" class="js-flash-alert">
+      
+      <div>{{ message }}</div>
+
+    </div>
+  </div>
+</div>
+  </template>
+</div>
+
+
+    
+
+
+
+
+
+
+  <div
+    class="application-main "
+    data-commit-hovercards-enabled
+    data-discussion-hovercards-enabled
+    data-issue-and-pr-hovercards-enabled
+    data-project-hovercards-enabled
+  >
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <main id="js-repo-pjax-container" >
+      
+      
+
+
+
+
+
+
+
+  
+
+  <div id="repository-container-header"  class="tmp-pt-3 hide-full-screen" style="background-color: var(--page-header-bgColor, var(--color-page-header-bg));" data-turbo-replace>
+
+      <div class="d-flex flex-nowrap flex-justify-end tmp-mb-3  tmp-px-3 tmp-px-lg-5" style="gap: 1rem;">
+
+        <div class="flex-auto min-width-0 width-fit">
+            
+  <div class=" d-flex flex-wrap flex-items-center wb-break-word f3 text-normal">
+      <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo color-fg-muted mr-2 tmp-mr-2">
+    <path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"></path>
+</svg>
+    
+    <span class="author flex-self-stretch" itemprop="author">
+      <a class="url fn" rel="author" data-hovercard-type="user" data-hovercard-url="/users/MikeMcl/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/MikeMcl">
+        MikeMcl
+</a>    </span>
+    <span class="mx-1 flex-self-stretch color-fg-muted">/</span>
+    <strong itemprop="name" class="mr-2 flex-self-stretch">
+      <a data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/MikeMcl/bignumber.js">bignumber.js</a>
+    </strong>
+
+    <span></span><span class="Label Label--secondary v-align-middle mr-1">Public</span>
+  </div>
+
+
+        </div>
+
+        <div id="repository-details-container" class="flex-shrink-0" data-turbo-replace style="max-width: 70%;">
+            <ul class="pagehead-actions flex-shrink-0 d-none d-md-inline" style="padding: 2px 0;">
+    
+      
+
+  <li>
+            <a href="/login?return_to=%2FMikeMcl%2Fbignumber.js" rel="nofollow" id="repository-details-watch-button" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;notification subscription menu watch&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;bignumber_1f174efa.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="ea2d3219676c05326301fbb702525aa917446b68464e3ba1f15b2596c6b880ef" aria-label="You must be signed in to change notification settings" data-view-component="true" class="btn-sm btn">    <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-bell mr-2 tmp-mr-2">
+    <path d="M8 16a2 2 0 0 0 1.985-1.75c.017-.137-.097-.25-.235-.25h-3.5c-.138 0-.252.113-.235.25A2 2 0 0 0 8 16ZM3 5a5 5 0 0 1 10 0v2.947c0 .05.015.098.042.139l1.703 2.555A1.519 1.519 0 0 1 13.482 13H2.518a1.516 1.516 0 0 1-1.263-2.36l1.703-2.554A.255.255 0 0 0 3 7.947Zm5-3.5A3.5 3.5 0 0 0 4.5 5v2.947c0 .346-.102.683-.294.97l-1.703 2.556a.017.017 0 0 0-.003.01l.001.006c0 .002.002.004.004.006l.006.004.007.001h10.964l.007-.001.006-.004.004-.006.001-.007a.017.017 0 0 0-.003-.01l-1.703-2.554a1.745 1.745 0 0 1-.294-.97V5A3.5 3.5 0 0 0 8 1.5Z"></path>
+</svg>Notifications
+</a>    <tool-tip id="tooltip-117a1a4e-fd26-45f7-8539-2eaaaa667603" for="repository-details-watch-button" popover="manual" data-direction="s" data-type="description" data-view-component="true" class="sr-only position-absolute">You must be signed in to change notification settings</tool-tip>
+
+  </li>
+
+  <li>
+          <a icon="repo-forked" id="fork-button" href="/login?return_to=%2FMikeMcl%2Fbignumber.js" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;repo details fork button&quot;,&quot;repository_id&quot;:6602323,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;bignumber_1f174efa.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="3419f3622c9594fa4590979b7d1341ce278f4a502450ac7f762053bea74bbd02" data-view-component="true" class="btn-sm btn">    <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo-forked mr-2 tmp-mr-2">
+    <path d="M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0ZM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-3 8.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"></path>
+</svg>Fork
+    <span id="repo-network-counter" data-pjax-replace="true" data-turbo-replace="true" title="753" data-view-component="true" class="Counter">753</span>
+</a>
+  </li>
+
+  <li>
+        <div data-view-component="true" class="BtnGroup d-flex">
+        <a href="/login?return_to=%2FMikeMcl%2Fbignumber.js" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:6602323,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;bignumber_1f174efa.js&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="d47116d6d92bded4c499e6812c38516104cdfbd48fbf76b62d49161113b172a5" aria-label="You must be signed in to star a repository" data-view-component="true" class="tooltipped tooltipped-sw btn-sm btn">    <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star v-align-text-bottom d-inline-block mr-2 tmp-mr-2">
+    <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Zm0 2.445L6.615 5.5a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 0 0 1-.564-.41L8 2.694Z"></path>
+</svg><span data-view-component="true" class="d-inline">
+          Star
+</span>          <span id="repo-stars-counter-star" aria-label="7004 users starred this repository" data-singular-suffix="user starred this repository" data-plural-suffix="users starred this repository" data-turbo-replace="true" title="7,004" data-view-component="true" class="Counter js-social-count">7k</span>
+</a></div>
+  </li>
+
+</ul>
+
+        </div>
+      </div>
+
+        <div id="responsive-meta-container" data-turbo-replace>
+</div>
+
+
+          <nav data-pjax="#js-repo-pjax-container" aria-label="Repository" data-view-component="true" class="js-repo-nav js-sidenav-container-pjax js-responsive-underlinenav overflow-hidden UnderlineNav px-3 tmp-px-3 px-md-4 tmp-px-md-4 px-lg-5 tmp-px-lg-5">
+
+  <ul data-view-component="true" class="UnderlineNav-body list-style-none">
+      <li data-view-component="true" class="d-inline-flex">
+  <a id="code-tab" href="/MikeMcl/bignumber.js" data-tab-item="i0code-tab" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages repo_deployments repo_attestations /MikeMcl/bignumber.js" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g c" data-command-id="repositories:go-to-code" data-react-nav="code-view" data-react-nav-anchor="code-view-repo-link" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Code&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" aria-current="page" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item selected">
+    
+              <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code UnderlineNav-octicon d-none d-sm-inline">
+    <path d="m11.28 3.22 4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L13.94 8l-3.72-3.72a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215Zm-6.56 0a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042L2.06 8l3.72 3.72a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L.47 8.53a.75.75 0 0 1 0-1.06Z"></path>
+</svg>
+        <span data-content="Code">Code</span>
+          <span id="code-repo-tab-count" data-pjax-replace="" data-turbo-replace="" title="Not available" data-view-component="true" class="Counter"></span>
+
+
+    
+</a></li>
+      <li data-view-component="true" class="d-inline-flex">
+  <a id="issues-tab" href="/MikeMcl/bignumber.js/issues" data-tab-item="i1issues-tab" data-selected-links="repo_issues repo_labels repo_milestones /MikeMcl/bignumber.js/issues" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g i" data-command-id="repositories:go-to-issues" data-react-nav="issues-react" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Issues&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
+    
+              <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-issue-opened UnderlineNav-octicon d-none d-sm-inline">
+    <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"></path><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"></path>
+</svg>
+        <span data-content="Issues">Issues</span>
+          <span id="issues-repo-tab-count" data-pjax-replace="" data-turbo-replace="" title="3" data-view-component="true" class="Counter">3</span>
+
+
+    
+</a></li>
+      <li data-view-component="true" class="d-inline-flex">
+  <a id="pull-requests-tab" href="/MikeMcl/bignumber.js/pulls" data-tab-item="i2pull-requests-tab" data-selected-links="repo_pulls checks /MikeMcl/bignumber.js/pulls" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g p" data-command-id="repositories:go-to-pull-requests" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Pull requests&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
+    
+              <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-git-pull-request UnderlineNav-octicon d-none d-sm-inline">
+    <path d="M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677-.177L9.573.677A.25.25 0 0 1 10 .854V2.5h1A2.5 2.5 0 0 1 13.5 5v5.628a2.251 2.251 0 1 1-1.5 0V5a1 1 0 0 0-1-1h-1v1.646a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354ZM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm0 9.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm8.25.75a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Z"></path>
+</svg>
+        <span data-content="Pull requests">Pull requests</span>
+          <span id="pull-requests-repo-tab-count" data-pjax-replace="" data-turbo-replace="" title="2" data-view-component="true" class="Counter">2</span>
+
+
+    
+</a></li>
+      <li data-view-component="true" class="d-inline-flex">
+  <a id="actions-tab" href="/MikeMcl/bignumber.js/actions" data-tab-item="i3actions-tab" data-selected-links="repo_actions /MikeMcl/bignumber.js/actions" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g a" data-command-id="repositories:go-to-actions" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Actions&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
+    
+              <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-play UnderlineNav-octicon d-none d-sm-inline">
+    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Zm4.879-2.773 4.264 2.559a.25.25 0 0 1 0 .428l-4.264 2.559A.25.25 0 0 1 6 10.559V5.442a.25.25 0 0 1 .379-.215Z"></path>
+</svg>
+        <span data-content="Actions">Actions</span>
+          <span id="actions-repo-tab-count" data-pjax-replace="" data-turbo-replace="" title="Not available" data-view-component="true" class="Counter"></span>
+
+
+    
+</a></li>
+      <li data-view-component="true" class="d-inline-flex">
+  <a id="projects-tab" href="/MikeMcl/bignumber.js/projects" data-tab-item="i4projects-tab" data-selected-links="repo_projects new_repo_project repo_project /MikeMcl/bignumber.js/projects" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g b" data-command-id="repositories:go-to-projects" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Projects&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
+    
+              <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-table UnderlineNav-octicon d-none d-sm-inline">
+    <path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25ZM6.5 6.5v8h7.75a.25.25 0 0 0 .25-.25V6.5Zm8-1.5V1.75a.25.25 0 0 0-.25-.25H6.5V5Zm-13 1.5v7.75c0 .138.112.25.25.25H5v-8ZM5 5V1.5H1.75a.25.25 0 0 0-.25.25V5Z"></path>
+</svg>
+        <span data-content="Projects">Projects</span>
+          <span id="projects-repo-tab-count" data-pjax-replace="" data-turbo-replace="" title="Not available" data-view-component="true" class="Counter"></span>
+
+
+    
+</a></li>
+      <li data-view-component="true" class="d-inline-flex">
+  <a id="wiki-tab" href="/MikeMcl/bignumber.js/wiki" data-tab-item="i5wiki-tab" data-selected-links="repo_wiki /MikeMcl/bignumber.js/wiki" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g w" data-command-id="repositories:go-to-wiki" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Wiki&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
+    
+              <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-book UnderlineNav-octicon d-none d-sm-inline">
+    <path d="M0 1.75A.75.75 0 0 1 .75 1h4.253c1.227 0 2.317.59 3 1.501A3.743 3.743 0 0 1 11.006 1h4.245a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75h-4.507a2.25 2.25 0 0 0-1.591.659l-.622.621a.75.75 0 0 1-1.06 0l-.622-.621A2.25 2.25 0 0 0 5.258 13H.75a.75.75 0 0 1-.75-.75Zm7.251 10.324.004-5.073-.002-2.253A2.25 2.25 0 0 0 5.003 2.5H1.5v9h3.757a3.75 3.75 0 0 1 1.994.574ZM8.755 4.75l-.004 7.322a3.752 3.752 0 0 1 1.992-.572H14.5v-9h-3.495a2.25 2.25 0 0 0-2.25 2.25Z"></path>
+</svg>
+        <span data-content="Wiki">Wiki</span>
+          <span id="wiki-repo-tab-count" data-pjax-replace="" data-turbo-replace="" title="Not available" data-view-component="true" class="Counter"></span>
+
+
+    
+</a></li>
+      <li data-view-component="true" class="d-inline-flex">
+  <a id="security-and-quality-tab" href="/MikeMcl/bignumber.js/security" data-tab-item="i6security-and-quality-tab" data-selected-links="security overview alerts policy token_scanning code_scanning /MikeMcl/bignumber.js/security" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g s" data-command-id="repositories:go-to-security" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Security and quality&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
+    
+              <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-shield UnderlineNav-octicon d-none d-sm-inline">
+    <path d="M7.467.133a1.748 1.748 0 0 1 1.066 0l5.25 1.68A1.75 1.75 0 0 1 15 3.48V7c0 1.566-.32 3.182-1.303 4.682-.983 1.498-2.585 2.813-5.032 3.855a1.697 1.697 0 0 1-1.33 0c-2.447-1.042-4.049-2.357-5.032-3.855C1.32 10.182 1 8.566 1 7V3.48a1.75 1.75 0 0 1 1.217-1.667Zm.61 1.429a.25.25 0 0 0-.153 0l-5.25 1.68a.25.25 0 0 0-.174.238V7c0 1.358.275 2.666 1.057 3.86.784 1.194 2.121 2.34 4.366 3.297a.196.196 0 0 0 .154 0c2.245-.956 3.582-2.104 4.366-3.298C13.225 9.666 13.5 8.36 13.5 7V3.48a.251.251 0 0 0-.174-.237l-5.25-1.68ZM8.75 4.75v3a.75.75 0 0 1-1.5 0v-3a.75.75 0 0 1 1.5 0ZM9 10.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
+</svg>
+        <span data-content="Security and quality">Security and quality</span>
+          <span id="security-and-quality-repo-tab-count" data-pjax-replace="" data-turbo-replace="" title="0" hidden="hidden" data-view-component="true" class="Counter">0</span>
+
+
+    
+</a></li>
+      <li data-view-component="true" class="d-inline-flex">
+  <a id="insights-tab" href="/MikeMcl/bignumber.js/pulse" data-tab-item="i7insights-tab" data-selected-links="repo_graphs repo_contributors dependency_graph dependabot_updates pulse people community /MikeMcl/bignumber.js/pulse" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-command-id="repositories:go-to-insights" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Insights&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
+    
+              <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-graph UnderlineNav-octicon d-none d-sm-inline">
+    <path d="M1.5 1.75V13.5h13.75a.75.75 0 0 1 0 1.5H.75a.75.75 0 0 1-.75-.75V1.75a.75.75 0 0 1 1.5 0Zm14.28 2.53-5.25 5.25a.75.75 0 0 1-1.06 0L7 7.06 4.28 9.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.25-3.25a.75.75 0 0 1 1.06 0L10 7.94l4.72-4.72a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042Z"></path>
+</svg>
+        <span data-content="Insights">Insights</span>
+          <span id="insights-repo-tab-count" data-pjax-replace="" data-turbo-replace="" title="Not available" data-view-component="true" class="Counter"></span>
+
+
+    
+</a></li>
+</ul>
+    <div style="visibility:hidden;" data-view-component="true" class="UnderlineNav-actions js-responsive-underlinenav-overflow position-absolute pr-3 tmp-pr-3 pr-md-4 tmp-pr-md-4 pr-lg-5 tmp-pr-lg-5 right-0">      <action-menu data-select-variant="none" data-view-component="true">
+  <focus-group direction="vertical" mnemonics retain>
+    <button id="action-menu-02d32c10-2901-47fb-9eee-e4c2aa11098f-button" popovertarget="action-menu-02d32c10-2901-47fb-9eee-e4c2aa11098f-overlay" aria-controls="action-menu-02d32c10-2901-47fb-9eee-e4c2aa11098f-list" aria-haspopup="true" aria-labelledby="tooltip-765aafac-136b-41ef-bfe8-aa1aaccc6ef4" type="button" data-view-component="true" class="Button Button--iconOnly Button--secondary Button--medium UnderlineNav-item">  <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-kebab-horizontal Button-visual">
+    <path d="M8 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3ZM1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm13 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"></path>
+</svg>
+</button><tool-tip id="tooltip-765aafac-136b-41ef-bfe8-aa1aaccc6ef4" for="action-menu-02d32c10-2901-47fb-9eee-e4c2aa11098f-button" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Additional navigation options</tool-tip>
+
+
+<anchored-position data-target="action-menu.overlay" id="action-menu-02d32c10-2901-47fb-9eee-e4c2aa11098f-overlay" anchor="action-menu-02d32c10-2901-47fb-9eee-e4c2aa11098f-button" align="start" side="outside-bottom" anchor-offset="normal" popover="auto" data-view-component="true">
+  <div data-view-component="true" class="Overlay Overlay--size-auto">
+    
+      <div data-view-component="true" class="Overlay-body Overlay-body--paddingNone">          <action-list>
+  <div data-view-component="true">
+    <ul aria-labelledby="action-menu-02d32c10-2901-47fb-9eee-e4c2aa11098f-button" id="action-menu-02d32c10-2901-47fb-9eee-e4c2aa11098f-list" role="menu" data-view-component="true" class="ActionListWrap--inset ActionListWrap">
+        <li hidden="hidden" data-menu-item="i0code-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
+    
+    
+    <a tabindex="-1" id="item-37a66aa0-ffd1-42e1-8b5b-3c031a03f180" href="/MikeMcl/bignumber.js" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+        <span class="ActionListItem-visual ActionListItem-visual--leading">
+          <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code">
+    <path d="m11.28 3.22 4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L13.94 8l-3.72-3.72a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215Zm-6.56 0a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042L2.06 8l3.72 3.72a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L.47 8.53a.75.75 0 0 1 0-1.06Z"></path>
+</svg>
+        </span>
+      
+        <span data-view-component="true" class="ActionListItem-label">
+          Code
+</span>      
+</a>
+  
+</li>
+        <li hidden="hidden" data-menu-item="i1issues-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
+    
+    
+    <a tabindex="-1" id="item-106b2ae0-9cc8-4ab8-858a-3c70fd5f583f" href="/MikeMcl/bignumber.js/issues" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+        <span class="ActionListItem-visual ActionListItem-visual--leading">
+          <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-issue-opened">
+    <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"></path><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"></path>
+</svg>
+        </span>
+      
+        <span data-view-component="true" class="ActionListItem-label">
+          Issues
+</span>      
+</a>
+  
+</li>
+        <li hidden="hidden" data-menu-item="i2pull-requests-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
+    
+    
+    <a tabindex="-1" id="item-f9775426-d8c5-472f-a466-ed08218de38e" href="/MikeMcl/bignumber.js/pulls" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+        <span class="ActionListItem-visual ActionListItem-visual--leading">
+          <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-git-pull-request">
+    <path d="M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677-.177L9.573.677A.25.25 0 0 1 10 .854V2.5h1A2.5 2.5 0 0 1 13.5 5v5.628a2.251 2.251 0 1 1-1.5 0V5a1 1 0 0 0-1-1h-1v1.646a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354ZM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm0 9.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm8.25.75a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Z"></path>
+</svg>
+        </span>
+      
+        <span data-view-component="true" class="ActionListItem-label">
+          Pull requests
+</span>      
+</a>
+  
+</li>
+        <li hidden="hidden" data-menu-item="i3actions-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
+    
+    
+    <a tabindex="-1" id="item-175f77d3-3d6e-4b63-a8ac-f5645e1faf3b" href="/MikeMcl/bignumber.js/actions" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+        <span class="ActionListItem-visual ActionListItem-visual--leading">
+          <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-play">
+    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Zm4.879-2.773 4.264 2.559a.25.25 0 0 1 0 .428l-4.264 2.559A.25.25 0 0 1 6 10.559V5.442a.25.25 0 0 1 .379-.215Z"></path>
+</svg>
+        </span>
+      
+        <span data-view-component="true" class="ActionListItem-label">
+          Actions
+</span>      
+</a>
+  
+</li>
+        <li hidden="hidden" data-menu-item="i4projects-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
+    
+    
+    <a tabindex="-1" id="item-3562cfff-8549-42ab-8dd2-7e55612ad513" href="/MikeMcl/bignumber.js/projects" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+        <span class="ActionListItem-visual ActionListItem-visual--leading">
+          <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-table">
+    <path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25ZM6.5 6.5v8h7.75a.25.25 0 0 0 .25-.25V6.5Zm8-1.5V1.75a.25.25 0 0 0-.25-.25H6.5V5Zm-13 1.5v7.75c0 .138.112.25.25.25H5v-8ZM5 5V1.5H1.75a.25.25 0 0 0-.25.25V5Z"></path>
+</svg>
+        </span>
+      
+        <span data-view-component="true" class="ActionListItem-label">
+          Projects
+</span>      
+</a>
+  
+</li>
+        <li hidden="hidden" data-menu-item="i5wiki-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
+    
+    
+    <a tabindex="-1" id="item-e1fe55ed-1898-4d64-9c6a-889627360c9d" href="/MikeMcl/bignumber.js/wiki" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+        <span class="ActionListItem-visual ActionListItem-visual--leading">
+          <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-book">
+    <path d="M0 1.75A.75.75 0 0 1 .75 1h4.253c1.227 0 2.317.59 3 1.501A3.743 3.743 0 0 1 11.006 1h4.245a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75h-4.507a2.25 2.25 0 0 0-1.591.659l-.622.621a.75.75 0 0 1-1.06 0l-.622-.621A2.25 2.25 0 0 0 5.258 13H.75a.75.75 0 0 1-.75-.75Zm7.251 10.324.004-5.073-.002-2.253A2.25 2.25 0 0 0 5.003 2.5H1.5v9h3.757a3.75 3.75 0 0 1 1.994.574ZM8.755 4.75l-.004 7.322a3.752 3.752 0 0 1 1.992-.572H14.5v-9h-3.495a2.25 2.25 0 0 0-2.25 2.25Z"></path>
+</svg>
+        </span>
+      
+        <span data-view-component="true" class="ActionListItem-label">
+          Wiki
+</span>      
+</a>
+  
+</li>
+        <li hidden="hidden" data-menu-item="i6security-and-quality-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
+    
+    
+    <a tabindex="-1" id="item-d98feaa1-96f2-464c-aaa2-1fcbfe643764" href="/MikeMcl/bignumber.js/security" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+        <span class="ActionListItem-visual ActionListItem-visual--leading">
+          <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-shield">
+    <path d="M7.467.133a1.748 1.748 0 0 1 1.066 0l5.25 1.68A1.75 1.75 0 0 1 15 3.48V7c0 1.566-.32 3.182-1.303 4.682-.983 1.498-2.585 2.813-5.032 3.855a1.697 1.697 0 0 1-1.33 0c-2.447-1.042-4.049-2.357-5.032-3.855C1.32 10.182 1 8.566 1 7V3.48a1.75 1.75 0 0 1 1.217-1.667Zm.61 1.429a.25.25 0 0 0-.153 0l-5.25 1.68a.25.25 0 0 0-.174.238V7c0 1.358.275 2.666 1.057 3.86.784 1.194 2.121 2.34 4.366 3.297a.196.196 0 0 0 .154 0c2.245-.956 3.582-2.104 4.366-3.298C13.225 9.666 13.5 8.36 13.5 7V3.48a.251.251 0 0 0-.174-.237l-5.25-1.68ZM8.75 4.75v3a.75.75 0 0 1-1.5 0v-3a.75.75 0 0 1 1.5 0ZM9 10.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
+</svg>
+        </span>
+      
+        <span data-view-component="true" class="ActionListItem-label">
+          Security and quality
+</span>      
+</a>
+  
+</li>
+        <li hidden="hidden" data-menu-item="i7insights-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
+    
+    
+    <a tabindex="-1" id="item-1cc0f321-2e9a-498a-8d10-91b1076e77ff" href="/MikeMcl/bignumber.js/pulse" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+        <span class="ActionListItem-visual ActionListItem-visual--leading">
+          <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-graph">
+    <path d="M1.5 1.75V13.5h13.75a.75.75 0 0 1 0 1.5H.75a.75.75 0 0 1-.75-.75V1.75a.75.75 0 0 1 1.5 0Zm14.28 2.53-5.25 5.25a.75.75 0 0 1-1.06 0L7 7.06 4.28 9.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.25-3.25a.75.75 0 0 1 1.06 0L10 7.94l4.72-4.72a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042Z"></path>
+</svg>
+        </span>
+      
+        <span data-view-component="true" class="ActionListItem-label">
+          Insights
+</span>      
+</a>
+  
+</li>
+</ul>    
+</div></action-list>
+
+
+</div>
+      
+</div></anchored-position>  </focus-group>
+</action-menu></div>
+</nav>
+
+  </div>
+  
+
+
+
+<turbo-frame id="repo-content-turbo-frame" target="_top" data-turbo-action="advance" class="">
+    <div id="repo-content-pjax-container" class="repository-content " >
+    
+
+
+
+    
+      
+    
+
+
+
+
+
+
+
+
+<react-app
+  app-name="code-view"
+  initial-path="/MikeMcl/bignumber.js"
+  style="display: block; min-height: calc(100vh - 64px);"
+  data-attempted-ssr="true"
+  data-ssr="true"
+  data-lazy="false"
+  data-alternate="false"
+  data-data-router-enabled="true"
+  data-react-profiling="false"
+>
+  
+  <script type="application/json" data-target="react-app.embeddedData">{"payload":{"codeViewRepoRoute":{"path":"/","refInfo":{"name":"main","listCacheKey":"v0:1781634654.0","canEdit":false,"refType":"branch","currentOid":"604bb2f24acc9b7a8d16b33b2f9923336d6333d5"},"tree":{"items":[{"name":".github/workflows","path":".github/workflows","contentType":"directory","hasSimplifiedPath":true},{"name":"dist","path":"dist","contentType":"directory"},{"name":"doc","path":"doc","contentType":"directory"},{"name":"perf","path":"perf","contentType":"directory"},{"name":"test","path":"test","contentType":"directory"},{"name":".gitattributes","path":".gitattributes","contentType":"file"},{"name":".gitignore","path":".gitignore","contentType":"file"},{"name":"CHANGELOG.md","path":"CHANGELOG.md","contentType":"file"},{"name":"LICENCE.md","path":"LICENCE.md","contentType":"file"},{"name":"README.md","path":"README.md","contentType":"file"},{"name":"bignumber.d.ts","path":"bignumber.d.ts","contentType":"file"},{"name":"bignumber.js","path":"bignumber.js","contentType":"file"},{"name":"build.js","path":"build.js","contentType":"file"},{"name":"package.json","path":"package.json","contentType":"file"}],"totalCount":14,"templateDirectorySuggestionUrl":null,"readme":null,"showBranchInfobar":false},"userNameDisplayConfiguration":null,"treeExpanded":false,"symbolsExpanded":false,"copilotSWEAgentEnabled":false,"isOverview":true,"overview":{"banners":{"shouldRecommendReadme":false,"isPersonalRepo":false,"showUseActionBanner":false,"actionSlug":null,"actionId":null,"showProtectBranchBanner":false,"transactionalMessageBanner":null,"publishBannersInfo":{"dismissActionNoticePath":"/settings/dismiss-notice/publish_action_from_repo","releasePath":"/MikeMcl/bignumber.js/releases/new?marketplace=true","showPublishActionBanner":false},"interactionLimitBanner":null,"showInvitationBanner":false,"inviterName":null,"actionsMigrationBannerInfo":{"releaseTags":[],"showImmutableActionsMigrationBanner":false,"initialMigrationStatus":null},"copilotSurveyBanner":null,"showSpammyBanner":false,"blockedContributorsBanner":null},"codeButton":{"contactPath":"/contact","isEnterprise":false,"local":{"protocolInfo":{"httpAvailable":true,"sshAvailable":null,"httpUrl":"bignumber_1f174efa.js.git","showCloneWarning":null,"sshUrl":null,"sshCertificatesRequired":null,"sshCertificatesAvailable":null,"ghCliUrl":"gh repo clone MikeMcl/bignumber.js","defaultProtocol":"http","newSshKeyUrl":"/settings/ssh/new","setProtocolPath":"/users/set_protocol?protocol_type=clone"},"platformInfo":{"cloneUrl":"https://desktop.github.com","showVisualStudioCloneButton":false,"visualStudioCloneUrl":"https://windows.github.com","showXcodeCloneButton":false,"xcodeCloneUrl":"xcode://clone?repo=https%3A%2F%2Fgithub.com%2FMikeMcl%2Fbignumber.js","zipballUrl":"/MikeMcl/bignumber.js/archive/refs/heads/main.zip"}},"newCodespacePath":"/codespaces/new?hide_repo_select=true\u0026repo=6602323"},"popovers":{"rename":null,"renamedParentRepo":null},"commitCount":"296","overviewFiles":[{"displayName":"README.md","repoName":"bignumber.js","refName":"main","path":"README.md","preferredFileType":"readme","tabName":"README","richText":"\u003carticle class=\"markdown-body entry-content container-lg\" itemprop=\"text\"\u003e\u003cp dir=\"auto\"\u003e\u003ca target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"bignumberjs_e0cb6945.png\"\u003e\u003cimg src=\"bignumberjs_e0cb6945.png\" alt=\"bignumber.js\" style=\"max-width: 100%;\"\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp dir=\"auto\"\u003eA JavaScript library for arbitrary-precision decimal and non-decimal arithmetic.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003e\u003ca href=\"https://www.npmjs.com/package/bignumber.js\" rel=\"nofollow\"\u003e\u003cimg src=\"https://camo.githubusercontent.com/dc2caae74b5b5f890a57cfd7d3e08cbffd2915d898821d6f3065ad6ba4fab721/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f6269676e756d6265722e6a732e737667\" alt=\"npm version\" data-canonical-src=\"bignumber.js_d632ca3d.svg" style=\"max-width: 100%;\"\u003e\u003c/a\u003e\n\u003ca href=\"https://www.npmjs.com/package/bignumber.js\" rel=\"nofollow\"\u003e\u003cimg src=\"https://camo.githubusercontent.com/04f2efda259848f58f39b3411199421b72e4fb815e8f08eb9e274f090a55191a/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f64772f6269676e756d6265722e6a73\" alt=\"npm downloads\" data-canonical-src=\"bignumber_b9bb2df4.js" style=\"max-width: 100%;\"\u003e\u003c/a\u003e\n\u003ca href=\"bignumber_1f174efa.js/actions/workflows/ci.yml\"\u003e\u003cimg src=\"badge_3f8b5d6f.svg" alt=\"CI\" style=\"max-width: 100%;\"\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cbr\u003e\n\u003cul dir=\"auto\"\u003e\n\u003cli\u003e\u003ca href=\"#features\"\u003eFeatures\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"#build\"\u003eBuild\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"#load\"\u003eLoad\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"#use\"\u003eUse\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"#test\"\u003eTest\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"#minify\"\u003eMinify\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"#licence\"\u003eLicence\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cdiv class=\"markdown-heading\" dir=\"auto\"\u003e\u003ch2 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\"\u003eFeatures\u003c/h2\u003e\u003ca id=\"user-content-features\" class=\"anchor\" aria-label=\"Permalink: Features\" href=\"#features\"\u003e\u003csvg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003c/div\u003e\n\u003cul dir=\"auto\"\u003e\n\u003cli\u003eIntegers and decimals\u003c/li\u003e\n\u003cli\u003eSimple API but full-featured\u003c/li\u003e\n\u003cli\u003eFaster, smaller, and perhaps easier to use than JavaScript versions of Java's BigDecimal\u003c/li\u003e\n\u003cli\u003e8 KB minified and gzipped\u003c/li\u003e\n\u003cli\u003eReplicates the \u003ccode\u003etoExponential\u003c/code\u003e, \u003ccode\u003etoFixed\u003c/code\u003e, \u003ccode\u003etoPrecision\u003c/code\u003e and \u003ccode\u003etoString\u003c/code\u003e methods of JavaScript's Number type\u003c/li\u003e\n\u003cli\u003eIncludes a \u003ccode\u003etoFraction\u003c/code\u003e and a correctly-rounded \u003ccode\u003esquareRoot\u003c/code\u003e method\u003c/li\u003e\n\u003cli\u003eSupports cryptographically-secure pseudo-random number generation\u003c/li\u003e\n\u003cli\u003eNo dependencies\u003c/li\u003e\n\u003cli\u003eWide platform compatibility: uses JavaScript 1.5 (ECMAScript 3) features only\u003c/li\u003e\n\u003cli\u003eComprehensive \u003ca href=\"bignumber_7a45f87c.js\" rel=\"nofollow\"\u003edocumentation\u003c/a\u003e and test set\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp dir=\"auto\"\u003e\u003ca target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"API_d2f5f881.png\"\u003e\u003cimg src=\"API_d2f5f881.png\" alt=\"API\" style=\"max-width: 100%;\"\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp dir=\"auto\"\u003eIf a smaller and simpler library is required see \u003ca href=\"big_b5e90bfe.js"\u003ebig.js\u003c/a\u003e.\nIt's less than half the size but only works with decimal numbers and only has half the methods.\nIt also has fewer configuration options than this library, and does not allow \u003ccode\u003eNaN\u003c/code\u003e or \u003ccode\u003eInfinity\u003c/code\u003e.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003eSee also \u003ca href=\"decimal_93b208b7.js"\u003edecimal.js\u003c/a\u003e, which among other things adds support for non-integer powers, and performs all operations to a specified number of significant digits.\u003c/p\u003e\n\u003cdiv class=\"markdown-heading\" dir=\"auto\"\u003e\u003ch2 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\"\u003eBuild\u003c/h2\u003e\u003ca id=\"user-content-build\" class=\"anchor\" aria-label=\"Permalink: Build\" href=\"#build\"\u003e\u003csvg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003c/div\u003e\n\u003cp dir=\"auto\"\u003e\u003cem\u003ebignumber.js\u003c/em\u003e is the single source file, and \u003cem\u003ebignumber.d.ts\u003c/em\u003e contains the type declarations for it. The build script, \u003cem\u003ebuild.js\u003c/em\u003e, creates targeted builds in a \u003cem\u003edist\u003c/em\u003e directory for ES module, CommonJS, and browser usage.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003eTo run the build script (requires Node.js ≥ 14.14.0):\u003c/p\u003e\n\u003cdiv class=\"highlight highlight-source-shell notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"npm install\nnpm run build\n# or: node build.js\"\u003e\u003cpre\u003enpm install\nnpm run build\n\u003cspan class=\"pl-c\"\u003e\u003cspan class=\"pl-c\"\u003e#\u003c/span\u003e or: node build.js\u003c/span\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003cp dir=\"auto\"\u003eA \u003cem\u003edist\u003c/em\u003e directory will be created containing the following:\u003c/p\u003e\n\u003cmarkdown-accessiblity-table\u003e\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003eModule format\u003c/th\u003e\n\u003cth\u003eDistributable\u003c/th\u003e\n\u003cth\u003eType declaration\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eES module (ESM)\u003c/td\u003e\n\u003ctd\u003ebignumber.mjs\u003c/td\u003e\n\u003ctd\u003ebignumber.d.mts\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eCommonJS (CJS)\u003c/td\u003e\n\u003ctd\u003ebignumber.cjs\u003c/td\u003e\n\u003ctd\u003ebignumber.d.cts\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eBrowser (global)\u003c/td\u003e\n\u003ctd\u003ebignumber.js\u003c/td\u003e\n\u003ctd\u003ebignumber.d.ts\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\u003c/markdown-accessiblity-table\u003e\n\u003cdiv class=\"markdown-heading\" dir=\"auto\"\u003e\u003ch2 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\"\u003eLoad\u003c/h2\u003e\u003ca id=\"user-content-load\" class=\"anchor\" aria-label=\"Permalink: Load\" href=\"#load\"\u003e\u003csvg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003c/div\u003e\n\u003cdiv class=\"markdown-heading\" dir=\"auto\"\u003e\u003ch3 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\"\u003eBrowser\u003c/h3\u003e\u003ca id=\"user-content-browser\" class=\"anchor\" aria-label=\"Permalink: Browser\" href=\"#browser\"\u003e\u003csvg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003c/div\u003e\n\u003cdiv class=\"highlight highlight-text-html-basic notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"\u0026lt;script src='dist/bignumber.js'\u0026gt;\u0026lt;/script\u0026gt;\"\u003e\u003cpre\u003e\u003cspan class=\"pl-kos\"\u003e\u0026lt;\u003c/span\u003e\u003cspan class=\"pl-ent\"\u003escript\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003esrc\u003c/span\u003e='\u003cspan class=\"pl-s\"\u003edist/bignumber.js\u003c/span\u003e'\u003cspan class=\"pl-kos\"\u003e\u0026gt;\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e\u0026lt;/\u003c/span\u003e\u003cspan class=\"pl-ent\"\u003escript\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e\u0026gt;\u003c/span\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003cp dir=\"auto\"\u003eor, minified from a CDN (Content Delivery Network):\u003c/p\u003e\n\u003cdiv class=\"highlight highlight-text-html-basic notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"\u0026lt;script src='bignumber.min_e1688045.js'\u0026gt;\u0026lt;/script\u0026gt;\"\u003e\u003cpre\u003e\u003cspan class=\"pl-kos\"\u003e\u0026lt;\u003c/span\u003e\u003cspan class=\"pl-ent\"\u003escript\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003esrc\u003c/span\u003e='\u003cspan class=\"pl-s\"\u003ebignumber.min_e1688045.js\u003c/span\u003e'\u003cspan class=\"pl-kos\"\u003e\u0026gt;\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e\u0026lt;/\u003c/span\u003e\u003cspan class=\"pl-ent\"\u003escript\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e\u0026gt;\u003c/span\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003cblockquote\u003e\n\u003cp dir=\"auto\"\u003eES module\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cdiv class=\"highlight highlight-text-html-basic notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"\u0026lt;script type=\u0026quot;module\u0026quot;\u0026gt;\nimport BigNumber from './dist/bignumber.mjs';\n// ...\n\u0026lt;/script\u0026gt;\"\u003e\u003cpre\u003e\u003cspan class=\"pl-kos\"\u003e\u0026lt;\u003c/span\u003e\u003cspan class=\"pl-ent\"\u003escript\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003etype\u003c/span\u003e=\"\u003cspan class=\"pl-s\"\u003emodule\u003c/span\u003e\"\u003cspan class=\"pl-kos\"\u003e\u0026gt;\u003c/span\u003e\n\u003cspan class=\"pl-k\"\u003eimport\u003c/span\u003e \u003cspan class=\"pl-v\"\u003eBigNumber\u003c/span\u003e \u003cspan class=\"pl-k\"\u003efrom\u003c/span\u003e \u003cspan class=\"pl-s\"\u003e'./dist/bignumber.mjs'\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e;\u003c/span\u003e\n\u003cspan class=\"pl-c\"\u003e// ...\u003c/span\u003e\n\u003cspan class=\"pl-kos\"\u003e\u0026lt;/\u003c/span\u003e\u003cspan class=\"pl-ent\"\u003escript\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e\u0026gt;\u003c/span\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003cp dir=\"auto\"\u003eor, minified from a CDN:\u003c/p\u003e\n\u003cdiv class=\"highlight highlight-text-html-basic notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"\u0026lt;script type=\u0026quot;module\u0026quot;\u0026gt;\nimport BigNumber from 'https://cdn.jsdelivr.net/npm/bignumber.js@latest/+esm'\n// ...\n\u0026lt;/script\u0026gt;\"\u003e\u003cpre\u003e\u003cspan class=\"pl-kos\"\u003e\u0026lt;\u003c/span\u003e\u003cspan class=\"pl-ent\"\u003escript\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003etype\u003c/span\u003e=\"\u003cspan class=\"pl-s\"\u003emodule\u003c/span\u003e\"\u003cspan class=\"pl-kos\"\u003e\u0026gt;\u003c/span\u003e\n\u003cspan class=\"pl-k\"\u003eimport\u003c/span\u003e \u003cspan class=\"pl-v\"\u003eBigNumber\u003c/span\u003e \u003cspan class=\"pl-k\"\u003efrom\u003c/span\u003e \u003cspan class=\"pl-s\"\u003e'https://cdn.jsdelivr.net/npm/bignumber.js@latest/+esm'\u003c/span\u003e\n\u003cspan class=\"pl-c\"\u003e// ...\u003c/span\u003e\n\u003cspan class=\"pl-kos\"\u003e\u0026lt;/\u003c/span\u003e\u003cspan class=\"pl-ent\"\u003escript\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e\u0026gt;\u003c/span\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003cdiv class=\"markdown-heading\" dir=\"auto\"\u003e\u003ch3 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\"\u003e\u003ca href=\"http://nodejs.org\" rel=\"nofollow\"\u003eNode.js\u003c/a\u003e\u003c/h3\u003e\u003ca id=\"user-content-nodejs\" class=\"anchor\" aria-label=\"Permalink: Node.js\" href=\"#nodejs\"\u003e\u003csvg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003c/div\u003e\n\u003cdiv class=\"highlight highlight-source-shell notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"npm install bignumber.js\"\u003e\u003cpre\u003enpm install bignumber.js\u003c/pre\u003e\u003c/div\u003e\n\u003cblockquote\u003e\n\u003cp dir=\"auto\"\u003eCommonJS\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cdiv class=\"highlight highlight-source-js notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"const BigNumber = require('bignumber.js');\n\n// or, testing from a local repo:\nconst BigNumber = require('./dist/bignumber.cjs');\"\u003e\u003cpre\u003e\u003cspan class=\"pl-k\"\u003econst\u003c/span\u003e \u003cspan class=\"pl-v\"\u003eBigNumber\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003e=\u003c/span\u003e \u003cspan class=\"pl-en\"\u003erequire\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-s\"\u003e'bignumber.js'\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e;\u003c/span\u003e\n\n\u003cspan class=\"pl-c\"\u003e// or, testing from a local repo:\u003c/span\u003e\n\u003cspan class=\"pl-k\"\u003econst\u003c/span\u003e \u003cspan class=\"pl-v\"\u003eBigNumber\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003e=\u003c/span\u003e \u003cspan class=\"pl-en\"\u003erequire\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-s\"\u003e'./dist/bignumber.cjs'\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e;\u003c/span\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003cblockquote\u003e\n\u003cp dir=\"auto\"\u003eES module\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cdiv class=\"highlight highlight-source-js notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"import BigNumber from 'bignumber.js';\n\n// or\nimport { BigNumber } from 'bignumber.js';\n\n// or, testing from a local repo:\nimport { BigNumber } from './dist/bignumber.mjs';\"\u003e\u003cpre\u003e\u003cspan class=\"pl-k\"\u003eimport\u003c/span\u003e \u003cspan class=\"pl-v\"\u003eBigNumber\u003c/span\u003e \u003cspan class=\"pl-k\"\u003efrom\u003c/span\u003e \u003cspan class=\"pl-s\"\u003e'bignumber.js'\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e;\u003c/span\u003e\n\n\u003cspan class=\"pl-c\"\u003e// or\u003c/span\u003e\n\u003cspan class=\"pl-k\"\u003eimport\u003c/span\u003e \u003cspan class=\"pl-kos\"\u003e{\u003c/span\u003e \u003cspan class=\"pl-v\"\u003eBigNumber\u003c/span\u003e \u003cspan class=\"pl-kos\"\u003e}\u003c/span\u003e \u003cspan class=\"pl-k\"\u003efrom\u003c/span\u003e \u003cspan class=\"pl-s\"\u003e'bignumber.js'\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e;\u003c/span\u003e\n\n\u003cspan class=\"pl-c\"\u003e// or, testing from a local repo:\u003c/span\u003e\n\u003cspan class=\"pl-k\"\u003eimport\u003c/span\u003e \u003cspan class=\"pl-kos\"\u003e{\u003c/span\u003e \u003cspan class=\"pl-v\"\u003eBigNumber\u003c/span\u003e \u003cspan class=\"pl-kos\"\u003e}\u003c/span\u003e \u003cspan class=\"pl-k\"\u003efrom\u003c/span\u003e \u003cspan class=\"pl-s\"\u003e'./dist/bignumber.mjs'\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e;\u003c/span\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003cdiv class=\"markdown-heading\" dir=\"auto\"\u003e\u003ch3 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\"\u003e\u003ca href=\"https://deno.land/\" rel=\"nofollow\"\u003eDeno\u003c/a\u003e\u003c/h3\u003e\u003ca id=\"user-content-deno\" class=\"anchor\" aria-label=\"Permalink: Deno\" href=\"#deno\"\u003e\u003csvg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003c/div\u003e\n\u003cdiv class=\"highlight highlight-source-js notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"// @deno-types=\u0026quot;https://raw.githubusercontent.com/MikeMcl/bignumber.js/main/dist/bignumber.d.mts\u0026quot;\nimport BigNumber from 'https://raw.githubusercontent.com/MikeMcl/bignumber.js/main/dist/bignumber.mjs';\n\n// or\n// @deno-types=\u0026quot;https://unpkg.com/bignumber.js@latest/dist/bignumber.d.mts\u0026quot;\nimport { BigNumber } from 'https://unpkg.com/bignumber.js@latest/dist/bignumber.mjs';\"\u003e\u003cpre\u003e\u003cspan class=\"pl-c\"\u003e// \u003cspan class=\"pl-k\"\u003e@deno\u003c/span\u003e-types=\"https://raw.githubusercontent.com/MikeMcl/bignumber.js/main/dist/bignumber.d.mts\"\u003c/span\u003e\n\u003cspan class=\"pl-k\"\u003eimport\u003c/span\u003e \u003cspan class=\"pl-v\"\u003eBigNumber\u003c/span\u003e \u003cspan class=\"pl-k\"\u003efrom\u003c/span\u003e \u003cspan class=\"pl-s\"\u003e'https://raw.githubusercontent.com/MikeMcl/bignumber.js/main/dist/bignumber.mjs'\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e;\u003c/span\u003e\n\n\u003cspan class=\"pl-c\"\u003e// or\u003c/span\u003e\n\u003cspan class=\"pl-c\"\u003e// \u003cspan class=\"pl-k\"\u003e@deno\u003c/span\u003e-types=\"https://unpkg.com/bignumber.js@latest/dist/bignumber.d.mts\"\u003c/span\u003e\n\u003cspan class=\"pl-k\"\u003eimport\u003c/span\u003e \u003cspan class=\"pl-kos\"\u003e{\u003c/span\u003e \u003cspan class=\"pl-v\"\u003eBigNumber\u003c/span\u003e \u003cspan class=\"pl-kos\"\u003e}\u003c/span\u003e \u003cspan class=\"pl-k\"\u003efrom\u003c/span\u003e \u003cspan class=\"pl-s\"\u003e'https://unpkg.com/bignumber.js@latest/dist/bignumber.mjs'\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e;\u003c/span\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003cdiv class=\"markdown-heading\" dir=\"auto\"\u003e\u003ch2 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\"\u003eUse\u003c/h2\u003e\u003ca id=\"user-content-use\" class=\"anchor\" aria-label=\"Permalink: Use\" href=\"#use\"\u003e\u003csvg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003c/div\u003e\n\u003cp dir=\"auto\"\u003eThe library exports a single constructor function, \u003ca href=\"bignumber_8249b621.js" rel=\"nofollow\"\u003e\u003ccode\u003eBigNumber\u003c/code\u003e\u003c/a\u003e, which accepts a value of type Number, String, BigInt or BigNumber,\u003c/p\u003e\n\u003cdiv class=\"highlight highlight-source-js notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"let x = new BigNumber(123.4567);\nlet y = BigNumber('123456.7e-3');\nlet z = new BigNumber(x);\nx.isEqualTo(y) \u0026amp;\u0026amp; y.isEqualTo(z) \u0026amp;\u0026amp; x.isEqualTo(z);      // true\"\u003e\u003cpre\u003e\u003cspan class=\"pl-k\"\u003elet\u003c/span\u003e \u003cspan class=\"pl-s1\"\u003ex\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003e=\u003c/span\u003e \u003cspan class=\"pl-k\"\u003enew\u003c/span\u003e \u003cspan class=\"pl-v\"\u003eBigNumber\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-c1\"\u003e123.4567\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e;\u003c/span\u003e\n\u003cspan class=\"pl-k\"\u003elet\u003c/span\u003e \u003cspan class=\"pl-s1\"\u003ey\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003e=\u003c/span\u003e \u003cspan class=\"pl-v\"\u003eBigNumber\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-s\"\u003e'123456.7e-3'\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e;\u003c/span\u003e\n\u003cspan class=\"pl-k\"\u003elet\u003c/span\u003e \u003cspan class=\"pl-s1\"\u003ez\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003e=\u003c/span\u003e \u003cspan class=\"pl-k\"\u003enew\u003c/span\u003e \u003cspan class=\"pl-v\"\u003eBigNumber\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-s1\"\u003ex\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e;\u003c/span\u003e\n\u003cspan class=\"pl-s1\"\u003ex\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003eisEqualTo\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-s1\"\u003ey\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003e\u0026amp;\u0026amp;\u003c/span\u003e \u003cspan class=\"pl-s1\"\u003ey\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003eisEqualTo\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-s1\"\u003ez\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003e\u0026amp;\u0026amp;\u003c/span\u003e \u003cspan class=\"pl-s1\"\u003ex\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003eisEqualTo\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-s1\"\u003ez\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e;\u003c/span\u003e      \u003cspan class=\"pl-c\"\u003e// true\u003c/span\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003cp dir=\"auto\"\u003eTo get the string value of a BigNumber use \u003ca href=\"bignumber_698af7a9.js" rel=\"nofollow\"\u003e\u003ccode\u003etoString()\u003c/code\u003e\u003c/a\u003e or \u003ca href=\"bignumber_ab778a3d.js" rel=\"nofollow\"\u003e\u003ccode\u003etoFixed()\u003c/code\u003e\u003c/a\u003e. Using \u003ccode\u003etoFixed()\u003c/code\u003e prevents exponential notation being returned, no matter how large or small the value.\u003c/p\u003e\n\u003cdiv class=\"highlight highlight-source-js notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"let x = new BigNumber('1_234_567_890_000_000_000_000');\nx.toString();                       // \u0026quot;1.23456789e+21\u0026quot;\nx.toFixed();                        // \u0026quot;1234567890000000000000\u0026quot;\"\u003e\u003cpre\u003e\u003cspan class=\"pl-k\"\u003elet\u003c/span\u003e \u003cspan class=\"pl-s1\"\u003ex\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003e=\u003c/span\u003e \u003cspan class=\"pl-k\"\u003enew\u003c/span\u003e \u003cspan class=\"pl-v\"\u003eBigNumber\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-s\"\u003e'1_234_567_890_000_000_000_000'\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e;\u003c/span\u003e\n\u003cspan class=\"pl-s1\"\u003ex\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003etoString\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e;\u003c/span\u003e                       \u003cspan class=\"pl-c\"\u003e// \"1.23456789e+21\"\u003c/span\u003e\n\u003cspan class=\"pl-s1\"\u003ex\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003etoFixed\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e;\u003c/span\u003e                        \u003cspan class=\"pl-c\"\u003e// \"1234567890000000000000\"\u003c/span\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003cp dir=\"auto\"\u003eIf the limited precision of Number values is not well understood, it is recommended to create BigNumbers from String values rather than Number values to avoid a potential loss of precision.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003e\u003cem\u003eIn all further examples below, \u003ccode\u003elet\u003c/code\u003e, semicolons and \u003ccode\u003etoString\u003c/code\u003e calls are not shown. If a commented-out value is in quotes it means \u003ccode\u003etoString\u003c/code\u003e has been called on the preceding expression.\u003c/em\u003e\u003c/p\u003e\n\u003cdiv class=\"highlight highlight-source-js notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"// Precision loss from using numeric literals with more than 15 significant digits.\nnew BigNumber(1.0000000000000001)         // '1'\nnew BigNumber(88259496234518.57)          // '88259496234518.56'\nnew BigNumber(99999999999999999999)       // '100000000000000000000'\n\n// Precision loss from using numeric literals outside the range of Number values.\nnew BigNumber(2e+308)                     // 'Infinity'\nnew BigNumber(1e-324)                     // '0'\n\n// Precision loss from the unexpected result of arithmetic with Number values.\nnew BigNumber(0.7 + 0.1)                  // '0.7999999999999999'\"\u003e\u003cpre\u003e\u003cspan class=\"pl-c\"\u003e// Precision loss from using numeric literals with more than 15 significant digits.\u003c/span\u003e\n\u003cspan class=\"pl-k\"\u003enew\u003c/span\u003e \u003cspan class=\"pl-v\"\u003eBigNumber\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-c1\"\u003e1.0000000000000001\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e         \u003cspan class=\"pl-c\"\u003e// '1'\u003c/span\u003e\n\u003cspan class=\"pl-k\"\u003enew\u003c/span\u003e \u003cspan class=\"pl-v\"\u003eBigNumber\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-c1\"\u003e88259496234518.57\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e          \u003cspan class=\"pl-c\"\u003e// '88259496234518.56'\u003c/span\u003e\n\u003cspan class=\"pl-k\"\u003enew\u003c/span\u003e \u003cspan class=\"pl-v\"\u003eBigNumber\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-c1\"\u003e99999999999999999999\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e       \u003cspan class=\"pl-c\"\u003e// '100000000000000000000'\u003c/span\u003e\n\n\u003cspan class=\"pl-c\"\u003e// Precision loss from using numeric literals outside the range of Number values.\u003c/span\u003e\n\u003cspan class=\"pl-k\"\u003enew\u003c/span\u003e \u003cspan class=\"pl-v\"\u003eBigNumber\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-c1\"\u003e2e+308\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e                     \u003cspan class=\"pl-c\"\u003e// 'Infinity'\u003c/span\u003e\n\u003cspan class=\"pl-k\"\u003enew\u003c/span\u003e \u003cspan class=\"pl-v\"\u003eBigNumber\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-c1\"\u003e1e-324\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e                     \u003cspan class=\"pl-c\"\u003e// '0'\u003c/span\u003e\n\n\u003cspan class=\"pl-c\"\u003e// Precision loss from the unexpected result of arithmetic with Number values.\u003c/span\u003e\n\u003cspan class=\"pl-k\"\u003enew\u003c/span\u003e \u003cspan class=\"pl-v\"\u003eBigNumber\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-c1\"\u003e0.7\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003e+\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003e0.1\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e                  \u003cspan class=\"pl-c\"\u003e// '0.7999999999999999'\u003c/span\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003cp dir=\"auto\"\u003eWhen creating a BigNumber from a Number, note that a BigNumber is created from a Number's decimal \u003ccode\u003etoString()\u003c/code\u003e value not from its underlying binary value. If the latter is required, then pass the Number's \u003ccode\u003etoString(2)\u003c/code\u003e value and specify base 2.\u003c/p\u003e\n\u003cdiv class=\"highlight highlight-source-js notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"new BigNumber(Number.MAX_VALUE.toString(2), 2)\"\u003e\u003cpre\u003e\u003cspan class=\"pl-k\"\u003enew\u003c/span\u003e \u003cspan class=\"pl-v\"\u003eBigNumber\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-v\"\u003eNumber\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-c1\"\u003eMAX_VALUE\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003etoString\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-c1\"\u003e2\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e,\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003e2\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003cp dir=\"auto\"\u003eBigNumbers can be created from string values in bases from 2 to 36. See \u003ca href=\"bignumber_ec93d63a.js" rel=\"nofollow\"\u003e\u003ccode\u003eALPHABET\u003c/code\u003e\u003c/a\u003e to extend this range.\u003c/p\u003e\n\u003cdiv class=\"highlight highlight-source-js notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"a = new BigNumber('1011', 2)        // \u0026quot;11\u0026quot;\nb = new BigNumber('zz.9', 36)       // \u0026quot;1295.25\u0026quot;\nc = a.plus(b)                       // \u0026quot;1306.25\u0026quot;\"\u003e\u003cpre\u003e\u003cspan class=\"pl-s1\"\u003ea\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003e=\u003c/span\u003e \u003cspan class=\"pl-k\"\u003enew\u003c/span\u003e \u003cspan class=\"pl-v\"\u003eBigNumber\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-s\"\u003e'1011'\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e,\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003e2\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e        \u003cspan class=\"pl-c\"\u003e// \"11\"\u003c/span\u003e\n\u003cspan class=\"pl-s1\"\u003eb\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003e=\u003c/span\u003e \u003cspan class=\"pl-k\"\u003enew\u003c/span\u003e \u003cspan class=\"pl-v\"\u003eBigNumber\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-s\"\u003e'zz.9'\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e,\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003e36\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e       \u003cspan class=\"pl-c\"\u003e// \"1295.25\"\u003c/span\u003e\n\u003cspan class=\"pl-s1\"\u003ec\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003e=\u003c/span\u003e \u003cspan class=\"pl-s1\"\u003ea\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003eplus\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-s1\"\u003eb\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e                       \u003cspan class=\"pl-c\"\u003e// \"1306.25\"\u003c/span\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003cp dir=\"auto\"\u003e\u003cem\u003eExplicitly passing base 10 is not recommended as it will cause the slower base conversion path to be used, which is only necessary if an unconventional \u003ccode\u003eALPHABET\u003c/code\u003e has been specified.\u003c/em\u003e\u003c/p\u003e\n\u003cp dir=\"auto\"\u003eA BigNumber is immutable in the sense that it is not changed by its methods.\u003c/p\u003e\n\u003cdiv class=\"highlight highlight-source-js notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"0.3 - 0.1                           // 0.19999999999999998\nx = new BigNumber(0.3)\nx.minus(0.1)                        // \u0026quot;0.2\u0026quot;\nx                                   // \u0026quot;0.3\u0026quot;\"\u003e\u003cpre\u003e\u003cspan class=\"pl-c1\"\u003e0.3\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003e-\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003e0.1\u003c/span\u003e                           \u003cspan class=\"pl-c\"\u003e// 0.19999999999999998\u003c/span\u003e\n\u003cspan class=\"pl-s1\"\u003ex\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003e=\u003c/span\u003e \u003cspan class=\"pl-k\"\u003enew\u003c/span\u003e \u003cspan class=\"pl-v\"\u003eBigNumber\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-c1\"\u003e0.3\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e\n\u003cspan class=\"pl-s1\"\u003ex\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003eminus\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-c1\"\u003e0.1\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e                        \u003cspan class=\"pl-c\"\u003e// \"0.2\"\u003c/span\u003e\n\u003cspan class=\"pl-s1\"\u003ex\u003c/span\u003e                                   \u003cspan class=\"pl-c\"\u003e// \"0.3\"\u003c/span\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003cp dir=\"auto\"\u003eThe methods that return a BigNumber can be chained.\u003c/p\u003e\n\u003cdiv class=\"highlight highlight-source-js notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"x.dividedBy(y).plus(z).times(9)\nx.times('1.23456780123456789e+9').plus(9876.5432321).dividedBy('4444562598.111772').integerValue()\"\u003e\u003cpre\u003e\u003cspan class=\"pl-s1\"\u003ex\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003edividedBy\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-s1\"\u003ey\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003eplus\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-s1\"\u003ez\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003etimes\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-c1\"\u003e9\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e\n\u003cspan class=\"pl-s1\"\u003ex\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003etimes\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-s\"\u003e'1.23456780123456789e+9'\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003eplus\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-c1\"\u003e9876.5432321\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003edividedBy\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-s\"\u003e'4444562598.111772'\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003eintegerValue\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003cp dir=\"auto\"\u003eSome of the longer method names have a shorter alias.\u003c/p\u003e\n\u003cdiv class=\"highlight highlight-source-js notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"x.squareRoot().dividedBy(y).exponentiatedBy(3).isEqualTo(x.sqrt().div(y).pow(3))    // true\nx.modulo(y).multipliedBy(z).eq(x.mod(y).times(z))                                   // true\"\u003e\u003cpre\u003e\u003cspan class=\"pl-s1\"\u003ex\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003esquareRoot\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003edividedBy\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-s1\"\u003ey\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003eexponentiatedBy\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-c1\"\u003e3\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003eisEqualTo\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-s1\"\u003ex\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003esqrt\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003ediv\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-s1\"\u003ey\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003epow\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-c1\"\u003e3\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e    \u003cspan class=\"pl-c\"\u003e// true\u003c/span\u003e\n\u003cspan class=\"pl-s1\"\u003ex\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003emodulo\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-s1\"\u003ey\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003emultipliedBy\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-s1\"\u003ez\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003eeq\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-s1\"\u003ex\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003emod\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-s1\"\u003ey\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003etimes\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-s1\"\u003ez\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e                                   \u003cspan class=\"pl-c\"\u003e// true\u003c/span\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003cp dir=\"auto\"\u003eAs with JavaScript's Number type, there are \u003ca href=\"bignumber_a75372d2.js" rel=\"nofollow\"\u003e\u003ccode\u003etoExponential\u003c/code\u003e\u003c/a\u003e, \u003ca href=\"bignumber_ab778a3d.js" rel=\"nofollow\"\u003e\u003ccode\u003etoFixed\u003c/code\u003e\u003c/a\u003e and \u003ca href=\"bignumber_606c7392.js" rel=\"nofollow\"\u003e\u003ccode\u003etoPrecision\u003c/code\u003e\u003c/a\u003e methods.\u003c/p\u003e\n\u003cdiv class=\"highlight highlight-source-js notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"x = new BigNumber(255.5)\nx.toExponential(5)                  // \u0026quot;2.55500e+2\u0026quot;\nx.toFixed(5)                        // \u0026quot;255.50000\u0026quot;\nx.toPrecision(5)                    // \u0026quot;255.50\u0026quot;\nx.toNumber()                        //  255.5\"\u003e\u003cpre\u003e\u003cspan class=\"pl-s1\"\u003ex\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003e=\u003c/span\u003e \u003cspan class=\"pl-k\"\u003enew\u003c/span\u003e \u003cspan class=\"pl-v\"\u003eBigNumber\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-c1\"\u003e255.5\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e\n\u003cspan class=\"pl-s1\"\u003ex\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003etoExponential\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-c1\"\u003e5\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e                  \u003cspan class=\"pl-c\"\u003e// \"2.55500e+2\"\u003c/span\u003e\n\u003cspan class=\"pl-s1\"\u003ex\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003etoFixed\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-c1\"\u003e5\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e                        \u003cspan class=\"pl-c\"\u003e// \"255.50000\"\u003c/span\u003e\n\u003cspan class=\"pl-s1\"\u003ex\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003etoPrecision\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-c1\"\u003e5\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e                    \u003cspan class=\"pl-c\"\u003e// \"255.50\"\u003c/span\u003e\n\u003cspan class=\"pl-s1\"\u003ex\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003etoNumber\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e                        \u003cspan class=\"pl-c\"\u003e//  255.5\u003c/span\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003cp dir=\"auto\"\u003eA base can be specified for \u003ca href=\"bignumber_698af7a9.js" rel=\"nofollow\"\u003e\u003ccode\u003etoString\u003c/code\u003e\u003c/a\u003e.\u003c/p\u003e\n\u003cdiv class=\"highlight highlight-source-js notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"x.toString(16)                     // \u0026quot;ff.8\u0026quot;\"\u003e\u003cpre\u003e\u003cspan class=\"pl-s1\"\u003ex\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003etoString\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-c1\"\u003e16\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e                     \u003cspan class=\"pl-c\"\u003e// \"ff.8\"\u003c/span\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003cp dir=\"auto\"\u003e\u003cem\u003eAgain, explicitly passing base 10 is not recommended as it will cause the slower base conversion path to be used, which is only necessary if an unconventional \u003ccode\u003eALPHABET\u003c/code\u003e has been specified.\u003c/em\u003e\u003c/p\u003e\n\u003cp dir=\"auto\"\u003eThere is a \u003ca href=\"bignumber_3be529d2.js" rel=\"nofollow\"\u003e\u003ccode\u003etoFormat\u003c/code\u003e\u003c/a\u003e method which may be useful for internationalisation.\u003c/p\u003e\n\u003cdiv class=\"highlight highlight-source-js notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"y = new BigNumber('1234567.898765')\ny.toFormat({\n  prefix: '€',\n  decimalSeparator: ',',\n  groupSeparator: '.',\n  decimalPlaces: [0, 2]\n})                                  // \u0026quot;€1.234.567,90\u0026quot;\"\u003e\u003cpre\u003e\u003cspan class=\"pl-s1\"\u003ey\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003e=\u003c/span\u003e \u003cspan class=\"pl-k\"\u003enew\u003c/span\u003e \u003cspan class=\"pl-v\"\u003eBigNumber\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-s\"\u003e'1234567.898765'\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e\n\u003cspan class=\"pl-s1\"\u003ey\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003etoFormat\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e{\u003c/span\u003e\n  \u003cspan class=\"pl-c1\"\u003eprefix\u003c/span\u003e: \u003cspan class=\"pl-s\"\u003e'€'\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e,\u003c/span\u003e\n  \u003cspan class=\"pl-c1\"\u003edecimalSeparator\u003c/span\u003e: \u003cspan class=\"pl-s\"\u003e','\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e,\u003c/span\u003e\n  \u003cspan class=\"pl-c1\"\u003egroupSeparator\u003c/span\u003e: \u003cspan class=\"pl-s\"\u003e'.'\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e,\u003c/span\u003e\n  \u003cspan class=\"pl-c1\"\u003edecimalPlaces\u003c/span\u003e: \u003cspan class=\"pl-kos\"\u003e[\u003c/span\u003e\u003cspan class=\"pl-c1\"\u003e0\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e,\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003e2\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e]\u003c/span\u003e\n\u003cspan class=\"pl-kos\"\u003e}\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e                                  \u003cspan class=\"pl-c\"\u003e// \"€1.234.567,90\"\u003c/span\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003cp dir=\"auto\"\u003eThe maximum number of decimal places of the result of an operation involving division (i.e. a division, square root, base conversion or negative power operation) is set using the \u003ccode\u003eset\u003c/code\u003e or \u003ccode\u003econfig\u003c/code\u003e method of the \u003ccode\u003eBigNumber\u003c/code\u003e constructor.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003eThe other arithmetic operations always give the exact result.\u003c/p\u003e\n\u003cdiv class=\"highlight highlight-source-js notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"BigNumber.set({ DECIMAL_PLACES: 10, ROUNDING_MODE: 4 })\n\nx = new BigNumber(2)\ny = new BigNumber(3)\nz = x.dividedBy(y)                        // \u0026quot;0.6666666667\u0026quot;\nz.squareRoot()                            // \u0026quot;0.8164965809\u0026quot;\nz.exponentiatedBy(-3)                     // \u0026quot;3.3749999995\u0026quot;\nz.toString(2)                             // \u0026quot;0.1010101011\u0026quot;\nz.multipliedBy(z)                         // \u0026quot;0.44444444448888888889\u0026quot;\nz.multipliedBy(z).decimalPlaces(10)       // \u0026quot;0.4444444445\u0026quot;\"\u003e\u003cpre\u003e\u003cspan class=\"pl-v\"\u003eBigNumber\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003eset\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e{\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003eDECIMAL_PLACES\u003c/span\u003e: \u003cspan class=\"pl-c1\"\u003e10\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e,\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003eROUNDING_MODE\u003c/span\u003e: \u003cspan class=\"pl-c1\"\u003e4\u003c/span\u003e \u003cspan class=\"pl-kos\"\u003e}\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e\n\n\u003cspan class=\"pl-s1\"\u003ex\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003e=\u003c/span\u003e \u003cspan class=\"pl-k\"\u003enew\u003c/span\u003e \u003cspan class=\"pl-v\"\u003eBigNumber\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-c1\"\u003e2\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e\n\u003cspan class=\"pl-s1\"\u003ey\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003e=\u003c/span\u003e \u003cspan class=\"pl-k\"\u003enew\u003c/span\u003e \u003cspan class=\"pl-v\"\u003eBigNumber\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-c1\"\u003e3\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e\n\u003cspan class=\"pl-s1\"\u003ez\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003e=\u003c/span\u003e \u003cspan class=\"pl-s1\"\u003ex\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003edividedBy\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-s1\"\u003ey\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e                        \u003cspan class=\"pl-c\"\u003e// \"0.6666666667\"\u003c/span\u003e\n\u003cspan class=\"pl-s1\"\u003ez\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003esquareRoot\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e                            \u003cspan class=\"pl-c\"\u003e// \"0.8164965809\"\u003c/span\u003e\n\u003cspan class=\"pl-s1\"\u003ez\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003eexponentiatedBy\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-c1\"\u003e-\u003c/span\u003e\u003cspan class=\"pl-c1\"\u003e3\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e                     \u003cspan class=\"pl-c\"\u003e// \"3.3749999995\"\u003c/span\u003e\n\u003cspan class=\"pl-s1\"\u003ez\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003etoString\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-c1\"\u003e2\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e                             \u003cspan class=\"pl-c\"\u003e// \"0.1010101011\"\u003c/span\u003e\n\u003cspan class=\"pl-s1\"\u003ez\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003emultipliedBy\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-s1\"\u003ez\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e                         \u003cspan class=\"pl-c\"\u003e// \"0.44444444448888888889\"\u003c/span\u003e\n\u003cspan class=\"pl-s1\"\u003ez\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003emultipliedBy\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-s1\"\u003ez\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003edecimalPlaces\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-c1\"\u003e10\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e       \u003cspan class=\"pl-c\"\u003e// \"0.4444444445\"\u003c/span\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003cp dir=\"auto\"\u003eThere is a \u003ca href=\"bignumber_cd246894.js" rel=\"nofollow\"\u003e\u003ccode\u003etoFraction\u003c/code\u003e\u003c/a\u003e method with an optional \u003cem\u003emaximum denominator\u003c/em\u003e argument\u003c/p\u003e\n\u003cdiv class=\"highlight highlight-source-js notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"y = new BigNumber(355)\npi = y.dividedBy(113)               // \u0026quot;3.1415929204\u0026quot;\npi.toFraction()                     // [ \u0026quot;7853982301\u0026quot;, \u0026quot;2500000000\u0026quot; ]\npi.toFraction(1000)                 // [ \u0026quot;355\u0026quot;, \u0026quot;113\u0026quot; ]\"\u003e\u003cpre\u003e\u003cspan class=\"pl-s1\"\u003ey\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003e=\u003c/span\u003e \u003cspan class=\"pl-k\"\u003enew\u003c/span\u003e \u003cspan class=\"pl-v\"\u003eBigNumber\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-c1\"\u003e355\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e\n\u003cspan class=\"pl-s1\"\u003epi\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003e=\u003c/span\u003e \u003cspan class=\"pl-s1\"\u003ey\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003edividedBy\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-c1\"\u003e113\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e               \u003cspan class=\"pl-c\"\u003e// \"3.1415929204\"\u003c/span\u003e\n\u003cspan class=\"pl-s1\"\u003epi\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003etoFraction\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e                     \u003cspan class=\"pl-c\"\u003e// [ \"7853982301\", \"2500000000\" ]\u003c/span\u003e\n\u003cspan class=\"pl-s1\"\u003epi\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003etoFraction\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-c1\"\u003e1000\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e                 \u003cspan class=\"pl-c\"\u003e// [ \"355\", \"113\" ]\u003c/span\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003cp dir=\"auto\"\u003eand \u003ca href=\"bignumber_74f82eb4.js" rel=\"nofollow\"\u003e\u003ccode\u003eisNaN\u003c/code\u003e\u003c/a\u003e and \u003ca href=\"bignumber_d4f84d6a.js" rel=\"nofollow\"\u003e\u003ccode\u003eisFinite\u003c/code\u003e\u003c/a\u003e methods, as \u003ccode\u003eNaN\u003c/code\u003e and \u003ccode\u003eInfinity\u003c/code\u003e are valid \u003ccode\u003eBigNumber\u003c/code\u003e values.\u003c/p\u003e\n\u003cdiv class=\"highlight highlight-source-js notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"x = new BigNumber(NaN)                                           // \u0026quot;NaN\u0026quot;\ny = new BigNumber(Infinity)                                      // \u0026quot;Infinity\u0026quot;\nx.isNaN() \u0026amp;\u0026amp; !y.isNaN() \u0026amp;\u0026amp; !x.isFinite() \u0026amp;\u0026amp; !y.isFinite()        // true\n\nBigNumber.set({ STRICT: false })\nz = new BigNumber('zzz')                 \nz.isNaN()                                                        // true\"\u003e\u003cpre\u003e\u003cspan class=\"pl-s1\"\u003ex\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003e=\u003c/span\u003e \u003cspan class=\"pl-k\"\u003enew\u003c/span\u003e \u003cspan class=\"pl-v\"\u003eBigNumber\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-v\"\u003eNaN\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e                                           \u003cspan class=\"pl-c\"\u003e// \"NaN\"\u003c/span\u003e\n\u003cspan class=\"pl-s1\"\u003ey\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003e=\u003c/span\u003e \u003cspan class=\"pl-k\"\u003enew\u003c/span\u003e \u003cspan class=\"pl-v\"\u003eBigNumber\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-v\"\u003eInfinity\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e                                      \u003cspan class=\"pl-c\"\u003e// \"Infinity\"\u003c/span\u003e\n\u003cspan class=\"pl-s1\"\u003ex\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003eisNaN\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003e\u0026amp;\u0026amp;\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003e!\u003c/span\u003e\u003cspan class=\"pl-s1\"\u003ey\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003eisNaN\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003e\u0026amp;\u0026amp;\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003e!\u003c/span\u003e\u003cspan class=\"pl-s1\"\u003ex\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003eisFinite\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003e\u0026amp;\u0026amp;\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003e!\u003c/span\u003e\u003cspan class=\"pl-s1\"\u003ey\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003eisFinite\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e        \u003cspan class=\"pl-c\"\u003e// true\u003c/span\u003e\n\n\u003cspan class=\"pl-v\"\u003eBigNumber\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003eset\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e{\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003eSTRICT\u003c/span\u003e: \u003cspan class=\"pl-c1\"\u003efalse\u003c/span\u003e \u003cspan class=\"pl-kos\"\u003e}\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e\n\u003cspan class=\"pl-s1\"\u003ez\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003e=\u003c/span\u003e \u003cspan class=\"pl-k\"\u003enew\u003c/span\u003e \u003cspan class=\"pl-v\"\u003eBigNumber\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-s\"\u003e'zzz'\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e                 \n\u003cspan class=\"pl-s1\"\u003ez\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003eisNaN\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e                                                        \u003cspan class=\"pl-c\"\u003e// true\u003c/span\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003cp dir=\"auto\"\u003eThe value of a BigNumber is stored in a decimal floating point format in terms of a coefficient, exponent and sign.\u003c/p\u003e\n\u003cdiv class=\"highlight highlight-source-js notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"x = new BigNumber(-123.456);\nx.c                                 // [ 123, 45600000000000 ]  coefficient (i.e. significand)\nx.e                                 // 2                        exponent\nx.s                                 // -1                       sign\"\u003e\u003cpre\u003e\u003cspan class=\"pl-s1\"\u003ex\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003e=\u003c/span\u003e \u003cspan class=\"pl-k\"\u003enew\u003c/span\u003e \u003cspan class=\"pl-v\"\u003eBigNumber\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-c1\"\u003e-\u003c/span\u003e\u003cspan class=\"pl-c1\"\u003e123.456\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e;\u003c/span\u003e\n\u003cspan class=\"pl-s1\"\u003ex\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-c1\"\u003ec\u003c/span\u003e                                 \u003cspan class=\"pl-c\"\u003e// [ 123, 45600000000000 ]  coefficient (i.e. significand)\u003c/span\u003e\n\u003cspan class=\"pl-s1\"\u003ex\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-c1\"\u003ee\u003c/span\u003e                                 \u003cspan class=\"pl-c\"\u003e// 2                        exponent\u003c/span\u003e\n\u003cspan class=\"pl-s1\"\u003ex\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-c1\"\u003es\u003c/span\u003e                                 \u003cspan class=\"pl-c\"\u003e// -1                       sign\u003c/span\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003cp dir=\"auto\"\u003eFor advanced usage, multiple BigNumber constructors can be created, each with its own independent configuration.\u003c/p\u003e\n\u003cdiv class=\"highlight highlight-source-js notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"// Set DECIMAL_PLACES for the original BigNumber constructor\nBigNumber.set({ DECIMAL_PLACES: 10 })\n\n// Create another BigNumber constructor, optionally passing in a configuration object\nBN = BigNumber.clone({ DECIMAL_PLACES: 5 })\n\nx = new BigNumber(1)\ny = new BN(1)\n\nx.div(3)                            // '0.3333333333'\ny.div(3)                            // '0.33333'\"\u003e\u003cpre\u003e\u003cspan class=\"pl-c\"\u003e// Set DECIMAL_PLACES for the original BigNumber constructor\u003c/span\u003e\n\u003cspan class=\"pl-v\"\u003eBigNumber\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003eset\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e{\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003eDECIMAL_PLACES\u003c/span\u003e: \u003cspan class=\"pl-c1\"\u003e10\u003c/span\u003e \u003cspan class=\"pl-kos\"\u003e}\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e\n\n\u003cspan class=\"pl-c\"\u003e// Create another BigNumber constructor, optionally passing in a configuration object\u003c/span\u003e\n\u003cspan class=\"pl-c1\"\u003eBN\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003e=\u003c/span\u003e \u003cspan class=\"pl-v\"\u003eBigNumber\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003eclone\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e{\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003eDECIMAL_PLACES\u003c/span\u003e: \u003cspan class=\"pl-c1\"\u003e5\u003c/span\u003e \u003cspan class=\"pl-kos\"\u003e}\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e\n\n\u003cspan class=\"pl-s1\"\u003ex\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003e=\u003c/span\u003e \u003cspan class=\"pl-k\"\u003enew\u003c/span\u003e \u003cspan class=\"pl-v\"\u003eBigNumber\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-c1\"\u003e1\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e\n\u003cspan class=\"pl-s1\"\u003ey\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003e=\u003c/span\u003e \u003cspan class=\"pl-k\"\u003enew\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003eBN\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-c1\"\u003e1\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e\n\n\u003cspan class=\"pl-s1\"\u003ex\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003ediv\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-c1\"\u003e3\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e                            \u003cspan class=\"pl-c\"\u003e// '0.3333333333'\u003c/span\u003e\n\u003cspan class=\"pl-s1\"\u003ey\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-en\"\u003ediv\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-c1\"\u003e3\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e                            \u003cspan class=\"pl-c\"\u003e// '0.33333'\u003c/span\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003cp dir=\"auto\"\u003eTo avoid having to call \u003ccode\u003etoString\u003c/code\u003e or \u003ccode\u003evalueOf\u003c/code\u003e on a BigNumber to get its value in the Node.js REPL or when using \u003ccode\u003econsole.log\u003c/code\u003e use\u003c/p\u003e\n\u003cdiv class=\"highlight highlight-source-js notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"BigNumber.prototype[require('util').inspect.custom] = BigNumber.prototype.valueOf;\"\u003e\u003cpre\u003e\u003cspan class=\"pl-v\"\u003eBigNumber\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-c1\"\u003eprototype\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e[\u003c/span\u003e\u003cspan class=\"pl-en\"\u003erequire\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e(\u003c/span\u003e\u003cspan class=\"pl-s\"\u003e'util'\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e)\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-c1\"\u003einspect\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-c1\"\u003ecustom\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e]\u003c/span\u003e \u003cspan class=\"pl-c1\"\u003e=\u003c/span\u003e \u003cspan class=\"pl-v\"\u003eBigNumber\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-c1\"\u003eprototype\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e.\u003c/span\u003e\u003cspan class=\"pl-c1\"\u003evalueOf\u003c/span\u003e\u003cspan class=\"pl-kos\"\u003e;\u003c/span\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003cp dir=\"auto\"\u003eFor further information see the \u003ca href=\"bignumber_7a45f87c.js\" rel=\"nofollow\"\u003eAPI\u003c/a\u003e reference in the \u003cem\u003edoc\u003c/em\u003e directory.\u003c/p\u003e\n\u003cdiv class=\"markdown-heading\" dir=\"auto\"\u003e\u003ch2 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\"\u003eTest\u003c/h2\u003e\u003ca id=\"user-content-test\" class=\"anchor\" aria-label=\"Permalink: Test\" href=\"#test\"\u003e\u003csvg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003c/div\u003e\n\u003cp dir=\"auto\"\u003eThe \u003cem\u003etest/methods\u003c/em\u003e directory contains the test scripts for each method.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003eThe tests can be run with Node.js or a browser. The tests require the CommonJS distributable, so \u003cstrong\u003ebuild before testing\u003c/strong\u003e:\u003c/p\u003e\n\u003cdiv class=\"highlight highlight-source-shell notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"npm run build\nnpm test\n# or: node test/test\"\u003e\u003cpre\u003enpm run build\nnpm \u003cspan class=\"pl-c1\"\u003etest\u003c/span\u003e\n\u003cspan class=\"pl-c\"\u003e\u003cspan class=\"pl-c\"\u003e#\u003c/span\u003e or: node test/test\u003c/span\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003cp dir=\"auto\"\u003eTo test a single method, use, for example\u003c/p\u003e\n\u003cdiv class=\"highlight highlight-source-shell notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"node test/methods/toFraction\"\u003e\u003cpre\u003enode test/methods/toFraction\u003c/pre\u003e\u003c/div\u003e\n\u003cp dir=\"auto\"\u003eFor the browser, open \u003cem\u003etest/test.html\u003c/em\u003e.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003eThere are also some old programs in \u003cem\u003eperf\u003c/em\u003e that still work and can be useful for testing and cross-checking results over large sets of random inputs.\u003c/p\u003e\n\u003cdiv class=\"markdown-heading\" dir=\"auto\"\u003e\u003ch3 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\"\u003eTypeScript\u003c/h3\u003e\u003ca id=\"user-content-typescript\" class=\"anchor\" aria-label=\"Permalink: TypeScript\" href=\"#typescript\"\u003e\u003csvg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003c/div\u003e\n\u003cp dir=\"auto\"\u003eThe \u003cem\u003etest/typescript\u003c/em\u003e directory contains TypeScript compilation tests that verify the type declarations and imports work correctly for each module format. Run them with:\u003c/p\u003e\n\u003cdiv class=\"highlight highlight-source-shell notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"npm run typecheck\"\u003e\u003cpre\u003enpm run typecheck\u003c/pre\u003e\u003c/div\u003e\n\u003cdiv class=\"markdown-heading\" dir=\"auto\"\u003e\u003ch2 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\"\u003eMinify\u003c/h2\u003e\u003ca id=\"user-content-minify\" class=\"anchor\" aria-label=\"Permalink: Minify\" href=\"#minify\"\u003e\u003csvg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003c/div\u003e\n\u003cp dir=\"auto\"\u003eTo minify using, for example, \u003ca href=\"https://github.com/terser/terser\"\u003eterser\u003c/a\u003e:\u003c/p\u003e\n\u003cdiv class=\"highlight highlight-source-shell notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"npm install -g terser\"\u003e\u003cpre\u003enpm install -g terser\u003c/pre\u003e\u003c/div\u003e\n\u003cp dir=\"auto\"\u003eMinify the browser/global bundle:\u003c/p\u003e\n\u003cdiv class=\"highlight highlight-source-shell notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"terser dist/bignumber.js -c -m -o dist/bignumber.min.js\"\u003e\u003cpre\u003eterser dist/bignumber.js -c -m -o dist/bignumber.min.js\u003c/pre\u003e\u003c/div\u003e\n\u003cdiv class=\"markdown-heading\" dir=\"auto\"\u003e\u003ch2 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\"\u003eLicence\u003c/h2\u003e\u003ca id=\"user-content-licence\" class=\"anchor\" aria-label=\"Permalink: Licence\" href=\"#licence\"\u003e\u003csvg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003c/div\u003e\n\u003cp dir=\"auto\"\u003eThe MIT Licence.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003eSee \u003ca href=\"bignumber_1f174efa.js/blob/main/LICENCE.md\"\u003eLICENCE\u003c/a\u003e.\u003c/p\u003e\n\u003c/article\u003e","loaded":true,"timedOut":false,"errorMessage":null,"headerInfo":{"toc":[{"level":2,"text":"Features","anchor":"features","htmlText":"Features"},{"level":2,"text":"Build","anchor":"build","htmlText":"Build"},{"level":2,"text":"Load","anchor":"load","htmlText":"Load"},{"level":3,"text":"Browser","anchor":"browser","htmlText":"Browser"},{"level":3,"text":"Node.js","anchor":"nodejs","htmlText":"Node.js"},{"level":3,"text":"Deno","anchor":"deno","htmlText":"Deno"},{"level":2,"text":"Use","anchor":"use","htmlText":"Use"},{"level":2,"text":"Test","anchor":"test","htmlText":"Test"},{"level":3,"text":"TypeScript","anchor":"typescript","htmlText":"TypeScript"},{"level":2,"text":"Minify","anchor":"minify","htmlText":"Minify"},{"level":2,"text":"Licence","anchor":"licence","htmlText":"Licence"}],"siteNavLoginPath":"/login?return_to=https%3A%2F%2Fgithub.com%2FMikeMcl%2Fbignumber.js%2F%2F%2F"}},{"displayName":"LICENCE.md","repoName":"bignumber.js","refName":"main","path":"LICENCE.md","preferredFileType":"license","tabName":"MIT","richText":null,"loaded":false,"timedOut":false,"errorMessage":null,"headerInfo":{"toc":null,"siteNavLoginPath":"/login?return_to=https%3A%2F%2Fgithub.com%2FMikeMcl%2Fbignumber.js%2F%2F%2F"}}],"overviewFilesProcessingTime":0,"copilotSWEAgentEnabled":false}},"codeViewLayoutRoute":{"repo":{"id":6602323,"defaultBranch":"main","name":"bignumber.js","ownerLogin":"MikeMcl","currentUserCanPush":false,"isFork":false,"isEmpty":false,"createdAt":"2012-11-08T20:01:35.000Z","ownerAvatar":"https://avatars.githubusercontent.com/u/921201?v=4","public":true,"private":false,"isOrgOwned":false},"currentUser":null,"uploadToken":"XLDdzOdfyiHs7w3Qu0-UZVnab-AtsRHkZRhl2xy7EKGWkOcFtVdLExryJ0P9vNEAilH8UM2wIVuoWcDUkF66Dw","allShortcutsEnabled":false,"treeExpanded":true,"path":"/","symbolsExpanded":false,"refInfo":{"name":"main","listCacheKey":"v0:1781634654.0","canEdit":false,"currentOid":"604bb2f24acc9b7a8d16b33b2f9923336d6333d5"},"helpUrl":"https://docs.github.com","findFileWorkerPath":"/assets-cdn/worker/find-file-worker-3f8885dfc40104fe.js","findInFileWorkerPath":"/assets-cdn/worker/find-in-file-worker-9489200aec0b0876.js","githubDevUrl":null},"csrf_tokens":{"/MikeMcl/bignumber.js/branches":{"post":"JFflZIAHxsE0xOyXEdlshsWKfKqkRpVXjSx-lwN68UfOxx6p4P-AR6hFSqjdquv_mCIXdWi8jRgaZAH6iOF6qA"}}},"title":"GitHub - MikeMcl/bignumber.js: A JavaScript library for arbitrary-precision decimal and non-decimal arithmetic","appPayload":{},"meta":{"title":"GitHub - MikeMcl/bignumber.js: A JavaScript library for arbitrary-precision decimal and non-decimal arithmetic"}}</script>
+  <div data-target="react-app.reactRoot"><meta name="github-code-view-meta-stats" id="github-code-view-meta-stats" data-hydrostats="publish"/> <!-- --> <a hidden="" id="code-view-repo-link" href="/MikeMcl/bignumber.js" data-discover="true"></a> <div class="d-none"></div><div><div style="--spacing:var(--spacing-none)" class="prc-PageLayout-PageLayoutRoot--KH-d" data-component="PageLayout"><div class="prc-PageLayout-PageLayoutWrapper-2BhU2" data-width="full"><div class="prc-PageLayout-PageLayoutContent-BneH9"><div data-component="PageLayout.Content" class="prc-PageLayout-ContentWrapper-gR9eG" data-is-hidden-narrow="false"><div class="prc-PageLayout-Content-xWL-A" data-width="full" style="--spacing:var(--spacing-none)"><div class="SharedPageLayout-module__content__IwGAp" data-selector="repos-split-pane-content" tabindex="0"><div style="--spacing:var(--spacing-none)" class="prc-PageLayout-PageLayoutRoot--KH-d container-xl" data-component="PageLayout"><div class="prc-PageLayout-PageLayoutWrapper-2BhU2" data-width="full"><header data-component="PageLayout.Header" data-hidden="false" class="prc-PageLayout-Header-0of-R tmp-px-3 tmp-px-lg-5" style="--spacing:var(--spacing-none)"><div class="prc-PageLayout-HeaderContent-gdFfN" style="--spacing:var(--spacing-none)"><rails-partial data-partial-name="codeViewRepoRoute.Header" class="RailsPartial-module__d-contents__G5m4w">
+
+
+
+
+<h1 class='sr-only'>MikeMcl/bignumber.js</h1>
+
+
+<input type="hidden" data-csrf="true" value="lg/IifhbQyvCNlGo3cI4W2hULxXtJ2minf4IhBB1LsDpJKxeAnm9j111p3Rw+jbfUYSD7j1acpo64/Qj/dN2nA==" />
+</rails-partial></div><div class="prc-PageLayout-HorizontalDivider-JLVqp prc-PageLayout-HeaderHorizontalDivider-odAHl" data-component="PageLayout.HorizontalDivider" data-variant="none" style="--spacing-divider:var(--spacing-none);--spacing:var(--spacing-none)"></div></header><div class="prc-PageLayout-PageLayoutContent-BneH9"><div data-component="PageLayout.Content" class="prc-PageLayout-ContentWrapper-gR9eG" data-is-hidden="false"><div class="prc-PageLayout-Content-xWL-A" data-width="large" style="--spacing:var(--spacing-condensed)"><div class="OverviewContent-module__Box__PF75K tmp-pl-lg-3 mt-0"><div class="OverviewHeader-module__Box__cC1RH"></div><div class="OverviewContent-module__Box_1__MPS0U"><div class="OverviewContent-module__Box_2__Di8Pb"><div class="OverviewContent-module__Box_3__wzlJx"><button data-component="Button" type="button" aria-haspopup="true" aria-expanded="false" tabindex="0" style="min-width:0" aria-label="main branch" data-testid="anchor-button" data-icv-name="Switch branches/tags" class="prc-Button-ButtonBase-9n-Xk overview-ref-selector width-full RefSelectorAnchoredOverlay-module__RefSelectorOverlayBtn__a3WK3" data-loading="false" data-size="medium" data-variant="default" id="ref-picker-repos-header-ref-selector"><span data-component="buttonContent" data-align="center" class="prc-Button-ButtonContent-Iohp5"><span data-component="text" class="prc-Button-Label-FWkx3"><div class="RefSelectorAnchoredOverlay-module__RefSelectorOverlayContainer__yaf4p"><div class="RefSelectorAnchoredOverlay-module__RefSelectorOverlayHeader__XtXRG"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-git-branch" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M9.5 3.25a2.25 2.25 0 1 1 3 2.122V6A2.5 2.5 0 0 1 10 8.5H6a1 1 0 0 0-1 1v1.128a2.251 2.251 0 1 1-1.5 0V5.372a2.25 2.25 0 1 1 1.5 0v1.836A2.493 2.493 0 0 1 6 7h4a1 1 0 0 0 1-1v-.628A2.25 2.25 0 0 1 9.5 3.25Zm-6 0a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Zm8.25-.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5ZM4.25 12a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Z"></path></svg></div><div class="ref-selector-button-text-container RefSelectorAnchoredOverlay-module__RefSelectorBtnTextContainer__Di3rk"><span class="RefSelectorAnchoredOverlay-module__RefSelectorText__w_fmP"> <!-- -->main</span></div></div></span><span data-component="trailingVisual" class="prc-Button-Visual-YNt2F prc-Button-VisualWrap-E4cnq"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-triangle-down" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="m4.427 7.427 3.396 3.396a.25.25 0 0 0 .354 0l3.396-3.396A.25.25 0 0 0 11.396 7H4.604a.25.25 0 0 0-.177.427Z"></path></svg></span></span></button><div class="d-none"></div></div><div class="OverviewContent-module__Box_4__qf73o"><a data-component="Button" type="button" href="/MikeMcl/bignumber.js/branches" class="prc-Button-ButtonBase-9n-Xk OverviewContent-module__Button___Uotu" data-loading="false" data-size="medium" data-variant="invisible"><span data-component="buttonContent" data-align="center" class="prc-Button-ButtonContent-Iohp5"><span data-component="leadingVisual" class="prc-Button-Visual-YNt2F prc-Button-VisualWrap-E4cnq"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-git-branch" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M9.5 3.25a2.25 2.25 0 1 1 3 2.122V6A2.5 2.5 0 0 1 10 8.5H6a1 1 0 0 0-1 1v1.128a2.251 2.251 0 1 1-1.5 0V5.372a2.25 2.25 0 1 1 1.5 0v1.836A2.493 2.493 0 0 1 6 7h4a1 1 0 0 0 1-1v-.628A2.25 2.25 0 0 1 9.5 3.25Zm-6 0a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Zm8.25-.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5ZM4.25 12a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Z"></path></svg></span><span data-component="text" class="prc-Button-Label-FWkx3">Branches</span></span></a><a data-component="Button" type="button" href="/MikeMcl/bignumber.js/tags" class="prc-Button-ButtonBase-9n-Xk OverviewContent-module__Button___Uotu" data-loading="false" data-size="medium" data-variant="invisible"><span data-component="buttonContent" data-align="center" class="prc-Button-ButtonContent-Iohp5"><span data-component="leadingVisual" class="prc-Button-Visual-YNt2F prc-Button-VisualWrap-E4cnq"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M1 7.775V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 0 1 0 2.474l-5.026 5.026a1.75 1.75 0 0 1-2.474 0l-6.25-6.25A1.752 1.752 0 0 1 1 7.775Zm1.5 0c0 .066.026.13.073.177l6.25 6.25a.25.25 0 0 0 .354 0l5.025-5.025a.25.25 0 0 0 0-.354l-6.25-6.25a.25.25 0 0 0-.177-.073H2.75a.25.25 0 0 0-.25.25ZM6 5a1 1 0 1 1 0 2 1 1 0 0 1 0-2Z"></path></svg></span><span data-component="text" class="prc-Button-Label-FWkx3">Tags</span></span></a></div><div class="OverviewContent-module__Box_5__Zc3i7"><a data-component="Button" type="button" aria-label="Go to Branches page" href="/MikeMcl/bignumber.js/branches" class="prc-Button-ButtonBase-9n-Xk OverviewContent-module__Button_1__vmS6D" data-loading="false" data-no-visuals="true" data-size="medium" data-variant="invisible"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-git-branch" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M9.5 3.25a2.25 2.25 0 1 1 3 2.122V6A2.5 2.5 0 0 1 10 8.5H6a1 1 0 0 0-1 1v1.128a2.251 2.251 0 1 1-1.5 0V5.372a2.25 2.25 0 1 1 1.5 0v1.836A2.493 2.493 0 0 1 6 7h4a1 1 0 0 0 1-1v-.628A2.25 2.25 0 0 1 9.5 3.25Zm-6 0a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Zm8.25-.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5ZM4.25 12a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Z"></path></svg></a><a data-component="Button" type="button" aria-label="Go to Tags page" href="/MikeMcl/bignumber.js/tags" class="prc-Button-ButtonBase-9n-Xk OverviewContent-module__Button_1__vmS6D" data-loading="false" data-no-visuals="true" data-size="medium" data-variant="invisible"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M1 7.775V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 0 1 0 2.474l-5.026 5.026a1.75 1.75 0 0 1-2.474 0l-6.25-6.25A1.752 1.752 0 0 1 1 7.775Zm1.5 0c0 .066.026.13.073.177l6.25 6.25a.25.25 0 0 0 .354 0l5.025-5.025a.25.25 0 0 0 0-.354l-6.25-6.25a.25.25 0 0 0-.177-.073H2.75a.25.25 0 0 0-.25.25ZM6 5a1 1 0 1 1 0 2 1 1 0 0 1 0-2Z"></path></svg></a></div></div><div class="OverviewContent-module__Box_6__Y_Yb_"><div class="OverviewContent-module__Box_7__JuRXo"><div class="d-none"></div><div class="OverviewContent-module__Box_8__UZCZh"><!--$!--><template></template><!--/$--></div><div class="OverviewContent-module__Box_9__bqMPw"><button data-component="Button" type="button" class="prc-Button-ButtonBase-9n-Xk" data-loading="false" data-no-visuals="true" data-size="medium" data-variant="default"><span data-component="buttonContent" data-align="center" class="prc-Button-ButtonContent-Iohp5"><span data-component="text" class="prc-Button-Label-FWkx3">Go to file</span></span></button></div></div><button data-component="Button" type="button" aria-haspopup="true" aria-expanded="false" tabindex="0" class="prc-Button-ButtonBase-9n-Xk" data-loading="false" data-size="medium" data-variant="primary" id="_R_94ql3bl1d_"><span data-component="buttonContent" data-align="center" class="prc-Button-ButtonContent-Iohp5"><span data-component="leadingVisual" class="prc-Button-Visual-YNt2F prc-Button-VisualWrap-E4cnq"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-code hide-sm" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="m11.28 3.22 4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L13.94 8l-3.72-3.72a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215Zm-6.56 0a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042L2.06 8l3.72 3.72a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L.47 8.53a.75.75 0 0 1 0-1.06Z"></path></svg></span><span data-component="text" class="prc-Button-Label-FWkx3">Code</span><span data-component="trailingVisual" class="prc-Button-Visual-YNt2F prc-Button-VisualWrap-E4cnq"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-triangle-down" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="m4.427 7.427 3.396 3.396a.25.25 0 0 0 .354 0l3.396-3.396A.25.25 0 0 0 11.396 7H4.604a.25.25 0 0 0-.177.427Z"></path></svg></span></span></button><div class="OverviewContent-module__Box_10__mGSb4"><button data-component="IconButton" type="button" aria-haspopup="true" aria-expanded="false" tabindex="0" class="prc-Button-ButtonBase-9n-Xk prc-Button-IconButton-fyge7" data-loading="false" data-no-visuals="true" data-size="medium" data-variant="default" aria-labelledby="_R_7r4ql3bl1d_" id="_R_b4ql3bl1d_"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-kebab-horizontal" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M8 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3ZM1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm13 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"></path></svg></button><span class="prc-TooltipV2-Tooltip-tLeuB" data-direction="n" data-component="Tooltip" aria-hidden="true" id="_R_7r4ql3bl1d_">Open more actions menu</span></div></div></div><div class="OverviewContent-module__Box_11__F19kY"><div data-hpc="true" containertiming="hpc"><div class="d-none"></div><h2 class="sr-only ScreenReaderHeading-module__userSelectNone__rwWIk prc-Heading-Heading-MtWFE" data-component="Heading" data-testid="screen-reader-heading" id="folders-and-files">Folders and files</h2><table class="Table-module__Box__HZKiQ" aria-labelledby="folders-and-files"><thead class="DirectoryContent-module__OverviewHeaderRow__hOrKy Table-module__Box_1__VacXC"><tr class="Table-module__Box_2__PBp9s"><th colSpan="2" class="DirectoryContent-module__Box__iC_5e"><span class="text-bold">Name</span></th><th colSpan="1" class="DirectoryContent-module__Box_1__fuSBO"><span class="text-bold">Name</span></th><th class="hide-sm"><div class="width-fit prc-Truncate-Truncate-2G1eo" data-inline="true" title="Last commit message" style="--truncate-max-width:125px"><span class="text-bold">Last commit message</span></div></th><th colSpan="1" class="DirectoryContent-module__Box_2__Ccrx7"><div class="width-fit prc-Truncate-Truncate-2G1eo" data-inline="true" title="Last commit date" style="--truncate-max-width:125px"><span class="text-bold">Last commit date</span></div></th></tr></thead><tbody><tr class="DirectoryContent-module__Box_3__gl6dE"><td colSpan="3" class="bgColor-muted p-1 rounded-top-2"><div class="LatestCommit-module__Box__B25ZT"><h2 class="sr-only ScreenReaderHeading-module__userSelectNone__rwWIk prc-Heading-Heading-MtWFE" data-component="Heading" data-testid="screen-reader-heading">Latest commit</h2><div style="width:120px" class="Skeleton Skeleton--text" data-testid="loading"> </div><div class="d-flex flex-shrink-0 gap-2"><div data-testid="latest-commit-details" class="d-none d-sm-flex flex-items-center"></div><div class="d-flex gap-2"><h2 class="sr-only ScreenReaderHeading-module__userSelectNone__rwWIk prc-Heading-Heading-MtWFE" data-component="Heading" data-testid="screen-reader-heading">History</h2><a data-component="LinkButton" href="/MikeMcl/bignumber.js/commits/main/" class="prc-Button-ButtonBase-9n-Xk d-none d-lg-flex LinkButton-module__linkButton__nFnov flex-items-center fgColor-default" data-loading="false" data-size="small" data-variant="invisible"><span data-component="buttonContent" data-align="center" class="prc-Button-ButtonContent-Iohp5"><span data-component="leadingVisual" class="prc-Button-Visual-YNt2F prc-Button-VisualWrap-E4cnq"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-history" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="m.427 1.927 1.215 1.215a8.002 8.002 0 1 1-1.6 5.685.75.75 0 1 1 1.493-.154 6.5 6.5 0 1 0 1.18-4.458l1.358 1.358A.25.25 0 0 1 3.896 6H.25A.25.25 0 0 1 0 5.75V2.104a.25.25 0 0 1 .427-.177ZM7.75 4a.75.75 0 0 1 .75.75v2.992l2.028.812a.75.75 0 0 1-.557 1.392l-2.5-1A.751.751 0 0 1 7 8.25v-3.5A.75.75 0 0 1 7.75 4Z"></path></svg></span><span data-component="text" class="prc-Button-Label-FWkx3"><span class="fgColor-default">296 Commits</span></span></span></a><div class="d-sm-none"></div><div class="d-flex d-lg-none"><a data-component="LinkButton" aria-label="View commit history for this file." href="/MikeMcl/bignumber.js/commits/main/" class="prc-Button-ButtonBase-9n-Xk LinkButton-module__linkButton__nFnov flex-items-center fgColor-default" data-loading="false" data-size="small" data-variant="invisible" aria-describedby="_R_iqj6oql3bl1d_"><span data-component="buttonContent" data-align="center" class="prc-Button-ButtonContent-Iohp5"><span data-component="leadingVisual" class="prc-Button-Visual-YNt2F prc-Button-VisualWrap-E4cnq"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-history" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="m.427 1.927 1.215 1.215a8.002 8.002 0 1 1-1.6 5.685.75.75 0 1 1 1.493-.154 6.5 6.5 0 1 0 1.18-4.458l1.358 1.358A.25.25 0 0 1 3.896 6H.25A.25.25 0 0 1 0 5.75V2.104a.25.25 0 0 1 .427-.177ZM7.75 4a.75.75 0 0 1 .75.75v2.992l2.028.812a.75.75 0 0 1-.557 1.392l-2.5-1A.751.751 0 0 1 7 8.25v-3.5A.75.75 0 0 1 7.75 4Z"></path></svg></span></span></a><span class="prc-TooltipV2-Tooltip-tLeuB" data-direction="s" data-component="Tooltip" role="tooltip" aria-hidden="true" id="_R_iqj6oql3bl1d_">296 Commits</span></div></div></div></div></td></tr><tr class="react-directory-row undefined" id="folder-row-0"><td class="react-directory-row-name-cell-small-screen" colSpan="2"><div class="react-directory-filename-column"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-file-directory-fill icon-directory" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M1.75 1A1.75 1.75 0 0 0 0 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0 0 16 13.25v-8.5A1.75 1.75 0 0 0 14.25 3H7.5a.25.25 0 0 1-.2-.1l-.9-1.2C6.07 1.26 5.55 1 5 1H1.75Z"></path></svg><div class="overflow-hidden"><div class="react-directory-filename-cell"><div class="react-directory-truncate"><a title="This path skips through empty directories" aria-label=".github/workflows, (Directory)" class="Link--primary" href="/MikeMcl/bignumber.js/tree/main/.github/workflows" data-discover="true"><span class="react-directory-default-color" data-testid="path-name-segment">.github/</span><span class="" data-testid="path-name-segment">workflows</span></a></div></div></div></div></td><td class="react-directory-row-name-cell-large-screen" colSpan="1"><div class="react-directory-filename-column"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-file-directory-fill icon-directory" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M1.75 1A1.75 1.75 0 0 0 0 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0 0 16 13.25v-8.5A1.75 1.75 0 0 0 14.25 3H7.5a.25.25 0 0 1-.2-.1l-.9-1.2C6.07 1.26 5.55 1 5 1H1.75Z"></path></svg><div class="overflow-hidden"><div class="react-directory-filename-cell"><div class="react-directory-truncate"><a title="This path skips through empty directories" aria-label=".github/workflows, (Directory)" class="Link--primary" href="/MikeMcl/bignumber.js/tree/main/.github/workflows" data-discover="true"><span class="react-directory-default-color" data-testid="path-name-segment">.github/</span><span class="" data-testid="path-name-segment">workflows</span></a></div></div></div></div></td><td class="react-directory-row-commit-cell"><div class="Skeleton Skeleton--text"> </div></td><td><div class="react-directory-commit-age"><div class="Skeleton Skeleton--text"> </div></div></td></tr><tr class="react-directory-row undefined" id="folder-row-1"><td class="react-directory-row-name-cell-small-screen" colSpan="2"><div class="react-directory-filename-column"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-file-directory-fill icon-directory" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M1.75 1A1.75 1.75 0 0 0 0 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0 0 16 13.25v-8.5A1.75 1.75 0 0 0 14.25 3H7.5a.25.25 0 0 1-.2-.1l-.9-1.2C6.07 1.26 5.55 1 5 1H1.75Z"></path></svg><div class="overflow-hidden"><div class="react-directory-filename-cell"><div class="react-directory-truncate"><a title="dist" aria-label="dist, (Directory)" class="Link--primary" href="/MikeMcl/bignumber.js/tree/main/dist" data-discover="true">dist</a></div></div></div></div></td><td class="react-directory-row-name-cell-large-screen" colSpan="1"><div class="react-directory-filename-column"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-file-directory-fill icon-directory" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M1.75 1A1.75 1.75 0 0 0 0 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0 0 16 13.25v-8.5A1.75 1.75 0 0 0 14.25 3H7.5a.25.25 0 0 1-.2-.1l-.9-1.2C6.07 1.26 5.55 1 5 1H1.75Z"></path></svg><div class="overflow-hidden"><div class="react-directory-filename-cell"><div class="react-directory-truncate"><a title="dist" aria-label="dist, (Directory)" class="Link--primary" href="/MikeMcl/bignumber.js/tree/main/dist" data-discover="true">dist</a></div></div></div></div></td><td class="react-directory-row-commit-cell"><div class="Skeleton Skeleton--text"> </div></td><td><div class="react-directory-commit-age"><div class="Skeleton Skeleton--text"> </div></div></td></tr><tr class="react-directory-row undefined" id="folder-row-2"><td class="react-directory-row-name-cell-small-screen" colSpan="2"><div class="react-directory-filename-column"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-file-directory-fill icon-directory" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M1.75 1A1.75 1.75 0 0 0 0 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0 0 16 13.25v-8.5A1.75 1.75 0 0 0 14.25 3H7.5a.25.25 0 0 1-.2-.1l-.9-1.2C6.07 1.26 5.55 1 5 1H1.75Z"></path></svg><div class="overflow-hidden"><div class="react-directory-filename-cell"><div class="react-directory-truncate"><a title="doc" aria-label="doc, (Directory)" class="Link--primary" href="/MikeMcl/bignumber.js/tree/main/doc" data-discover="true">doc</a></div></div></div></div></td><td class="react-directory-row-name-cell-large-screen" colSpan="1"><div class="react-directory-filename-column"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-file-directory-fill icon-directory" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M1.75 1A1.75 1.75 0 0 0 0 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0 0 16 13.25v-8.5A1.75 1.75 0 0 0 14.25 3H7.5a.25.25 0 0 1-.2-.1l-.9-1.2C6.07 1.26 5.55 1 5 1H1.75Z"></path></svg><div class="overflow-hidden"><div class="react-directory-filename-cell"><div class="react-directory-truncate"><a title="doc" aria-label="doc, (Directory)" class="Link--primary" href="/MikeMcl/bignumber.js/tree/main/doc" data-discover="true">doc</a></div></div></div></div></td><td class="react-directory-row-commit-cell"><div class="Skeleton Skeleton--text"> </div></td><td><div class="react-directory-commit-age"><div class="Skeleton Skeleton--text"> </div></div></td></tr><tr class="react-directory-row undefined" id="folder-row-3"><td class="react-directory-row-name-cell-small-screen" colSpan="2"><div class="react-directory-filename-column"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-file-directory-fill icon-directory" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M1.75 1A1.75 1.75 0 0 0 0 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0 0 16 13.25v-8.5A1.75 1.75 0 0 0 14.25 3H7.5a.25.25 0 0 1-.2-.1l-.9-1.2C6.07 1.26 5.55 1 5 1H1.75Z"></path></svg><div class="overflow-hidden"><div class="react-directory-filename-cell"><div class="react-directory-truncate"><a title="perf" aria-label="perf, (Directory)" class="Link--primary" href="/MikeMcl/bignumber.js/tree/main/perf" data-discover="true">perf</a></div></div></div></div></td><td class="react-directory-row-name-cell-large-screen" colSpan="1"><div class="react-directory-filename-column"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-file-directory-fill icon-directory" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M1.75 1A1.75 1.75 0 0 0 0 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0 0 16 13.25v-8.5A1.75 1.75 0 0 0 14.25 3H7.5a.25.25 0 0 1-.2-.1l-.9-1.2C6.07 1.26 5.55 1 5 1H1.75Z"></path></svg><div class="overflow-hidden"><div class="react-directory-filename-cell"><div class="react-directory-truncate"><a title="perf" aria-label="perf, (Directory)" class="Link--primary" href="/MikeMcl/bignumber.js/tree/main/perf" data-discover="true">perf</a></div></div></div></div></td><td class="react-directory-row-commit-cell"><div class="Skeleton Skeleton--text"> </div></td><td><div class="react-directory-commit-age"><div class="Skeleton Skeleton--text"> </div></div></td></tr><tr class="react-directory-row undefined" id="folder-row-4"><td class="react-directory-row-name-cell-small-screen" colSpan="2"><div class="react-directory-filename-column"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-file-directory-fill icon-directory" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M1.75 1A1.75 1.75 0 0 0 0 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0 0 16 13.25v-8.5A1.75 1.75 0 0 0 14.25 3H7.5a.25.25 0 0 1-.2-.1l-.9-1.2C6.07 1.26 5.55 1 5 1H1.75Z"></path></svg><div class="overflow-hidden"><div class="react-directory-filename-cell"><div class="react-directory-truncate"><a title="test" aria-label="test, (Directory)" class="Link--primary" href="/MikeMcl/bignumber.js/tree/main/test" data-discover="true">test</a></div></div></div></div></td><td class="react-directory-row-name-cell-large-screen" colSpan="1"><div class="react-directory-filename-column"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-file-directory-fill icon-directory" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M1.75 1A1.75 1.75 0 0 0 0 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0 0 16 13.25v-8.5A1.75 1.75 0 0 0 14.25 3H7.5a.25.25 0 0 1-.2-.1l-.9-1.2C6.07 1.26 5.55 1 5 1H1.75Z"></path></svg><div class="overflow-hidden"><div class="react-directory-filename-cell"><div class="react-directory-truncate"><a title="test" aria-label="test, (Directory)" class="Link--primary" href="/MikeMcl/bignumber.js/tree/main/test" data-discover="true">test</a></div></div></div></div></td><td class="react-directory-row-commit-cell"><div class="Skeleton Skeleton--text"> </div></td><td><div class="react-directory-commit-age"><div class="Skeleton Skeleton--text"> </div></div></td></tr><tr class="react-directory-row undefined" id="folder-row-5"><td class="react-directory-row-name-cell-small-screen" colSpan="2"><div class="react-directory-filename-column"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-file color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg><div class="overflow-hidden"><div class="react-directory-filename-cell"><div class="react-directory-truncate"><a title=".gitattributes" aria-label=".gitattributes, (File)" class="Link--primary" href="/MikeMcl/bignumber.js/blob/main/.gitattributes" data-discover="true">.gitattributes</a></div></div></div></div></td><td class="react-directory-row-name-cell-large-screen" colSpan="1"><div class="react-directory-filename-column"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-file color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg><div class="overflow-hidden"><div class="react-directory-filename-cell"><div class="react-directory-truncate"><a title=".gitattributes" aria-label=".gitattributes, (File)" class="Link--primary" href="/MikeMcl/bignumber.js/blob/main/.gitattributes" data-discover="true">.gitattributes</a></div></div></div></div></td><td class="react-directory-row-commit-cell"><div class="Skeleton Skeleton--text"> </div></td><td><div class="react-directory-commit-age"><div class="Skeleton Skeleton--text"> </div></div></td></tr><tr class="react-directory-row undefined" id="folder-row-6"><td class="react-directory-row-name-cell-small-screen" colSpan="2"><div class="react-directory-filename-column"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-file color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg><div class="overflow-hidden"><div class="react-directory-filename-cell"><div class="react-directory-truncate"><a title=".gitignore" aria-label=".gitignore, (File)" class="Link--primary" href="/MikeMcl/bignumber.js/blob/main/.gitignore" data-discover="true">.gitignore</a></div></div></div></div></td><td class="react-directory-row-name-cell-large-screen" colSpan="1"><div class="react-directory-filename-column"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-file color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg><div class="overflow-hidden"><div class="react-directory-filename-cell"><div class="react-directory-truncate"><a title=".gitignore" aria-label=".gitignore, (File)" class="Link--primary" href="/MikeMcl/bignumber.js/blob/main/.gitignore" data-discover="true">.gitignore</a></div></div></div></div></td><td class="react-directory-row-commit-cell"><div class="Skeleton Skeleton--text"> </div></td><td><div class="react-directory-commit-age"><div class="Skeleton Skeleton--text"> </div></div></td></tr><tr class="react-directory-row undefined" id="folder-row-7"><td class="react-directory-row-name-cell-small-screen" colSpan="2"><div class="react-directory-filename-column"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-file color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg><div class="overflow-hidden"><div class="react-directory-filename-cell"><div class="react-directory-truncate"><a title="CHANGELOG.md" aria-label="CHANGELOG.md, (File)" class="Link--primary" href="/MikeMcl/bignumber.js/blob/main/CHANGELOG.md" data-discover="true">CHANGELOG.md</a></div></div></div></div></td><td class="react-directory-row-name-cell-large-screen" colSpan="1"><div class="react-directory-filename-column"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-file color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg><div class="overflow-hidden"><div class="react-directory-filename-cell"><div class="react-directory-truncate"><a title="CHANGELOG.md" aria-label="CHANGELOG.md, (File)" class="Link--primary" href="/MikeMcl/bignumber.js/blob/main/CHANGELOG.md" data-discover="true">CHANGELOG.md</a></div></div></div></div></td><td class="react-directory-row-commit-cell"><div class="Skeleton Skeleton--text"> </div></td><td><div class="react-directory-commit-age"><div class="Skeleton Skeleton--text"> </div></div></td></tr><tr class="react-directory-row undefined" id="folder-row-8"><td class="react-directory-row-name-cell-small-screen" colSpan="2"><div class="react-directory-filename-column"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-file color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg><div class="overflow-hidden"><div class="react-directory-filename-cell"><div class="react-directory-truncate"><a title="LICENCE.md" aria-label="LICENCE.md, (File)" class="Link--primary" href="/MikeMcl/bignumber.js/blob/main/LICENCE.md" data-discover="true">LICENCE.md</a></div></div></div></div></td><td class="react-directory-row-name-cell-large-screen" colSpan="1"><div class="react-directory-filename-column"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-file color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg><div class="overflow-hidden"><div class="react-directory-filename-cell"><div class="react-directory-truncate"><a title="LICENCE.md" aria-label="LICENCE.md, (File)" class="Link--primary" href="/MikeMcl/bignumber.js/blob/main/LICENCE.md" data-discover="true">LICENCE.md</a></div></div></div></div></td><td class="react-directory-row-commit-cell"><div class="Skeleton Skeleton--text"> </div></td><td><div class="react-directory-commit-age"><div class="Skeleton Skeleton--text"> </div></div></td></tr><tr class="react-directory-row undefined" id="folder-row-9"><td class="react-directory-row-name-cell-small-screen" colSpan="2"><div class="react-directory-filename-column"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-file color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg><div class="overflow-hidden"><div class="react-directory-filename-cell"><div class="react-directory-truncate"><a title="README.md" aria-label="README.md, (File)" class="Link--primary" href="/MikeMcl/bignumber.js/blob/main/README.md" data-discover="true">README.md</a></div></div></div></div></td><td class="react-directory-row-name-cell-large-screen" colSpan="1"><div class="react-directory-filename-column"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-file color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg><div class="overflow-hidden"><div class="react-directory-filename-cell"><div class="react-directory-truncate"><a title="README.md" aria-label="README.md, (File)" class="Link--primary" href="/MikeMcl/bignumber.js/blob/main/README.md" data-discover="true">README.md</a></div></div></div></div></td><td class="react-directory-row-commit-cell"><div class="Skeleton Skeleton--text"> </div></td><td><div class="react-directory-commit-age"><div class="Skeleton Skeleton--text"> </div></div></td></tr><tr class="react-directory-row truncate-for-mobile" id="folder-row-10"><td class="react-directory-row-name-cell-small-screen" colSpan="2"><div class="react-directory-filename-column"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-file color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg><div class="overflow-hidden"><div class="react-directory-filename-cell"><div class="react-directory-truncate"><a title="bignumber.d.ts" aria-label="bignumber.d.ts, (File)" class="Link--primary" href="/MikeMcl/bignumber.js/blob/main/bignumber.d.ts" data-discover="true">bignumber.d.ts</a></div></div></div></div></td><td class="react-directory-row-name-cell-large-screen" colSpan="1"><div class="react-directory-filename-column"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-file color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg><div class="overflow-hidden"><div class="react-directory-filename-cell"><div class="react-directory-truncate"><a title="bignumber.d.ts" aria-label="bignumber.d.ts, (File)" class="Link--primary" href="/MikeMcl/bignumber.js/blob/main/bignumber.d.ts" data-discover="true">bignumber.d.ts</a></div></div></div></div></td><td class="react-directory-row-commit-cell"><div class="Skeleton Skeleton--text"> </div></td><td><div class="react-directory-commit-age"><div class="Skeleton Skeleton--text"> </div></div></td></tr><tr class="react-directory-row truncate-for-mobile" id="folder-row-11"><td class="react-directory-row-name-cell-small-screen" colSpan="2"><div class="react-directory-filename-column"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-file color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg><div class="overflow-hidden"><div class="react-directory-filename-cell"><div class="react-directory-truncate"><a title="bignumber.js" aria-label="bignumber.js, (File)" class="Link--primary" href="/MikeMcl/bignumber.js/blob/main/bignumber.js" data-discover="true">bignumber.js</a></div></div></div></div></td><td class="react-directory-row-name-cell-large-screen" colSpan="1"><div class="react-directory-filename-column"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-file color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg><div class="overflow-hidden"><div class="react-directory-filename-cell"><div class="react-directory-truncate"><a title="bignumber.js" aria-label="bignumber.js, (File)" class="Link--primary" href="/MikeMcl/bignumber.js/blob/main/bignumber.js" data-discover="true">bignumber.js</a></div></div></div></div></td><td class="react-directory-row-commit-cell"><div class="Skeleton Skeleton--text"> </div></td><td><div class="react-directory-commit-age"><div class="Skeleton Skeleton--text"> </div></div></td></tr><tr class="react-directory-row truncate-for-mobile" id="folder-row-12"><td class="react-directory-row-name-cell-small-screen" colSpan="2"><div class="react-directory-filename-column"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-file color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg><div class="overflow-hidden"><div class="react-directory-filename-cell"><div class="react-directory-truncate"><a title="build.js" aria-label="build.js, (File)" class="Link--primary" href="/MikeMcl/bignumber.js/blob/main/build.js" data-discover="true">build.js</a></div></div></div></div></td><td class="react-directory-row-name-cell-large-screen" colSpan="1"><div class="react-directory-filename-column"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-file color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg><div class="overflow-hidden"><div class="react-directory-filename-cell"><div class="react-directory-truncate"><a title="build.js" aria-label="build.js, (File)" class="Link--primary" href="/MikeMcl/bignumber.js/blob/main/build.js" data-discover="true">build.js</a></div></div></div></div></td><td class="react-directory-row-commit-cell"><div class="Skeleton Skeleton--text"> </div></td><td><div class="react-directory-commit-age"><div class="Skeleton Skeleton--text"> </div></div></td></tr><tr class="react-directory-row truncate-for-mobile" id="folder-row-13"><td class="react-directory-row-name-cell-small-screen" colSpan="2"><div class="react-directory-filename-column"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-file color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg><div class="overflow-hidden"><div class="react-directory-filename-cell"><div class="react-directory-truncate"><a title="package.json" aria-label="package.json, (File)" class="Link--primary" href="/MikeMcl/bignumber.js/blob/main/package.json" data-discover="true">package.json</a></div></div></div></div></td><td class="react-directory-row-name-cell-large-screen" colSpan="1"><div class="react-directory-filename-column"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-file color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg><div class="overflow-hidden"><div class="react-directory-filename-cell"><div class="react-directory-truncate"><a title="package.json" aria-label="package.json, (File)" class="Link--primary" href="/MikeMcl/bignumber.js/blob/main/package.json" data-discover="true">package.json</a></div></div></div></div></td><td class="react-directory-row-commit-cell"><div class="Skeleton Skeleton--text"> </div></td><td><div class="react-directory-commit-age"><div class="Skeleton Skeleton--text"> </div></div></td></tr><tr class="show-for-mobile DirectoryContent-module__Box_4__RhIsE" data-testid="view-all-files-row"><td colSpan="3" class="DirectoryContent-module__Box_5__GaE8N"><div><button class="prc-Link-Link-9ZwDx" data-component="Link">View all files</button></div></td></tr></tbody></table></div><div class="OverviewRepoFiles-module__Box_1__OXeac"><div class="OverviewRepoFiles-module__Box_2__zsLGk"><div itemScope="" itemType="https://schema.org/abstract" class="OverviewRepoFiles-module__Box_3__bBU1C"><h2 class="prc-src-InternalVisuallyHidden-2YaI6">Repository files navigation</h2><nav class="prc-components-UnderlineWrapper-eT-Yj prc-UnderlineNav-UnderlineWrapper-GWONT OverviewRepoFiles-module__UnderlineNav__QbWWv" aria-label="Repository files" data-variant="inset" data-overflow-mode="wrap"><ul class="prc-UnderlineNav-ItemsList-oj8gN prc-components-UnderlineItemList-xKlKC" role="list"><li class="prc-UnderlineNav-UnderlineNavItem-syRjR"><a href="#" aria-current="page" class="prc-components-UnderlineItem-7fP-n"><span data-component="icon"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-book" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M0 1.75A.75.75 0 0 1 .75 1h4.253c1.227 0 2.317.59 3 1.501A3.743 3.743 0 0 1 11.006 1h4.245a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75h-4.507a2.25 2.25 0 0 0-1.591.659l-.622.621a.75.75 0 0 1-1.06 0l-.622-.621A2.25 2.25 0 0 0 5.258 13H.75a.75.75 0 0 1-.75-.75Zm7.251 10.324.004-5.073-.002-2.253A2.25 2.25 0 0 0 5.003 2.5H1.5v9h3.757a3.75 3.75 0 0 1 1.994.574ZM8.755 4.75l-.004 7.322a3.752 3.752 0 0 1 1.992-.572H14.5v-9h-3.495a2.25 2.25 0 0 0-2.25 2.25Z"></path></svg></span><span data-component="text" data-content="README">README</span></a></li><li class="prc-UnderlineNav-UnderlineNavItem-syRjR"><a href="#" class="prc-components-UnderlineItem-7fP-n"><span data-component="icon"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-law" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M8.75.75V2h.985c.304 0 .603.08.867.231l1.29.736c.038.022.08.033.124.033h2.234a.75.75 0 0 1 0 1.5h-.427l2.111 4.692a.75.75 0 0 1-.154.838l-.53-.53.529.531-.001.002-.002.002-.006.006-.006.005-.01.01-.045.04c-.21.176-.441.327-.686.45C14.556 10.78 13.88 11 13 11a4.498 4.498 0 0 1-2.023-.454 3.544 3.544 0 0 1-.686-.45l-.045-.04-.016-.015-.006-.006-.004-.004v-.001a.75.75 0 0 1-.154-.838L12.178 4.5h-.162c-.305 0-.604-.079-.868-.231l-1.29-.736a.245.245 0 0 0-.124-.033H8.75V13h2.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5h2.5V3.5h-.984a.245.245 0 0 0-.124.033l-1.289.737c-.265.15-.564.23-.869.23h-.162l2.112 4.692a.75.75 0 0 1-.154.838l-.53-.53.529.531-.001.002-.002.002-.006.006-.016.015-.045.04c-.21.176-.441.327-.686.45C4.556 10.78 3.88 11 3 11a4.498 4.498 0 0 1-2.023-.454 3.544 3.544 0 0 1-.686-.45l-.045-.04-.016-.015-.006-.006-.004-.004v-.001a.75.75 0 0 1-.154-.838L2.178 4.5H1.75a.75.75 0 0 1 0-1.5h2.234a.249.249 0 0 0 .125-.033l1.288-.737c.265-.15.564-.23.869-.23h.984V.75a.75.75 0 0 1 1.5 0Zm2.945 8.477c.285.135.718.273 1.305.273s1.02-.138 1.305-.273L13 6.327Zm-10 0c.285.135.718.273 1.305.273s1.02-.138 1.305-.273L3 6.327Z"></path></svg></span><span data-component="text" data-content="MIT license">MIT license</span></a></li></ul><div class="prc-UnderlineNav-MoreButtonContainer-Dnrq6"><div class="prc-UnderlineNav-MoreButtonDivider-dN0a-"></div><button data-component="overflow-menu-button" type="button" aria-haspopup="true" aria-expanded="false" tabindex="0" class="prc-Button-ButtonBase-9n-Xk prc-UnderlineNav-MoreButton-Y8soj" data-loading="false" data-size="medium" data-variant="invisible" id="_R_1ab8ql3bl1d_"><span data-component="buttonContent" data-align="center" class="prc-Button-ButtonContent-Iohp5"><span data-component="text" class="prc-Button-Label-FWkx3"><span>More<span class="prc-src-InternalVisuallyHidden-2YaI6"> items</span></span></span></span><span data-component="trailingAction" class="prc-Button-Visual-YNt2F prc-Button-VisualWrap-E4cnq"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-triangle-down" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="m4.427 7.427 3.396 3.396a.25.25 0 0 0 .354 0l3.396-3.396A.25.25 0 0 0 11.396 7H4.604a.25.25 0 0 0-.177.427Z"></path></svg></span></button></div></nav><button data-component="ActionMenu.Button" type="button" aria-label="Outline" aria-haspopup="true" aria-expanded="false" tabindex="0" class="prc-Button-ButtonBase-9n-Xk OverviewRepoFiles-module__ActionMenu_Button__OKDYV" data-loading="false" data-size="medium" data-variant="invisible" id="_R_r8ql3bl1d_"><svg data-component="Octicon" aria-hidden="true" focusable="false" class="octicon octicon-list-unordered" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M5.75 2.5h8.5a.75.75 0 0 1 0 1.5h-8.5a.75.75 0 0 1 0-1.5Zm0 5h8.5a.75.75 0 0 1 0 1.5h-8.5a.75.75 0 0 1 0-1.5Zm0 5h8.5a.75.75 0 0 1 0 1.5h-8.5a.75.75 0 0 1 0-1.5ZM2 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-6a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM2 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg></button></div><div class="js-snippet-clipboard-copy-unpositioned DirectoryRichtextContent-module__SharedMarkdownContent__hHXUL" data-hpc="true" containertiming="hpc"><article class="markdown-body entry-content container-lg" itemprop="text"><p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="bignumberjs_e0cb6945.png"><img src="bignumberjs_e0cb6945.png" alt="bignumber.js" style="max-width: 100%;"></a></p>
+<p dir="auto">A JavaScript library for arbitrary-precision decimal and non-decimal arithmetic.</p>
+<p dir="auto"><a href="https://www.npmjs.com/package/bignumber.js" rel="nofollow"><img src="https://camo.githubusercontent.com/dc2caae74b5b5f890a57cfd7d3e08cbffd2915d898821d6f3065ad6ba4fab721/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f6269676e756d6265722e6a732e737667" alt="npm version" data-canonical-src="bignumber.js_2eafe098.svg" style="max-width: 100%;"></a>
+<a href="https://www.npmjs.com/package/bignumber.js" rel="nofollow"><img src="https://camo.githubusercontent.com/04f2efda259848f58f39b3411199421b72e4fb815e8f08eb9e274f090a55191a/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f64772f6269676e756d6265722e6a73" alt="npm downloads" data-canonical-src="bignumber_316aa140.js" style="max-width: 100%;"></a>
+<a href="bignumber_1f174efa.js/actions/workflows/ci.yml"><img src="badge_9004faf0.svg" alt="CI" style="max-width: 100%;"></a></p>
+<br>
+<ul dir="auto">
+<li><a href="#features">Features</a></li>
+<li><a href="#build">Build</a></li>
+<li><a href="#load">Load</a></li>
+<li><a href="#use">Use</a></li>
+<li><a href="#test">Test</a></li>
+<li><a href="#minify">Minify</a></li>
+<li><a href="#licence">Licence</a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto">Features</h2><a id="user-content-features" class="anchor" aria-label="Permalink: Features" href="#features"><svg data-component="Octicon" class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li>Integers and decimals</li>
+<li>Simple API but full-featured</li>
+<li>Faster, smaller, and perhaps easier to use than JavaScript versions of Java's BigDecimal</li>
+<li>8 KB minified and gzipped</li>
+<li>Replicates the <code>toExponential</code>, <code>toFixed</code>, <code>toPrecision</code> and <code>toString</code> methods of JavaScript's Number type</li>
+<li>Includes a <code>toFraction</code> and a correctly-rounded <code>squareRoot</code> method</li>
+<li>Supports cryptographically-secure pseudo-random number generation</li>
+<li>No dependencies</li>
+<li>Wide platform compatibility: uses JavaScript 1.5 (ECMAScript 3) features only</li>
+<li>Comprehensive <a href="bignumber_7a45f87c.js" rel="nofollow">documentation</a> and test set</li>
+</ul>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="API_d2f5f881.png"><img src="API_d2f5f881.png" alt="API" style="max-width: 100%;"></a></p>
+<p dir="auto">If a smaller and simpler library is required see <a href="big_be3ebe9a.js">big.js</a>.
+It's less than half the size but only works with decimal numbers and only has half the methods.
+It also has fewer configuration options than this library, and does not allow <code>NaN</code> or <code>Infinity</code>.</p>
+<p dir="auto">See also <a href="decimal_26e63888.js">decimal.js</a>, which among other things adds support for non-integer powers, and performs all operations to a specified number of significant digits.</p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto">Build</h2><a id="user-content-build" class="anchor" aria-label="Permalink: Build" href="#build"><svg data-component="Octicon" class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><em>bignumber.js</em> is the single source file, and <em>bignumber.d.ts</em> contains the type declarations for it. The build script, <em>build.js</em>, creates targeted builds in a <em>dist</em> directory for ES module, CommonJS, and browser usage.</p>
+<p dir="auto">To run the build script (requires Node.js ≥ 14.14.0):</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="npm install
+npm run build
+# or: node build.js"><pre>npm install
+npm run build
+<span class="pl-c"><span class="pl-c">#</span> or: node build.js</span></pre></div>
+<p dir="auto">A <em>dist</em> directory will be created containing the following:</p>
+<markdown-accessiblity-table><table>
+<thead>
+<tr>
+<th>Module format</th>
+<th>Distributable</th>
+<th>Type declaration</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ES module (ESM)</td>
+<td>bignumber.mjs</td>
+<td>bignumber.d.mts</td>
+</tr>
+<tr>
+<td>CommonJS (CJS)</td>
+<td>bignumber.cjs</td>
+<td>bignumber.d.cts</td>
+</tr>
+<tr>
+<td>Browser (global)</td>
+<td>bignumber.js</td>
+<td>bignumber.d.ts</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto">Load</h2><a id="user-content-load" class="anchor" aria-label="Permalink: Load" href="#load"><svg data-component="Octicon" class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto">Browser</h3><a id="user-content-browser" class="anchor" aria-label="Permalink: Browser" href="#browser"><svg data-component="Octicon" class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="highlight highlight-text-html-basic notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="&lt;script src='dist/bignumber.js'&gt;&lt;/script&gt;"><pre><span class="pl-kos">&lt;</span><span class="pl-ent">script</span> <span class="pl-c1">src</span>='<span class="pl-s">dist/bignumber.js</span>'<span class="pl-kos">&gt;</span><span class="pl-kos">&lt;/</span><span class="pl-ent">script</span><span class="pl-kos">&gt;</span></pre></div>
+<p dir="auto">or, minified from a CDN (Content Delivery Network):</p>
+<div class="highlight highlight-text-html-basic notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="&lt;script src='bignumber.min_e1688045.js'&gt;&lt;/script&gt;"><pre><span class="pl-kos">&lt;</span><span class="pl-ent">script</span> <span class="pl-c1">src</span>='<span class="pl-s">bignumber.min_e1688045.js</span>'<span class="pl-kos">&gt;</span><span class="pl-kos">&lt;/</span><span class="pl-ent">script</span><span class="pl-kos">&gt;</span></pre></div>
+<blockquote>
+<p dir="auto">ES module</p>
+</blockquote>
+<div class="highlight highlight-text-html-basic notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="&lt;script type=&quot;module&quot;&gt;
+import BigNumber from './dist/bignumber.mjs';
+// ...
+&lt;/script&gt;"><pre><span class="pl-kos">&lt;</span><span class="pl-ent">script</span> <span class="pl-c1">type</span>="<span class="pl-s">module</span>"<span class="pl-kos">&gt;</span>
+<span class="pl-k">import</span> <span class="pl-v">BigNumber</span> <span class="pl-k">from</span> <span class="pl-s">'./dist/bignumber.mjs'</span><span class="pl-kos">;</span>
+<span class="pl-c">// ...</span>
+<span class="pl-kos">&lt;/</span><span class="pl-ent">script</span><span class="pl-kos">&gt;</span></pre></div>
+<p dir="auto">or, minified from a CDN:</p>
+<div class="highlight highlight-text-html-basic notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="&lt;script type=&quot;module&quot;&gt;
+import BigNumber from 'https://cdn.jsdelivr.net/npm/bignumber.js@latest/+esm'
+// ...
+&lt;/script&gt;"><pre><span class="pl-kos">&lt;</span><span class="pl-ent">script</span> <span class="pl-c1">type</span>="<span class="pl-s">module</span>"<span class="pl-kos">&gt;</span>
+<span class="pl-k">import</span> <span class="pl-v">BigNumber</span> <span class="pl-k">from</span> <span class="pl-s">'https://cdn.jsdelivr.net/npm/bignumber.js@latest/+esm'</span>
+<span class="pl-c">// ...</span>
+<span class="pl-kos">&lt;/</span><span class="pl-ent">script</span><span class="pl-kos">&gt;</span></pre></div>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><a href="http://nodejs.org" rel="nofollow">Node.js</a></h3><a id="user-content-nodejs" class="anchor" aria-label="Permalink: Node.js" href="#nodejs"><svg data-component="Octicon" class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="npm install bignumber.js"><pre>npm install bignumber.js</pre></div>
+<blockquote>
+<p dir="auto">CommonJS</p>
+</blockquote>
+<div class="highlight highlight-source-js notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="const BigNumber = require('bignumber.js');
+
+// or, testing from a local repo:
+const BigNumber = require('./dist/bignumber.cjs');"><pre><span class="pl-k">const</span> <span class="pl-v">BigNumber</span> <span class="pl-c1">=</span> <span class="pl-en">require</span><span class="pl-kos">(</span><span class="pl-s">'bignumber.js'</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
+
+<span class="pl-c">// or, testing from a local repo:</span>
+<span class="pl-k">const</span> <span class="pl-v">BigNumber</span> <span class="pl-c1">=</span> <span class="pl-en">require</span><span class="pl-kos">(</span><span class="pl-s">'./dist/bignumber.cjs'</span><span class="pl-kos">)</span><span class="pl-kos">;</span></pre></div>
+<blockquote>
+<p dir="auto">ES module</p>
+</blockquote>
+<div class="highlight highlight-source-js notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="import BigNumber from 'bignumber.js';
+
+// or
+import { BigNumber } from 'bignumber.js';
+
+// or, testing from a local repo:
+import { BigNumber } from './dist/bignumber.mjs';"><pre><span class="pl-k">import</span> <span class="pl-v">BigNumber</span> <span class="pl-k">from</span> <span class="pl-s">'bignumber.js'</span><span class="pl-kos">;</span>
+
+<span class="pl-c">// or</span>
+<span class="pl-k">import</span> <span class="pl-kos">{</span> <span class="pl-v">BigNumber</span> <span class="pl-kos">}</span> <span class="pl-k">from</span> <span class="pl-s">'bignumber.js'</span><span class="pl-kos">;</span>
+
+<span class="pl-c">// or, testing from a local repo:</span>
+<span class="pl-k">import</span> <span class="pl-kos">{</span> <span class="pl-v">BigNumber</span> <span class="pl-kos">}</span> <span class="pl-k">from</span> <span class="pl-s">'./dist/bignumber.mjs'</span><span class="pl-kos">;</span></pre></div>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><a href="https://deno.land/" rel="nofollow">Deno</a></h3><a id="user-content-deno" class="anchor" aria-label="Permalink: Deno" href="#deno"><svg data-component="Octicon" class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="highlight highlight-source-js notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="// @deno-types=&quot;https://raw.githubusercontent.com/MikeMcl/bignumber.js/main/dist/bignumber.d.mts&quot;
+import BigNumber from 'https://raw.githubusercontent.com/MikeMcl/bignumber.js/main/dist/bignumber.mjs';
+
+// or
+// @deno-types=&quot;https://unpkg.com/bignumber.js@latest/dist/bignumber.d.mts&quot;
+import { BigNumber } from 'https://unpkg.com/bignumber.js@latest/dist/bignumber.mjs';"><pre><span class="pl-c">// <span class="pl-k">@deno</span>-types="https://raw.githubusercontent.com/MikeMcl/bignumber.js/main/dist/bignumber.d.mts"</span>
+<span class="pl-k">import</span> <span class="pl-v">BigNumber</span> <span class="pl-k">from</span> <span class="pl-s">'https://raw.githubusercontent.com/MikeMcl/bignumber.js/main/dist/bignumber.mjs'</span><span class="pl-kos">;</span>
+
+<span class="pl-c">// or</span>
+<span class="pl-c">// <span class="pl-k">@deno</span>-types="https://unpkg.com/bignumber.js@latest/dist/bignumber.d.mts"</span>
+<span class="pl-k">import</span> <span class="pl-kos">{</span> <span class="pl-v">BigNumber</span> <span class="pl-kos">}</span> <span class="pl-k">from</span> <span class="pl-s">'https://unpkg.com/bignumber.js@latest/dist/bignumber.mjs'</span><span class="pl-kos">;</span></pre></div>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto">Use</h2><a id="user-content-use" class="anchor" aria-label="Permalink: Use" href="#use"><svg data-component="Octicon" class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto">The library exports a single constructor function, <a href="bignumber_d3294790.js" rel="nofollow"><code>BigNumber</code></a>, which accepts a value of type Number, String, BigInt or BigNumber,</p>
+<div class="highlight highlight-source-js notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="let x = new BigNumber(123.4567);
+let y = BigNumber('123456.7e-3');
+let z = new BigNumber(x);
+x.isEqualTo(y) &amp;&amp; y.isEqualTo(z) &amp;&amp; x.isEqualTo(z);      // true"><pre><span class="pl-k">let</span> <span class="pl-s1">x</span> <span class="pl-c1">=</span> <span class="pl-k">new</span> <span class="pl-v">BigNumber</span><span class="pl-kos">(</span><span class="pl-c1">123.4567</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
+<span class="pl-k">let</span> <span class="pl-s1">y</span> <span class="pl-c1">=</span> <span class="pl-v">BigNumber</span><span class="pl-kos">(</span><span class="pl-s">'123456.7e-3'</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
+<span class="pl-k">let</span> <span class="pl-s1">z</span> <span class="pl-c1">=</span> <span class="pl-k">new</span> <span class="pl-v">BigNumber</span><span class="pl-kos">(</span><span class="pl-s1">x</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
+<span class="pl-s1">x</span><span class="pl-kos">.</span><span class="pl-en">isEqualTo</span><span class="pl-kos">(</span><span class="pl-s1">y</span><span class="pl-kos">)</span> <span class="pl-c1">&amp;&amp;</span> <span class="pl-s1">y</span><span class="pl-kos">.</span><span class="pl-en">isEqualTo</span><span class="pl-kos">(</span><span class="pl-s1">z</span><span class="pl-kos">)</span> <span class="pl-c1">&amp;&amp;</span> <span class="pl-s1">x</span><span class="pl-kos">.</span><span class="pl-en">isEqualTo</span><span class="pl-kos">(</span><span class="pl-s1">z</span><span class="pl-kos">)</span><span class="pl-kos">;</span>      <span class="pl-c">// true</span></pre></div>
+<p dir="auto">To get the string value of a BigNumber use <a href="bignumber_a82cc7e5.js" rel="nofollow"><code>toString()</code></a> or <a href="bignumber_c794e9ac.js" rel="nofollow"><code>toFixed()</code></a>. Using <code>toFixed()</code> prevents exponential notation being returned, no matter how large or small the value.</p>
+<div class="highlight highlight-source-js notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="let x = new BigNumber('1_234_567_890_000_000_000_000');
+x.toString();                       // &quot;1.23456789e+21&quot;
+x.toFixed();                        // &quot;1234567890000000000000&quot;"><pre><span class="pl-k">let</span> <span class="pl-s1">x</span> <span class="pl-c1">=</span> <span class="pl-k">new</span> <span class="pl-v">BigNumber</span><span class="pl-kos">(</span><span class="pl-s">'1_234_567_890_000_000_000_000'</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
+<span class="pl-s1">x</span><span class="pl-kos">.</span><span class="pl-en">toString</span><span class="pl-kos">(</span><span class="pl-kos">)</span><span class="pl-kos">;</span>                       <span class="pl-c">// "1.23456789e+21"</span>
+<span class="pl-s1">x</span><span class="pl-kos">.</span><span class="pl-en">toFixed</span><span class="pl-kos">(</span><span class="pl-kos">)</span><span class="pl-kos">;</span>                        <span class="pl-c">// "1234567890000000000000"</span></pre></div>
+<p dir="auto">If the limited precision of Number values is not well understood, it is recommended to create BigNumbers from String values rather than Number values to avoid a potential loss of precision.</p>
+<p dir="auto"><em>In all further examples below, <code>let</code>, semicolons and <code>toString</code> calls are not shown. If a commented-out value is in quotes it means <code>toString</code> has been called on the preceding expression.</em></p>
+<div class="highlight highlight-source-js notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="// Precision loss from using numeric literals with more than 15 significant digits.
+new BigNumber(1.0000000000000001)         // '1'
+new BigNumber(88259496234518.57)          // '88259496234518.56'
+new BigNumber(99999999999999999999)       // '100000000000000000000'
+
+// Precision loss from using numeric literals outside the range of Number values.
+new BigNumber(2e+308)                     // 'Infinity'
+new BigNumber(1e-324)                     // '0'
+
+// Precision loss from the unexpected result of arithmetic with Number values.
+new BigNumber(0.7 + 0.1)                  // '0.7999999999999999'"><pre><span class="pl-c">// Precision loss from using numeric literals with more than 15 significant digits.</span>
+<span class="pl-k">new</span> <span class="pl-v">BigNumber</span><span class="pl-kos">(</span><span class="pl-c1">1.0000000000000001</span><span class="pl-kos">)</span>         <span class="pl-c">// '1'</span>
+<span class="pl-k">new</span> <span class="pl-v">BigNumber</span><span class="pl-kos">(</span><span class="pl-c1">88259496234518.57</span><span class="pl-kos">)</span>          <span class="pl-c">// '88259496234518.56'</span>
+<span class="pl-k">new</span> <span class="pl-v">BigNumber</span><span class="pl-kos">(</span><span class="pl-c1">99999999999999999999</span><span class="pl-kos">)</span>       <span class="pl-c">// '100000000000000000000'</span>
+
+<span class="pl-c">// Precision loss from using numeric literals outside the range of Number values.</span>
+<span class="pl-k">new</span> <span class="pl-v">BigNumber</span><span class="pl-kos">(</span><span class="pl-c1">2e+308</span><span class="pl-kos">)</span>                     <span class="pl-c">// 'Infinity'</span>
+<span class="pl-k">new</span> <span class="pl-v">BigNumber</span><span class="pl-kos">(</span><span class="pl-c1">1e-324</span><span class="pl-kos">)</span>                     <span class="pl-c">// '0'</span>
+
+<span class="pl-c">// Precision loss from the unexpected result of arithmetic with Number values.</span>
+<span class="pl-k">new</span> <span class="pl-v">BigNumber</span><span class="pl-kos">(</span><span class="pl-c1">0.7</span> <span class="pl-c1">+</span> <span class="pl-c1">0.1</span><span class="pl-kos">)</span>                  <span class="pl-c">// '0.7999999999999999'</span></pre></div>
+<p dir="auto">When creating a BigNumber from a Number, note that a BigNumber is created from a Number's decimal <code>toString()</code> value not from its underlying binary value. If the latter is required, then pass the Number's <code>toString(2)</code> value and specify base 2.</p>
+<div class="highlight highlight-source-js notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="new BigNumber(Number.MAX_VALUE.toString(2), 2)"><pre><span class="pl-k">new</span> <span class="pl-v">BigNumber</span><span class="pl-kos">(</span><span class="pl-v">Number</span><span class="pl-kos">.</span><span class="pl-c1">MAX_VALUE</span><span class="pl-kos">.</span><span class="pl-en">toString</span><span class="pl-kos">(</span><span class="pl-c1">2</span><span class="pl-kos">)</span><span class="pl-kos">,</span> <span class="pl-c1">2</span><span class="pl-kos">)</span></pre></div>
+<p dir="auto">BigNumbers can be created from string values in bases from 2 to 36. See <a href="bignumber_cf3f608d.js" rel="nofollow"><code>ALPHABET</code></a> to extend this range.</p>
+<div class="highlight highlight-source-js notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="a = new BigNumber('1011', 2)        // &quot;11&quot;
+b = new BigNumber('zz.9', 36)       // &quot;1295.25&quot;
+c = a.plus(b)                       // &quot;1306.25&quot;"><pre><span class="pl-s1">a</span> <span class="pl-c1">=</span> <span class="pl-k">new</span> <span class="pl-v">BigNumber</span><span class="pl-kos">(</span><span class="pl-s">'1011'</span><span class="pl-kos">,</span> <span class="pl-c1">2</span><span class="pl-kos">)</span>        <span class="pl-c">// "11"</span>
+<span class="pl-s1">b</span> <span class="pl-c1">=</span> <span class="pl-k">new</span> <span class="pl-v">BigNumber</span><span class="pl-kos">(</span><span class="pl-s">'zz.9'</span><span class="pl-kos">,</span> <span class="pl-c1">36</span><span class="pl-kos">)</span>       <span class="pl-c">// "1295.25"</span>
+<span class="pl-s1">c</span> <span class="pl-c1">=</span> <span class="pl-s1">a</span><span class="pl-kos">.</span><span class="pl-en">plus</span><span class="pl-kos">(</span><span class="pl-s1">b</span><span class="pl-kos">)</span>                       <span class="pl-c">// "1306.25"</span></pre></div>
+<p dir="auto"><em>Explicitly passing base 10 is not recommended as it will cause the slower base conversion path to be used, which is only necessary if an unconventional <code>ALPHABET</code> has been specified.</em></p>
+<p dir="auto">A BigNumber is immutable in the sense that it is not changed by its methods.</p>
+<div class="highlight highlight-source-js notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="0.3 - 0.1                           // 0.19999999999999998
+x = new BigNumber(0.3)
+x.minus(0.1)                        // &quot;0.2&quot;
+x                                   // &quot;0.3&quot;"><pre><span class="pl-c1">0.3</span> <span class="pl-c1">-</span> <span class="pl-c1">0.1</span>                           <span class="pl-c">// 0.19999999999999998</span>
+<span class="pl-s1">x</span> <span class="pl-c1">=</span> <span class="pl-k">new</span> <span class="pl-v">BigNumber</span><span class="pl-kos">(</span><span class="pl-c1">0.3</span><span class="pl-kos">)</span>
+<span class="pl-s1">x</span><span class="pl-kos">.</span><span class="pl-en">minus</span><span class="pl-kos">(</span><span class="pl-c1">0.1</span><span class="pl-kos">)</span>                        <span class="pl-c">// "0.2"</span>
+<span class="pl-s1">x</span>                                   <span class="pl-c">// "0.3"</span></pre></div>
+<p dir="auto">The methods that return a BigNumber can be chained.</p>
+<div class="highlight highlight-source-js notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="x.dividedBy(y).plus(z).times(9)
+x.times('1.23456780123456789e+9').plus(9876.5432321).dividedBy('4444562598.111772').integerValue()"><pre><span class="pl-s1">x</span><span class="pl-kos">.</span><span class="pl-en">dividedBy</span><span class="pl-kos">(</span><span class="pl-s1">y</span><span class="pl-kos">)</span><span class="pl-kos">.</span><span class="pl-en">plus</span><span class="pl-kos">(</span><span class="pl-s1">z</span><span class="pl-kos">)</span><span class="pl-kos">.</span><span class="pl-en">times</span><span class="pl-kos">(</span><span class="pl-c1">9</span><span class="pl-kos">)</span>
+<span class="pl-s1">x</span><span class="pl-kos">.</span><span class="pl-en">times</span><span class="pl-kos">(</span><span class="pl-s">'1.23456780123456789e+9'</span><span class="pl-kos">)</span><span class="pl-kos">.</span><span class="pl-en">plus</span><span class="pl-kos">(</span><span class="pl-c1">9876.5432321</span><span class="pl-kos">)</span><span class="pl-kos">.</span><span class="pl-en">dividedBy</span><span class="pl-kos">(</span><span class="pl-s">'4444562598.111772'</span><span class="pl-kos">)</span><span class="pl-kos">.</span><span class="pl-en">integerValue</span><span class="pl-kos">(</span><span class="pl-kos">)</span></pre></div>
+<p dir="auto">Some of the longer method names have a shorter alias.</p>
+<div class="highlight highlight-source-js notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="x.squareRoot().dividedBy(y).exponentiatedBy(3).isEqualTo(x.sqrt().div(y).pow(3))    // true
+x.modulo(y).multipliedBy(z).eq(x.mod(y).times(z))                                   // true"><pre><span class="pl-s1">x</span><span class="pl-kos">.</span><span class="pl-en">squareRoot</span><span class="pl-kos">(</span><span class="pl-kos">)</span><span class="pl-kos">.</span><span class="pl-en">dividedBy</span><span class="pl-kos">(</span><span class="pl-s1">y</span><span class="pl-kos">)</span><span class="pl-kos">.</span><span class="pl-en">exponentiatedBy</span><span class="pl-kos">(</span><span class="pl-c1">3</span><span class="pl-kos">)</span><span class="pl-kos">.</span><span class="pl-en">isEqualTo</span><span class="pl-kos">(</span><span class="pl-s1">x</span><span class="pl-kos">.</span><span class="pl-en">sqrt</span><span class="pl-kos">(</span><span class="pl-kos">)</span><span class="pl-kos">.</span><span class="pl-en">div</span><span class="pl-kos">(</span><span class="pl-s1">y</span><span class="pl-kos">)</span><span class="pl-kos">.</span><span class="pl-en">pow</span><span class="pl-kos">(</span><span class="pl-c1">3</span><span class="pl-kos">)</span><span class="pl-kos">)</span>    <span class="pl-c">// true</span>
+<span class="pl-s1">x</span><span class="pl-kos">.</span><span class="pl-en">modulo</span><span class="pl-kos">(</span><span class="pl-s1">y</span><span class="pl-kos">)</span><span class="pl-kos">.</span><span class="pl-en">multipliedBy</span><span class="pl-kos">(</span><span class="pl-s1">z</span><span class="pl-kos">)</span><span class="pl-kos">.</span><span class="pl-en">eq</span><span class="pl-kos">(</span><span class="pl-s1">x</span><span class="pl-kos">.</span><span class="pl-en">mod</span><span class="pl-kos">(</span><span class="pl-s1">y</span><span class="pl-kos">)</span><span class="pl-kos">.</span><span class="pl-en">times</span><span class="pl-kos">(</span><span class="pl-s1">z</span><span class="pl-kos">)</span><span class="pl-kos">)</span>                                   <span class="pl-c">// true</span></pre></div>
+<p dir="auto">As with JavaScript's Number type, there are <a href="bignumber_e6a18fc0.js" rel="nofollow"><code>toExponential</code></a>, <a href="bignumber_c794e9ac.js" rel="nofollow"><code>toFixed</code></a> and <a href="bignumber_18cb0ac3.js" rel="nofollow"><code>toPrecision</code></a> methods.</p>
+<div class="highlight highlight-source-js notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="x = new BigNumber(255.5)
+x.toExponential(5)                  // &quot;2.55500e+2&quot;
+x.toFixed(5)                        // &quot;255.50000&quot;
+x.toPrecision(5)                    // &quot;255.50&quot;
+x.toNumber()                        //  255.5"><pre><span class="pl-s1">x</span> <span class="pl-c1">=</span> <span class="pl-k">new</span> <span class="pl-v">BigNumber</span><span class="pl-kos">(</span><span class="pl-c1">255.5</span><span class="pl-kos">)</span>
+<span class="pl-s1">x</span><span class="pl-kos">.</span><span class="pl-en">toExponential</span><span class="pl-kos">(</span><span class="pl-c1">5</span><span class="pl-kos">)</span>                  <span class="pl-c">// "2.55500e+2"</span>
+<span class="pl-s1">x</span><span class="pl-kos">.</span><span class="pl-en">toFixed</span><span class="pl-kos">(</span><span class="pl-c1">5</span><span class="pl-kos">)</span>                        <span class="pl-c">// "255.50000"</span>
+<span class="pl-s1">x</span><span class="pl-kos">.</span><span class="pl-en">toPrecision</span><span class="pl-kos">(</span><span class="pl-c1">5</span><span class="pl-kos">)</span>                    <span class="pl-c">// "255.50"</span>
+<span class="pl-s1">x</span><span class="pl-kos">.</span><span class="pl-en">toNumber</span><span class="pl-kos">(</span><span class="pl-kos">)</span>                        <span class="pl-c">//  255.5</span></pre></div>
+<p dir="auto">A base can be specified for <a href="bignumber_a82cc7e5.js" rel="nofollow"><code>toString</code></a>.</p>
+<div class="highlight highlight-source-js notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="x.toString(16)                     // &quot;ff.8&quot;"><pre><span class="pl-s1">x</span><span class="pl-kos">.</span><span class="pl-en">toString</span><span class="pl-kos">(</span><span class="pl-c1">16</span><span class="pl-kos">)</span>                     <span class="pl-c">// "ff.8"</span></pre></div>
+<p dir="auto"><em>Again, explicitly passing base 10 is not recommended as it will cause the slower base conversion path to be used, which is only necessary if an unconventional <code>ALPHABET</code> has been specified.</em></p>
+<p dir="auto">There is a <a href="bignumber_3ee0bc84.js" rel="nofollow"><code>toFormat</code></a> method which may be useful for internationalisation.</p>
+<div class="highlight highlight-source-js notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="y = new BigNumber('1234567.898765')
+y.toFormat({
+  prefix: '€',
+  decimalSeparator: ',',
+  groupSeparator: '.',
+  decimalPlaces: [0, 2]
+})                                  // &quot;€1.234.567,90&quot;"><pre><span class="pl-s1">y</span> <span class="pl-c1">=</span> <span class="pl-k">new</span> <span class="pl-v">BigNumber</span><span class="pl-kos">(</span><span class="pl-s">'1234567.898765'</span><span class="pl-kos">)</span>
+<span class="pl-s1">y</span><span class="pl-kos">.</span><span class="pl-en">toFormat</span><span class="pl-kos">(</span><span class="pl-kos">{</span>
+  <span class="pl-c1">prefix</span>: <span class="pl-s">'€'</span><span class="pl-kos">,</span>
+  <span class="pl-c1">decimalSeparator</span>: <span class="pl-s">','</span><span class="pl-kos">,</span>
+  <span class="pl-c1">groupSeparator</span>: <span class="pl-s">'.'</span><span class="pl-kos">,</span>
+  <span class="pl-c1">decimalPlaces</span>: <span class="pl-kos">[</span><span class="pl-c1">0</span><span class="pl-kos">,</span> <span class="pl-c1">2</span><span class="pl-kos">]</span>
+<span class="pl-kos">}</span><span class="pl-kos">)</span>                                  <span class="pl-c">// "€1.234.567,90"</span></pre></div>
+<p dir="auto">The maximum number of decimal places of the result of an operation involving division (i.e. a division, square root, base conversion or negative power operation) is set using the <code>set</code> or <code>config</code> method of the <code>BigNumber</code> constructor.</p>
+<p dir="auto">The other arithmetic operations always give the exact result.</p>
+<div class="highlight highlight-source-js notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="BigNumber.set({ DECIMAL_PLACES: 10, ROUNDING_MODE: 4 })
+
+x = new BigNumber(2)
+y = new BigNumber(3)
+z = x.dividedBy(y)                        // &quot;0.6666666667&quot;
+z.squareRoot()                            // &quot;0.8164965809&quot;
+z.exponentiatedBy(-3)                     // &quot;3.3749999995&quot;
+z.toString(2)                             // &quot;0.1010101011&quot;
+z.multipliedBy(z)                         // &quot;0.44444444448888888889&quot;
+z.multipliedBy(z).decimalPlaces(10)       // &quot;0.4444444445&quot;"><pre><span class="pl-v">BigNumber</span><span class="pl-kos">.</span><span class="pl-en">set</span><span class="pl-kos">(</span><span class="pl-kos">{</span> <span class="pl-c1">DECIMAL_PLACES</span>: <span class="pl-c1">10</span><span class="pl-kos">,</span> <span class="pl-c1">ROUNDING_MODE</span>: <span class="pl-c1">4</span> <span class="pl-kos">}</span><span class="pl-kos">)</span>
+
+<span class="pl-s1">x</span> <span class="pl-c1">=</span> <span class="pl-k">new</span> <span class="pl-v">BigNumber</span><span class="pl-kos">(</span><span class="pl-c1">2</span><span class="pl-kos">)</span>
+<span class="pl-s1">y</span> <span class="pl-c1">=</span> <span class="pl-k">new</span> <span class="pl-v">BigNumber</span><span class="pl-kos">(</span><span class="pl-c1">3</span><span class="pl-kos">)</span>
+<span class="pl-s1">z</span> <span class="pl-c1">=</span> <span class="pl-s1">x</span><span class="pl-kos">.</span><span class="pl-en">dividedBy</span><span class="pl-kos">(</span><span class="pl-s1">y</span><span class="pl-kos">)</span>                        <span class="pl-c">// "0.6666666667"</span>
+<span class="pl-s1">z</span><span class="pl-kos">.</span><span class="pl-en">squareRoot</span><span class="pl-kos">(</span><span class="pl-kos">)</span>                            <span class="pl-c">// "0.8164965809"</span>
+<span class="pl-s1">z</span><span class="pl-kos">.</span><span class="pl-en">exponentiatedBy</span><span class="pl-kos">(</span><span class="pl-c1">-</span><span class="pl-c1">3</span><span class="pl-kos">)</span>                     <span class="pl-c">// "3.3749999995"</span>
+<span class="pl-s1">z</span><span class="pl-kos">.</span><span class="pl-en">toString</span><span class="pl-kos">(</span><span class="pl-c1">2</span><span class="pl-kos">)</span>                             <span class="pl-c">// "0.1010101011"</span>
+<span class="pl-s1">z</span><span class="pl-kos">.</span><span class="pl-en">multipliedBy</span><span class="pl-kos">(</span><span class="pl-s1">z</span><span class="pl-kos">)</span>                         <span class="pl-c">// "0.44444444448888888889"</span>
+<span class="pl-s1">z</span><span class="pl-kos">.</span><span class="pl-en">multipliedBy</span><span class="pl-kos">(</span><span class="pl-s1">z</span><span class="pl-kos">)</span><span class="pl-kos">.</span><span class="pl-en">decimalPlaces</span><span class="pl-kos">(</span><span class="pl-c1">10</span><span class="pl-kos">)</span>       <span class="pl-c">// "0.4444444445"</span></pre></div>
+<p dir="auto">There is a <a href="bignumber_973d14fd.js" rel="nofollow"><code>toFraction</code></a> method with an optional <em>maximum denominator</em> argument</p>
+<div class="highlight highlight-source-js notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="y = new BigNumber(355)
+pi = y.dividedBy(113)               // &quot;3.1415929204&quot;
+pi.toFraction()                     // [ &quot;7853982301&quot;, &quot;2500000000&quot; ]
+pi.toFraction(1000)                 // [ &quot;355&quot;, &quot;113&quot; ]"><pre><span class="pl-s1">y</span> <span class="pl-c1">=</span> <span class="pl-k">new</span> <span class="pl-v">BigNumber</span><span class="pl-kos">(</span><span class="pl-c1">355</span><span class="pl-kos">)</span>
+<span class="pl-s1">pi</span> <span class="pl-c1">=</span> <span class="pl-s1">y</span><span class="pl-kos">.</span><span class="pl-en">dividedBy</span><span class="pl-kos">(</span><span class="pl-c1">113</span><span class="pl-kos">)</span>               <span class="pl-c">// "3.1415929204"</span>
+<span class="pl-s1">pi</span><span class="pl-kos">.</span><span class="pl-en">toFraction</span><span class="pl-kos">(</span><span class="pl-kos">)</span>                     <span class="pl-c">// [ "7853982301", "2500000000" ]</span>
+<span class="pl-s1">pi</span><span class="pl-kos">.</span><span class="pl-en">toFraction</span><span class="pl-kos">(</span><span class="pl-c1">1000</span><span class="pl-kos">)</span>                 <span class="pl-c">// [ "355", "113" ]</span></pre></div>
+<p dir="auto">and <a href="bignumber_f47191e8.js" rel="nofollow"><code>isNaN</code></a> and <a href="bignumber_8205f6a1.js" rel="nofollow"><code>isFinite</code></a> methods, as <code>NaN</code> and <code>Infinity</code> are valid <code>BigNumber</code> values.</p>
+<div class="highlight highlight-source-js notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="x = new BigNumber(NaN)                                           // &quot;NaN&quot;
+y = new BigNumber(Infinity)                                      // &quot;Infinity&quot;
+x.isNaN() &amp;&amp; !y.isNaN() &amp;&amp; !x.isFinite() &amp;&amp; !y.isFinite()        // true
+
+BigNumber.set({ STRICT: false })
+z = new BigNumber('zzz')                 
+z.isNaN()                                                        // true"><pre><span class="pl-s1">x</span> <span class="pl-c1">=</span> <span class="pl-k">new</span> <span class="pl-v">BigNumber</span><span class="pl-kos">(</span><span class="pl-v">NaN</span><span class="pl-kos">)</span>                                           <span class="pl-c">// "NaN"</span>
+<span class="pl-s1">y</span> <span class="pl-c1">=</span> <span class="pl-k">new</span> <span class="pl-v">BigNumber</span><span class="pl-kos">(</span><span class="pl-v">Infinity</span><span class="pl-kos">)</span>                                      <span class="pl-c">// "Infinity"</span>
+<span class="pl-s1">x</span><span class="pl-kos">.</span><span class="pl-en">isNaN</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-c1">&amp;&amp;</span> <span class="pl-c1">!</span><span class="pl-s1">y</span><span class="pl-kos">.</span><span class="pl-en">isNaN</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-c1">&amp;&amp;</span> <span class="pl-c1">!</span><span class="pl-s1">x</span><span class="pl-kos">.</span><span class="pl-en">isFinite</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-c1">&amp;&amp;</span> <span class="pl-c1">!</span><span class="pl-s1">y</span><span class="pl-kos">.</span><span class="pl-en">isFinite</span><span class="pl-kos">(</span><span class="pl-kos">)</span>        <span class="pl-c">// true</span>
+
+<span class="pl-v">BigNumber</span><span class="pl-kos">.</span><span class="pl-en">set</span><span class="pl-kos">(</span><span class="pl-kos">{</span> <span class="pl-c1">STRICT</span>: <span class="pl-c1">false</span> <span class="pl-kos">}</span><span class="pl-kos">)</span>
+<span class="pl-s1">z</span> <span class="pl-c1">=</span> <span class="pl-k">new</span> <span class="pl-v">BigNumber</span><span class="pl-kos">(</span><span class="pl-s">'zzz'</span><span class="pl-kos">)</span>                 
+<span class="pl-s1">z</span><span class="pl-kos">.</span><span class="pl-en">isNaN</span><span class="pl-kos">(</span><span class="pl-kos">)</span>                                                        <span class="pl-c">// true</span></pre></div>
+<p dir="auto">The value of a BigNumber is stored in a decimal floating point format in terms of a coefficient, exponent and sign.</p>
+<div class="highlight highlight-source-js notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="x = new BigNumber(-123.456);
+x.c                                 // [ 123, 45600000000000 ]  coefficient (i.e. significand)
+x.e                                 // 2                        exponent
+x.s                                 // -1                       sign"><pre><span class="pl-s1">x</span> <span class="pl-c1">=</span> <span class="pl-k">new</span> <span class="pl-v">BigNumber</span><span class="pl-kos">(</span><span class="pl-c1">-</span><span class="pl-c1">123.456</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
+<span class="pl-s1">x</span><span class="pl-kos">.</span><span class="pl-c1">c</span>                                 <span class="pl-c">// [ 123, 45600000000000 ]  coefficient (i.e. significand)</span>
+<span class="pl-s1">x</span><span class="pl-kos">.</span><span class="pl-c1">e</span>                                 <span class="pl-c">// 2                        exponent</span>
+<span class="pl-s1">x</span><span class="pl-kos">.</span><span class="pl-c1">s</span>                                 <span class="pl-c">// -1                       sign</span></pre></div>
+<p dir="auto">For advanced usage, multiple BigNumber constructors can be created, each with its own independent configuration.</p>
+<div class="highlight highlight-source-js notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="// Set DECIMAL_PLACES for the original BigNumber constructor
+BigNumber.set({ DECIMAL_PLACES: 10 })
+
+// Create another BigNumber constructor, optionally passing in a configuration object
+BN = BigNumber.clone({ DECIMAL_PLACES: 5 })
+
+x = new BigNumber(1)
+y = new BN(1)
+
+x.div(3)                            // '0.3333333333'
+y.div(3)                            // '0.33333'"><pre><span class="pl-c">// Set DECIMAL_PLACES for the original BigNumber constructor</span>
+<span class="pl-v">BigNumber</span><span class="pl-kos">.</span><span class="pl-en">set</span><span class="pl-kos">(</span><span class="pl-kos">{</span> <span class="pl-c1">DECIMAL_PLACES</span>: <span class="pl-c1">10</span> <span class="pl-kos">}</span><span class="pl-kos">)</span>
+
+<span class="pl-c">// Create another BigNumber constructor, optionally passing in a configuration object</span>
+<span class="pl-c1">BN</span> <span class="pl-c1">=</span> <span class="pl-v">BigNumber</span><span class="pl-kos">.</span><span class="pl-en">clone</span><span class="pl-kos">(</span><span class="pl-kos">{</span> <span class="pl-c1">DECIMAL_PLACES</span>: <span class="pl-c1">5</span> <span class="pl-kos">}</span><span class="pl-kos">)</span>
+
+<span class="pl-s1">x</span> <span class="pl-c1">=</span> <span class="pl-k">new</span> <span class="pl-v">BigNumber</span><span class="pl-kos">(</span><span class="pl-c1">1</span><span class="pl-kos">)</span>
+<span class="pl-s1">y</span> <span class="pl-c1">=</span> <span class="pl-k">new</span> <span class="pl-c1">BN</span><span class="pl-kos">(</span><span class="pl-c1">1</span><span class="pl-kos">)</span>
+
+<span class="pl-s1">x</span><span class="pl-kos">.</span><span class="pl-en">div</span><span class="pl-kos">(</span><span class="pl-c1">3</span><span class="pl-kos">)</span>                            <span class="pl-c">// '0.3333333333'</span>
+<span class="pl-s1">y</span><span class="pl-kos">.</span><span class="pl-en">div</span><span class="pl-kos">(</span><span class="pl-c1">3</span><span class="pl-kos">)</span>                            <span class="pl-c">// '0.33333'</span></pre></div>
+<p dir="auto">To avoid having to call <code>toString</code> or <code>valueOf</code> on a BigNumber to get its value in the Node.js REPL or when using <code>console.log</code> use</p>
+<div class="highlight highlight-source-js notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="BigNumber.prototype[require('util').inspect.custom] = BigNumber.prototype.valueOf;"><pre><span class="pl-v">BigNumber</span><span class="pl-kos">.</span><span class="pl-c1">prototype</span><span class="pl-kos">[</span><span class="pl-en">require</span><span class="pl-kos">(</span><span class="pl-s">'util'</span><span class="pl-kos">)</span><span class="pl-kos">.</span><span class="pl-c1">inspect</span><span class="pl-kos">.</span><span class="pl-c1">custom</span><span class="pl-kos">]</span> <span class="pl-c1">=</span> <span class="pl-v">BigNumber</span><span class="pl-kos">.</span><span class="pl-c1">prototype</span><span class="pl-kos">.</span><span class="pl-c1">valueOf</span><span class="pl-kos">;</span></pre></div>
+<p dir="auto">For further information see the <a href="bignumber_7a45f87c.js" rel="nofollow">API</a> reference in the <em>doc</em> directory.</p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto">Test</h2><a id="user-content-test" class="anchor" aria-label="Permalink: Test" href="#test"><svg data-component="Octicon" class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto">The <em>test/methods</em> directory contains the test scripts for each method.</p>
+<p dir="auto">The tests can be run with Node.js or a browser. The tests require the CommonJS distributable, so <strong>build before testing</strong>:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="npm run build
+npm test
+# or: node test/test"><pre>npm run build
+npm <span class="pl-c1">test</span>
+<span class="pl-c"><span class="pl-c">#</span> or: node test/test</span></pre></div>
+<p dir="auto">To test a single method, use, for example</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="node test/methods/toFraction"><pre>node test/methods/toFraction</pre></div>
+<p dir="auto">For the browser, open <em>test/test.html</em>.</p>
+<p dir="auto">There are also some old programs in <em>perf</em> that still work and can be useful for testing and cross-checking results over large sets of random inputs.</p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto">TypeScript</h3><a id="user-content-typescript" class="anchor" aria-label="Permalink: TypeScript" href="#typescript"><svg data-component="Octicon" class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto">The <em>test/typescript</em> directory contains TypeScript compilation tests that verify the type declarations and imports work correctly for each module format. Run them with:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="npm run typecheck"><pre>npm run typecheck</pre></div>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto">Minify</h2><a id="user-content-minify" class="anchor" aria-label="Permalink: Minify" href="#minify"><svg data-component="Octicon" class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto">To minify using, for example, <a href="https://github.com/terser/terser">terser</a>:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="npm install -g terser"><pre>npm install -g terser</pre></div>
+<p dir="auto">Minify the browser/global bundle:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="terser dist/bignumber.js -c -m -o dist/bignumber.min.js"><pre>terser dist/bignumber.js -c -m -o dist/bignumber.min.js</pre></div>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto">Licence</h2><a id="user-content-licence" class="anchor" aria-label="Permalink: Licence" href="#licence"><svg data-component="Octicon" class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto">The MIT Licence.</p>
+<p dir="auto">See <a href="bignumber_1f174efa.js/blob/main/LICENCE.md">LICENCE</a>.</p>
+</article></div></div></div></div></div></div></div><div class="prc-PageLayout-PaneWrapper-pHPop pr-2" style="--offset-header:0px;--spacing-row:var(--spacing-none);--spacing-column:var(--spacing-none)" data-is-hidden="false" data-position="end"><div class="prc-PageLayout-HorizontalDivider-JLVqp prc-PageLayout-PaneHorizontalDivider-9tbnE" data-component="PageLayout.HorizontalDivider" data-variant-narrow="none" data-variant-regular="none" data-position="end" style="--spacing-divider:var(--spacing-none);--spacing:var(--spacing-none)"></div><div class="prc-PageLayout-Pane-AyzHK" data-component="PageLayout.Pane" style="--spacing:var(--spacing-normal);--pane-min-width:256px;--pane-max-width:calc(100vw - var(--pane-max-width-diff));--pane-width-size:var(--pane-width-large);--pane-width:320px"><rails-partial data-partial-name="codeViewRepoRoute.Sidebar" class="RailsPartial-module__d-contents__G5m4w">
+
+<div class="BorderGrid ">
+  <div class="BorderGrid-row">
+    <div class="BorderGrid-cell">
+      <div class="hide-sm hide-md">
+  <h2 class="tmp-mb-3 h4">About</h2>
+
+      <p class="f4 tmp-my-3">
+        A JavaScript library for arbitrary-precision decimal and non-decimal arithmetic 
+      </p>
+      <div class="tmp-my-3 d-flex flex-items-center">
+        <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-link flex-shrink-0 mr-2 tmp-mr-2">
+    <path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path>
+</svg>
+        <span class="flex-auto min-width-0 css-truncate css-truncate-target width-fit">
+          <a title="bignumber_6999eb0b.js" role="link" target="_blank" rel="noopener noreferrer nofollow" class="text-bold" href="bignumber_6999eb0b.js">mikemcl.github.io/bignumber.js</a>
+        </span>
+      </div>
+
+    <h3 class="sr-only">Topics</h3>
+    <div class="tmp-my-3">
+        <div class="f6">
+      <a href="/topics/javascript" title="Topic: javascript" data-view-component="true" class="topic-tag topic-tag-link">
+  javascript
+</a>
+      <a href="/topics/arbitrary-precision" title="Topic: arbitrary-precision" data-view-component="true" class="topic-tag topic-tag-link">
+  arbitrary-precision
+</a>
+      <a href="/topics/bigdecimal" title="Topic: bigdecimal" data-view-component="true" class="topic-tag topic-tag-link">
+  bigdecimal
+</a>
+      <a href="/topics/bignumber" title="Topic: bignumber" data-view-component="true" class="topic-tag topic-tag-link">
+  bignumber
+</a>
+      <a href="/topics/decimal-places" title="Topic: decimal-places" data-view-component="true" class="topic-tag topic-tag-link">
+  decimal-places
+</a>
+  </div>
+
+    </div>
+
+    <h3 class="sr-only">Resources</h3>
+    <div class="mt-2">
+      <a class="Link--muted" data-analytics-event="{&quot;category&quot;:&quot;Repository Overview&quot;,&quot;action&quot;:&quot;click&quot;,&quot;label&quot;:&quot;location:sidebar;file:readme&quot;}" href="#readme-ov-file">
+        <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-book mr-2 tmp-mr-2">
+    <path d="M0 1.75A.75.75 0 0 1 .75 1h4.253c1.227 0 2.317.59 3 1.501A3.743 3.743 0 0 1 11.006 1h4.245a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75h-4.507a2.25 2.25 0 0 0-1.591.659l-.622.621a.75.75 0 0 1-1.06 0l-.622-.621A2.25 2.25 0 0 0 5.258 13H.75a.75.75 0 0 1-.75-.75Zm7.251 10.324.004-5.073-.002-2.253A2.25 2.25 0 0 0 5.003 2.5H1.5v9h3.757a3.75 3.75 0 0 1 1.994.574ZM8.755 4.75l-.004 7.322a3.752 3.752 0 0 1 1.992-.572H14.5v-9h-3.495a2.25 2.25 0 0 0-2.25 2.25Z"></path>
+</svg>
+        Readme
+</a>    </div>
+
+  
+    <h3 class="sr-only">License</h3>
+  <div class="mt-2">
+    <a href="#MIT-1-ov-file"
+      class="Link--muted"
+      
+      data-analytics-event="{&quot;category&quot;:&quot;Repository Overview&quot;,&quot;action&quot;:&quot;click&quot;,&quot;label&quot;:&quot;location:sidebar;file:license&quot;}"
+    >
+      <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-law mr-1 mr-sm-1 mr-md-2 mr-lg-2">
+    <path d="M8.75.75V2h.985c.304 0 .603.08.867.231l1.29.736c.038.022.08.033.124.033h2.234a.75.75 0 0 1 0 1.5h-.427l2.111 4.692a.75.75 0 0 1-.154.838l-.53-.53.529.531-.001.002-.002.002-.006.006-.006.005-.01.01-.045.04c-.21.176-.441.327-.686.45C14.556 10.78 13.88 11 13 11a4.498 4.498 0 0 1-2.023-.454 3.544 3.544 0 0 1-.686-.45l-.045-.04-.016-.015-.006-.006-.004-.004v-.001a.75.75 0 0 1-.154-.838L12.178 4.5h-.162c-.305 0-.604-.079-.868-.231l-1.29-.736a.245.245 0 0 0-.124-.033H8.75V13h2.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5h2.5V3.5h-.984a.245.245 0 0 0-.124.033l-1.289.737c-.265.15-.564.23-.869.23h-.162l2.112 4.692a.75.75 0 0 1-.154.838l-.53-.53.529.531-.001.002-.002.002-.006.006-.016.015-.045.04c-.21.176-.441.327-.686.45C4.556 10.78 3.88 11 3 11a4.498 4.498 0 0 1-2.023-.454 3.544 3.544 0 0 1-.686-.45l-.045-.04-.016-.015-.006-.006-.004-.004v-.001a.75.75 0 0 1-.154-.838L2.178 4.5H1.75a.75.75 0 0 1 0-1.5h2.234a.249.249 0 0 0 .125-.033l1.288-.737c.265-.15.564-.23.869-.23h.984V.75a.75.75 0 0 1 1.5 0Zm2.945 8.477c.285.135.718.273 1.305.273s1.02-.138 1.305-.273L13 6.327Zm-10 0c.285.135.718.273 1.305.273s1.02-.138 1.305-.273L3 6.327Z"></path>
+</svg>
+     MIT license
+    </a>
+  </div>
+
+
+
+
+
+
+  <include-fragment src="/MikeMcl/bignumber.js/hovercards/citation/sidebar_partial?tree_name=main" data-nonce="v2:6e156717-b4c1-4310-3edb-84f40d5db18c" data-view-component="true">
+  
+
+  <div data-show-on-forbidden-error hidden>
+    <div class="Box">
+  <div class="blankslate-container">
+    <div data-view-component="true" class="blankslate blankslate-spacious color-bg-default rounded-2">
+      
+
+      <h3 data-view-component="true" class="blankslate-heading">        Uh oh!
+</h3>
+      <p data-view-component="true" class="blankslate-description">        <p class="color-fg-muted my-2 mb-2 ws-normal">There was an error while loading. <a class="Link--inTextBlock" data-turbo="false" href="" aria-label="Please reload this page">Please reload this page</a>.</p>
+</p>
+
+</div>  </div>
+</div>  </div>
+</include-fragment>
+    <div class="mt-2">
+      <a href="/MikeMcl/bignumber.js/activity" data-view-component="true" class="Link Link--muted"><svg text="gray" aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-pulse mr-2 tmp-mr-2">
+    <path d="M6 2c.306 0 .582.187.696.471L10 10.731l1.304-3.26A.751.751 0 0 1 12 7h3.25a.75.75 0 0 1 0 1.5h-2.742l-1.812 4.528a.751.751 0 0 1-1.392 0L6 4.77 4.696 8.03A.75.75 0 0 1 4 8.5H.75a.75.75 0 0 1 0-1.5h2.742l1.812-4.529A.751.751 0 0 1 6 2Z"></path>
+</svg>
+        <span class="color-fg-muted">Activity</span></a>    </div>
+
+
+    <h3 class="sr-only">Stars</h3>
+    <div class="mt-2">
+        <a href="/MikeMcl/bignumber.js/stargazers" data-view-component="true" class="Link Link--muted"><svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star mr-2 tmp-mr-2">
+    <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Zm0 2.445L6.615 5.5a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 0 0 1-.564-.41L8 2.694Z"></path>
+</svg>
+          <strong>7k</strong>
+          stars</a>    </div>
+
+    <h3 class="sr-only">Watchers</h3>
+    <div class="mt-2">
+        <a href="/MikeMcl/bignumber.js/watchers" data-view-component="true" class="Link Link--muted"><svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-eye mr-2 tmp-mr-2">
+    <path d="M8 2c1.981 0 3.671.992 4.933 2.078 1.27 1.091 2.187 2.345 2.637 3.023a1.62 1.62 0 0 1 0 1.798c-.45.678-1.367 1.932-2.637 3.023C11.67 13.008 9.981 14 8 14c-1.981 0-3.671-.992-4.933-2.078C1.797 10.83.88 9.576.43 8.898a1.62 1.62 0 0 1 0-1.798c.45-.677 1.367-1.931 2.637-3.022C4.33 2.992 6.019 2 8 2ZM1.679 7.932a.12.12 0 0 0 0 .136c.411.622 1.241 1.75 2.366 2.717C5.176 11.758 6.527 12.5 8 12.5c1.473 0 2.825-.742 3.955-1.715 1.124-.967 1.954-2.096 2.366-2.717a.12.12 0 0 0 0-.136c-.412-.621-1.242-1.75-2.366-2.717C10.824 4.242 9.473 3.5 8 3.5c-1.473 0-2.825.742-3.955 1.715-1.124.967-1.954 2.096-2.366 2.717ZM8 10a2 2 0 1 1-.001-3.999A2 2 0 0 1 8 10Z"></path>
+</svg>
+          <strong>78</strong>
+          watching</a>    </div>
+
+    <h3 class="sr-only">Forks</h3>
+    <div class="mt-2">
+      <a href="/MikeMcl/bignumber.js/forks" data-view-component="true" class="Link Link--muted"><svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo-forked mr-2 tmp-mr-2">
+    <path d="M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0ZM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-3 8.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"></path>
+</svg>
+        <strong>753</strong>
+        forks</a>    </div>
+
+
+    <div class="mt-2">
+      <a class="Link--muted" href="/contact/report-content?content_url=https%3A%2F%2Fgithub.com%2FMikeMcl%2Fbignumber.js&amp;report=MikeMcl+%28user%29">
+          Report repository
+</a>    </div>
+</div>
+
+    </div>
+  </div>
+
+  
+      <div class="BorderGrid-row">
+        <div class="BorderGrid-cell">
+          <h2 class="h4 tmp-mb-3" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame">
+  <a href="/MikeMcl/bignumber.js/releases" data-view-component="true" class="Link--primary no-underline Link">Releases
+      <span title="1" data-view-component="true" class="Counter">1</span></a></h2>
+
+  <a class="Link--primary d-flex no-underline" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/MikeMcl/bignumber.js/releases/tag/v11.1.3">
+    <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-tag flex-shrink-0 mt-1 tmp-mt-1 color-fg-success">
+    <path d="M1 7.775V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 0 1 0 2.474l-5.026 5.026a1.75 1.75 0 0 1-2.474 0l-6.25-6.25A1.752 1.752 0 0 1 1 7.775Zm1.5 0c0 .066.026.13.073.177l6.25 6.25a.25.25 0 0 0 .354 0l5.025-5.025a.25.25 0 0 0 0-.354l-6.25-6.25a.25.25 0 0 0-.177-.073H2.75a.25.25 0 0 0-.25.25ZM6 5a1 1 0 1 1 0 2 1 1 0 0 1 0-2Z"></path>
+</svg>
+    <div class="ml-2 min-width-0">
+      <div class="d-flex">
+        <span class="css-truncate css-truncate-target text-bold mr-2" style="max-width: none;">v11.1.3</span>
+        <span title="Label: Latest" data-view-component="true" class="Label Label--success flex-shrink-0">
+          Latest
+</span>      </div>
+      <div class="text-small color-fg-muted"><relative-time datetime="2026-04-30T19:21:54Z" class="no-wrap">Apr 30, 2026</relative-time></div>
+    </div>
+</a>
+        </div>
+      </div>
+
+  
+  
+  
+      <div class="BorderGrid-row">
+        <div class="BorderGrid-cell">
+          
+<include-fragment aria-busy="true" aria-label="Loading latest packages" src="/MikeMcl/bignumber.js/packages_list?current_repository=bignumber.js" data-nonce="v2:6e156717-b4c1-4310-3edb-84f40d5db18c" data-view-component="true">
+  
+  <h2 class="h4 tmp-mb-3">
+  <a href="/users/MikeMcl/packages?repo_name=bignumber.js" data-view-component="true" class="Link--primary no-underline Link d-flex flex-items-center">Packages
+      <span title="0" hidden="hidden" data-view-component="true" class="Counter ml-1 tmp-ml-1">0</span></a></h2>
+
+
+      <div class="mb-2 d-flex flex-items-center">
+        <div class="Skeleton mr-2" style="width:20px;height:20px;"></div>
+        <div class="Skeleton Skeleton--text flex-auto">&nbsp;</div>
+      </div>
+      <div class="mb-2 d-flex flex-items-center">
+        <div class="Skeleton mr-2" style="width:20px;height:20px;"></div>
+        <div class="Skeleton Skeleton--text flex-auto">&nbsp;</div>
+      </div>
+      <div class="mb-2 d-flex flex-items-center">
+        <div class="Skeleton mr-2" style="width:20px;height:20px;"></div>
+        <div class="Skeleton Skeleton--text flex-auto">&nbsp;</div>
+      </div>
+
+
+
+  <div data-show-on-forbidden-error hidden>
+    <div class="Box">
+  <div class="blankslate-container">
+    <div data-view-component="true" class="blankslate blankslate-spacious color-bg-default rounded-2">
+      
+
+      <h3 data-view-component="true" class="blankslate-heading">        Uh oh!
+</h3>
+      <p data-view-component="true" class="blankslate-description">        <p class="color-fg-muted my-2 mb-2 ws-normal">There was an error while loading. <a class="Link--inTextBlock" data-turbo="false" href="" aria-label="Please reload this page">Please reload this page</a>.</p>
+</p>
+
+</div>  </div>
+</div>  </div>
+</include-fragment>
+        </div>
+      </div>
+
+  
+      <div class="BorderGrid-row" hidden>
+        <div class="BorderGrid-cell">
+          <include-fragment src="/MikeMcl/bignumber.js/used_by_list" accept="text/fragment+html" data-nonce="v2:6e156717-b4c1-4310-3edb-84f40d5db18c" data-view-component="true">
+  
+
+  <div data-show-on-forbidden-error hidden>
+    <div class="Box">
+  <div class="blankslate-container">
+    <div data-view-component="true" class="blankslate blankslate-spacious color-bg-default rounded-2">
+      
+
+      <h3 data-view-component="true" class="blankslate-heading">        Uh oh!
+</h3>
+      <p data-view-component="true" class="blankslate-description">        <p class="color-fg-muted my-2 mb-2 ws-normal">There was an error while loading. <a class="Link--inTextBlock" data-turbo="false" href="" aria-label="Please reload this page">Please reload this page</a>.</p>
+</p>
+
+</div>  </div>
+</div>  </div>
+</include-fragment>
+        </div>
+      </div>
+
+  
+    <div class="BorderGrid-row">
+      <div class="BorderGrid-cell">
+        <include-fragment aria-busy="true" aria-label="Loading contributors" src="/MikeMcl/bignumber.js/contributors_list?current_repository=bignumber.js&amp;deferred=true" data-nonce="v2:6e156717-b4c1-4310-3edb-84f40d5db18c" data-view-component="true">
+  
+  <h2 class="h4 tmp-mb-3">
+    <a href="/MikeMcl/bignumber.js/graphs/contributors" data-view-component="true" class="Link--primary no-underline Link d-flex flex-items-center">Contributors</a>  </h2>
+
+  <ul class="list-style-none d-flex flex-wrap mb-n2">
+      <li class="mb-2">
+        <div class="Skeleton avatar avatar-user mr-2" style="width:32px;height:32px;"></div>
+      </li>
+      <li class="mb-2">
+        <div class="Skeleton avatar avatar-user mr-2" style="width:32px;height:32px;"></div>
+      </li>
+      <li class="mb-2">
+        <div class="Skeleton avatar avatar-user mr-2" style="width:32px;height:32px;"></div>
+      </li>
+  </ul>
+
+  <div data-show-on-forbidden-error hidden>
+    <div class="Box">
+  <div class="blankslate-container">
+    <div data-view-component="true" class="blankslate blankslate-spacious color-bg-default rounded-2">
+      
+
+      <h3 data-view-component="true" class="blankslate-heading">        Uh oh!
+</h3>
+      <p data-view-component="true" class="blankslate-description">        <p class="color-fg-muted my-2 mb-2 ws-normal">There was an error while loading. <a class="Link--inTextBlock" data-turbo="false" href="" aria-label="Please reload this page">Please reload this page</a>.</p>
+</p>
+
+</div>  </div>
+</div>  </div>
+</include-fragment>
+      </div>
+    </div>
+
+  
+      <div class="BorderGrid-row">
+        <div class="BorderGrid-cell">
+          <h2 class="h4 tmp-mb-3">Languages</h2>
+<div class="mb-2">
+  <span data-view-component="true" class="Progress">
+    <span style="background-color:#f1e05a !important;;width: 98.7%;" itemprop="keywords" data-view-component="true" class="Progress-item color-bg-success-emphasis"></span>
+    <span style="background-color:#e34c26 !important;;width: 1.1%;" itemprop="keywords" data-view-component="true" class="Progress-item color-bg-success-emphasis"></span>
+    <span style="background-color:#ededed !important;;width: 0.2%;" itemprop="keywords" data-view-component="true" class="Progress-item color-bg-success-emphasis"></span>
+</span></div>
+<ul class="list-style-none">
+    <li class="d-inline">
+        <a class="d-inline-flex flex-items-center flex-nowrap Link--secondary no-underline text-small tmp-mr-3" href="/MikeMcl/bignumber.js/search?l=javascript"  data-ga-click="Repository, language stats search click, location:repo overview">
+          <svg style="color:#f1e05a;" aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-dot-fill mr-2 tmp-mr-2">
+    <path d="M8 4a4 4 0 1 1 0 8 4 4 0 0 1 0-8Z"></path>
+</svg>
+          <span class="color-fg-default text-bold mr-1">JavaScript</span>
+          <span>98.7%</span>
+        </a>
+    </li>
+    <li class="d-inline">
+        <a class="d-inline-flex flex-items-center flex-nowrap Link--secondary no-underline text-small tmp-mr-3" href="/MikeMcl/bignumber.js/search?l=html"  data-ga-click="Repository, language stats search click, location:repo overview">
+          <svg style="color:#e34c26;" aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-dot-fill mr-2 tmp-mr-2">
+    <path d="M8 4a4 4 0 1 1 0 8 4 4 0 0 1 0-8Z"></path>
+</svg>
+          <span class="color-fg-default text-bold mr-1">HTML</span>
+          <span>1.1%</span>
+        </a>
+    </li>
+    <li class="d-inline">
+      <span class="d-inline-flex flex-items-center flex-nowrap text-small tmp-mr-3">
+        <svg style="color:#ededed;" aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-dot-fill mr-2 tmp-mr-2">
+    <path d="M8 4a4 4 0 1 1 0 8 4 4 0 0 1 0-8Z"></path>
+</svg>
+        <span class="color-fg-default text-bold mr-1">Other</span>
+        <span>0.2%</span>
+      </span>
+    </li>
+</ul>
+
+        </div>
+      </div>
+
+  
+  </div>
+</rails-partial></div><div class="prc-PageLayout-VerticalDivider-9QRmK prc-PageLayout-PaneVerticalDivider-le57g" data-component="PageLayout.VerticalDivider" data-variant-narrow="none" data-variant-regular="none" data-position="end" style="--spacing:var(--spacing-none)"></div></div></div></div></div></div></div></div></div></div></div><div class="ScrollMarksContainer-module__scrollMarksContainer__Eu7uU" id="find-result-marks-container"></div><div class="d-none"></div><div class="d-none"></div></div> <!-- --> <!-- --> </div>
+</react-app>
+
+
+
+
+  </div>
+
+</turbo-frame>
+
+    </main>
+  </div>
+
+  </div>
+
+          <footer class="footer tmp-pt-7 tmp-pb-6 f6 color-fg-muted color-border-subtle p-responsive" role="contentinfo" >
+  <h2 class='sr-only'>Footer</h2>
+
+  
+
+
+  <div class="d-flex flex-justify-center flex-items-center flex-column-reverse flex-lg-row flex-wrap flex-lg-nowrap">
+    <div class="d-flex flex-items-center flex-shrink-0 mx-2">
+      <a aria-label="GitHub Homepage" class="footer-octicon mr-2" href="https://github.com">
+        <svg aria-hidden="true" data-component="Octicon" height="24" viewBox="0 0 24 24" version="1.1" width="24" data-view-component="true" class="octicon octicon-mark-github">
+    <path d="M10.226 17.284c-2.965-.36-5.054-2.493-5.054-5.256 0-1.123.404-2.336 1.078-3.144-.292-.741-.247-2.314.09-2.965.898-.112 2.111.36 2.83 1.01.853-.269 1.752-.404 2.853-.404 1.1 0 1.999.135 2.807.382.696-.629 1.932-1.1 2.83-.988.315.606.36 2.179.067 2.942.72.854 1.101 2 1.101 3.167 0 2.763-2.089 4.852-5.098 5.234.763.494 1.28 1.572 1.28 2.807v2.336c0 .674.561 1.056 1.235.786 4.066-1.55 7.255-5.615 7.255-10.646C23.5 6.188 18.334 1 11.978 1 5.62 1 .5 6.188.5 12.545c0 4.986 3.167 9.12 7.435 10.669.606.225 1.19-.18 1.19-.786V20.63a2.9 2.9 0 0 1-1.078.224c-1.483 0-2.359-.808-2.987-2.313-.247-.607-.517-.966-1.034-1.033-.27-.023-.359-.135-.359-.27 0-.27.45-.471.898-.471.652 0 1.213.404 1.797 1.235.45.651.921.943 1.483.943.561 0 .92-.202 1.437-.719.382-.381.674-.718.944-.943"></path>
+</svg>
+</a>
+      <span>
+        &copy; 2026 GitHub,&nbsp;Inc.
+      </span>
+    </div>
+
+    <nav aria-label="Footer">
+      <h3 class="sr-only" id="sr-footer-heading">Footer navigation</h3>
+
+      <ul class="list-style-none d-flex flex-justify-center flex-wrap mb-2 mb-lg-0" aria-labelledby="sr-footer-heading">
+
+
+          <li class="mx-2">
+            <a data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to Terms&quot;,&quot;label&quot;:&quot;text:terms&quot;}" href="https://docs.github.com/site-policy/github-terms/github-terms-of-service" data-view-component="true" class="Link--secondary Link">Terms</a>
+          </li>
+
+          <li class="mx-2">
+            <a data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to privacy&quot;,&quot;label&quot;:&quot;text:privacy&quot;}" href="https://docs.github.com/site-policy/privacy-policies/github-privacy-statement" data-view-component="true" class="Link--secondary Link">Privacy</a>
+          </li>
+
+          <li class="mx-2">
+            <a data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to security&quot;,&quot;label&quot;:&quot;text:security&quot;}" href="https://github.com/security" data-view-component="true" class="Link--secondary Link">Security</a>
+          </li>
+
+          <li class="mx-2">
+            <a data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to status&quot;,&quot;label&quot;:&quot;text:status&quot;}" href="https://www.githubstatus.com/" data-view-component="true" class="Link--secondary Link">Status</a>
+          </li>
+
+          <li class="mx-2">
+            <a data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to community&quot;,&quot;label&quot;:&quot;text:community&quot;}" href="https://github.community/" data-view-component="true" class="Link--secondary Link">Community</a>
+          </li>
+
+          <li class="mx-2">
+            <a data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to docs&quot;,&quot;label&quot;:&quot;text:docs&quot;}" href="https://docs.github.com/" data-view-component="true" class="Link--secondary Link">Docs</a>
+          </li>
+
+          <li class="mx-2">
+            <a data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to contact&quot;,&quot;label&quot;:&quot;text:contact&quot;}" href="https://support.github.com?tags=dotcom-footer" data-view-component="true" class="Link--secondary Link">Contact</a>
+          </li>
+
+          <li class="mx-2" >
+  <cookie-consent-link>
+    <button
+      type="button"
+      class="Link--secondary underline-on-hover border-0 p-0 color-bg-transparent"
+      data-action="click:cookie-consent-link#showConsentManagement"
+      data-analytics-event="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;cookies&quot;,&quot;context&quot;:&quot;subfooter&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;cookies_link_subfooter_footer&quot;}"
+    >
+       Manage cookies
+    </button>
+  </cookie-consent-link>
+</li>
+
+<li class="mx-2">
+  <cookie-consent-link>
+    <button
+      type="button"
+      class="Link--secondary underline-on-hover border-0 p-0 color-bg-transparent text-left"
+      data-action="click:cookie-consent-link#showConsentManagement"
+      data-analytics-event="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;dont_share_info&quot;,&quot;context&quot;:&quot;subfooter&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;dont_share_info_link_subfooter_footer&quot;}"
+    >
+      Do not share my personal information
+    </button>
+  </cookie-consent-link>
+</li>
+
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+
+
+    <ghcc-consent id="ghcc" class="position-fixed bottom-0 left-0" style="z-index: 999999"
+      data-locale="en"
+      data-initial-cookie-consent-allowed=""
+      data-cookie-consent-required="true"
+    ></ghcc-consent>
+
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error" hidden>
+    <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
+</svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
+</svg>
+    </button>
+    You can’t perform that action at this time.
+  </div>
+
+    <template id="site-details-dialog">
+  <details class="details-reset details-overlay details-overlay-dark lh-default color-fg-default hx_rsm" open>
+    <summary role="button" aria-label="Close dialog"></summary>
+    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast hx_rsm-dialog hx_rsm-modal">
+      <button class="Box-btn-octicon m-0 btn-octicon position-absolute right-0 top-0" type="button" aria-label="Close dialog" data-close-dialog>
+        <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
+</svg>
+      </button>
+      <div class="octocat-spinner tmp-my-6 js-details-dialog-spinner"></div>
+    </details-dialog>
+  </details>
+</template>
+
+    <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box color-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+    <template id="snippet-clipboard-copy-button">
+  <div class="zeroclipboard-container position-absolute right-0 top-0">
+    <clipboard-copy aria-label="Copy code to clipboard" class="ClipboardButton btn js-clipboard-copy m-2 p-0" data-copy-feedback="Copied!" data-tooltip-direction="w">
+      <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon m-2 tmp-m-2">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none m-2 tmp-m-2">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div>
+</template>
+<template id="snippet-clipboard-copy-button-unpositioned">
+  <div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy code to clipboard" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w">
+      <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" data-component="Octicon" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div>
+</template>
+
+
+
+
+    </div>
+    <div id="js-global-screen-reader-notice" class="sr-only mt-n1" aria-live="polite" aria-atomic="true" ></div>
+    <div id="js-global-screen-reader-notice-assertive" class="sr-only mt-n1" aria-live="assertive" aria-atomic="true"></div>
+  </body>
+</html>
+

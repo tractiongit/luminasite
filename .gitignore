@@ -1,0 +1,15 @@
+# Logs
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Original HTML (not needed in repo)
+original_index.html
+
+# Backup
+clone_backup/
+
+# Node
+node_modules/
