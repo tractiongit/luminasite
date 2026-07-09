@@ -243,23 +243,21 @@ h1, h2, h3, h4, h5, h6 {
   background: currentColor;
 }
 
-/* Reveal animations */
-.reveal {
-  opacity: 0;
-  transform: translateY(30px);
-  transition: opacity var(--transition-smooth), transform var(--transition-smooth);
-}
-
+/* Reveal animations - disabled */
+.reveal,
 .reveal.active {
   opacity: 1;
-  transform: translateY(0);
+  transform: none;
+  transition: none;
 }
 
-.reveal-delay-1 { transition-delay: 0.1s; }
-.reveal-delay-2 { transition-delay: 0.2s; }
-.reveal-delay-3 { transition-delay: 0.3s; }
-.reveal-delay-4 { transition-delay: 0.4s; }
-.reveal-delay-5 { transition-delay: 0.5s; }
+.reveal-delay-1,
+.reveal-delay-2,
+.reveal-delay-3,
+.reveal-delay-4,
+.reveal-delay-5 {
+  transition-delay: 0s;
+}
 
 /* Image treatments */
 .img-cover {
@@ -775,14 +773,5 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Smooth image loading */
 img {
-  opacity: 1;
-  transition: opacity 0.5s ease;
-}
-
-img[loading] {
-  opacity: 0;
-}
-
-img.loaded {
   opacity: 1;
 }
