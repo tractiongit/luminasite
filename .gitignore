@@ -1,15 +1,21 @@
-# Logs
-*.log
+# Source assets (already optimized and copied to assets/)
+Fonte/
+IMGS/
+Fonte-*.zip
 
-# Python cache
+# Python scripts and logs
+*.py
+*.log
 __pycache__/
 *.pyc
 
-# Original HTML (not needed in repo)
-original_index.html
+# Temporary extracted files
+extracted_*.txt
 
-# Backup
+# Original/backup files
+original_index.html
 clone_backup/
+README.md
 
 # Node
 node_modules/
