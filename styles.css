@@ -80,10 +80,31 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
 }
 
+/* Warning bar */
+.warning-bar {
+  background: #3f7c51;
+  color: #fff;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 51;
+}
+
+.warning-bar p {
+  margin: 0;
+  line-height: 1.4;
+}
+
 /* Header */
 .site-header {
   position: fixed;
-  top: 0;
+  top: 2.1rem;
   left: 0;
   right: 0;
   z-index: 50;

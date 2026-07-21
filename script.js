@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
       e.preventDefault();
       const target = document.querySelector(this.getAttribute('href'));
       if (target) {
-        const headerOffset = 80;
+        const headerOffset = 110;
         const elementPosition = target.getBoundingClientRect().top;
         const offsetPosition = elementPosition + window.scrollY - headerOffset;
         
