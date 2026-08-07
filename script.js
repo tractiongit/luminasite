@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
       ticking = true;
     }
   }, { passive: true });
-  handleScroll();
+  requestAnimationFrame(handleScroll);
 
   // Mobile menu
   const openMenu = () => {
