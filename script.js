@@ -11,21 +11,24 @@ document.addEventListener('DOMContentLoaded', () => {
   const revealElements = document.querySelectorAll('.reveal');
   const heroBg = document.querySelector('.hero-bg');
 
-  // Header scroll behavior
-  let lastScroll = 0;
+  // Header scroll behavior (rAF-throttled to avoid forced reflow)
+  let ticking = false;
   const handleScroll = () => {
     const currentScroll = window.scrollY;
-    
     if (currentScroll > 50) {
       header.classList.add('scrolled');
     } else {
       header.classList.remove('scrolled');
     }
-    
-    lastScroll = currentScroll;
+    ticking = false;
   };
   
-  window.addEventListener('scroll', handleScroll, { passive: true });
+  window.addEventListener('scroll', () => {
+    if (!ticking) {
+      requestAnimationFrame(handleScroll);
+      ticking = true;
+    }
+  }, { passive: true });
   handleScroll();
 
   // Mobile menu
