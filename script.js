@@ -62,13 +62,21 @@ document.addEventListener('DOMContentLoaded', () => {
   
   revealElements.forEach(el => revealObserver.observe(el));
 
-  // Hero parallax
+  // Hero parallax (throttled with rAF)
   if (heroBg) {
-    window.addEventListener('scroll', () => {
+    let ticking = false;
+    const updateParallax = () => {
       const scrolled = window.scrollY;
       const rate = scrolled * 0.4;
       if (rate < window.innerHeight) {
         heroBg.style.transform = `translateY(${rate}px) scale(1.1)`;
+      }
+      ticking = false;
+    };
+    window.addEventListener('scroll', () => {
+      if (!ticking) {
+        requestAnimationFrame(updateParallax);
+        ticking = true;
       }
     }, { passive: true });
   }
@@ -107,11 +115,6 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   });
-
-  // Initialize Lucide icons
-  if (typeof lucide !== 'undefined') {
-    lucide.createIcons();
-  }
 
   // Image lazy load fade-in
   const images = document.querySelectorAll('img');

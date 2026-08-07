@@ -19,3 +19,7 @@ README.md
 
 # Node
 node_modules/
+
+# Lucide icon build artifacts
+lucide_icons/
+lucide_sprite.svg
