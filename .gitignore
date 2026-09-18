@@ -15,7 +15,6 @@ extracted_*.txt
 # Original/backup files
 original_index.html
 clone_backup/
-README.md
 
 # Node
 node_modules/
