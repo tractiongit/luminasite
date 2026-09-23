@@ -36,6 +36,7 @@
     function show(step){current=step;screens.forEach(s=>s.classList.toggle('active',+s.dataset.step===step));progress.style.width=(step===0?0:Math.min(step,4)*25)+'%';label.textContent=step===0?'Vamos começar':step===4?'Tudo certo':`Etapa ${step} de 3`;window.scrollTo({top:0,behavior:'smooth'})}
     document.querySelectorAll('[data-next]').forEach(b=>b.addEventListener('click',()=>show(1)));document.querySelectorAll('[data-back]').forEach(b=>b.addEventListener('click',()=>show(Math.max(0,current-1))));
     document.querySelectorAll('[data-question]').forEach(group=>group.addEventListener('click',e=>{const button=e.target.closest('[data-value]');if(!button)return;data[group.dataset.question]=button.dataset.value;if(current<3){show(current+1);return}const message=`Olá! Vim pela pré-avaliação da Lúmina e gostaria de agendar uma avaliação.\n\n• O que me trouxe até aqui: ${data.motivo}\n• O que procuro: ${data.prioridade}\n• Algo importante para a equipe saber: ${data.atencao}`;document.querySelector('#whatsapp-link').href='https://wa.me/5519981044440?text='+encodeURIComponent(message);show(4)}));
+    document.querySelector('#whatsapp-link').addEventListener('click',()=>{if(typeof window.fbq==='function')window.fbq('track','Lead',{content_name:'Pre-avaliacao concluida'});});
   </script>
 </body>
 </html>
